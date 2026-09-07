@@ -1,39 +1,67 @@
 # Rawbox P(k)–2PCF 差异审阅
 
-## 交付状态
+## 文件与验证范围
 
-本次已完成源码与审计 JSON 审查，并在本地运行了14项合成/几何测试，全部通过。但后续创建 `rawbox_numerics.py` 的 GitHub 调用被接口安全检查拦截，**完整代码、长报告和测试 JSON 尚未成功上传本仓库**。它们通过本次 ChatGPT 对话中的 `GPT5.6-respose.zip` 附件交付。这里不再列出指向不存在文件的链接。
+本目录已包含以下六个文件；它们不替换原生产代码、缓存、catalog、拟合或图：
 
-没有修改原生产代码、缓存、catalog、拟合结果或图。没有重跑原始 NPZ/MCMC，也没有成功取得仓库 PDF 图像逐图核验。下述旧拟合数值来自原审计 JSON；新的数值测试不是原始 rawbox 数据重拟合。
+| 文件 | 用途 |
+|---|---|
+| [REVIEW_zh.md](REVIEW_zh.md) | 完整科学审阅、证据、模型建议、五组第一阶段实验与执行agent任务书 |
+| [rawbox_numerics.py](rawbox_numerics.py) | 单位不变的固定Gaussian metric、共同模式投影、解析角矩/壳核、cross与条件残差检查 |
+| [audit_rawbox.py](audit_rawbox.py) | 只读原始theory缓存，检查joint floor、模式归属、cross、角积分与壳核误差 |
+| [test_rawbox_numerics.py](test_rawbox_numerics.py) | 14项合成/几何实现测试，包括模式功率Monte Carlo与审计脚本合成缓存测试 |
+| [local_test_results.json](local_test_results.json) | 本次实际运行的数值测试记录；不是原始rawbox重新拟合结果 |
+| README.md | 范围、运行说明及接入方法 |
 
-## 核心判断
+起始审阅版本：`273753d05e5fe143f61b8edd646a0e8593ba36ea`。科学范围限于rawbox实空间与平行视线RSD，不推进lightcone、survey window、RIC/GIC。
 
-联合协方差错误、独立模型形状失配、参数边界及不同模式带宽是不同问题，不能用其中一个解释全部现象。
+**实际完成：**源码与审计JSON审查、相关论文公式核对、14项本地合成/几何测试通过。**没有完成：**原始NPZ重拟合、catalog/FCFC/jaxpower重测、长链MCMC、仓库PDF图像逐图核验。原拟合数值来自仓库审计，不能把这里的测试称为新物理管线验证通过。
 
-已有 `review_data/joint_covariance_reproduction.json` 的量纲敏感 floor 确实破坏了联合比较：cross=0 时全部57个 xi 方向被抬升，xi 单-bin sigma 中位数增大约15.4倍。旧 joint 信息增益结论必须暂停；修复应采用 correlation-scaled Cholesky 和相同 MAP/MCMC metric，不是换另一个 floor。
+## 最重要的判断
 
-本次额外确认了窄 P(k) bin 的重分箱问题：按生产 CachedRebin 的几何规则，真实 `[0.037,0.039)` bin 的1262个模式，聚合后按 k_eff 归类变成1094个，少13.31%；`[0.061,0.063)` 则从2994变成3402，多13.63%。这影响以原 Nmodes 为分母的相关 covariance/cross 构造，但不是已经测得的参数偏移。
+联合协方差的混合量纲floor、独立模型形状失配、参数边界和不同模式带宽必须分开处理。已有原数组审计显示cross=0时全部57个xi方向被floor抬升，xi单-bin sigma中位数增大约15.4倍；旧joint信息增益结论需要暂停。
 
-P 的精确离散 mu 平均与 xi 的连续角积分不是同一算子。首个 bin 的18个模式满足 `<mu^4>=2/9`，而连续值为1/5。必须以相同径向节点隔离角向影响。
+本次额外用源码等价几何重现了窄P-bin归属问题：`[0.037,0.039)`原有1262个模式，CachedRebin后按代表k归类变成1094个，少13.31%。这是计数/分组差异，不是已经测得的参数偏移；原始缓存仍需由audit脚本核对。
 
-64点 Gauss–Legendre 对 Lorentzian I0 角矩在 k*sigma_s=24 时低估0.8613%，在90时低估64.97%。这是角矩误差，不是最终 xi 或参数误差；本地解析角矩实现与自适应积分最大相对差约1.14e-13。实空间脚本还存在更新 covariance 后不重新优化、继续保存旧 MAP 的流程问题。
+P保留实际离散mu，xi目前采用连续角积分再做离散径向求和，二者不是完全同一角操作。64点Gauss–Legendre对Lorentzian I0在k*sigma_s=24时低估0.8613%，在90时低估64.97%；这不是最终xi误差，必须经过真实谱、壳核与covariance加权。
 
-## 对物理问题的判断
+实空间无FoG也存在均值形状失败，所以不能只怪RSD坐标映射。优先物理检验是将BAO位移平滑与残余FoG分开，并逐项加入低阶bias/stochastic结构；尚未证明它们各自解释了多少b1或sigma_s偏移。
 
-实空间最简模板已经失败，不能只怪 RSD：原审计中 P0 均值 chi-square/dof=45.23/14，xi0(s>=50)=331.28/28。s>=120 的 xi 后验很宽，不代表已精确解决 b1。
+## 运行
 
-P0 的 sigma_s MAP 约8.25，xi0约8.77，两者并没有其边际中位数看起来那么不同。P02 则是 sigma_s MAP 接近零的边界解；不能把约0.98的中位数当作高斯检测。xi02约7.79的窄后验也不能脱离失败的均值形状检验解释。
+依赖Python、NumPy和SciPy。审计脚本不导入带NERSC绝对路径的项目模块，也不需要emcee、desilike或FCFC。
 
-优先物理假设是：不同带宽/核下，线性母谱与单一 FoG 缺失的宽带、BAO平滑及密度–速度耦合，被 b1 和 sigma_s 以不同方式吸收。需要先以实空间拆分 BAO damping、低阶宽带偏置与随机项，再在 RSD 中将 BAO平滑和残余 FoG 分开；同一母谱必须同时生成 P 和 xi。此解释仍需消融与留出检验，尚未定量证明贡献比例。
+```bash
+# 从仓库根运行实现自检。
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 \
+  python GPT5.6-respose/test_rawbox_numerics.py
 
-## 执行顺序
+# 读取原始缓存；输出位置必须不存在。
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 \
+  python GPT5.6-respose/audit_rawbox.py . \
+  --out /path/to/new-audit-run/audit.json
+```
 
-1. 冻结数据和物理，修 joint metric、窄-bin计数，验证单位不变、零cross恒等式、正定性；最终 covariance 下重新求 MAP。
-2. 验证共同离散算子；分开测试角向离散、角积分、径向核、重分箱、UV尾部；报告 Delta chi-square_mean，而不仅是相对曲线误差。
-3. 先修实空间形状，分别增加 BAO平滑、低阶宽带和随机项，检查留出尺度与 fNL 恢复。
-4. 再区分 RSD 的真实速度效应与有效平滑，用四极留出预测和 sigma_s^2 profile 处理边界，先验变换必须显式。
-5. 用配对相位、条件残差和模拟标定的共享/分离参数检验评价一致性；验证前不恢复正式 joint 信息增益图。
+第二条命令另写同名NPZ，已有输出拒绝覆盖。默认原始缓存路径在脚本`CACHE`中；必须有匹配SHA256、status=pass、cosmology=abacus_c000的JSON sidecar。可用`--cache`显式指定。
 
-25相位 sample covariance 的秩最多24，不能直接逆57/89维。Hartlap/Percival不能恢复秩。现有 angular_totals 是 integral_-1^1 而非角平均，没有依据把全部 covariance 再乘2。
+增加`--measurement /path/to/existing_P02.npz`核对测量`k_edges`和`nmodes`；不提供时明确标记“未与测量比较”，不会假装完成。`--b1`、`--sigma`、`--nbar`改变审计fiducial。当前低k角向修正仅计算至0.095，用于定位而不自动修正生产xi；完整切换/UV/PNG参数扫描见报告。
 
-附件内包含 `REVIEW_zh.md`、`rawbox_numerics.py`、`audit_rawbox.py`、`test_rawbox_numerics.py`、`local_test_results.json` 和运行说明。它们是经过实现自检的诊断构件，不是已经验证的新生产管线。
+## 最小接入方法
+
+```python
+from rawbox_numerics import GaussianMetric, assemble_covariance
+from scipy.optimize import least_squares
+
+# Cxp的行是xi，列是P。
+C = assemble_covariance(Cpp, Cxx, Cxp)
+metric = GaussianMetric(C)
+fit = least_squares(lambda theta: metric.residual(data - model(theta)),
+                    x0, bounds=(lower, upper))
+
+# MCMC另行保留明确先验与边界检查，使用完全相同的metric。
+loglike = lambda theta: -0.5 * metric.chi2(data - model(theta))
+```
+
+更换协方差后须在最终冻结的metric下重新求MAP。不要把正定性报错替换成更大的floor；若存在真实线性冗余，显式定义支持子空间与有效秩。25相位sample covariance的秩最多24，Hartlap不能恢复缺失秩。
+
+实施顺序：先修joint metric与最终C下的MAP，再做同模式数值闭合，再检验实空间模型，随后RSD密度–速度/阻尼结构，最后配对参数与覆盖率验证。正式约束图须等这些门通过后再更新。
