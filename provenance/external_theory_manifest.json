@@ -1,0 +1,23 @@
+[
+  {
+    "path": "source/external/desilike/theories/galaxy_clustering/primordial_non_gaussianity.py",
+    "source": "/global/homes/l/lzy/anaconda3/envs/desilike/lib/python3.11/site-packages/desilike/theories/galaxy_clustering/primordial_non_gaussianity.py",
+    "sha256": "61bc29d53c2839476c6f834d68ca48ba2f88845bfcd57c7aae5db43112e1cce2",
+    "bytes": 7370,
+    "role": "installed desilike PNG theory and template dependencies; external source snapshot"
+  },
+  {
+    "path": "source/external/desilike/theories/galaxy_clustering/power_template.py",
+    "source": "/global/homes/l/lzy/anaconda3/envs/desilike/lib/python3.11/site-packages/desilike/theories/galaxy_clustering/power_template.py",
+    "sha256": "2cc9f35c1301eff199c26d4fceb166bf702b0a6f0b3eafd5169c3b93b5fefaf4",
+    "bytes": 61271,
+    "role": "installed desilike PNG theory and template dependencies; external source snapshot"
+  },
+  {
+    "path": "source/external/desilike/theories/galaxy_clustering/base.py",
+    "source": "/global/homes/l/lzy/anaconda3/envs/desilike/lib/python3.11/site-packages/desilike/theories/galaxy_clustering/base.py",
+    "sha256": "ebcca5d7692ee544997e12c5b4aa8dd0d283d741bfa329476db126df48b2a3f3",
+    "bytes": 16345,
+    "role": "installed desilike PNG theory and template dependencies; external source snapshot"
+  }
+]

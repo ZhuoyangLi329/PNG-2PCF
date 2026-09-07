@@ -1,0 +1,225 @@
+{
+  "config": {
+    "burnin": 204,
+    "fixed_parameters": {
+      "sigmas": 0.0
+    },
+    "free_parameters": [
+      "fnl_loc",
+      "b1",
+      "sn0"
+    ],
+    "nsteps": 2048,
+    "nwalkers": 32,
+    "p_fixed": 1.2,
+    "parameter_names": [
+      "fnl_loc",
+      "b1",
+      "sigmas",
+      "sn0"
+    ],
+    "priors": {
+      "b1": [
+        0.5,
+        5.0
+      ],
+      "fnl_loc": [
+        -500.0,
+        500.0
+      ],
+      "sigmas": [
+        0.0,
+        30.0
+      ],
+      "sn0": [
+        -1.0,
+        1.0
+      ]
+    },
+    "sigmas_policy": "fixed_zero",
+    "sn0_scale": 10000.0,
+    "sn0_units_note": "model adds sn0 * sn0_scale to P0, matching desilike default shotnoise=1e4 convention",
+    "subbox_window_shotnoise": false,
+    "subbox_window_shotnoise_formula": "W(P_theory)",
+    "target_evals": 65536,
+    "template_z": 0.725
+  },
+  "covariance": {
+    "A": 0.00040257648953301127,
+    "B": 0.0142914653784219,
+    "condition_number": 2482.4844595406717,
+    "hartlap": 0.7319587628865979,
+    "ndata": 25,
+    "nmock": 98,
+    "nparams": 3,
+    "percival_error_factor": 1.1148374683740898,
+    "percival_m1_variance": 1.2428625808907499,
+    "used_covariance_divided_by_nmock": false
+  },
+  "data": {
+    "k_max": 0.0785,
+    "k_min": 0.0065,
+    "ndata": 25
+  },
+  "diagnostics": {
+    "acceptance_fraction_max": 0.62744140625,
+    "acceptance_fraction_mean": 0.60711669921875,
+    "acceptance_fraction_min": 0.58837890625,
+    "elapsed_sec": 57.7817268371582
+  },
+  "extra_meta": {
+    "fit_kmin_observed": 0.006283185307179587,
+    "kmax_fit": 0.08,
+    "kmin_model": 0.0020943951023931952,
+    "kmin_observed": 0.006283185307179587,
+    "parent_kfund": 0.0020943951023931952,
+    "poisson_shotnoise_mean_from_headers": 0.0,
+    "rawbox_mode_kfund": 0.0020943951023931952,
+    "rawbox_theory_kmin": 0.0020943951023931952,
+    "unique_parent_modes": 1214
+  },
+  "label": "rawbox_commonkmin1000_shot_sigmas0",
+  "maximum_posterior_sample": {
+    "chi2": 1.080225653261846,
+    "log_prob": -0.540112826630923,
+    "ndof": 22,
+    "pk_model_best": [
+      103344.0188290791,
+      90538.42323782237,
+      86459.60449477486,
+      83209.09116336264,
+      79276.6996317606,
+      74809.0396802269,
+      69847.3556157051,
+      64670.568959839555,
+      59596.982895063775,
+      54724.82392462331,
+      50231.35982649459,
+      46352.2768504002,
+      43036.651538910395,
+      40258.32410142523,
+      37951.09173513078,
+      36059.90712899933,
+      34491.65739838364,
+      33165.22009171541,
+      31990.302330289804,
+      30883.66912919715,
+      29787.868889089186,
+      28660.022944236687,
+      27492.06939391065,
+      26235.358755413785,
+      24907.625115495735
+    ],
+    "pk_residual_best": [
+      -5633.63788214032,
+      -2005.9985781284922,
+      199.04801002106979,
+      972.7131104128785,
+      1234.477285280227,
+      969.2710377322946,
+      608.3222233765264,
+      105.21782526247989,
+      79.00050401785847,
+      326.4409069073081,
+      -163.19526027009852,
+      -149.5889741757128,
+      -281.9123449308099,
+      -191.3186568333913,
+      -214.59718411037466,
+      -187.11678685647348,
+      -126.69386185303301,
+      25.90086603968666,
+      31.628716955096024,
+      5.003832843671262,
+      -8.46684113000083,
+      -33.84748423668134,
+      25.97756547710742,
+      88.53437795356149,
+      26.133502361411956
+    ],
+    "point": {
+      "b1": 2.401930380930134,
+      "fnl_loc": 101.41339669618341,
+      "sigmas": 0.0,
+      "sn0": 0.02686609531927231
+    }
+  },
+  "mode": "rawbox_parent_binavg",
+  "optimizer_initial_center": {
+    "chi2": 1.0767623103185628,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "point": {
+      "b1": 2.400308122057264,
+      "fnl_loc": 102.1056278271206,
+      "sigmas": 0.0,
+      "sn0": 0.030310576401382745
+    },
+    "success": true
+  },
+  "parameters": {
+    "b1": {
+      "err_high": 0.031881505880348104,
+      "err_high_percival": 0.03554269730360094,
+      "err_low": 0.030991283073783293,
+      "err_low_percival": 0.03455024356364135,
+      "mean": 2.399326454435077,
+      "median": 2.398631281074139,
+      "q025": 2.340396502762953,
+      "q16": 2.3676399980003557,
+      "q84": 2.430512786954487,
+      "q975": 2.4608343800255903,
+      "std": 0.031049639884433603,
+      "std_percival": 0.03461530192268913
+    },
+    "fnl_loc": {
+      "err_high": 16.242071953872113,
+      "err_high_percival": 18.107270378204593,
+      "err_low": 16.16889447842898,
+      "err_low_percival": 18.025689386739565,
+      "mean": 102.55299360697663,
+      "median": 102.42446971463974,
+      "q025": 72.40220396086303,
+      "q16": 86.25557523621076,
+      "q84": 118.66654166851185,
+      "q975": 133.4197867558216,
+      "std": 15.798993638548378,
+      "std_percival": 17.613310070857622
+    },
+    "sigmas": {
+      "err_high": 0.0,
+      "err_high_percival": 0.0,
+      "err_low": 0.0,
+      "err_low_percival": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "q025": 0.0,
+      "q16": 0.0,
+      "q84": 0.0,
+      "q975": 0.0,
+      "std": 0.0,
+      "std_percival": 0.0
+    },
+    "sn0": {
+      "err_high": 0.06910286629117042,
+      "err_high_percival": 0.07703846451344167,
+      "err_low": 0.0709055158698787,
+      "err_low_percival": 0.07904812580613442,
+      "mean": 0.03199233546088602,
+      "median": 0.03316764270494736,
+      "q025": -0.10391170500240005,
+      "q16": -0.03773787316493134,
+      "q84": 0.10227050899611778,
+      "q975": 0.16222584995778122,
+      "std": 0.06890117454140848,
+      "std_percival": 0.07681361099374512
+    }
+  },
+  "paths": {
+    "fit_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task50_outputs/task4p2_pk_rawbox_subbox/fits/rawbox_commonkmin1000_shot_sigmas0/task50_rawbox_commonkmin1000_shot_sigmas0_pk_windowed_fit.pdf",
+    "samples_npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task50_outputs/task4p2_pk_rawbox_subbox/fits/rawbox_commonkmin1000_shot_sigmas0/task50_rawbox_commonkmin1000_shot_sigmas0_pk_windowed_fit_samples.npz",
+    "summary_json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task50_outputs/task4p2_pk_rawbox_subbox/fits/rawbox_commonkmin1000_shot_sigmas0/task50_rawbox_commonkmin1000_shot_sigmas0_pk_windowed_fit_summary.json"
+  },
+  "payload": "outputs/task50_outputs/task4p2_pk_rawbox_subbox/rawbox_common_kmin1000/task50_rawbox_fnl100_pk_kmax0p08_payload.npz",
+  "status": "done",
+  "task": "task50_fit_pk_windowed_model"
+}

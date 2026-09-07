@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "meaning": "review bundle integrity only, not scientific validation",
+  "files_hashed": 1053,
+  "bytes": 458724827,
+  "python_source_files": 170,
+  "figure_files": 174,
+  "paper_pdfs": 12,
+  "npz_files": 141,
+  "broken_links": [],
+  "failures": []
+}

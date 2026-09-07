@@ -1,0 +1,504 @@
+{
+  "canonical_pk_bin_payload": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/outputs/task43_outputs/pk_lightcone/summary/task43_pk_lightcone_mmin1p4e13_x25_fkpP010000_desi_rebin_kmax0p10_payload.npz",
+  "canonical_pk_bin_payload_sha256": "a9dd6c17d14996b2ecb661c3bb2f5fa1f7ce5262e5ad5bf4d51d7f0161514f3d",
+  "comparison": {
+    "b1": {
+      "center_difference_p0_minus_xi0": -0.02370178612202878,
+      "difference_over_independent_quadrature_sigma_diagnostic": -0.30368041359960823,
+      "p0_median": 2.5289374433202862,
+      "p0_sigma68": 0.05625044159267656,
+      "xi0_median": 2.552639229442315,
+      "xi0_sigma68": 0.05410590215756472
+    },
+    "fNL": {
+      "center_difference_p0_minus_xi0": 2.6533535149007053,
+      "difference_over_independent_quadrature_sigma_diagnostic": 0.10800640906122233,
+      "p0_median": 0.9550949023371338,
+      "p0_sigma68": 20.1970566641226,
+      "xi0_median": -1.6982586125635715,
+      "xi0_sigma68": 13.985643475699916
+    },
+    "sigma_s": {
+      "center_difference_p0_minus_xi0": -2.353191703900925,
+      "difference_over_independent_quadrature_sigma_diagnostic": -0.5722765451695022,
+      "p0_median": 6.514957620688684,
+      "p0_sigma68": 3.985912785860119,
+      "xi0_median": 8.86814932458961,
+      "xi0_sigma68": 1.0103996552209087
+    }
+  },
+  "covariance": {
+    "definition": "exact periodic-mode diagonal Gaussian P0 covariance including Poisson 1/nbar",
+    "fiducial": {
+      "b1": 2.55,
+      "fNL": 0.0,
+      "sigma_s": 8.0,
+      "sn0": 0.0
+    },
+    "mean_fit_quality": "Cmean=Csingle/25",
+    "quoted_posterior": "single-realization covariance; never divided by 25",
+    "x25_scatter_diagnostic": {
+      "sample_correlation_offdiagonal_absmax": 0.6233215591457961,
+      "sample_std_over_gaussian_sigma": [
+        1.0412935208837852,
+        1.1246400288880467,
+        0.8746528736081485,
+        0.9573973844524623,
+        1.0547791630897938,
+        0.8922839918590478,
+        0.8810004477541212,
+        0.8204793266796937,
+        1.195663232174161,
+        1.096632844165694,
+        1.010345628872175,
+        1.0933686978979258,
+        0.9393777764718438,
+        1.2619212194197744,
+        1.0782465408281123
+      ],
+      "sample_std_over_gaussian_sigma_median": 1.0412935208837852
+    }
+  },
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "elapsed_sec": 26.349632365978323,
+  "measurement_paths": [
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph000_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph001_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph002_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph003_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph004_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph005_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph006_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph007_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph008_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph009_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph010_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph011_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph012_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph013_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph014_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph015_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph016_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph017_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph018_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph019_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph020_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph021_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph022_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph023_mmin1p4e13_mesh400.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph024_mmin1p4e13_mesh400.npz"
+  ],
+  "measurement_sha256": [
+    "2209fcd212de3c7910af892bebfedc5087b43f04d7a23a7973b9e61576fb2705",
+    "de94febeef01285ff75b00337e555cd7478ea8c108ff88f477f97875c8ab2052",
+    "3431024339ab2e5a26dc897ba79dcb014d4b6a405c6bba3fec022a666eae6685",
+    "76b1854e25018cf0ff60f47864aa89c34967be56cae75122a212be077782e638",
+    "1a7fb0f79c10672da59a5e165f67dda0644ac034fc5d3397bf45b87576fdefb1",
+    "459ee080f830a83ac6d477ea992554cceca7df2ab94000794e25775937f7c211",
+    "8d8ffaa2ba22df1e7ba7898aa58c14a00ae542302b8f9034f70b2c8447d8e9c3",
+    "ea130de14faf7bbcde39f0115cbad56cc021057f17d110031ca7e880474a85a3",
+    "4e7bc2435c75e502d12234a0df8420bf9fe76f5df193caeaf1399761eee345f8",
+    "b9aac41f7ac45ef452a605d1b0fadfa8365c7110cd60da5eaf572be1b82b6cd9",
+    "b3961c79a6f3d499a15adb25e9530f8fc822b893b3eccbb3e10a36b2a3e5da45",
+    "75aa62dfd1cf810d04004e05b9a31e63a3234f1171e8dc0d110842de538f874c",
+    "a4add597735f186bd3cb84243daa6fd69823dc7355e138fc5fa2d87fdaf89a09",
+    "3b3c847249b217087eaffdbb6c6ff62858b0b21781a15f83a386b7ee62c56f7d",
+    "a99ee276d77acbe025b4e88c3b284cd6586051f8fd6a347a9505168f61252158",
+    "9ff1fe7f007722153a4a1c902b5cdaf8634fa1e5136988c1b0d9d5fba9356b0d",
+    "61a3c7736bc235f301312b0df2fb627b4662bf8a6cf85443c4ed97f237baf232",
+    "6905b90bb4d970b4643c5f7a7ab3b8563de3ca5716fd201b664a0d1db40f61ba",
+    "6b9cede94f70086dbeb6f41575f1bff6334198230c90ce4322260d3a58f7d7fb",
+    "d8cc67124d6a273f8a9060f688884682aa3e3ea8144138b10cb4f2ece3217a5d",
+    "602bd2404d00a48131c33ca81f3a6a770243763ae246a98765f309e92b1364de",
+    "e89eb880d5bbb70a99e298f42b42216f96e1641a005b4f984572a3ab8ba28bfe",
+    "f35a8de94db19a827a6b15a4fc057d6cb448a42e42a88d8e62ec8a8a511c0d74",
+    "bf9b6af6be8def673cc612e1b49105998c91fe14f7e0580a728ba6f0da61a868",
+    "46cad7d4d7a4f64978d4652f2a7768e8f0e7a2d45c38032aea4c6431d61ec5c6"
+  ],
+  "model": {
+    "free_parameters": [
+      "fNL",
+      "b1",
+      "sigma_s",
+      "sn0"
+    ],
+    "mode_count_gate": "exact equality with jaxpower nmodes",
+    "mode_mean_k_gate_max_abs": 6.800116025829084e-16,
+    "name": "exact periodic-mode-bin average Kaiser x squared-Lorentzian FoG PNG P0",
+    "p_fixed": 1.0,
+    "sn0_scale": 10000.0,
+    "surrogate_validation": {
+      "max_relative_l2": 3.2824032841055065e-12,
+      "status": "pass",
+      "trials": [
+        {
+          "max_abs": 2.3283064365386963e-10,
+          "relative_l2": 1.7743786618973703e-15,
+          "theta": [
+            0.0,
+            2.55,
+            8.0,
+            0.0
+          ]
+        },
+        {
+          "max_abs": 3.7493009585887194e-08,
+          "relative_l2": 4.558024069492591e-13,
+          "theta": [
+            -75.0,
+            2.2,
+            3.37,
+            0.2
+          ]
+        },
+        {
+          "max_abs": 3.813693183474243e-08,
+          "relative_l2": 2.0313426242759857e-13,
+          "theta": [
+            80.0,
+            2.8,
+            12.43,
+            -0.3
+          ]
+        },
+        {
+          "max_abs": 5.127694748807698e-07,
+          "relative_l2": 3.2824032841055065e-12,
+          "theta": [
+            15.0,
+            2.5,
+            0.07,
+            0.1
+          ]
+        },
+        {
+          "max_abs": 1.0390067473053932e-08,
+          "relative_l2": 1.0405030863147855e-13,
+          "theta": [
+            -20.0,
+            2.6,
+            29.93,
+            -0.1
+          ]
+        }
+      ]
+    },
+    "theory_cache": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p725000_box2000_kmax3_ell02.npz"
+  },
+  "nphase": 25,
+  "output_npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/comparison/task43_rsd_rawbox_x25_pk0_vs_xi0_smin50_l0only.npz",
+  "output_plot_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task43/rsd_validation/task43_rsd_rawbox_x25_pk0_vs_xi0_smin50_l0only.pdf",
+  "phases": [
+    "ph000",
+    "ph001",
+    "ph002",
+    "ph003",
+    "ph004",
+    "ph005",
+    "ph006",
+    "ph007",
+    "ph008",
+    "ph009",
+    "ph010",
+    "ph011",
+    "ph012",
+    "ph013",
+    "ph014",
+    "ph015",
+    "ph016",
+    "ph017",
+    "ph018",
+    "ph019",
+    "ph020",
+    "ph021",
+    "ph022",
+    "ph023",
+    "ph024"
+  ],
+  "pk0": {
+    "mcmc": {
+      "acceptance_fraction_mean": 0.49197916666666663,
+      "burnin": 3000,
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": false
+      },
+      "half_chain_shift_sigma": {
+        "b1": 0.0004483179880177438,
+        "fNL": 0.003432045834200484,
+        "sigma_s": 0.0038772251272193316,
+        "sn0": 0.001539930309629533
+      },
+      "map_chain": {
+        "b1": 2.509913232045957,
+        "fNL": 0.5914775652430233,
+        "sigma_s": 8.065121007143745,
+        "sn0": 0.6539148717120271
+      },
+      "map_chain_log_probability": -0.21578123657371306,
+      "nsteps": 12000,
+      "nwalkers": 64,
+      "postburn_length_over_tau": {
+        "b1": 136.8043916894349,
+        "fNL": 140.62215274631347,
+        "sigma_s": 74.88421946781851,
+        "sn0": 82.1576294600461
+      },
+      "postburn_steps_per_walker": 9000,
+      "posterior": {
+        "b1": {
+          "mean": 2.529519902945559,
+          "q16": 2.473385506209075,
+          "q50": 2.5289374433202862,
+          "q84": 2.585886389394428,
+          "sigma68": 0.05625044159267656,
+          "std": 0.05641462051605831
+        },
+        "fNL": {
+          "mean": 0.5647114233731577,
+          "q16": -19.57986943269744,
+          "q50": 0.9550949023371338,
+          "q84": 20.814243895547754,
+          "sigma68": 20.1970566641226,
+          "std": 20.457020911506785
+        },
+        "sigma_s": {
+          "mean": 6.355705858435264,
+          "q16": 2.2311722841983985,
+          "q50": 6.514957620688684,
+          "q84": 10.202997855918637,
+          "sigma68": 3.985912785860119,
+          "std": 3.489216713823311
+        },
+        "sn0": {
+          "mean": 0.5251163546744101,
+          "q16": 0.21809590739258566,
+          "q50": 0.5241124977319831,
+          "q84": 0.8418657603790451,
+          "sigma68": 0.31188492649322974,
+          "std": 0.2721532336684269
+        }
+      },
+      "split_rhat": {
+        "b1": 1.0079833578003063,
+        "fNL": 1.0074046251446633,
+        "sigma_s": 1.0183847914780315,
+        "sn0": 1.016104152625628
+      },
+      "tau": {
+        "b1": 65.78736171300157,
+        "fNL": 64.001295843026,
+        "sigma_s": 120.18553526978737,
+        "sn0": 109.5455170645688
+      }
+    },
+    "nominal": {
+      "at_parameter_boundary": false,
+      "chi2_mean_covariance": 10.704554541171909,
+      "chi2_single_covariance": 0.4281821816468764,
+      "dof": 11,
+      "message": "`ftol` termination condition is satisfied.",
+      "prediction": [
+        67632.58874113734,
+        77773.66132153643,
+        86996.99944085072,
+        94560.11280569923,
+        94874.32566351727,
+        90880.55405645678,
+        76945.77107826695,
+        62380.27111757873,
+        52442.80472029662,
+        46036.24534802657,
+        41723.85732262222,
+        37827.84715088794,
+        33501.9435410002,
+        29008.73782501018,
+        25026.793445948675
+      ],
+      "pte_mean_covariance": 0.46833641232110024,
+      "success": true,
+      "theta": {
+        "b1": 2.508105704111814,
+        "fNL": 1.4302741894224942,
+        "sigma_s": 8.097623533106352,
+        "sn0": 0.6598162078298773
+      }
+    }
+  },
+  "scope": {
+    "explicitly_excluded": [
+      "ell=2",
+      "smin scan",
+      "lightcone"
+    ],
+    "geometry": "periodic rawbox, z=0.725, plane-parallel LOS=z",
+    "multipoles": [
+      0
+    ],
+    "pk0": "15 frozen DESI-PNG bins, 0.005<=bin edges<0.095, kmax_fit=0.10 h/Mpc",
+    "xi0": "s bin edges 50..350 Mpc/h, 30 bins; smin=50 only"
+  },
+  "status": "mcmc_diagnostic_failed",
+  "task": "task43_fit_rsd_rawbox_pk0_vs_xi0_smin50",
+  "xi0": {
+    "convergence": {
+      "half_chain_shift_max_below_0p1sigma": true,
+      "postburn_length_min_above_50tau": true,
+      "split_rhat_max_below_1p01": true
+    },
+    "extraction_policy": "only the already-frozen ell=0, smin=50 branch is loaded",
+    "nominal": {
+      "at_parameter_boundary": false,
+      "chi2_mean_covariance": 162.9797243273145,
+      "chi2_single_covariance": 6.5191889730925805,
+      "covariance_laplace_single": [
+        [
+          189.34684740090063,
+          -0.3860390940684529,
+          -4.611499332118315
+        ],
+        [
+          -0.38603909406845255,
+          0.002861457073564489,
+          0.00789994935731417
+        ],
+        [
+          -4.611499332118355,
+          0.007899949357315214,
+          1.1071420658760918
+        ]
+      ],
+      "dof": 27,
+      "ells": [
+        0
+      ],
+      "message": "`xtol` termination condition is satisfied.",
+      "ndata": 30,
+      "prediction": {
+        "0": [
+          0.09545025369057361,
+          0.045258870596043214,
+          0.022713180409449023,
+          0.011698669291012697,
+          0.006013007735622869,
+          0.0037954306986628943,
+          0.004840374919860711,
+          0.0044633787421455955,
+          0.0016319794657596609,
+          -0.0003340758405885353,
+          -0.0010699396262997794,
+          -0.0012071005830872734,
+          -0.001133939944473413,
+          -0.0009982517126772862,
+          -0.000859994087071535,
+          -0.0007332418516474353,
+          -0.0006235044268962285,
+          -0.0005410740925038707,
+          -0.0004743342674145284,
+          -0.0004110502957657077,
+          -0.00035389912104576013,
+          -0.00030628050178170866,
+          -0.00026487336133698436,
+          -0.00023053905014243974,
+          -0.00020245031019603912,
+          -0.0001783683676294061,
+          -0.00015747824817788643,
+          -0.0001399252547292998,
+          -0.00012495858319438828,
+          -0.00011177150324199342,
+          -0.00010026870988526783,
+          -9.04505664401506e-05
+        ],
+        "2": [
+          -0.01662282796212473,
+          -0.025848278597081047,
+          -0.023263915434256516,
+          -0.018644482602551506,
+          -0.014161867894235498,
+          -0.01036496185618393,
+          -0.008904436249182641,
+          -0.007239820456476566,
+          -0.005243520436747194,
+          -0.004482459867037158,
+          -0.003993953567899313,
+          -0.0034221375543909993,
+          -0.002843414265649244,
+          -0.002339151654079805,
+          -0.001920470976738415,
+          -0.001584217016419308,
+          -0.0013181668816189414,
+          -0.0011004784776586047,
+          -0.0009248962110205267,
+          -0.000784945362871561,
+          -0.0006694877084482611,
+          -0.0005721342393493745,
+          -0.0004928261602522648,
+          -0.00042630714465088904,
+          -0.000370148679636321,
+          -0.000323157463058552,
+          -0.0002837400276428705,
+          -0.00025003079367275766,
+          -0.00022108008419670247,
+          -0.00019624172049847614,
+          -0.00017485675598210022,
+          -0.00015630434430218522
+        ]
+      },
+      "pte_mean_covariance": 2.1691006128179244e-21,
+      "pte_single_covariance": 0.9999819274461568,
+      "residual_rms_sigma_single": 0.4661612372378103,
+      "sigma_laplace_single": {
+        "b1": 0.05349258895926135,
+        "fNL": 13.7603360206392,
+        "sigma_s": 1.0522081856154188
+      },
+      "smin_mpc_h": 50.0,
+      "success": true,
+      "theta": {
+        "b1": 2.55602923017921,
+        "fNL": -0.9075455733715346,
+        "sigma_s": 8.770617982605183
+      }
+    },
+    "posterior": {
+      "b1": {
+        "mean": 2.5518487868536543,
+        "q16": 2.4975764976857855,
+        "q50": 2.552639229442315,
+        "q84": 2.605788302000915,
+        "sigma68": 0.05410590215756472,
+        "std": 0.054375182793842805
+      },
+      "fNL": {
+        "mean": -2.0595992208056026,
+        "q16": -16.09875584181811,
+        "q50": -1.6982586125635715,
+        "q84": 11.872531109581722,
+        "sigma68": 13.985643475699916,
+        "std": 14.154125442874488
+      },
+      "sigma_s": {
+        "mean": 8.893077310997734,
+        "q16": 7.881452051129076,
+        "q50": 8.86814932458961,
+        "q84": 9.902251361570894,
+        "sigma68": 1.0103996552209087,
+        "std": 1.0293488796460972
+      }
+    },
+    "source_json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/closure/task43_rsd_rawbox_x25_fulldiscrete_lorentzian.json",
+    "source_json_sha256": "08e2c740dd8eeeaf3358e0d26ad74f8937b8079f96150b54b7b11ba1bc1c7c5b",
+    "source_npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/closure/task43_rsd_rawbox_x25_fulldiscrete_lorentzian.npz",
+    "source_npz_sha256": "364e829c4651d7b28212ca0f436d5e0998c617982d9d9d9d8067dfd13a4777d4"
+  }
+}

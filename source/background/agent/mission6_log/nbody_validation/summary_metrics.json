@@ -1,0 +1,326 @@
+[
+  {
+    "delta_sigma": {
+      "baseline_all": {
+        "count": 35,
+        "max_abs": 1.060651495685174,
+        "mean_abs": 0.45289509600168415
+      },
+      "baseline_large": {
+        "count": 20,
+        "max_abs": 0.5529535892653306,
+        "mean_abs": 0.4557059668659623
+      },
+      "r_large_min": 200.0,
+      "window_all": {
+        "count": 35,
+        "max_abs": 0.8174517651244402,
+        "mean_abs": 0.13631217944618665
+      },
+      "window_large": {
+        "count": 20,
+        "max_abs": 0.19379115651120807,
+        "mean_abs": 0.09939899709189196
+      }
+    },
+    "fftlog": {
+      "box_size": 1000.0,
+      "ir_x": 4.0,
+      "k_fund": 0.006283185307179587,
+      "kint_max": 20.0,
+      "kint_min": 0.0001
+    },
+    "fit": {
+      "bestfit_params": {
+        "b1": 2.741417305581301,
+        "fnl_loc": 1.5224092739013955,
+        "p": 1.2,
+        "sigmas": 0.6245777486680377,
+        "sn0": 0.0
+      }
+    },
+    "fnl": 0,
+    "inputs": {
+      "n_datapoints": 20,
+      "n_pcf_files": 500,
+      "n_pk_files": 500,
+      "pcf_pattern": "pcf_fid_*.dat",
+      "pk_pattern": "pk_fid_*.txt",
+      "realization_max": 499,
+      "realization_min": 0,
+      "root_dir": "/pscratch/sd/l/lzy/pks_2pcfs"
+    },
+    "source_kind": "original",
+    "tag": "fnl000"
+  },
+  {
+    "delta_sigma": {
+      "baseline_all": {
+        "count": 35,
+        "max_abs": 1.0966661917526466,
+        "mean_abs": 0.5164965602322341
+      },
+      "baseline_large": {
+        "count": 20,
+        "max_abs": 0.6365481009445697,
+        "mean_abs": 0.528264712010867
+      },
+      "r_large_min": 200.0,
+      "window_all": {
+        "count": 35,
+        "max_abs": 0.8117906396849834,
+        "mean_abs": 0.13876454003234467
+      },
+      "window_large": {
+        "count": 20,
+        "max_abs": 0.19463650840253816,
+        "mean_abs": 0.10415559891571165
+      }
+    },
+    "fftlog": {
+      "box_size": 1000.0,
+      "ir_x": 4.0,
+      "k_fund": 0.006283185307179587,
+      "kint_max": 20.0,
+      "kint_min": 0.0001
+    },
+    "fit": {
+      "bestfit_params": {
+        "b1": 2.7336078218815425,
+        "fnl_loc": 20.826459827925675,
+        "p": 1.2,
+        "sigmas": 0.42591247583807607,
+        "sn0": 0.0
+      }
+    },
+    "fnl": 20,
+    "inputs": {
+      "n_datapoints": 20,
+      "n_pcf_files": 500,
+      "n_pk_files": 500,
+      "pcf_pattern": "pcf_fnl20_*.dat",
+      "pk_pattern": "pk_fnl20_*.txt",
+      "realization_max": 499,
+      "realization_min": 0,
+      "root_dir": "/pscratch/sd/l/lzy/1gpc-UNIT-fnl100-fastpm/agent/mission6_log/nbody_validation/interpolated/fnl020"
+    },
+    "source_kind": "interpolated",
+    "tag": "fnl020"
+  },
+  {
+    "delta_sigma": {
+      "baseline_all": {
+        "count": 35,
+        "max_abs": 1.1095309162228368,
+        "mean_abs": 0.5445064507215813
+      },
+      "baseline_large": {
+        "count": 20,
+        "max_abs": 0.6719849599201092,
+        "mean_abs": 0.5600324901713305
+      },
+      "r_large_min": 200.0,
+      "window_all": {
+        "count": 35,
+        "max_abs": 0.8049732302888266,
+        "mean_abs": 0.13880078377045252
+      },
+      "window_large": {
+        "count": 20,
+        "max_abs": 0.19706724083744467,
+        "mean_abs": 0.10532072177341108
+      }
+    },
+    "fftlog": {
+      "box_size": 1000.0,
+      "ir_x": 4.0,
+      "k_fund": 0.006283185307179587,
+      "kint_max": 20.0,
+      "kint_min": 0.0001
+    },
+    "fit": {
+      "bestfit_params": {
+        "b1": 2.7294548615859826,
+        "fnl_loc": 30.547978188820235,
+        "p": 1.2,
+        "sigmas": 0.13745593649901613,
+        "sn0": 0.0
+      }
+    },
+    "fnl": 30,
+    "inputs": {
+      "n_datapoints": 20,
+      "n_pcf_files": 500,
+      "n_pk_files": 500,
+      "pcf_pattern": "pcf_fnl30_*.dat",
+      "pk_pattern": "pk_fnl30_*.txt",
+      "realization_max": 499,
+      "realization_min": 0,
+      "root_dir": "/pscratch/sd/l/lzy/1gpc-UNIT-fnl100-fastpm/agent/mission6_log/nbody_validation/interpolated/fnl030"
+    },
+    "source_kind": "interpolated",
+    "tag": "fnl030"
+  },
+  {
+    "delta_sigma": {
+      "baseline_all": {
+        "count": 35,
+        "max_abs": 1.1315818817991445,
+        "mean_abs": 0.6082136635985776
+      },
+      "baseline_large": {
+        "count": 20,
+        "max_abs": 0.7518342074191996,
+        "mean_abs": 0.6343408584035396
+      },
+      "r_large_min": 200.0,
+      "window_all": {
+        "count": 35,
+        "max_abs": 0.7848551976033995,
+        "mean_abs": 0.13776256932130987
+      },
+      "window_large": {
+        "count": 20,
+        "max_abs": 0.19895110373828903,
+        "mean_abs": 0.10692423229199614
+      }
+    },
+    "fftlog": {
+      "box_size": 1000.0,
+      "ir_x": 4.0,
+      "k_fund": 0.006283185307179587,
+      "kint_max": 20.0,
+      "kint_min": 0.0001
+    },
+    "fit": {
+      "bestfit_params": {
+        "b1": 2.7218312937211686,
+        "fnl_loc": 49.85834131740762,
+        "p": 1.2,
+        "sigmas": 0.16109503849940784,
+        "sn0": 0.0
+      }
+    },
+    "fnl": 50,
+    "inputs": {
+      "n_datapoints": 20,
+      "n_pcf_files": 500,
+      "n_pk_files": 500,
+      "pcf_pattern": "pcf_LCp50_*.dat",
+      "pk_pattern": "pk_LCp50_*.txt",
+      "realization_max": 499,
+      "realization_min": 0,
+      "root_dir": "/pscratch/sd/l/lzy/pks_2pcfs"
+    },
+    "source_kind": "original",
+    "tag": "fnl050"
+  },
+  {
+    "delta_sigma": {
+      "baseline_all": {
+        "count": 35,
+        "max_abs": 1.1542960772312816,
+        "mean_abs": 0.6861330689104478
+      },
+      "baseline_large": {
+        "count": 20,
+        "max_abs": 0.8455931783793315,
+        "mean_abs": 0.7253621295344833
+      },
+      "r_large_min": 200.0,
+      "window_all": {
+        "count": 35,
+        "max_abs": 0.7553704549990061,
+        "mean_abs": 0.13545947795110935
+      },
+      "window_large": {
+        "count": 20,
+        "max_abs": 0.19514166489283208,
+        "mean_abs": 0.10709311682950318
+      }
+    },
+    "fftlog": {
+      "box_size": 1000.0,
+      "ir_x": 4.0,
+      "k_fund": 0.006283185307179587,
+      "kint_max": 20.0,
+      "kint_min": 0.0001
+    },
+    "fit": {
+      "bestfit_params": {
+        "b1": 2.7122250067099274,
+        "fnl_loc": 74.0852113796162,
+        "p": 1.2,
+        "sigmas": 0.04047210550159437,
+        "sn0": 0.0
+      }
+    },
+    "fnl": 75,
+    "inputs": {
+      "n_datapoints": 20,
+      "n_pcf_files": 500,
+      "n_pk_files": 500,
+      "pcf_pattern": "pcf_fnl75_*.dat",
+      "pk_pattern": "pk_fnl75_*.txt",
+      "realization_max": 499,
+      "realization_min": 0,
+      "root_dir": "/pscratch/sd/l/lzy/1gpc-UNIT-fnl100-fastpm/agent/mission6_log/nbody_validation/interpolated/fnl075"
+    },
+    "source_kind": "interpolated",
+    "tag": "fnl075"
+  },
+  {
+    "delta_sigma": {
+      "baseline_all": {
+        "count": 35,
+        "max_abs": 1.164901346943583,
+        "mean_abs": 0.7634103984876377
+      },
+      "baseline_large": {
+        "count": 20,
+        "max_abs": 0.9330360439424648,
+        "mean_abs": 0.8149716221938664
+      },
+      "r_large_min": 200.0,
+      "window_all": {
+        "count": 35,
+        "max_abs": 0.7166297788723319,
+        "mean_abs": 0.13177290822331367
+      },
+      "window_large": {
+        "count": 20,
+        "max_abs": 0.18424787139863483,
+        "mean_abs": 0.10509484017068302
+      }
+    },
+    "fftlog": {
+      "box_size": 1000.0,
+      "ir_x": 4.0,
+      "k_fund": 0.006283185307179587,
+      "kint_max": 20.0,
+      "kint_min": 0.0001
+    },
+    "fit": {
+      "bestfit_params": {
+        "b1": 2.70263977908592,
+        "fnl_loc": 98.3904133556995,
+        "p": 1.2,
+        "sigmas": 0.0009781999486166556,
+        "sn0": 0.0
+      }
+    },
+    "fnl": 100,
+    "inputs": {
+      "n_datapoints": 20,
+      "n_pcf_files": 500,
+      "n_pk_files": 500,
+      "pcf_pattern": "pcf_LCp100_*.dat",
+      "pk_pattern": "pk_LCp100_*.txt",
+      "realization_max": 499,
+      "realization_min": 0,
+      "root_dir": "/pscratch/sd/l/lzy/pks_2pcfs"
+    },
+    "source_kind": "original",
+    "tag": "fnl100"
+  }
+]

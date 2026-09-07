@@ -1,0 +1,19 @@
+{
+  "task": "task45_free_sn0_kmax_scan_30k_parallel",
+  "status": "done",
+  "min_ncall": 30000,
+  "max_parallel": 3,
+  "all_pass_min_ncall": true,
+  "outputs": {
+    "steps_csv": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_ultranest_free_sn0_kmax_overlay_30k/task45_free_sn0_pk_kmax_scan_30k_steps.csv",
+    "steps_markdown": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_ultranest_free_sn0_kmax_overlay_30k/task45_free_sn0_pk_kmax_scan_30k_steps.md",
+    "overlay_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task4/quijote_ultranest_free_sn0/task45_quijote_ultranest_free_sn0_alltags_constraints_with_pk_kmax_scan.pdf",
+    "overlay_manifest": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_ultranest_free_sn0_kmax_overlay_30k/task45_quijote_ultranest_free_sn0_kmax_overlay_30k_manifest.json",
+    "manifest_paths": {
+      "0.08": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_ultranest_free_sn0_30k/task45_quijote_ultranest_free_sn0_30k_manifest.json",
+      "0.06": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_ultranest_free_sn0_kmax0p06_30k/task45_quijote_ultranest_free_sn0_kmax0p06_30k_manifest.json",
+      "0.10": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_ultranest_free_sn0_kmax0p10_30k/task45_quijote_ultranest_free_sn0_kmax0p10_30k_manifest.json"
+    },
+    "log_root": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/logs/task4/task45_30k"
+  }
+}

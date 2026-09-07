@@ -1,0 +1,80 @@
+{
+  "boxsize_mpc_h": 2000.0,
+  "cosmology": "abacus_c000",
+  "cosmology_metadata": {
+    "name": "abacus_c000",
+    "parameters": {
+      "A_s": [
+        2.083e-09
+      ],
+      "H0": 67.36,
+      "N_ncdm": 1,
+      "N_ur": [
+        2.0328
+      ],
+      "Omega_b": [
+        0.049301692328524445
+      ],
+      "Omega_cdm": [
+        0.26447041034523616
+      ],
+      "Omega_m": 0.3151917236644108,
+      "h": [
+        0.6736
+      ],
+      "n_s": 0.9649,
+      "omega_b": 0.02237,
+      "omega_cdm": 0.12,
+      "omega_ncdm": [
+        0.0006442000000000073
+      ]
+    },
+    "source": "cosmoprimo.fiducial.AbacusSummit(0); AbacusSummit_base_c000 Planck2018"
+  },
+  "definition": "Abacus c000 z=0.5 full-PNG FullDiscrete real-space periodic-box basis",
+  "elapsed_sec": 18.90604579700448,
+  "kfund_h_mpc": 0.0031415926535897933,
+  "kmax_h_mpc": 5.0,
+  "n_rebinned_shells": 15882,
+  "nmax": 1592,
+  "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/theory/task44_abacus_c000_z0p500_L2000_fulldiscrete_kmax5.npz",
+  "output_sha256": "55385f7c547045a0bbda491289e3bb00271d10ff3e2fbffc749450b2c267c3a9",
+  "qmax": 2533030,
+  "redshift": 0.5,
+  "s_edges_mpc_h": [
+    50.0,
+    60.0,
+    70.0,
+    80.0,
+    90.0,
+    100.0,
+    110.0,
+    120.0,
+    130.0,
+    140.0,
+    150.0,
+    160.0,
+    170.0,
+    180.0,
+    190.0,
+    200.0,
+    210.0,
+    220.0,
+    230.0,
+    240.0,
+    250.0,
+    260.0,
+    270.0,
+    280.0,
+    290.0,
+    300.0,
+    310.0,
+    320.0,
+    330.0,
+    340.0,
+    350.0
+  ],
+  "status": "pass",
+  "task": "task44_pngbase_hodmap_rawbox_theory_cache",
+  "volume_mpc_h3": 8000000000.0
+}

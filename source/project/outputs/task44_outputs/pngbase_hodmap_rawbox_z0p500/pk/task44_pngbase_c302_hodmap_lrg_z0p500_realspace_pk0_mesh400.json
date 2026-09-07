@@ -1,0 +1,76 @@
+{
+  "boxsize_mpc_h": 2000.0,
+  "contract": {
+    "all_bins_have_modes": true,
+    "all_finite": true,
+    "edges_exact": true,
+    "first_bin_mode_count": true,
+    "first_bin_mode_mean": true
+  },
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "elapsed_sec": 19.363329081999836,
+  "ells": [
+    0
+  ],
+  "engine": "jaxpower CPU",
+  "estimator": "clustering_statistics.spectrum2_tools.compute_box_mesh2_spectrum",
+  "first_bin": {
+    "edges_h_mpc": [
+      0.003,
+      0.005
+    ],
+    "explicit_lattice_mode_average_k_h_mpc": 0.004009119509968842,
+    "explicit_lattice_nmodes": 18,
+    "mode_average_k_h_mpc": 0.004009119509968842,
+    "nmodes": 18
+  },
+  "geometry": "full periodic cube",
+  "input": "/pscratch/sd/s/siyizhao/desi-dr2-hod/loa-v2_HODv4/mocks_base-A/Abacus_pngbase_c302_ph000/LRG/0p500/LRG_hodMAP_realspace_clustering.dat.h5",
+  "jax_backend": "cpu",
+  "kfund_h_mpc": 0.0031415926535897933,
+  "los": "z (irrelevant for real-space ell=0)",
+  "mesh": 400,
+  "n_bins": 149,
+  "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/pk/task44_pngbase_c302_hodmap_lrg_z0p500_realspace_pk0_mesh400.npz",
+  "output_sha256": "36c36473773e9fbeeed02c4de7201f3b624c4f0a600348980f79a4d5a8c42757",
+  "paint": {
+    "compensate": true,
+    "interlacing": 3,
+    "resampler": "tsc"
+  },
+  "position": {
+    "boxcenter_mpc_h": 1000.0,
+    "boxsize_mpc_h": 2000.0,
+    "coordinate_max": [
+      1999.9999389648438,
+      1999.999755859375,
+      1999.99951171875
+    ],
+    "coordinate_min": [
+      0.0001220703125,
+      0.000244140625,
+      0.001220703125
+    ],
+    "nbar_h3_mpc3": 0.000523626875,
+    "ndata": 4189015,
+    "origin": "positive",
+    "source": "/pscratch/sd/s/siyizhao/desi-dr2-hod/loa-v2_HODv4/mocks_base-A/Abacus_pngbase_c302_ph000/LRG/0p500/LRG_hodMAP_realspace_clustering.dat.h5",
+    "tag": "c302"
+  },
+  "shotnoise_mean": 1909.7568282758596,
+  "space": "real",
+  "status": "pass",
+  "tag": "c302",
+  "task": "task44_measure_pngbase_hodmap_rawbox_pk",
+  "threads": 8,
+  "volume_mpc_h3": 8000000000.0
+}

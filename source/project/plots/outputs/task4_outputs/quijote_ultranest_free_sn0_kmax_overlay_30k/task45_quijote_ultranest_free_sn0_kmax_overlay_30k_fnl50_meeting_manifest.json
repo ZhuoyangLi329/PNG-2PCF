@@ -1,0 +1,27 @@
+{
+  "task": "task45_free_sn0_pk_kmax_overlay",
+  "status": "done",
+  "outputs": {
+    "pdf": "plots/6.24meeting/4p1_diagnostic_task45_quijote_ultranest_free_sn0_pk_kmax_scan.pdf",
+    "manifest": "outputs/task4_outputs/quijote_ultranest_free_sn0_kmax_overlay_30k/task45_quijote_ultranest_free_sn0_kmax_overlay_30k_fnl50_meeting_manifest.json"
+  },
+  "inputs": {
+    "base_manifest": "outputs/task4_outputs/quijote_ultranest_free_sn0_30k/task45_quijote_ultranest_free_sn0_30k_manifest.json",
+    "kmax_manifests": {
+      "0.06": "outputs/task4_outputs/quijote_ultranest_free_sn0_kmax0p06_30k/task45_quijote_ultranest_free_sn0_kmax0p06_30k_manifest.json",
+      "0.10": "outputs/task4_outputs/quijote_ultranest_free_sn0_kmax0p10_30k/task45_quijote_ultranest_free_sn0_kmax0p10_30k_manifest.json"
+    },
+    "pk_kmax": [
+      "0.10"
+    ],
+    "tags": [
+      "LCp50"
+    ],
+    "meeting_labels": true,
+    "row_count": 5,
+    "params": [
+      "fnl_loc",
+      "b1"
+    ]
+  }
+}

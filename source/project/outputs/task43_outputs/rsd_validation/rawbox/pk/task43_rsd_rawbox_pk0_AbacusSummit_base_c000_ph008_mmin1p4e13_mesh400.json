@@ -1,0 +1,55 @@
+{
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "dk_requested_h_mpc": 0.002,
+  "elapsed_sec": 16.137517406023107,
+  "ells": [
+    0
+  ],
+  "engine": "jaxpower CPU",
+  "estimator": "clustering_statistics.spectrum2_tools.compute_box_mesh2_spectrum",
+  "input_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/catalogs/task43_rsd_rawbox_AbacusSummit_base_c000_ph008_mmin1p4e13.npz",
+  "input_sha256": "f2f27e579c54371007992c19dc2ab38b5d49535ebb1fe2ab50914c314192a672",
+  "jax_backend": "cpu",
+  "kmax_requested_h_mpc": 0.3001,
+  "kmin_requested_h_mpc": 0.001,
+  "legacy_real_catalog_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/outputs/task43_outputs/ezmock_rawbox_z0p725_mmin1p4e13/halo_catalogs/halo_AbacusSummit_base_c000_ph008_z0p725_mmin1p4e13.npz",
+  "legacy_real_catalog_sha256": "dd8d71ec31d8f11b0cc15baa1a2858353009e64c4e27479084e1a73cbd723391",
+  "legacy_real_pk_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/outputs/task43_outputs/ezmock_rawbox_z0p725_mmin1p4e13/pk_jaxpower/pk0_AbacusSummit_base_c000_ph008_z0p725_mmin1p4e13_mesh400.npz",
+  "legacy_real_pk_sha256": "1a35e6ac3eebfdc6fa49c87a515311c80c102bb75f6aeb41de07611646d9d18d",
+  "meshsize": 400,
+  "n_bins": 150,
+  "n_valid_bins": 149,
+  "nbar_h3_mpc3": 0.000161940375,
+  "ndata": 1295523,
+  "observable": "P0(k) only",
+  "output_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph008_mmin1p4e13_mesh400.npz",
+  "output_sha256": "4e7bc2435c75e502d12234a0df8420bf9fe76f5df193caeaf1399761eee345f8",
+  "paint": {
+    "compensate": true,
+    "interlacing": 3,
+    "resampler": "tsc"
+  },
+  "periodic_wrapping": {
+    "definition": "POSITION_RSD mod boxsize before jaxpower painting",
+    "n_objects_outside_half_open_box_before_wrap": 0
+  },
+  "phase": "ph008",
+  "position_bridge": {
+    "array_equal": true,
+    "nrows": 1295523
+  },
+  "real_space_policy": "reuse Task4.3.1 P0 after bitwise POSITION equality gate",
+  "space_newly_measured": "plane-parallel RSD, LOS=z",
+  "status": "pass",
+  "task": "task43_measure_rsd_rawbox_pk0_jaxpower",
+  "threads_requested": 8
+}

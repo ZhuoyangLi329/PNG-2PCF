@@ -1,0 +1,167 @@
+{
+  "task": "task45_fnl50_pk_xi_r50_emcee",
+  "status": "done",
+  "tag": "LCp50",
+  "case": "pk_binavg",
+  "display_fit_range": "kmax=0.10 h/Mpc",
+  "actual_xi_centers": null,
+  "parameters": {
+    "fnl_loc": {
+      "mean": 49.05924130599563,
+      "std": 59.0870071594504,
+      "median": 49.448348218259056,
+      "q025": -68.76248285057048,
+      "q16": -8.799321326496502,
+      "q84": 107.46480838536633,
+      "q975": 163.86810337254784,
+      "err_low": 58.24766954475556,
+      "err_high": 58.01646016710727,
+      "err_low_percival": 59.592235000721445,
+      "err_high_percival": 59.3556884800645
+    },
+    "b1": {
+      "mean": 2.633447565386234,
+      "std": 0.10435530538421146,
+      "median": 2.6307715198252115,
+      "q025": 2.435624752838483,
+      "q16": 2.5299011559953186,
+      "q84": 2.7366603231737607,
+      "q975": 2.843548829066925,
+      "err_low": 0.1008703638298929,
+      "err_high": 0.10588880334854922,
+      "err_low_percival": 0.10319881418329585,
+      "err_high_percival": 0.1083330973137632
+    },
+    "sigmas": {
+      "mean": 6.831533013688654,
+      "std": 4.011222301666502,
+      "median": 6.720337669890736,
+      "q025": 0.34691742737639397,
+      "q16": 2.241762321051723,
+      "q84": 11.24970054734743,
+      "q975": 14.411263600974035,
+      "err_low": 4.478575348839014,
+      "err_high": 4.529362877456694,
+      "err_low_percival": 4.581956956258731,
+      "err_high_percival": 4.633916843480745
+    },
+    "sn0": {
+      "mean": 0.5224662079657095,
+      "std": 0.2783884609261391,
+      "median": 0.5237015668233254,
+      "q025": 0.008106585021096145,
+      "q16": 0.21890266093000155,
+      "q84": 0.8453370879309944,
+      "q975": 0.9757652633235256,
+      "err_low": 0.3047989058933238,
+      "err_high": 0.321635521107669,
+      "err_low_percival": 0.31183475956924583,
+      "err_high_percival": 0.3290600243448444
+    }
+  },
+  "maximum_posterior_sample": {
+    "log_prob": -0.0726337760757346,
+    "chi2": 0.1452675521514692,
+    "point": {
+      "fnl_loc": 59.470603503125886,
+      "b1": 2.622473409541768,
+      "sigmas": 5.610275900430997,
+      "sn0": 0.4164291726721988
+    }
+  },
+  "optimizer": {
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "log_likelihood": -0.07128993550479025,
+    "point": {
+      "fnl_loc": 60.31975131730759,
+      "b1": 2.6186848131739398,
+      "sigmas": 5.782263759318747,
+      "sn0": 0.4342664837384727
+    }
+  },
+  "mcmc": {
+    "sampler": "emcee.EnsembleSampler",
+    "nwalkers": 64,
+    "nsteps": 8000,
+    "burnin": 2000,
+    "postburn_samples": 384000,
+    "nworkers": 1,
+    "mean_acceptance_fraction": 0.5139375,
+    "min_acceptance_fraction": 0.493875,
+    "max_acceptance_fraction": 0.538875,
+    "diagnostics": {
+      "iteration": 8000,
+      "steps_after_burn": 6000,
+      "autocorr_time": [
+        56.46694055903319,
+        55.80537679458327,
+        81.18645407378833,
+        73.79948171073383
+      ],
+      "autocorr_error": null,
+      "steps_after_burn_over_tau": [
+        106.25686358422975,
+        107.5165216084051,
+        73.9039544028706,
+        81.30138397878918
+      ],
+      "split_rhat": [
+        1.0103916155899475,
+        1.0086971089961385,
+        1.0163655363739712,
+        1.0131986921162666
+      ],
+      "gates": {
+        "min_steps_over_tau": 50.0,
+        "max_split_rhat": 1.02
+      },
+      "converged": true
+    },
+    "elapsed_sec": 108.34475088119507
+  },
+  "covariance": {
+    "hartlap": 0.935871743486974,
+    "percival_error_factor": 1.0230835922960448,
+    "percival_m1_variance": 1.0467000368253796,
+    "A": 9.190331770976933e-06,
+    "B": 0.0021459424685231136,
+    "nmock": 500,
+    "ndata": 31,
+    "nparams": 4,
+    "covariance_estimator": "C_sample",
+    "used_covariance_divided_by_nmock": false,
+    "condition_number": 2551.731262829729
+  },
+  "priors": {
+    "fnl_loc": [
+      -500.0,
+      500.0
+    ],
+    "b1": [
+      0.5,
+      5.0
+    ],
+    "sigmas": [
+      0.0,
+      30.0
+    ],
+    "sn0": [
+      -1.0,
+      1.0
+    ]
+  },
+  "fixed": {
+    "p": 1.2
+  },
+  "sn0_policy": "free",
+  "initialization": {
+    "old_weighted_samples": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task4_task44_cleanup_20260707T061844Z/moved/outputs/task4_outputs/quijote_ultranest_free_sn0_kmax0p10_30k/samples/task45_free_sn0_kmax0p10_30k_LCp50_pk_binavg_weighted_samples.npz",
+    "policy": "weighted-resample old UltraNest posterior plus 1-percent jitter; final posterior uses only new emcee chain"
+  },
+  "paths": {
+    "backend_hdf5": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_emcee_free_sn0_fnl50_pk_xi_r50/pk_binavg/chain.h5",
+    "postburn_samples": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_emcee_free_sn0_fnl50_pk_xi_r50/pk_binavg/postburn_samples.npz",
+    "summary": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_emcee_free_sn0_fnl50_pk_xi_r50/pk_binavg/summary.json"
+  }
+}

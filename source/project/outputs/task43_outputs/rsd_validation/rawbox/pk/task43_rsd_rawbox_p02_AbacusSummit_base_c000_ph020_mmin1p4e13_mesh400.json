@@ -1,0 +1,55 @@
+{
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "elapsed_sec": 16.902151015994605,
+  "ells": [
+    0,
+    2
+  ],
+  "engine": "jaxpower CPU",
+  "estimator": "clustering_statistics.spectrum2_tools.compute_box_mesh2_spectrum",
+  "input_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/catalogs/task43_rsd_rawbox_AbacusSummit_base_c000_ph020_mmin1p4e13.npz",
+  "input_sha256": "d0811ff6ffdbc4d1a5768461c3738ff2bd89d03a3205e7db0a4de1015208f097",
+  "jax_backend": "cpu",
+  "k_grid": {
+    "dk": 0.002,
+    "kmax": 0.3001,
+    "kmin": 0.001
+  },
+  "legacy_real_catalog_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/outputs/task43_outputs/ezmock_rawbox_z0p725_mmin1p4e13/halo_catalogs/halo_AbacusSummit_base_c000_ph020_z0p725_mmin1p4e13.npz",
+  "legacy_real_catalog_sha256": "2a06601d4526466b422dd0a18396f44a9dd24afb510d3ace0ee3f6bf5008191a",
+  "legacy_real_pk_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/outputs/task43_outputs/ezmock_rawbox_z0p725_mmin1p4e13/pk_jaxpower/pk0_AbacusSummit_base_c000_ph020_z0p725_mmin1p4e13_mesh400.npz",
+  "legacy_real_pk_sha256": "ef635220005d5af738585a73484926cf5257bbf24464138b4a26d0cedd851f7c",
+  "meshsize": 400,
+  "n_bins": 150,
+  "n_valid_bins": 149,
+  "nbar_h3_mpc3": 0.000161887875,
+  "ndata": 1295103,
+  "observable": "P0(k) and P2(k)",
+  "output_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_p02_AbacusSummit_base_c000_ph020_mmin1p4e13_mesh400.npz",
+  "output_sha256": "b699e53a479197dc489bce3867a1322495cf9bbe74d4b98eb9804500c8eae4eb",
+  "p0_bridge_vs_audited": {
+    "array_equal": false,
+    "max_abs_diff": 7.275957614183426e-12,
+    "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pk/task43_rsd_rawbox_pk0_AbacusSummit_base_c000_ph020_mmin1p4e13_mesh400.npz",
+    "rel_l2": 3.458802652696432e-17,
+    "scale_max": 100642.56595992029
+  },
+  "paint": {
+    "compensate": true,
+    "interlacing": 3,
+    "resampler": "tsc"
+  },
+  "phase": "ph020",
+  "real_space_policy": "legacy POSITION bitwise equality (inherited gate)",
+  "space_newly_measured": "plane-parallel RSD, LOS=z",
+  "status": "pass",
+  "task": "task43_measure_rsd_rawbox_p02_jaxpower",
+  "threads_requested": 6
+}

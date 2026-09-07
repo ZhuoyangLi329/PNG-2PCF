@@ -1,0 +1,202 @@
+{
+  "catalogs": {
+    "c300": {
+      "fixed_fnl": {
+        "pk": {
+          "chi2": 46.51897826556622,
+          "dof": 35,
+          "p": {
+            "mean": 0.45813893422387475,
+            "q16": -0.34727267428514713,
+            "q50": 0.4463505881652114,
+            "q84": 1.2647071803081382,
+            "sigma68": 0.8059899272966426,
+            "std": 0.8130284168117402
+          }
+        },
+        "xi": {
+          "chi2": 30.269569540973,
+          "dof": 10,
+          "p": {
+            "mean": -0.45344398150135473,
+            "q16": -1.0173651261664192,
+            "q50": -0.4640500888532715,
+            "q84": 0.11102659911848056,
+            "sigma68": 0.5641958626424499,
+            "std": 0.5668979091634762
+          }
+        }
+      },
+      "gates": {
+        "all_four_fit_gate_sets_pass": true,
+        "all_four_fit_statuses_pass": true,
+        "fixed_fnl_matches_each_catalog": true,
+        "full_xi_display_contract_is_30_to_350": true,
+        "gaussian_p_prior_is_exact": true,
+        "gaussian_test_samples_fnl_b1_p": true,
+        "pk_and_xi_use_same_lrg_catalog_size": true,
+        "pk_edges_are_exact_38_shell_conservative_contract": true,
+        "pk_last_bin_center_is_exactly_0p080": true,
+        "validated_pk_measurement_hash": true,
+        "validated_xi_s30_measurement_hash_and_source": true,
+        "xi_edges_are_exact_12_shell_smin30_contract": true
+      },
+      "gaussian_p_free_fnl": {
+        "pk": {
+          "fnl": {
+            "mean": 46.02359580294036,
+            "q16": 16.934901622618547,
+            "q50": 40.8138737918559,
+            "q84": 72.4388326469493,
+            "sigma68": 27.751965512165373,
+            "std": 35.9364268297309
+          },
+          "p": {
+            "mean": 0.7850296780912136,
+            "q16": 0.5042531491712821,
+            "q50": 0.7823396855324906,
+            "q84": 1.0655536804675187,
+            "sigma68": 0.28065026564811835,
+            "std": 0.2830497254806805
+          }
+        },
+        "xi": {
+          "fnl": {
+            "mean": 76.3521127899383,
+            "q16": 46.167555052560246,
+            "q50": 68.19503604772581,
+            "q84": 102.38644309786541,
+            "sigma68": 28.109444022652582,
+            "std": 40.356456990073376
+          },
+          "p": {
+            "mean": 0.7867458762799504,
+            "q16": 0.5067024061422651,
+            "q50": 0.7851403806138216,
+            "q84": 1.066316594383681,
+            "sigma68": 0.2798070941207079,
+            "std": 0.2812520672521601
+          }
+        }
+      },
+      "input_fnl": 30.0
+    },
+    "c302": {
+      "fixed_fnl": {
+        "pk": {
+          "chi2": 41.51346159750865,
+          "dof": 35,
+          "p": {
+            "mean": 1.0407160632052317,
+            "q16": 0.7617691972696504,
+            "q50": 1.0360061263879232,
+            "q84": 1.3204151888471096,
+            "sigma68": 0.2793229957887296,
+            "std": 0.28151688904261085
+          }
+        },
+        "xi": {
+          "chi2": 24.062341361490677,
+          "dof": 10,
+          "p": {
+            "mean": 0.8212351924627689,
+            "q16": 0.6376084791582448,
+            "q50": 0.8181803903208529,
+            "q84": 1.0052610293123443,
+            "sigma68": 0.18382627507704974,
+            "std": 0.1853711418649567
+          }
+        }
+      },
+      "gates": {
+        "all_four_fit_gate_sets_pass": true,
+        "all_four_fit_statuses_pass": true,
+        "fixed_fnl_matches_each_catalog": true,
+        "full_xi_display_contract_is_30_to_350": true,
+        "gaussian_p_prior_is_exact": true,
+        "gaussian_test_samples_fnl_b1_p": true,
+        "pk_and_xi_use_same_lrg_catalog_size": true,
+        "pk_edges_are_exact_38_shell_conservative_contract": true,
+        "pk_last_bin_center_is_exactly_0p080": true,
+        "validated_pk_measurement_hash": true,
+        "validated_xi_s30_measurement_hash_and_source": true,
+        "xi_edges_are_exact_12_shell_smin30_contract": true
+      },
+      "gaussian_p_free_fnl": {
+        "pk": {
+          "fnl": {
+            "mean": 84.13359194637412,
+            "q16": 46.87992091709077,
+            "q50": 75.83776905783932,
+            "q84": 118.83777476318242,
+            "sigma68": 35.978926923045826,
+            "std": 44.72413708287306
+          },
+          "p": {
+            "mean": 0.7847015654170653,
+            "q16": 0.5082107998648656,
+            "q50": 0.7846414791868768,
+            "q84": 1.0626861198992803,
+            "sigma68": 0.27723766001720734,
+            "std": 0.27706057849364907
+          }
+        },
+        "xi": {
+          "fnl": {
+            "mean": 107.95718636743517,
+            "q16": 69.79638892566486,
+            "q50": 97.07365114074196,
+            "q84": 142.11405657814765,
+            "sigma68": 36.1588338262414,
+            "std": 48.68391254336197
+          },
+          "p": {
+            "mean": 0.7861717637808654,
+            "q16": 0.5078565799514216,
+            "q50": 0.7852272280495503,
+            "q84": 1.065613371713668,
+            "sigma68": 0.2788783958811232,
+            "std": 0.2788306293690744
+          }
+        }
+      },
+      "input_fnl": 100.0
+    }
+  },
+  "global_gates": {
+    "all_catalog_fit_and_measurement_gates_pass": true,
+    "all_four_pdfs_exist_and_have_pdf_header": true,
+    "exactly_four_current_lrg_pdfs_in_official_directory": true,
+    "kmax_is_0p080": true,
+    "kmin_is_0p006": true,
+    "no_old_lrg_range_pdf_in_official_directory": true,
+    "no_png_in_official_directory": true,
+    "smax_is_150": true,
+    "smin_is_30": true
+  },
+  "plots": [
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/task44_pngbase_c300_c302_hodmap_lrg_fixedfnl_pk0_kmin0p006_kmax0p080_xi0_smin30_smax150_bestfit_measurements.pdf",
+      "sha256": "d191d784f89285596ce75831d7c65598341c02f21f03476197963a1f17022cf3"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/task44_pngbase_c300_c302_hodmap_lrg_fixedfnl_pk0_kmin0p006_kmax0p080_vs_xi0_smin30_smax150_p_b1_contours.pdf",
+      "sha256": "751426d68c2d90cf1a06d2f5070f4952dc6b30f8b7f72fd0ac97d49caea07948"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/task44_pngbase_c300_c302_hodmap_lrg_gaussianp_freefnl_pk0_kmin0p006_kmax0p080_xi0_smin30_smax150_bestfit_measurements.pdf",
+      "sha256": "84c5f118c160ed816e8d38aeb58368ebce8f4ba8333cb46a02ce33afd71180dc"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/task44_pngbase_c300_c302_hodmap_lrg_gaussianp_freefnl_pk0_kmin0p006_kmax0p080_vs_xi0_smin30_smax150_fnl_b1_p_contours.pdf",
+      "sha256": "aabe0867a8e1322d57c8cf7aa9b53fbdcc296dd3ff611c43a70b50f2832eb00d"
+    }
+  ],
+  "scope": {
+    "pk": "0.006 <= k, final bin centre 0.080 h/Mpc; 38 exact periodic shells",
+    "sample": "HOD-MAP LRGs only; halo plots and fits are outside this rerun",
+    "xi": "30 <= s < 150 Mpc/h; 12 native FCFC shells; measurement displayed to 350 Mpc/h"
+  },
+  "status": "pass",
+  "task": "task44_pngbase_hodmap_lrg_conservative_scale_audit"
+}

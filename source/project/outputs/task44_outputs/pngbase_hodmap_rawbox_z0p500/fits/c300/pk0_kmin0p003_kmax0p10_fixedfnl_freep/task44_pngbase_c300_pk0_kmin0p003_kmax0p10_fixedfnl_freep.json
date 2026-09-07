@@ -1,0 +1,670 @@
+{
+  "boxsize_mpc_h": 2000.0,
+  "covariance": {
+    "fNL_cov": 30.0,
+    "final_diagnostics": {
+      "condition_number": 4793.68072572019,
+      "floor": 0.0002870018805474841,
+      "n_floored": 0,
+      "raw_max_eigenvalue": 287001880.5474841,
+      "raw_min_eigenvalue": 59870.87938660447
+    },
+    "final_fiducial": {
+      "b1": 1.786814925721555,
+      "p": 0.7959580719805678,
+      "sn0": 0.12394577179415668
+    },
+    "final_map_minus_fiducial": {
+      "b1": -2.0940173306449594e-07,
+      "p": -6.939409996520318e-06,
+      "sn0": 2.4024316096216136e-07
+    },
+    "fixed_point_converged": true,
+    "fixed_point_history": [
+      {
+        "covariance_diagnostics": {
+          "condition_number": 4370.140311533609,
+          "floor": 0.0003226022021495207,
+          "n_floored": 0,
+          "raw_max_eigenvalue": 322602202.1495207,
+          "raw_min_eigenvalue": 73819.6440279306
+        },
+        "covariance_fiducial": {
+          "b1": 2.0,
+          "p": 1.4,
+          "sn0": 0.0
+        },
+        "delta_map_minus_covariance_fiducial": {
+          "b1": -0.2129242570962464,
+          "p": -0.5577249944047631,
+          "sn0": 0.12442364412087352
+        },
+        "iteration": 0,
+        "map": {
+          "at_parameter_boundary": false,
+          "chi2": 11.10449300120571,
+          "dof": 13,
+          "message": "`ftol` termination condition is satisfied.",
+          "prediction": [
+            42900.45624957347,
+            42377.00085968672,
+            44579.84617456111,
+            47166.244905846055,
+            49370.569241637386,
+            48742.281964663045,
+            46268.52608807492,
+            38827.767959659526,
+            31288.525807766495,
+            26251.97516614066,
+            23110.27209620532,
+            21097.85159674301,
+            19280.771919148978,
+            17157.689665398993,
+            14849.718982281736,
+            12745.954335835066
+          ],
+          "pte": 0.602064212719946,
+          "success": true,
+          "theta": {
+            "b1": 1.7870757429037536,
+            "p": 0.8422750055952368,
+            "sn0": 0.12442364412087352
+          }
+        }
+      },
+      {
+        "covariance_diagnostics": {
+          "condition_number": 4677.398669667464,
+          "floor": 0.00028019001166215755,
+          "n_floored": 0,
+          "raw_max_eigenvalue": 280190011.66215754,
+          "raw_min_eigenvalue": 59902.95706012107
+        },
+        "covariance_fiducial": {
+          "b1": 1.7870757429037536,
+          "p": 0.8422750055952368,
+          "sn0": 0.12442364412087352
+        },
+        "delta_map_minus_covariance_fiducial": {
+          "b1": -7.642142842145816e-05,
+          "p": -0.04083181689322257,
+          "sn0": -0.0007022565236043388
+        },
+        "iteration": 1,
+        "map": {
+          "at_parameter_boundary": false,
+          "chi2": 14.853635537379455,
+          "dof": 13,
+          "message": "`ftol` termination condition is satisfied.",
+          "prediction": [
+            43794.4330496826,
+            42854.17936478766,
+            44898.052531086905,
+            47380.05366439801,
+            49496.18388994755,
+            48823.312883206454,
+            46324.33620215962,
+            38855.84181087115,
+            31302.6062918371,
+            26259.08469180234,
+            23113.278272873205,
+            21098.308158638953,
+            19279.495205181956,
+            17155.117552005548,
+            14846.166409777501,
+            12741.667473378904
+          ],
+          "pte": 0.31657893136104653,
+          "success": true,
+          "theta": {
+            "b1": 1.7869993214753321,
+            "p": 0.8014431887020143,
+            "sn0": 0.12372138759726918
+          }
+        }
+      },
+      {
+        "covariance_diagnostics": {
+          "condition_number": 4781.43433952541,
+          "floor": 0.0002862545290367008,
+          "n_floored": 0,
+          "raw_max_eigenvalue": 286254529.0367008,
+          "raw_min_eigenvalue": 59867.92010723575
+        },
+        "covariance_fiducial": {
+          "b1": 1.7869993214753321,
+          "p": 0.8014431887020143,
+          "sn0": 0.12372138759726918
+        },
+        "delta_map_minus_covariance_fiducial": {
+          "b1": -0.0001663207546582779,
+          "p": -0.004877196066857659,
+          "sn0": 0.00020382926624033793
+        },
+        "iteration": 2,
+        "map": {
+          "at_parameter_boundary": false,
+          "chi2": 14.809812613134078,
+          "dof": 13,
+          "message": "`ftol` termination condition is satisfied.",
+          "prediction": [
+            43895.704502425266,
+            42906.073046106205,
+            44930.76686220999,
+            47399.99621912618,
+            49505.34972448568,
+            48827.34267544989,
+            46325.83481774755,
+            38855.388819571344,
+            31301.835475587486,
+            26258.38112408118,
+            23112.645477631268,
+            21097.72996966157,
+            19279.033200704092,
+            17154.877087101573,
+            14846.217060438003,
+            12742.002221997569
+          ],
+          "pte": 0.31937580394224746,
+          "success": true,
+          "theta": {
+            "b1": 1.7868330007206739,
+            "p": 0.7965659926351566,
+            "sn0": 0.12392521686350952
+          }
+        }
+      },
+      {
+        "covariance_diagnostics": {
+          "condition_number": 4792.296998081993,
+          "floor": 0.00028691795817931484,
+          "n_floored": 0,
+          "raw_max_eigenvalue": 286917958.17931485,
+          "raw_min_eigenvalue": 59870.654572149266
+        },
+        "covariance_fiducial": {
+          "b1": 1.7868330007206739,
+          "p": 0.7965659926351566,
+          "sn0": 0.12392521686350952
+        },
+        "delta_map_minus_covariance_fiducial": {
+          "b1": -1.6205388855938807e-05,
+          "p": -0.0005462173979987606,
+          "sn0": 1.840453094748007e-05
+        },
+        "iteration": 3,
+        "map": {
+          "at_parameter_boundary": false,
+          "chi2": 14.806297472314032,
+          "dof": 13,
+          "message": "`ftol` termination condition is satisfied.",
+          "prediction": [
+            43907.14950190275,
+            42911.96838830089,
+            44934.51428700113,
+            47402.31673140835,
+            49506.46649169689,
+            48827.88118415896,
+            46326.082392825,
+            38855.396831187245,
+            31301.787034620724,
+            26258.326349793108,
+            23112.589988174423,
+            21097.67506300593,
+            19278.986326630224,
+            17154.849227053826,
+            14846.215513871104,
+            12742.02676402926
+          ],
+          "pte": 0.3196008332644815,
+          "success": true,
+          "theta": {
+            "b1": 1.786816795331818,
+            "p": 0.7960197752371578,
+            "sn0": 0.123943621394457
+          }
+        }
+      },
+      {
+        "covariance_diagnostics": {
+          "condition_number": 4793.540640920173,
+          "floor": 0.0002869933767731949,
+          "n_floored": 0,
+          "raw_max_eigenvalue": 286993376.7731949,
+          "raw_min_eigenvalue": 59870.85502587986
+        },
+        "covariance_fiducial": {
+          "b1": 1.786816795331818,
+          "p": 0.7960197752371578,
+          "sn0": 0.123943621394457
+        },
+        "delta_map_minus_covariance_fiducial": {
+          "b1": -1.8696102628279476e-06,
+          "p": -6.170325659005105e-05,
+          "sn0": 2.150399699682448e-06
+        },
+        "iteration": 4,
+        "map": {
+          "at_parameter_boundary": false,
+          "chi2": 14.805878353277999,
+          "dof": 13,
+          "message": "`ftol` termination condition is satisfied.",
+          "prediction": [
+            43908.440946155184,
+            42912.633065653914,
+            44934.93628979495,
+            47402.57747417167,
+            49506.59119700856,
+            48827.94061484223,
+            46326.10907818478,
+            38855.39679235242,
+            31301.780954422542,
+            26258.319777336394,
+            23112.583474030973,
+            21097.66870376388,
+            19278.980954931176,
+            17154.84609655566,
+            14846.215457070428,
+            12742.029746490445
+          ],
+          "pte": 0.31962767085978233,
+          "success": true,
+          "theta": {
+            "b1": 1.786814925721555,
+            "p": 0.7959580719805678,
+            "sn0": 0.12394577179415668
+          }
+        }
+      }
+    ],
+    "fixed_point_parameter_tolerance": {
+      "b1": 1e-05,
+      "p": 0.0001,
+      "sn0": 1e-05
+    },
+    "hartlap_percival": false,
+    "initial_diagnostics": {
+      "condition_number": 4370.140311533609,
+      "floor": 0.0003226022021495207,
+      "n_floored": 0,
+      "raw_max_eigenvalue": 322602202.1495207,
+      "raw_min_eigenvalue": 73819.6440279306
+    },
+    "initial_fiducial": {
+      "b1": 2.0,
+      "p": 1.4,
+      "sn0": 0.0
+    },
+    "initial_map": {
+      "at_parameter_boundary": false,
+      "chi2": 11.10449300120571,
+      "dof": 13,
+      "message": "`ftol` termination condition is satisfied.",
+      "prediction": [
+        42900.45624957347,
+        42377.00085968672,
+        44579.84617456111,
+        47166.244905846055,
+        49370.569241637386,
+        48742.281964663045,
+        46268.52608807492,
+        38827.767959659526,
+        31288.525807766495,
+        26251.97516614066,
+        23110.27209620532,
+        21097.85159674301,
+        19280.771919148978,
+        17157.689665398993,
+        14849.718982281736,
+        12745.954335835066
+      ],
+      "pte": 0.602064212719946,
+      "success": true,
+      "theta": {
+        "b1": 1.7870757429037536,
+        "p": 0.8422750055952368,
+        "sn0": 0.12442364412087352
+      }
+    },
+    "iteration_posterior_comparison": {
+      "b1": {
+        "final_q50": 1.7872616893087283,
+        "initial_q50": 1.7883328946641115,
+        "shift_over_final_sigma68": -0.03188574545780921,
+        "sigma68_ratio_final_over_initial": 0.8866386378196329
+      },
+      "p": {
+        "final_q50": 0.8397483359998958,
+        "initial_q50": 0.892828779111473,
+        "shift_over_final_sigma68": -0.10082189122404407,
+        "sigma68_ratio_final_over_initial": 0.9634833864848827
+      },
+      "sn0": {
+        "final_q50": 0.12413391066035678,
+        "initial_q50": 0.12309746232707314,
+        "shift_over_final_sigma68": 0.018924618687911326,
+        "sigma68_ratio_final_over_initial": 0.8815878964261752
+      }
+    },
+    "nbar_h3_mpc3": 0.000524147375,
+    "type": "single-periodic-box analytic Gaussian",
+    "volume_mpc_h3": 8000000000.0
+  },
+  "elapsed_sec": 29.93794906200492,
+  "fit_range": {
+    "k_edges_h_mpc": [
+      [
+        0.003,
+        0.005
+      ],
+      [
+        0.005,
+        0.007
+      ],
+      [
+        0.007,
+        0.009000000000000001
+      ],
+      [
+        0.009000000000000001,
+        0.011
+      ],
+      [
+        0.013000000000000001,
+        0.015
+      ],
+      [
+        0.017,
+        0.019
+      ],
+      [
+        0.021,
+        0.023
+      ],
+      [
+        0.029,
+        0.031
+      ],
+      [
+        0.037000000000000005,
+        0.03900000000000001
+      ],
+      [
+        0.045000000000000005,
+        0.047
+      ],
+      [
+        0.053000000000000005,
+        0.05500000000000001
+      ],
+      [
+        0.061000000000000006,
+        0.063
+      ],
+      [
+        0.069,
+        0.07100000000000001
+      ],
+      [
+        0.077,
+        0.079
+      ],
+      [
+        0.085,
+        0.08700000000000001
+      ],
+      [
+        0.093,
+        0.095
+      ]
+    ],
+    "kmax_contract_h_mpc": 0.1,
+    "kmin_edge_h_mpc": 0.003,
+    "nbins": 16,
+    "s_edges_mpc_h": null,
+    "smax_mpc_h": null,
+    "smin_mpc_h": null
+  },
+  "fixed_fnl": 30.0,
+  "free_parameters": [
+    "b1",
+    "p",
+    "sn0"
+  ],
+  "gates": {
+    "covariance_fixed_point_converged": true,
+    "covariance_fixed_point_final_p_shift_below_0p01sigma": true,
+    "fixed_fnl_matches_catalog": true,
+    "kfund_exact_2pi_over_L": true,
+    "map_not_at_prior_boundary": true,
+    "map_optimizer_success": true,
+    "mcmc_all_gates": true,
+    "primary_first_bin_is_0p003_0p005": true,
+    "primary_first_bin_nmodes_18": true,
+    "primary_theory_and_estimator_kmean_match": true,
+    "single_box_covariance_not_divided": true,
+    "volume_exact_L3": true
+  },
+  "geometry": "full periodic real-space cube",
+  "input": {
+    "nbar_h3_mpc3": 0.000524147375,
+    "ndata": 4193179,
+    "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/pk/task44_pngbase_c300_hodmap_lrg_z0p500_realspace_pk0_mesh400.npz",
+    "sha256": "9eb5c5002cbce66f05b5b63f7afa2ef50f7964746d6686da68bffb26a68ede1a"
+  },
+  "kfund_h_mpc": 0.0031415926535897933,
+  "map": {
+    "at_parameter_boundary": false,
+    "chi2": 14.805831428791866,
+    "dof": 13,
+    "message": "`ftol` termination condition is satisfied.",
+    "prediction": [
+      43908.58622249232,
+      42912.70784725026,
+      44934.983779430724,
+      47402.606829138735,
+      49506.6052537949,
+      48827.9473294847,
+      46326.112107493085,
+      38855.39680866456,
+      31301.780283866945,
+      26258.31904648041,
+      23112.582746654945,
+      21097.66799183782,
+      19278.98035229472,
+      17154.84574390938,
+      14846.21544786505,
+      12742.030077053048
+    ],
+    "pte": 0.3196306756817495,
+    "success": true,
+    "theta": {
+      "b1": 1.786814716319822,
+      "p": 0.7959511325705713,
+      "sn0": 0.12394601203731764
+    }
+  },
+  "mcmc": {
+    "acceptance_fraction_mean": 0.6472125000000001,
+    "burnin": 2000,
+    "gates": {
+      "acceptance_between_0p10_0p80": true,
+      "half_chain_shift_max_below_0p1sigma": true,
+      "postburn_length_min_above_50tau": true,
+      "posterior_68_not_at_prior_edge": true,
+      "split_rhat_max_below_1p01": true
+    },
+    "half_chain_shift_sigma": {
+      "b1": 0.007918786146504214,
+      "p": 0.011095959567135098,
+      "sn0": 0.010755447605848178
+    },
+    "map_chain": {
+      "b1": 1.7872217933239958,
+      "p": 0.7906115265250631,
+      "sn0": 0.1231955335373815
+    },
+    "map_chain_log_probability": -7.403191377665761,
+    "nsteps": 10000,
+    "nwalkers": 64,
+    "postburn_length_over_tau": {
+      "b1": 216.4936896174086,
+      "p": 206.3146040025791,
+      "sn0": 215.95286493202593
+    },
+    "postburn_steps_per_walker": 8000,
+    "posterior": {
+      "b1": {
+        "mean": 1.7870584571153774,
+        "q16": 1.7535403856006013,
+        "q50": 1.7872616893087283,
+        "q84": 1.8207306199829583,
+        "sigma68": 0.03359511719117847,
+        "std": 0.033757822070592164
+      },
+      "p": {
+        "mean": 0.8618757976046716,
+        "q16": 0.33480697949164134,
+        "q50": 0.8397483359998958,
+        "q84": 1.3877616992880193,
+        "sigma68": 0.526477359898189,
+        "std": 0.5332157259815059
+      },
+      "sn0": {
+        "mean": 0.1240552568272605,
+        "q16": 0.069175115675091,
+        "q50": 0.12413391066035678,
+        "q84": 0.17870951109682903,
+        "sigma68": 0.05476719771086901,
+        "std": 0.05505222567534122
+      }
+    },
+    "prior_edge_68": {
+      "b1": false,
+      "p": false,
+      "sn0": false
+    },
+    "split_rhat": {
+      "b1": 1.0048051309025563,
+      "p": 1.0044640788914314,
+      "sn0": 1.0046328878462445
+    },
+    "tau": {
+      "b1": 36.95257822127628,
+      "p": 38.77573300579339,
+      "sn0": 37.04512094580504
+    }
+  },
+  "mcmc_initial_covariance": {
+    "acceptance_fraction_mean": 0.645265625,
+    "burnin": 2000,
+    "gates": {
+      "acceptance_between_0p10_0p80": true,
+      "half_chain_shift_max_below_0p1sigma": true,
+      "postburn_length_min_above_50tau": true,
+      "posterior_68_not_at_prior_edge": true,
+      "split_rhat_max_below_1p01": true
+    },
+    "half_chain_shift_sigma": {
+      "b1": 0.00299944101926659,
+      "p": 0.015049661575321619,
+      "sn0": 0.01887489161289951
+    },
+    "map_chain": {
+      "b1": 1.7865748522247125,
+      "p": 0.8378848478562408,
+      "sn0": 0.1252559817608174
+    },
+    "map_chain_log_probability": -5.552340773019516,
+    "nsteps": 10000,
+    "nwalkers": 64,
+    "postburn_length_over_tau": {
+      "b1": 218.12323546386807,
+      "p": 209.72450590422602,
+      "sn0": 218.65014715055025
+    },
+    "postburn_steps_per_walker": 8000,
+    "posterior": {
+      "b1": {
+        "mean": 1.7880795171431214,
+        "q16": 1.750175020041622,
+        "q50": 1.7883328946641115,
+        "q84": 1.8259558754164644,
+        "sigma68": 0.037890427687421235,
+        "std": 0.038131082406208314
+      },
+      "p": {
+        "mean": 0.9183505305907622,
+        "q16": 0.37171875660081616,
+        "q50": 0.892828779111473,
+        "q84": 1.4645811085277314,
+        "sigma68": 0.5464311759634576,
+        "std": 0.5565526808449781
+      },
+      "sn0": {
+        "mean": 0.12312072140678285,
+        "q16": 0.06104842775091088,
+        "q50": 0.12309746232707314,
+        "q84": 0.18529513742759088,
+        "sigma68": 0.06212335483834,
+        "std": 0.06244394980166758
+      }
+    },
+    "prior_edge_68": {
+      "b1": false,
+      "p": false,
+      "sn0": false
+    },
+    "split_rhat": {
+      "b1": 1.0053776235229712,
+      "p": 1.0058230494622413,
+      "sn0": 1.0051895735230965
+    },
+    "tau": {
+      "b1": 36.6765144620514,
+      "p": 38.14527999724231,
+      "sn0": 36.58812996129222
+    }
+  },
+  "model": "[b1 + fNL * 2*delta_c*(b1-p)*alpha(k)]^2 Pm; full fNL^2",
+  "output_npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c300/pk0_kmin0p003_kmax0p10_fixedfnl_freep/task44_pngbase_c300_pk0_kmin0p003_kmax0p10_fixedfnl_freep.npz",
+  "output_npz_sha256": "e9e1a7f6ad45e3d23c7be8d50a22df6c96ffc7d645cb4a85432a376605eabf8a",
+  "priors": {
+    "b1": [
+      0.5,
+      5.0
+    ],
+    "p": [
+      -5.0,
+      5.0
+    ],
+    "sn0": [
+      -1.0,
+      1.0
+    ]
+  },
+  "probe": "pk",
+  "realization": "Abacus_pngbase_c300_ph000",
+  "redshift": 0.5,
+  "residual": {
+    "max_abs_sigma": 2.386243984077576,
+    "rms_sigma": 0.9619586603900875
+  },
+  "sigma_s": "fixed zero; real-space catalog",
+  "sn0": "free in units of 1e4 power",
+  "status": "pass",
+  "tag": "c300",
+  "task": "task44_fit_pngbase_hodmap_rawbox",
+  "theory": {
+    "cosmology": "abacus_c000",
+    "gic_ric": false,
+    "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/theory/task44_abacus_c000_z0p500_L2000_fulldiscrete_kmax5.npz",
+    "periodic_discrete_modes": true,
+    "sha256": "55385f7c547045a0bbda491289e3bb00271d10ff3e2fbffc749450b2c267c3a9",
+    "shell_average": false,
+    "survey_window": false,
+    "theory_kmax_h_mpc": 5.0,
+    "theory_kmin_h_mpc": 0.0031415926535897933
+  },
+  "volume_mpc_h3": 8000000000.0
+}

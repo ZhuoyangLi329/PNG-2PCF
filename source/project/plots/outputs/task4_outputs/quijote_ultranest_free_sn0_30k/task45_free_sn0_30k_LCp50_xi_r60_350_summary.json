@@ -1,0 +1,85 @@
+{
+  "tag": "LCp50",
+  "case": "xi_r60_350",
+  "parameters": {
+    "fnl_loc": {
+      "mean": 56.13213136962805,
+      "std": 91.90960881861251,
+      "median": 47.5114349844954,
+      "q16": -27.147450976582316,
+      "q84": 139.23240999941862,
+      "err_low": 74.65888596107771,
+      "err_high": 91.72097501492323,
+      "err_low_percival": 76.22062685477178,
+      "err_high_percival": 93.63962670180985
+    },
+    "b1": {
+      "mean": 2.5344510619180967,
+      "std": 0.3174068164551333,
+      "median": 2.5419176120402986,
+      "q16": 2.216206168272838,
+      "q84": 2.854205831307575,
+      "err_low": 0.32571144376746064,
+      "err_high": 0.31228821926727646,
+      "err_low_percival": 0.3325247905610489,
+      "err_high_percival": 0.31882077431910066
+    },
+    "sigmas": {
+      "mean": 11.894423085058593,
+      "std": 6.232184300714555,
+      "median": 11.080000414840054,
+      "q16": 5.852608771906289,
+      "q84": 18.176306296359698,
+      "err_low": 5.227391642933765,
+      "err_high": 7.096305881519644,
+      "err_low_percival": 5.336740063969412,
+      "err_high_percival": 7.24474890938787
+    },
+    "sn0": {
+      "mean": 0.00013151497224470537,
+      "std": 0.0007620184676298995,
+      "median": 0.00012915385779878333,
+      "q16": -0.0006267607491751666,
+      "q84": 0.0008750265716274,
+      "err_low": 0.0007559146069739499,
+      "err_high": 0.0007458727138286167,
+      "err_low_percival": 0.0007717270951815473,
+      "err_high_percival": 0.0007614751421756458
+    }
+  },
+  "maximum_likelihood": {
+    "logl": -0.19356678454631873,
+    "point": {
+      "fnl_loc": 48.17747497224548,
+      "b1": 2.6595230589266747,
+      "sigmas": 9.591295564017596,
+      "sn0": 4.3347005165284e-06
+    }
+  },
+  "ultranest": {
+    "logz": -11.801773521287458,
+    "logzerr": 0.3471863578311332,
+    "ncall": 39391,
+    "niter": 15619,
+    "ess": 4397.214562999254
+  },
+  "covariance_corrections": {
+    "hartlap": 0.9398797595190381,
+    "percival_error_factor": 1.0209183524987,
+    "percival_m1_variance": 1.0422742824686597,
+    "A": 9.112032438835482e-06,
+    "B": 0.0021367716069069205,
+    "nmock": 500,
+    "ndata": 29,
+    "nparams": 4,
+    "covariance_estimator": "C_sample",
+    "used_covariance_divided_by_nmock": false,
+    "condition_number": 1307.6715232255249
+  },
+  "elapsed_sec": 6306.716445684433,
+  "paths": {
+    "run_dir": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_ultranest_free_sn0_30k/ultranest_runs/LCp50/xi_r60_350",
+    "samples_npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_ultranest_free_sn0_30k/samples/task45_free_sn0_30k_LCp50_xi_r60_350_weighted_samples.npz",
+    "corner_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task4/quijote_ultranest_free_sn0_30k/corners/task45_free_sn0_30k_LCp50_xi_r60_350_corner.pdf"
+  }
+}

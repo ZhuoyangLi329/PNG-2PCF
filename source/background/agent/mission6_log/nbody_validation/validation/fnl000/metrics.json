@@ -1,0 +1,54 @@
+{
+  "delta_sigma": {
+    "baseline_all": {
+      "count": 35,
+      "max_abs": 1.060651495685174,
+      "mean_abs": 0.45289509600168415
+    },
+    "baseline_large": {
+      "count": 20,
+      "max_abs": 0.5529535892653306,
+      "mean_abs": 0.4557059668659623
+    },
+    "r_large_min": 200.0,
+    "window_all": {
+      "count": 35,
+      "max_abs": 0.8174517651244402,
+      "mean_abs": 0.13631217944618665
+    },
+    "window_large": {
+      "count": 20,
+      "max_abs": 0.19379115651120807,
+      "mean_abs": 0.09939899709189196
+    }
+  },
+  "fftlog": {
+    "box_size": 1000.0,
+    "ir_x": 4.0,
+    "k_fund": 0.006283185307179587,
+    "kint_max": 20.0,
+    "kint_min": 0.0001
+  },
+  "fit": {
+    "bestfit_params": {
+      "b1": 2.741417305581301,
+      "fnl_loc": 1.5224092739013955,
+      "p": 1.2,
+      "sigmas": 0.6245777486680377,
+      "sn0": 0.0
+    }
+  },
+  "fnl": 0,
+  "inputs": {
+    "n_datapoints": 20,
+    "n_pcf_files": 500,
+    "n_pk_files": 500,
+    "pcf_pattern": "pcf_fid_*.dat",
+    "pk_pattern": "pk_fid_*.txt",
+    "realization_max": 499,
+    "realization_min": 0,
+    "root_dir": "/pscratch/sd/l/lzy/pks_2pcfs"
+  },
+  "source_kind": "original",
+  "tag": "fnl000"
+}

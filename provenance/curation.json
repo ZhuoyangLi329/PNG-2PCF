@@ -1,0 +1,173 @@
+[
+  {
+    "path": "source/project/codes/task43/task43_joint_rsd_pkxi_fit.py",
+    "action": "extract shared numerical definitions only",
+    "original_sha256": "59f98c2d86034dd6f08763610c2806abaecc7b8c21c9b854f015d209aa2cf796",
+    "source_line_ranges": [
+      [
+        76,
+        76
+      ],
+      [
+        77,
+        77
+      ],
+      [
+        78,
+        78
+      ],
+      [
+        79,
+        79
+      ],
+      [
+        80,
+        85
+      ],
+      [
+        87,
+        87
+      ],
+      [
+        90,
+        106
+      ],
+      [
+        109,
+        147
+      ],
+      [
+        184,
+        223
+      ],
+      [
+        226,
+        240
+      ]
+    ],
+    "retained_definitions": [
+      "BOUNDS_HI",
+      "BOUNDS_LO",
+      "FISHER_STEPS",
+      "INIT_SCALE",
+      "JOINT_PARAMS",
+      "OPTIMIZER_STARTS",
+      "build_precision",
+      "fisher_covariance",
+      "run_chain",
+      "summarize_chain"
+    ]
+  },
+  {
+    "path": "source/project/codes/task44/task44_fit_lrg2_rsd.py",
+    "action": "excluded survey application dependency rendered unnecessary by shared-helper excerpt"
+  },
+  {
+    "path": "source/project/codes/task43/task43_summarize_rsd_lightcone_x25.py",
+    "action": "excluded survey application dependency rendered unnecessary by shared-helper excerpt"
+  },
+  {
+    "path": "source/project/codes/task43/task43_build_rsd_formal_gic_window.py",
+    "action": "excluded survey application dependency rendered unnecessary by shared-helper excerpt"
+  },
+  {
+    "path": "source/project/codes/task43/task43_rsd_lightcone_pk0_contract.py",
+    "action": "excluded survey application dependency rendered unnecessary by shared-helper excerpt"
+  },
+  {
+    "path": "source/project/codes/task43/task43_fit_rsd_lightcone_pk0_vs_xi0_smin50.py",
+    "action": "excluded survey application dependency rendered unnecessary by shared-helper excerpt"
+  },
+  {
+    "path": "source/project/codes/task43/task43_build_rsd_lightcone_random.py",
+    "action": "excluded survey application dependency rendered unnecessary by shared-helper excerpt"
+  },
+  {
+    "path": "source/project/codes/task43/task43_fit_rsd_lightcone_x25.py",
+    "action": "excluded survey application dependency rendered unnecessary by shared-helper excerpt"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p703156_box2000_kmax3_ell02.npz",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p619792_box2000_kmax3_ell02.npz",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p619958_box2000_kmax3_ell02.json",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p703009_box2000_kmax3_ell02.json",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p740966_box2000_kmax5_ell02.json",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p703089_box2000_kmax3_ell02.json",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p619958_box2000_kmax3_ell02.npz",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p740966_box2000_kmax3_ell02.npz",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p740966_box2000_kmax5_ell02.npz",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p619958_box2000_kmax5_ell02.npz",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p740106_box2000_kmax3_ell02.npz",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p703089_box2000_kmax3_ell02.npz",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p703009_box2000_kmax5_ell02.json",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p703009_box2000_kmax3_ell02.npz",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p740966_box2000_kmax3_ell02.json",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p703009_box2000_kmax5_ell02.npz",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p619792_box2000_kmax3_ell02.json",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p740106_box2000_kmax3_ell02.json",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p619958_box2000_kmax5_ell02.json",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p703156_box2000_kmax3_ell02.json",
+    "action": "exclude non-rawbox-redshift theory cache"
+  },
+  {
+    "path": "source/project/observelearn/ref/integral_constraint/astro-ph_9207254.pdf",
+    "action": "excluded zero-byte source PDF; arXiv identifier returned 404, no content invented"
+  }
+]

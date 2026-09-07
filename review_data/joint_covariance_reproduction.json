@@ -1,0 +1,25 @@
+{
+  "scope": "offline reproduction of uncorrelated (cross=0) rawbox four-way assembly; no new fit",
+  "raw_floor": {
+    "min_before": 1.0042022457664528e-09,
+    "max_before": 4269509520.005424,
+    "floor": 4.269509520005424e-05,
+    "n_floored": 57
+  },
+  "xi_variance_ratio_median": 237.16267079963364,
+  "xi_sigma_ratio_median": 15.400086714029685,
+  "xi_block_relative_frobenius_change": 46.07005562954468,
+  "unit_change_xi_relative_frobenius": 0.9929692835447904,
+  "necessary_chi2_checks": {
+    "monopole": {
+      "independent_minima_sum": 6.957045108183929,
+      "reported_naive_joint_minimum": 0.6862919639321527,
+      "violates_unchanged_block_lower_bound": true
+    },
+    "fourway": {
+      "independent_minima_sum": 14.846308623801196,
+      "reported_naive_joint_minimum": 3.1418019410749722,
+      "violates_unchanged_block_lower_bound": true
+    }
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "bestfit_plot_contract": {
+    "fitted_bin_style": "filled circles with formal fit-covariance error bars",
+    "halo_xi_likelihood": "12 FCFC bins over 30<=s<150 Mpc/h; unchanged",
+    "halo_xi_measurement_display": "all 32 FCFC bins over 30<=s<350 Mpc/h",
+    "map_curve": "shown only over the fitted 30<=s<150 bins",
+    "unfitted_display_bin_style": "open circles without invented out-of-fit covariance errors"
+  },
+  "catalogs": {
+    "c300": {
+      "bestfit_xi_measurement_display": {
+        "fitted_bins": 12,
+        "nbins": 32,
+        "smax_mpc_h": 350.0,
+        "smin_mpc_h": 30.0,
+        "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/xi_engines/fcfc/task44_pngbase_c300_hodhost_mmin1e13_xi0_s30_350_fcfc.npz",
+        "source_sha256": "0597318f3bc74d18020c84f93426eee2f6efadc6ddffa50e78173f1d6ba408d1",
+        "unfitted_display_bins": 20
+      },
+      "descriptive_pk_minus_xi": {
+        "delta_over_naive_combined_sigma68": 0.3366220197963486,
+        "delta_p_q50_pk_minus_xi": 0.35051101861747913,
+        "warning": "same halo catalog and realization; P0 and xi0 errors are correlated, so the naive combined sigma is descriptive only"
+      },
+      "fixed_fnl": 30.0,
+      "gates": {
+        "bestfit_plot_uses_full_32_bin_fcfc_measurement_to_smax350": true,
+        "both_fixed_fnl_match_catalog": true,
+        "covariance_is_12_by_12": true,
+        "exactly_12_likelihood_bins": true,
+        "full_plotted_measurement_has_exact_fitted_12_bin_prefix": true,
+        "halo_pk_all_fit_gates_pass": true,
+        "halo_pk_fit_status_pass": true,
+        "halo_xi_all_fit_gates_pass": true,
+        "halo_xi_fit_status_pass": true,
+        "no_residual_panel_in_bestfit_contract": true,
+        "pk_and_xi_ndata_identical": true,
+        "pk_and_xi_source_catalog_path_and_hash_identical": true,
+        "pk_edges_are_exact_strict_48_shells": true,
+        "pk_measurement_is_validated_halo_not_lrg": true,
+        "radial_edges_exactly_30_to_150": true
+      },
+      "halo_pk_strict_kmin0p006": {
+        "b1": {
+          "mean": 2.0272514340626784,
+          "q16": 2.002511461459799,
+          "q50": 2.027155924344859,
+          "q84": 2.052120475551575,
+          "sigma68": 0.02480450704588799,
+          "std": 0.024962402990894958
+        },
+        "chi2": 56.58848444226496,
+        "dof": 45,
+        "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c300/hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep/task44_pngbase_c300_hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep.json",
+        "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c300/hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep/task44_pngbase_c300_hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep.npz",
+        "p": {
+          "mean": 0.4255061469235154,
+          "q16": -0.3661035910839276,
+          "q50": 0.41639775630037046,
+          "q84": 1.2156157823900209,
+          "sigma68": 0.7908596867369743,
+          "std": 0.7941440351771241
+        },
+        "pte": 0.11526032690192141
+      },
+      "halo_xi_smin30_smax150": {
+        "b1": {
+          "mean": 2.002002253263708,
+          "q16": 1.9805267822256285,
+          "q50": 2.001952175996413,
+          "q84": 2.0235027651241526,
+          "sigma68": 0.021487991449262056,
+          "std": 0.02157644668560222
+        },
+        "chi2": 22.519863121133685,
+        "dof": 10,
+        "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c300/hodhost_mmin1e13_xi0_smin30_smax150_fixedfnl_freep/task44_pngbase_c300_hodhost_mmin1e13_xi0_smin30_smax150_fixedfnl_freep.json",
+        "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c300/hodhost_mmin1e13_xi0_smin30_smax150_fixedfnl_freep/task44_pngbase_c300_hodhost_mmin1e13_xi0_smin30_smax150_fixedfnl_freep.npz",
+        "p": {
+          "mean": 0.07826450519234146,
+          "q16": -0.5987434539468789,
+          "q50": 0.06588673768289131,
+          "q84": 0.7558977301365323,
+          "sigma68": 0.6773205920417056,
+          "std": 0.680210918666029
+        },
+        "pte": 0.012664529673874358
+      }
+    },
+    "c302": {
+      "bestfit_xi_measurement_display": {
+        "fitted_bins": 12,
+        "nbins": 32,
+        "smax_mpc_h": 350.0,
+        "smin_mpc_h": 30.0,
+        "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/xi_engines/fcfc/task44_pngbase_c302_hodhost_mmin1e13_xi0_s30_350_fcfc.npz",
+        "source_sha256": "6a69417b363b81c3690ca524bd4f4dedff9962d0e9e3bc44be915b353346d0ee",
+        "unfitted_display_bins": 20
+      },
+      "descriptive_pk_minus_xi": {
+        "delta_over_naive_combined_sigma68": 0.15250399360152156,
+        "delta_p_q50_pk_minus_xi": 0.05360362457823875,
+        "warning": "same halo catalog and realization; P0 and xi0 errors are correlated, so the naive combined sigma is descriptive only"
+      },
+      "fixed_fnl": 100.0,
+      "gates": {
+        "bestfit_plot_uses_full_32_bin_fcfc_measurement_to_smax350": true,
+        "both_fixed_fnl_match_catalog": true,
+        "covariance_is_12_by_12": true,
+        "exactly_12_likelihood_bins": true,
+        "full_plotted_measurement_has_exact_fitted_12_bin_prefix": true,
+        "halo_pk_all_fit_gates_pass": true,
+        "halo_pk_fit_status_pass": true,
+        "halo_xi_all_fit_gates_pass": true,
+        "halo_xi_fit_status_pass": true,
+        "no_residual_panel_in_bestfit_contract": true,
+        "pk_and_xi_ndata_identical": true,
+        "pk_and_xi_source_catalog_path_and_hash_identical": true,
+        "pk_edges_are_exact_strict_48_shells": true,
+        "pk_measurement_is_validated_halo_not_lrg": true,
+        "radial_edges_exactly_30_to_150": true
+      },
+      "halo_pk_strict_kmin0p006": {
+        "b1": {
+          "mean": 2.00499799610084,
+          "q16": 1.9791011985220763,
+          "q50": 2.0048557736691572,
+          "q84": 2.0311554495750865,
+          "sigma68": 0.0260271255265051,
+          "std": 0.02617529402683212
+        },
+        "chi2": 48.63739685014438,
+        "dof": 45,
+        "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c302/hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep/task44_pngbase_c302_hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep.json",
+        "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c302/hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep/task44_pngbase_c302_hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep.npz",
+        "p": {
+          "mean": 0.8841691105379316,
+          "q16": 0.6103436412302559,
+          "q50": 0.8803230959393198,
+          "q84": 1.1559451886142247,
+          "sigma68": 0.2728007736919844,
+          "std": 0.2742661354237732
+        },
+        "pte": 0.3287263685868625
+      },
+      "halo_xi_smin30_smax150": {
+        "b1": {
+          "mean": 1.9931726918856272,
+          "q16": 1.9714108236185124,
+          "q50": 1.9930476453696837,
+          "q84": 2.014912975033334,
+          "sigma68": 0.02175107570741075,
+          "std": 0.021909513532634477
+        },
+        "chi2": 14.404082031778884,
+        "dof": 10,
+        "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c302/hodhost_mmin1e13_xi0_smin30_smax150_fixedfnl_freep/task44_pngbase_c302_hodhost_mmin1e13_xi0_smin30_smax150_fixedfnl_freep.json",
+        "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c302/hodhost_mmin1e13_xi0_smin30_smax150_fixedfnl_freep/task44_pngbase_c302_hodhost_mmin1e13_xi0_smin30_smax150_fixedfnl_freep.npz",
+        "p": {
+          "mean": 0.8303195054119228,
+          "q16": 0.6085901711950042,
+          "q50": 0.826719471361081,
+          "q84": 1.0518731008133235,
+          "sigma68": 0.22164146480915964,
+          "std": 0.22355246162781237
+        },
+        "pte": 0.15534506720281882
+      }
+    }
+  },
+  "contour_plot_contract": {
+    "diagonal": "normalized 1D marginalized posteriors for halo P0 and halo xi0",
+    "legend_anchor": {
+      "axes": [
+        0,
+        1
+      ],
+      "bbox_to_anchor": [
+        0.04,
+        0.13
+      ],
+      "location": "center left"
+    },
+    "lower_triangle": "Task43-smoothed 68% and 95% credible contours",
+    "parameter_order": [
+      "p",
+      "b1"
+    ],
+    "reference_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/8.21meeting/task43_rsd_boxsafe_zobs0p4_0p8_x25_pk0_vs_xi0_smin50_l0only_contours.pdf",
+    "subplot_spacing": {
+      "hspace": 0.0,
+      "wspace": 0.0
+    },
+    "upper_triangle": "Task43-style legend plus rounded geometry/fit-range annotation box"
+  },
+  "fit_quality_policy": "chi2/dof and PTE are diagnostics, not pass/fail gates",
+  "fit_ranges": {
+    "halo_pk": {
+      "edges_h_mpc": [
+        [
+          0.006,
+          0.007
+        ],
+        [
+          0.007,
+          0.009000000000000001
+        ],
+        [
+          0.009000000000000001,
+          0.011
+        ],
+        [
+          0.011,
+          0.013000000000000001
+        ],
+        [
+          0.013000000000000001,
+          0.015
+        ],
+        [
+          0.015,
+          0.017
+        ],
+        [
+          0.017,
+          0.019
+        ],
+        [
+          0.019,
+          0.021
+        ],
+        [
+          0.021,
+          0.023
+        ],
+        [
+          0.023,
+          0.024999999999999998
+        ],
+        [
+          0.024999999999999998,
+          0.027
+        ],
+        [
+          0.027,
+          0.029
+        ],
+        [
+          0.029,
+          0.031
+        ],
+        [
+          0.031,
+          0.033
+        ],
+        [
+          0.033,
+          0.035
+        ],
+        [
+          0.035,
+          0.037000000000000005
+        ],
+        [
+          0.037000000000000005,
+          0.03900000000000001
+        ],
+        [
+          0.03900000000000001,
+          0.041
+        ],
+        [
+          0.041,
+          0.043000000000000003
+        ],
+        [
+          0.043000000000000003,
+          0.045000000000000005
+        ],
+        [
+          0.045000000000000005,
+          0.047
+        ],
+        [
+          0.047,
+          0.049
+        ],
+        [
+          0.049,
+          0.051000000000000004
+        ],
+        [
+          0.051000000000000004,
+          0.053000000000000005
+        ],
+        [
+          0.053000000000000005,
+          0.05500000000000001
+        ],
+        [
+          0.05500000000000001,
+          0.057
+        ],
+        [
+          0.057,
+          0.059000000000000004
+        ],
+        [
+          0.059000000000000004,
+          0.061000000000000006
+        ],
+        [
+          0.061000000000000006,
+          0.063
+        ],
+        [
+          0.063,
+          0.065
+        ],
+        [
+          0.065,
+          0.067
+        ],
+        [
+          0.067,
+          0.069
+        ],
+        [
+          0.069,
+          0.07100000000000001
+        ],
+        [
+          0.07100000000000001,
+          0.07300000000000001
+        ],
+        [
+          0.07300000000000001,
+          0.07500000000000001
+        ],
+        [
+          0.07500000000000001,
+          0.077
+        ],
+        [
+          0.077,
+          0.079
+        ],
+        [
+          0.079,
+          0.081
+        ],
+        [
+          0.081,
+          0.083
+        ],
+        [
+          0.083,
+          0.085
+        ],
+        [
+          0.085,
+          0.08700000000000001
+        ],
+        [
+          0.08700000000000001,
+          0.08900000000000001
+        ],
+        [
+          0.08900000000000001,
+          0.091
+        ],
+        [
+          0.091,
+          0.093
+        ],
+        [
+          0.093,
+          0.095
+        ],
+        [
+          0.095,
+          0.097
+        ],
+        [
+          0.097,
+          0.099
+        ],
+        [
+          0.099,
+          0.101
+        ]
+      ],
+      "kmax_bin_center_h_mpc": 0.1,
+      "kmin_h_mpc": 0.006,
+      "nbins": 48
+    },
+    "halo_xi": {
+      "edges_mpc_h": [
+        30.0,
+        40.0,
+        50.0,
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        130.0,
+        140.0,
+        150.0
+      ],
+      "nbins": 12,
+      "smax_mpc_h": 150.0,
+      "smin_mpc_h": 30.0
+    }
+  },
+  "global_gates": {
+    "all_legacy_or_diagnostic_pdfs_removed": true,
+    "all_present_pdfs_are_current_range_products": true,
+    "bestfit_xi_measurement_display_smax_is_350": true,
+    "both_catalog_fit_gates_pass": true,
+    "both_primary_current_range_pdfs_exist": true,
+    "contour_has_1d_marginal_for_every_parameter": true,
+    "contour_has_rounded_annotation_box": true,
+    "contour_parameter_order_is_p_b1": true,
+    "contour_subplots_have_zero_spacing": true,
+    "kmax_bin_center_is_0p100": true,
+    "kmin_is_0p006": true,
+    "legend_is_anchored_in_first_upper_triangle_cell": true,
+    "pdf_only_in_extension_plot_tree": true,
+    "smax_is_150": true,
+    "smin_is_30": true,
+    "task43_contour_reference_exists": true
+  },
+  "payload_npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/summary/task44_pngbase_hodhost_mmin1e13_fixedfnl_pk0_vs_xi0_smax150_audit.npz",
+  "payload_npz_sha256": "c13242944c398f4e9196c4de1cf841b3c2180c551750efd3fb69666f9c5ae6b1",
+  "plots": [
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/task44_pngbase_c300_c302_hodhost_mmin1e13_fixedfnl_pk0_kmin0p006_kmax0p100_xi0_smin30_smax150_bestfit_measurements.pdf",
+      "sha256": "a8e921dd6ee028464819c864c610fc2c28290f5a51306f8bd77a0198a1d45be2"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/task44_pngbase_c300_c302_hodhost_mmin1e13_fixedfnl_pk0_kmin0p006_kmax0p100_vs_xi0_smin30_smax150_p_b1_contours.pdf",
+      "sha256": "8daa5aed40ae3c5b17e5e4c170723b2021035a7b520c76676d796c21b993a199"
+    }
+  ],
+  "sample": "unit-weight unique occupied HOD hosts with official cleaned CompaSO M>=1e13 Msun/h",
+  "status": "pass",
+  "task": "task44_pngbase_hodhost_mmin1e13_fixedfnl_pk0_vs_xi0_smax150_audit"
+}

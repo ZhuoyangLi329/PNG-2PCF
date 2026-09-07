@@ -1,0 +1,320 @@
+{
+  "classification": "x3 numerical pilot only; diagonal phase scatter is not the production covariance",
+  "covariance_policy": {
+    "fit_weights": "diagonal x3 phase scatter C_single",
+    "mean_goodness_of_fit": "chi2_mean=nphase*chi2_single",
+    "posterior_error": "inverse local Fisher using C_single",
+    "production_claim": false
+  },
+  "elapsed_sec": 22.791578449017834,
+  "fits": [
+    {
+      "at_parameter_boundary": false,
+      "chi2_mean_diagonal": 68.80548932913115,
+      "chi2_single_diagonal": 22.93516310971038,
+      "dof": 29,
+      "ells": [
+        0
+      ],
+      "fnl_center_over_sigma_single": 4.419287398482698,
+      "message": "`ftol` termination condition is satisfied.",
+      "pte_mean_diagonal": 4.409683457167079e-05,
+      "pte_single_diagonal": 0.7795020287824543,
+      "residual_rms_sigma_single": 0.8465954448131937,
+      "sigma_single_diagonal_pilot": {
+        "b1": 0.01653592246191431,
+        "fNL": 3.1899357485184052,
+        "sigma_s": 0.560081660482426
+      },
+      "smin_mpc_h": 30.0,
+      "success": true,
+      "theta": {
+        "b1": 2.4962599430495382,
+        "fNL": 14.097242855396862,
+        "sigma_s": 7.642240254450364
+      }
+    },
+    {
+      "at_parameter_boundary": false,
+      "chi2_mean_diagonal": 405.54522508337885,
+      "chi2_single_diagonal": 135.18174169445962,
+      "dof": 61,
+      "ells": [
+        0,
+        2
+      ],
+      "fnl_center_over_sigma_single": 3.913586485714239,
+      "message": "`ftol` termination condition is satisfied.",
+      "pte_mean_diagonal": 2.389549694946789e-52,
+      "pte_single_diagonal": 1.5313731423445947e-07,
+      "residual_rms_sigma_single": 1.453346040685401,
+      "sigma_single_diagonal_pilot": {
+        "b1": 0.012087880248512803,
+        "fNL": 2.9469179815360858,
+        "sigma_s": 0.20315776139203165
+      },
+      "smin_mpc_h": 30.0,
+      "success": true,
+      "theta": {
+        "b1": 2.563427892694318,
+        "fNL": 11.533018387047909,
+        "sigma_s": 3.2226104596848586
+      }
+    },
+    {
+      "at_parameter_boundary": false,
+      "chi2_mean_diagonal": 30.20233976801089,
+      "chi2_single_diagonal": 10.067446589336964,
+      "dof": 27,
+      "ells": [
+        0
+      ],
+      "fnl_center_over_sigma_single": 1.9246857212798436,
+      "message": "`ftol` termination condition is satisfied.",
+      "pte_mean_diagonal": 0.3051392877883503,
+      "pte_single_diagonal": 0.9987286620283775,
+      "residual_rms_sigma_single": 0.5792940125513976,
+      "sigma_single_diagonal_pilot": {
+        "b1": 0.02398919636891335,
+        "fNL": 3.605393885006907,
+        "sigma_s": 0.5638323408708739
+      },
+      "smin_mpc_h": 50.0,
+      "success": true,
+      "theta": {
+        "b1": 2.557147110456838,
+        "fNL": 6.939250130062456,
+        "sigma_s": 8.165256888702727
+      }
+    },
+    {
+      "at_parameter_boundary": false,
+      "chi2_mean_diagonal": 97.57677043163504,
+      "chi2_single_diagonal": 32.52559014387835,
+      "dof": 57,
+      "ells": [
+        0,
+        2
+      ],
+      "fnl_center_over_sigma_single": 1.5848047073025586,
+      "message": "`ftol` termination condition is satisfied.",
+      "pte_mean_diagonal": 0.0006607095268834416,
+      "pte_single_diagonal": 0.9962551740534319,
+      "residual_rms_sigma_single": 0.7362697665018162,
+      "sigma_single_diagonal_pilot": {
+        "b1": 0.020671499935547333,
+        "fNL": 3.3448424362410822,
+        "sigma_s": 0.3287320412112846
+      },
+      "smin_mpc_h": 50.0,
+      "success": true,
+      "theta": {
+        "b1": 2.5925385835783445,
+        "fNL": 5.300922038140225,
+        "sigma_s": 6.747293847134338
+      }
+    },
+    {
+      "at_parameter_boundary": false,
+      "chi2_mean_diagonal": 18.906707451811542,
+      "chi2_single_diagonal": 6.302235817270514,
+      "dof": 24,
+      "ells": [
+        0
+      ],
+      "fnl_center_over_sigma_single": 1.211695989757576,
+      "message": "`ftol` termination condition is satisfied.",
+      "pte_mean_diagonal": 0.7569464593965305,
+      "pte_single_diagonal": 0.9998876981795861,
+      "residual_rms_sigma_single": 0.48313159840812464,
+      "sigma_single_diagonal_pilot": {
+        "b1": 0.037373875246079116,
+        "fNL": 3.706152379595429,
+        "sigma_s": 0.7608075470985661
+      },
+      "smin_mpc_h": 80.0,
+      "success": true,
+      "theta": {
+        "b1": 2.609060142715197,
+        "fNL": 4.490729975786279,
+        "sigma_s": 9.054790873702336
+      }
+    },
+    {
+      "at_parameter_boundary": false,
+      "chi2_mean_diagonal": 61.15241722308926,
+      "chi2_single_diagonal": 20.384139074363087,
+      "dof": 51,
+      "ells": [
+        0,
+        2
+      ],
+      "fnl_center_over_sigma_single": 1.3509351260791334,
+      "message": "`ftol` termination condition is satisfied.",
+      "pte_mean_diagonal": 0.15615379924547232,
+      "pte_single_diagonal": 0.999960772204843,
+      "residual_rms_sigma_single": 0.6143973119510288,
+      "sigma_single_diagonal_pilot": {
+        "b1": 0.029949197648713587,
+        "fNL": 3.4322478095011903,
+        "sigma_s": 0.6145860372876576
+      },
+      "smin_mpc_h": 80.0,
+      "success": true,
+      "theta": {
+        "b1": 2.6104547994172167,
+        "fNL": 4.63674412726332,
+        "sigma_s": 8.326615919836179
+      }
+    },
+    {
+      "at_parameter_boundary": false,
+      "chi2_mean_diagonal": 15.22718104887699,
+      "chi2_single_diagonal": 5.07572701629233,
+      "dof": 22,
+      "ells": [
+        0
+      ],
+      "fnl_center_over_sigma_single": 0.26787714937318996,
+      "message": "`ftol` termination condition is satisfied.",
+      "pte_mean_diagonal": 0.8523053440351425,
+      "pte_single_diagonal": 0.9999297263662867,
+      "residual_rms_sigma_single": 0.45058748390483866,
+      "sigma_single_diagonal_pilot": {
+        "b1": 0.08442583593224104,
+        "fNL": 5.2321878313694175,
+        "sigma_s": 2.727523391326129
+      },
+      "smin_mpc_h": 100.0,
+      "success": true,
+      "theta": {
+        "b1": 2.533076431630477,
+        "fNL": 1.4015835612523322,
+        "sigma_s": 6.556882002718009
+      }
+    },
+    {
+      "at_parameter_boundary": false,
+      "chi2_mean_diagonal": 43.066808291833595,
+      "chi2_single_diagonal": 14.355602763944532,
+      "dof": 47,
+      "ells": [
+        0,
+        2
+      ],
+      "fnl_center_over_sigma_single": 0.6515843115571446,
+      "message": "`ftol` termination condition is satisfied.",
+      "pte_mean_diagonal": 0.6361776849259287,
+      "pte_single_diagonal": 0.9999988882071241,
+      "residual_rms_sigma_single": 0.5358283823006118,
+      "sigma_single_diagonal_pilot": {
+        "b1": 0.05798352210136569,
+        "fNL": 4.498570244248769,
+        "sigma_s": 1.756249626959806
+      },
+      "smin_mpc_h": 100.0,
+      "success": true,
+      "theta": {
+        "b1": 2.57213870340233,
+        "fNL": 2.9311977955902897,
+        "sigma_s": 7.829153191577841
+      }
+    },
+    {
+      "at_parameter_boundary": false,
+      "chi2_mean_diagonal": 14.98140643093742,
+      "chi2_single_diagonal": 4.993802143645807,
+      "dof": 20,
+      "ells": [
+        0
+      ],
+      "fnl_center_over_sigma_single": 0.24141955654713315,
+      "message": "`ftol` termination condition is satisfied.",
+      "pte_mean_diagonal": 0.7774705506839547,
+      "pte_single_diagonal": 0.9997253112227692,
+      "residual_rms_sigma_single": 0.4659633379703025,
+      "sigma_single_diagonal_pilot": {
+        "b1": 0.4764636524861048,
+        "fNL": 28.871863222522016,
+        "sigma_s": 9.1214141613881
+      },
+      "smin_mpc_h": 120.0,
+      "success": true,
+      "theta": {
+        "b1": 2.6141270862460466,
+        "fNL": 6.970232415870748,
+        "sigma_s": 4.723343559142875
+      }
+    },
+    {
+      "at_parameter_boundary": false,
+      "chi2_mean_diagonal": 40.265363965446795,
+      "chi2_single_diagonal": 13.421787988482265,
+      "dof": 43,
+      "ells": [
+        0,
+        2
+      ],
+      "fnl_center_over_sigma_single": 1.241294060544845,
+      "message": "`ftol` termination condition is satisfied.",
+      "pte_mean_diagonal": 0.5905746159746155,
+      "pte_single_diagonal": 0.9999956855126363,
+      "residual_rms_sigma_single": 0.5401647894389401,
+      "sigma_single_diagonal_pilot": {
+        "b1": 0.15872787069598535,
+        "fNL": 8.102291037495576,
+        "sigma_s": 2.7767841060661813
+      },
+      "smin_mpc_h": 120.0,
+      "success": true,
+      "theta": {
+        "b1": 2.7042925317333513,
+        "fNL": 10.057325741648988,
+        "sigma_s": 8.499562713621721
+      }
+    }
+  ],
+  "input_paths": [
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/summary/task43_rsd_rawbox_AbacusSummit_base_c000_ph000_mmin1p4e13_clustering.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/summary/task43_rsd_rawbox_AbacusSummit_base_c000_ph001_mmin1p4e13_clustering.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/summary/task43_rsd_rawbox_AbacusSummit_base_c000_ph002_mmin1p4e13_clustering.npz"
+  ],
+  "legacy_estimator_bridge_max_abs": 0.0,
+  "model": "FullDiscrete Kaiser x squared-Lorentzian FoG, p_fixed=1",
+  "nominal_diagnostic": {
+    "at_parameter_boundary": false,
+    "chi2_mean_diagonal": 30.20233976801089,
+    "chi2_single_diagonal": 10.067446589336964,
+    "dof": 27,
+    "ells": [
+      0
+    ],
+    "fnl_center_over_sigma_single": 1.9246857212798436,
+    "message": "`ftol` termination condition is satisfied.",
+    "pte_mean_diagonal": 0.3051392877883503,
+    "pte_single_diagonal": 0.9987286620283775,
+    "residual_rms_sigma_single": 0.5792940125513976,
+    "sigma_single_diagonal_pilot": {
+      "b1": 0.02398919636891335,
+      "fNL": 3.605393885006907,
+      "sigma_s": 0.5638323408708739
+    },
+    "smin_mpc_h": 50.0,
+    "success": true,
+    "theta": {
+      "b1": 2.557147110456838,
+      "fNL": 6.939250130062456,
+      "sigma_s": 8.165256888702727
+    }
+  },
+  "nphase": 3,
+  "output_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/pilot/task43_rsd_rawbox_pilot_x3_fulldiscrete_lorentzian.npz",
+  "phases": [
+    "ph000",
+    "ph001",
+    "ph002"
+  ],
+  "plot_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task43/rsd_validation/task43_rsd_rawbox_pilot_x3_fulldiscrete_lorentzian.pdf",
+  "status": "pass",
+  "task": "task43_fit_rsd_rawbox_pilot"
+}

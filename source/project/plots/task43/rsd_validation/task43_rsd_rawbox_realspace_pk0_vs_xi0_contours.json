@@ -1,0 +1,62 @@
+{
+  "chains": {
+    "pk0": {
+      "path": "outputs/task43_outputs/rsd_validation/rawbox/realspace_check/fits/pk0_s16/samples.npz",
+      "sha256": "beac0ee6a54598892f4792b782ffbe775788fd84715da14ce0d8942b97d54474"
+    },
+    "xis50": {
+      "path": "outputs/task43_outputs/rsd_validation/rawbox/realspace_check/fits/smin50/samples.npz",
+      "sha256": "9cbceb002f75438654f3a777cf4ec6babcec4d30daaf0b529df711945341e537"
+    }
+  },
+  "config": {
+    "annotation": "rawbox REAL space, linear template\nWick factor-2 covariance (x25-validated)\nP0: chi2=45.2/14, PTE=3.7e-5\nxi0 s>=50: chi2=331.3/28, PTE=1.4e-53\nsigma(fNL): P0 10.9 vs xi0 11.0 (comparable)",
+    "chains": [
+      {
+        "color": "#2F2F2F",
+        "key": "pk0",
+        "label": "real-space P0 16 bins",
+        "path": "outputs/task43_outputs/rsd_validation/rawbox/realspace_check/fits/pk0_s16/samples.npz"
+      },
+      {
+        "color": "#C44E52",
+        "key": "xis50",
+        "label": "real-space xi0 s>=50",
+        "path": "outputs/task43_outputs/rsd_validation/rawbox/realspace_check/fits/smin50/samples.npz"
+      }
+    ],
+    "output_pdf": "task43_rsd_rawbox_realspace_pk0_vs_xi0_contours.pdf",
+    "parameters": [
+      "fNL",
+      "b1"
+    ]
+  },
+  "contour_thresholds": {
+    "fNL_vs_b1": {
+      "pk0": {
+        "density_max": 2022.1329309022267,
+        "level68": 637.0568825817256,
+        "level95": 97.38545986109143
+      },
+      "xis50": {
+        "density_max": 603.1657114188866,
+        "level68": 192.0738966339697,
+        "level95": 30.559954594351435
+      }
+    }
+  },
+  "output_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task43/rsd_validation/task43_rsd_rawbox_realspace_pk0_vs_xi0_contours.pdf",
+  "output_pdf_sha256": "f9636e2167536e6749995bd0199dc88fd258ec76714f582cba24b1e89f09aeb0",
+  "plot_ranges": {
+    "b1": [
+      2.37094004680221,
+      2.7161504437468746
+    ],
+    "fNL": [
+      -48.672757834843345,
+      45.62596201892312
+    ]
+  },
+  "status": "pass",
+  "task": "task43_plot_joint_contours_generic"
+}

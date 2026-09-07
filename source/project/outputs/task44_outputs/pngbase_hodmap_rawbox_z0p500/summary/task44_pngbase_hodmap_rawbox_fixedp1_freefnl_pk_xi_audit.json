@@ -1,0 +1,1825 @@
+{
+  "catalogs": {
+    "c300": {
+      "catalog_baseline_fnl": 30.0,
+      "comparisons": {
+        "pk_baseline_pull_sigma68": 0.9289832789934337,
+        "xi_baseline_pull_sigma68": 2.5029479737974305,
+        "xi_minus_pk": {
+          "cross_covariance_included": false,
+          "delta_fnl": 32.01510280977159,
+          "delta_over_independent_combined_sigma68": 1.197971171465506,
+          "independent_covariance_combined_sigma68": 26.724435088539543,
+          "interpretation": "descriptive only because P0 and xi0 use the same ph000 realization"
+        }
+      },
+      "fits": {
+        "pk": {
+          "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c300/pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl/task44_pngbase_c300_pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl.json",
+          "json_sha256": "3d3156a0ddd4c3ccf32e536cc5221bb65460bf8fcc087b5827e8e3f8e0517420",
+          "map": {
+            "at_parameter_boundary": false,
+            "chi2": 53.39010080891964,
+            "dof": 46,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              50921.893643419724,
+              46803.201606303635,
+              47717.36248275793,
+              49491.33054337483,
+              50624.348409525126,
+              51016.632322524005,
+              50761.54809764838,
+              50011.17437744737,
+              48892.4775069168,
+              47280.79906377793,
+              45513.4492178452,
+              43596.54596093047,
+              41515.225904670384,
+              39460.613487007155,
+              37252.46248199056,
+              35245.55599807855,
+              33495.06346179504,
+              31651.80685823749,
+              30104.125172960303,
+              28744.896030720578,
+              27479.960587566457,
+              26454.513802133955,
+              25466.95906608255,
+              24617.35177549882,
+              23899.021008892327,
+              23214.540658822327,
+              22608.98791131836,
+              22110.29829201381,
+              21617.21684690136,
+              21139.817162532385,
+              20691.184081332132,
+              20229.270890776956,
+              19769.22464425785,
+              19271.101086851482,
+              18752.16665033509,
+              18223.41790064174,
+              17669.301189771595,
+              17093.60901892734,
+              16507.501831745558,
+              15903.861624347162,
+              15307.14584512392,
+              14729.960825286944,
+              14153.017766326402,
+              13612.964705490811,
+              13079.158244296557,
+              12576.738259773747,
+              12120.809929059971,
+              11696.593185935042,
+              11322.540169022726
+            ],
+            "pte": 0.2114541484254372,
+            "success": true,
+            "theta": {
+              "b1": 1.8048455566418449,
+              "fnl": 47.765308368483936,
+              "sn0": 0.08149965962489703
+            }
+          },
+          "mcmc": {
+            "acceptance_fraction_mean": 0.6469046875000001,
+            "burnin": 2000,
+            "gates": {
+              "acceptance_between_0p10_0p80": true,
+              "half_chain_shift_max_below_0p1sigma": true,
+              "postburn_length_min_above_50tau": true,
+              "posterior_68_not_at_prior_edge": true,
+              "split_rhat_max_below_1p01": true
+            },
+            "half_chain_shift_sigma": {
+              "b1": 0.010519830772879024,
+              "fnl": 0.015737316958026874,
+              "sn0": 0.012699643414204776
+            },
+            "map_chain": {
+              "b1": 1.8050413888376866,
+              "fnl": 47.55155258530516,
+              "sn0": 0.08142858585348606
+            },
+            "map_chain_log_probability": -26.695428266871133,
+            "nsteps": 10000,
+            "nwalkers": 64,
+            "postburn_length_over_tau": {
+              "b1": 208.09133412938803,
+              "fnl": 201.97908916479685,
+              "sn0": 212.66423641082588
+            },
+            "postburn_steps_per_walker": 8000,
+            "posterior": {
+              "b1": {
+                "mean": 1.8052712537912707,
+                "q16": 1.787551950249176,
+                "q50": 1.8051911342923483,
+                "q84": 1.8230167704178872,
+                "sigma68": 0.017732410084355665,
+                "std": 0.017907515233573333
+              },
+              "fnl": {
+                "mean": 46.58393590203037,
+                "q16": 28.33341688491939,
+                "q50": 46.924088531516816,
+                "q84": 64.76913949524301,
+                "sigma68": 18.21786130516181,
+                "std": 18.320900200495675
+              },
+              "sn0": {
+                "mean": 0.08124278064018561,
+                "q16": 0.05559158548917866,
+                "q50": 0.08125339630717754,
+                "q84": 0.10691744035448267,
+                "sigma68": 0.025662927432652003,
+                "std": 0.02590860321334563
+              }
+            },
+            "prior_edge_68": {
+              "b1": false,
+              "fnl": false,
+              "sn0": false
+            },
+            "split_rhat": {
+              "b1": 1.0054872367120216,
+              "fnl": 1.004225243661323,
+              "sn0": 1.0054596645446534
+            },
+            "tau": {
+              "b1": 38.44465716686559,
+              "fnl": 39.60806058231462,
+              "sn0": 37.617984739782756
+            }
+          },
+          "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c300/pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl/task44_pngbase_c300_pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl.npz",
+          "npz_sha256": "b2c1bf3a42b06faab781b6a3d946692d699a93baebc10ab1d1bf70dfe406ab46",
+          "posterior": {
+            "b1": {
+              "mean": 1.8052712537912707,
+              "q16": 1.787551950249176,
+              "q50": 1.8051911342923483,
+              "q84": 1.8230167704178872,
+              "sigma68": 0.017732410084355665,
+              "std": 0.017907515233573333
+            },
+            "fnl": {
+              "mean": 46.58393590203037,
+              "q16": 28.33341688491939,
+              "q50": 46.924088531516816,
+              "q84": 64.76913949524301,
+              "sigma68": 18.21786130516181,
+              "std": 18.320900200495675
+            }
+          },
+          "reparameterization_check": {
+            "fixed_p1_vs_fixed_baseline_fnl_freep_map_max_abs": 0.026473517798876856,
+            "fixed_p1_vs_fixed_baseline_fnl_freep_map_max_abs_sigma": 1.4990685448017518e-06,
+            "map_chi2_difference": -8.309872548295516e-06
+          },
+          "sn0": {
+            "mean": 0.08124278064018561,
+            "q16": 0.05559158548917866,
+            "q50": 0.08125339630717754,
+            "q84": 0.10691744035448267,
+            "sigma68": 0.025662927432652003,
+            "std": 0.02590860321334563
+          }
+        },
+        "xi": {
+          "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c300/xi0_smin30_smax350_fixedp1_freefnl/task44_pngbase_c300_xi0_smin30_smax350_fixedp1_freefnl.json",
+          "json_sha256": "78a7f89addcb20eb00a0522312a5668a4e9dd11369360e47796824beba8ad89c",
+          "map": {
+            "at_parameter_boundary": false,
+            "chi2": 63.9467285140247,
+            "dof": 30,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              0.04601239846408518,
+              0.02264625785254435,
+              0.012020913087647097,
+              0.006682331310852231,
+              0.0037178618980918112,
+              0.00229216023393388,
+              0.003362687101972887,
+              0.0032730970348787878,
+              0.0012900357977515611,
+              0.000185041156071417,
+              -0.000168428105818238,
+              -0.00024138758535736756,
+              -0.0002306988058182063,
+              -0.00019230422235113666,
+              -0.00015331594051156054,
+              -0.00011628143698222591,
+              -8.276874060568814e-05,
+              -6.334411306170045e-05,
+              -4.941881412735087e-05,
+              -3.2890422262860574e-05,
+              -1.7448381296140386e-05,
+              -6.443675074257243e-06,
+              3.489884324374667e-06,
+              1.0645623886270754e-05,
+              1.554000837057843e-05,
+              1.9479783522782558e-05,
+              2.264007551618959e-05,
+              2.4583909753898444e-05,
+              2.5845156961394075e-05,
+              2.6855047277293638e-05,
+              2.744850992971798e-05,
+              2.7483218395447347e-05
+            ],
+            "pte": 0.0002986601401384733,
+            "success": true,
+            "theta": {
+              "b1": 1.7729753105144812,
+              "fnl": 79.31336387362785
+            }
+          },
+          "mcmc": {
+            "acceptance_fraction_mean": 0.7147765625,
+            "burnin": 2000,
+            "gates": {
+              "acceptance_between_0p10_0p80": true,
+              "half_chain_shift_max_below_0p1sigma": true,
+              "postburn_length_min_above_50tau": true,
+              "posterior_68_not_at_prior_edge": true,
+              "split_rhat_max_below_1p01": true
+            },
+            "half_chain_shift_sigma": {
+              "b1": 0.009007675801156249,
+              "fnl": 0.0018681411070290697
+            },
+            "map_chain": {
+              "b1": 1.772953408794107,
+              "fnl": 79.34217381315491
+            },
+            "map_chain_log_probability": -31.973365457509416,
+            "nsteps": 10000,
+            "nwalkers": 64,
+            "postburn_length_over_tau": {
+              "b1": 252.67327003080806,
+              "fnl": 256.4669188448728
+            },
+            "postburn_steps_per_walker": 8000,
+            "posterior": {
+              "b1": {
+                "mean": 1.7731989201764855,
+                "q16": 1.7575472237083718,
+                "q50": 1.7731781304317726,
+                "q84": 1.7889175274811657,
+                "sigma68": 0.015685151886396964,
+                "std": 0.0157811179474161
+              },
+              "fnl": {
+                "mean": 78.7132800138921,
+                "q16": 59.145676147265554,
+                "q50": 78.9391913412884,
+                "q84": 98.25091673046369,
+                "sigma68": 19.552620291599066,
+                "std": 19.738419043454115
+              }
+            },
+            "prior_edge_68": {
+              "b1": false,
+              "fnl": false
+            },
+            "split_rhat": {
+              "b1": 1.0038044092373817,
+              "fnl": 1.0035739811961457
+            },
+            "tau": {
+              "b1": 31.661441667433095,
+              "fnl": 31.19310683823086
+            }
+          },
+          "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c300/xi0_smin30_smax350_fixedp1_freefnl/task44_pngbase_c300_xi0_smin30_smax350_fixedp1_freefnl.npz",
+          "npz_sha256": "cb139cb5ba689353d24b75c2d59e365a7c91f774345a03d5667e9d832ec558ff",
+          "posterior": {
+            "b1": {
+              "mean": 1.7731989201764855,
+              "q16": 1.7575472237083718,
+              "q50": 1.7731781304317726,
+              "q84": 1.7889175274811657,
+              "sigma68": 0.015685151886396964,
+              "std": 0.0157811179474161
+            },
+            "fnl": {
+              "mean": 78.7132800138921,
+              "q16": 59.145676147265554,
+              "q50": 78.9391913412884,
+              "q84": 98.25091673046369,
+              "sigma68": 19.552620291599066,
+              "std": 19.738419043454115
+            }
+          },
+          "reparameterization_check": {
+            "fixed_p1_vs_fixed_baseline_fnl_freep_map_max_abs": 2.911581611225733e-09,
+            "fixed_p1_vs_fixed_baseline_fnl_freep_map_max_abs_sigma": 5.846791908107929e-06,
+            "map_chi2_difference": 1.3143805063009495e-05
+          },
+          "sn0": null
+        }
+      },
+      "fixed_p": 1.0,
+      "gates": {
+        "pk": {
+          "all_mcmc_gates_pass": true,
+          "covariance_fixed_point_converged": true,
+          "fit_status_pass": true,
+          "fixed_p_is_1": true,
+          "full_periodic_realspace_geometry": true,
+          "kfund_is_2pi_over_L": true,
+          "kmax_is_0p10": true,
+          "lowest_k_bin_has_18_modes": true,
+          "parameter_names_match": true,
+          "primary_has_49_contiguous_periodic_bins": true,
+          "primary_kmin_is_0p003": true,
+          "volume_is_L_cubed": true
+        },
+        "xi": {
+          "all_mcmc_gates_pass": true,
+          "covariance_fixed_point_converged": true,
+          "fit_status_pass": true,
+          "fixed_p_is_1": true,
+          "full_periodic_realspace_geometry": true,
+          "kfund_is_2pi_over_L": true,
+          "parameter_names_match": true,
+          "smax_is_350": true,
+          "smin_matches_label": true,
+          "volume_is_L_cubed": true
+        }
+      }
+    },
+    "c302": {
+      "catalog_baseline_fnl": 100.0,
+      "comparisons": {
+        "pk_baseline_pull_sigma68": -0.18884654773335763,
+        "xi_baseline_pull_sigma68": 0.7007982707578632,
+        "xi_minus_pk": {
+          "cross_covariance_included": false,
+          "delta_fnl": 19.692458072672338,
+          "delta_over_independent_combined_sigma68": 0.6300702143000545,
+          "independent_covariance_combined_sigma68": 31.25438661554364,
+          "interpretation": "descriptive only because P0 and xi0 use the same ph000 realization"
+        }
+      },
+      "fits": {
+        "pk": {
+          "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c302/pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl/task44_pngbase_c302_pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl.json",
+          "json_sha256": "d48984bfaaa48a8daccd662485a2a6513c04a3b6531212ddb58d4007d28f9752",
+          "map": {
+            "at_parameter_boundary": false,
+            "chi2": 47.42477502670726,
+            "dof": 46,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              84579.96510543143,
+              62743.55627238604,
+              57652.87386801373,
+              55709.26806698603,
+              54950.1303955482,
+              54263.98150759838,
+              53139.73670103307,
+              51851.72614069781,
+              50335.64681521863,
+              48390.77238818366,
+              46383.53202211942,
+              44282.75131200231,
+              42056.64501340627,
+              39892.12214817292,
+              37592.98727757565,
+              35519.94814728717,
+              33722.171688854854,
+              31836.79102915909,
+              30258.59262154625,
+              28875.407921126025,
+              27589.925787709464,
+              26548.67556968176,
+              25546.273866785352,
+              24683.93625975779,
+              23954.73547467943,
+              23259.782240197826,
+              22644.99996848947,
+              22138.96348291536,
+              21639.20467118329,
+              21156.245952738413,
+              20703.531362148973,
+              20238.75181949593,
+              19777.237042301822,
+              19278.977476270138,
+              18761.295117410446,
+              18235.06910888935,
+              17684.67452121818,
+              17113.816330901147,
+              16533.417289118726,
+              15936.335835933625,
+              15346.634853542371,
+              14776.638566984602,
+              14207.193735074881,
+              13674.376862442372,
+              13147.87230524573,
+              12652.41045645549,
+              12202.82373654668,
+              11784.488624409483,
+              11415.566809652613
+            ],
+            "pte": 0.4143240422853396,
+            "success": true,
+            "theta": {
+              "b1": 1.7808024600988994,
+              "fnl": 96.51538560106113,
+              "sn0": 0.10881801222371919
+            }
+          },
+          "mcmc": {
+            "acceptance_fraction_mean": 0.647759375,
+            "burnin": 2000,
+            "gates": {
+              "acceptance_between_0p10_0p80": true,
+              "half_chain_shift_max_below_0p1sigma": true,
+              "postburn_length_min_above_50tau": true,
+              "posterior_68_not_at_prior_edge": true,
+              "split_rhat_max_below_1p01": true
+            },
+            "half_chain_shift_sigma": {
+              "b1": 0.004368226126962908,
+              "fnl": 0.021749803750907563,
+              "sn0": 0.008626457193509665
+            },
+            "map_chain": {
+              "b1": 1.780954054436238,
+              "fnl": 96.47252461691514,
+              "sn0": 0.10864272406459932
+            },
+            "map_chain_log_probability": -23.712471766405073,
+            "nsteps": 10000,
+            "nwalkers": 64,
+            "postburn_length_over_tau": {
+              "b1": 230.64185773502706,
+              "fnl": 226.91837166821884,
+              "sn0": 228.1572077811258
+            },
+            "postburn_steps_per_walker": 8000,
+            "posterior": {
+              "b1": {
+                "mean": 1.7808573163805874,
+                "q16": 1.7623257764005524,
+                "q50": 1.7806923818345695,
+                "q84": 1.7994746659365628,
+                "sigma68": 0.018574444768005183,
+                "std": 0.01878228563410621
+              },
+              "fnl": {
+                "mean": 95.75592314579065,
+                "q16": 73.73239315624465,
+                "q50": 95.8379858164262,
+                "q84": 117.81065917199803,
+                "sigma68": 22.039133007876686,
+                "std": 22.188236705968475
+              },
+              "sn0": {
+                "mean": 0.10909658584846015,
+                "q16": 0.08287195979105481,
+                "q50": 0.10930226036437737,
+                "q84": 0.13529031073299266,
+                "sigma68": 0.026209175470968925,
+                "std": 0.026375773973239466
+              }
+            },
+            "prior_edge_68": {
+              "b1": false,
+              "fnl": false,
+              "sn0": false
+            },
+            "split_rhat": {
+              "b1": 1.0038083747514088,
+              "fnl": 1.0042494160767423,
+              "sn0": 1.0037852352450538
+            },
+            "tau": {
+              "b1": 34.685811493899784,
+              "fnl": 35.254968300658064,
+              "sn0": 35.063542711631115
+            }
+          },
+          "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c302/pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl/task44_pngbase_c302_pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl.npz",
+          "npz_sha256": "5aec9cd80a4929a441599701baad3b6d645df1c9d9b1fda84ffe19f16ba67280",
+          "posterior": {
+            "b1": {
+              "mean": 1.7808573163805874,
+              "q16": 1.7623257764005524,
+              "q50": 1.7806923818345695,
+              "q84": 1.7994746659365628,
+              "sigma68": 0.018574444768005183,
+              "std": 0.01878228563410621
+            },
+            "fnl": {
+              "mean": 95.75592314579065,
+              "q16": 73.73239315624465,
+              "q50": 95.8379858164262,
+              "q84": 117.81065917199803,
+              "sigma68": 22.039133007876686,
+              "std": 22.188236705968475
+            }
+          },
+          "reparameterization_check": {
+            "fixed_p1_vs_fixed_baseline_fnl_freep_map_max_abs": 0.2929401879227953,
+            "fixed_p1_vs_fixed_baseline_fnl_freep_map_max_abs_sigma": 9.99731392645404e-06,
+            "map_chi2_difference": -5.736534043165875e-05
+          },
+          "sn0": {
+            "mean": 0.10909658584846015,
+            "q16": 0.08287195979105481,
+            "q50": 0.10930226036437737,
+            "q84": 0.13529031073299266,
+            "sigma68": 0.026209175470968925,
+            "std": 0.026375773973239466
+          }
+        },
+        "xi": {
+          "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c302/xi0_smin30_smax350_fixedp1_freefnl/task44_pngbase_c302_xi0_smin30_smax350_fixedp1_freefnl.json",
+          "json_sha256": "75a21f0a59771602a7890c11d8644aaee4488eaaaf2dd899993c6946bf789c07",
+          "map": {
+            "at_parameter_boundary": false,
+            "chi2": 63.808886611704956,
+            "dof": 30,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              0.047304806472284924,
+              0.023646042328012335,
+              0.012816388747754266,
+              0.007330974826147161,
+              0.004258432421672552,
+              0.0027506486499749975,
+              0.003751364551025054,
+              0.0036081813634232414,
+              0.0015859891946525962,
+              0.00044650708839703406,
+              6.31114010480253e-05,
+              -3.5015582665070316e-05,
+              -4.539628968893465e-05,
+              -2.4788351285961685e-05,
+              -9.482207842135214e-07,
+              2.3041659056532423e-05,
+              4.522201940610943e-05,
+              5.476149287216962e-05,
+              5.996675041614723e-05,
+              6.871763109499132e-05,
+              7.71914451054318e-05,
+              8.193190711197321e-05,
+              8.61971301375546e-05,
+              8.820523637733206e-05,
+              8.840323410552941e-05,
+              8.803785787405563e-05,
+              8.723641437129113e-05,
+              8.552319532403622e-05,
+              8.339670672244566e-05,
+              8.125773395207866e-05,
+              7.891667055385303e-05,
+              7.620983990700911e-05
+            ],
+            "pte": 0.0003108938805431156,
+            "success": true,
+            "theta": {
+              "b1": 1.7683675840128428,
+              "fnl": 116.25614713724279
+            }
+          },
+          "mcmc": {
+            "acceptance_fraction_mean": 0.7146734375,
+            "burnin": 2000,
+            "gates": {
+              "acceptance_between_0p10_0p80": true,
+              "half_chain_shift_max_below_0p1sigma": true,
+              "postburn_length_min_above_50tau": true,
+              "posterior_68_not_at_prior_edge": true,
+              "split_rhat_max_below_1p01": true
+            },
+            "half_chain_shift_sigma": {
+              "b1": 0.002056011653566555,
+              "fnl": 0.020451785770004394
+            },
+            "map_chain": {
+              "b1": 1.7683574767006878,
+              "fnl": 116.2697262254924
+            },
+            "map_chain_log_probability": -31.90444352657588,
+            "nsteps": 10000,
+            "nwalkers": 64,
+            "postburn_length_over_tau": {
+              "b1": 258.89479600806413,
+              "fnl": 255.7075647510899
+            },
+            "postburn_steps_per_walker": 8000,
+            "posterior": {
+              "b1": {
+                "mean": 1.7689062360230177,
+                "q16": 1.752735683751396,
+                "q50": 1.7689197406237422,
+                "q84": 1.7850228586919792,
+                "sigma68": 0.016143587470291543,
+                "std": 0.016245975911397533
+              },
+              "fnl": {
+                "mean": 115.43680650918608,
+                "q16": 93.30329614186408,
+                "q50": 115.53044388909854,
+                "q84": 137.6254485704181,
+                "sigma68": 22.161076214277003,
+                "std": 22.32937912838339
+              }
+            },
+            "prior_edge_68": {
+              "b1": false,
+              "fnl": false
+            },
+            "split_rhat": {
+              "b1": 1.0044557169238013,
+              "fnl": 1.0039289819602915
+            },
+            "tau": {
+              "b1": 30.900582488922694,
+              "fnl": 31.285738487194685
+            }
+          },
+          "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c302/xi0_smin30_smax350_fixedp1_freefnl/task44_pngbase_c302_xi0_smin30_smax350_fixedp1_freefnl.npz",
+          "npz_sha256": "654d214df0595f7f56bb1f454f9b6ca770f1d9be0916e4d9a6d86cffbdde37f3",
+          "posterior": {
+            "b1": {
+              "mean": 1.7689062360230177,
+              "q16": 1.752735683751396,
+              "q50": 1.7689197406237422,
+              "q84": 1.7850228586919792,
+              "sigma68": 0.016143587470291543,
+              "std": 0.016245975911397533
+            },
+            "fnl": {
+              "mean": 115.43680650918608,
+              "q16": 93.30329614186408,
+              "q50": 115.53044388909854,
+              "q84": 137.6254485704181,
+              "sigma68": 22.161076214277003,
+              "std": 22.32937912838339
+            }
+          },
+          "reparameterization_check": {
+            "fixed_p1_vs_fixed_baseline_fnl_freep_map_max_abs": 8.733641868735598e-09,
+            "fixed_p1_vs_fixed_baseline_fnl_freep_map_max_abs_sigma": 1.691136804134639e-05,
+            "map_chi2_difference": 4.6798683293047816e-05
+          },
+          "sn0": null
+        }
+      },
+      "fixed_p": 1.0,
+      "gates": {
+        "pk": {
+          "all_mcmc_gates_pass": true,
+          "covariance_fixed_point_converged": true,
+          "fit_status_pass": true,
+          "fixed_p_is_1": true,
+          "full_periodic_realspace_geometry": true,
+          "kfund_is_2pi_over_L": true,
+          "kmax_is_0p10": true,
+          "lowest_k_bin_has_18_modes": true,
+          "parameter_names_match": true,
+          "primary_has_49_contiguous_periodic_bins": true,
+          "primary_kmin_is_0p003": true,
+          "volume_is_L_cubed": true
+        },
+        "xi": {
+          "all_mcmc_gates_pass": true,
+          "covariance_fixed_point_converged": true,
+          "fit_status_pass": true,
+          "fixed_p_is_1": true,
+          "full_periodic_realspace_geometry": true,
+          "kfund_is_2pi_over_L": true,
+          "parameter_names_match": true,
+          "smax_is_350": true,
+          "smin_matches_label": true,
+          "volume_is_L_cubed": true
+        }
+      }
+    }
+  },
+  "global_gates": {
+    "all_fit_audits_pass": true,
+    "all_map_reparameterization_shifts_below_1e_4_sigma": true,
+    "all_stochastic_covariance_corrected_fits_pass": true,
+    "pdf_only_outputs": true
+  },
+  "plots": {
+    "stochastic_covariance_corrected_fixedfnl_freep_bestfit_curves": {
+      "c300": {
+        "curves": [
+          "pk",
+          "xi"
+        ],
+        "fixed_fnl": 30.0,
+        "layout": "two best-fit panels without annotations or residuals",
+        "map": {
+          "pk": {
+            "at_parameter_boundary": false,
+            "chi2": 53.39010911879219,
+            "dof": 46,
+            "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+            "prediction": [
+              50921.867169901925,
+              46803.18832911478,
+              47717.35406163941,
+              49491.32526683593,
+              50624.344784542685,
+              51016.62965161255,
+              50761.54620044755,
+              50011.17295883817,
+              48892.47644044653,
+              47280.79828982779,
+              45513.44865165123,
+              43596.54555115439,
+              41515.225615064635,
+              39460.613286084794,
+              37252.462351727845,
+              35245.55591697717,
+              33495.06341410893,
+              31651.80683875682,
+              30104.12517274278,
+              28744.896044830566,
+              27479.96061342208,
+              26454.513836738995,
+              25466.95910878078,
+              24617.35182512812,
+              23899.02106448589,
+              23214.540720210694,
+              22608.9879778057,
+              22110.2983624708,
+              21617.21692074737,
+              21139.8172388295,
+              20691.184158884098,
+              20229.2709683937,
+              19769.224720664926,
+              19271.101160611615,
+              18752.16672005553,
+              18223.41796509861,
+              17669.301247719814,
+              17093.60906922329,
+              16507.5018735264,
+              15903.861656732057,
+              15307.145867731315,
+              14729.960838065144,
+              14153.017768991647,
+              13612.96469848945,
+              13079.158227602768,
+              12576.738233878625,
+              12120.809894789827,
+              11696.593143889886,
+              11322.54012017266
+            ],
+            "pte": 0.21145392156387108,
+            "success": true,
+            "theta": {
+              "b1": 1.8048455836846087,
+              "p": 0.5233901648834652,
+              "sn0": 0.08149963230335579
+            }
+          },
+          "xi": {
+            "at_parameter_boundary": false,
+            "chi2": 48.81003528774683,
+            "dof": 30,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              0.04607644252906108,
+              0.022633134447349212,
+              0.011981610722347713,
+              0.006635388967053738,
+              0.0036699781560545898,
+              0.0022475694309407315,
+              0.0033320190428398396,
+              0.003248660222749715,
+              0.0012607843357173509,
+              0.00015467561887525617,
+              -0.00019681458933803146,
+              -0.00026702338902301294,
+              -0.0002536890043071188,
+              -0.00021292416751139782,
+              -0.00017189222271810206,
+              -0.00013308589834819183,
+              -9.803179107908261e-05,
+              -7.731446604804091e-05,
+              -6.226794627632696e-05,
+              -4.4722423455353684e-05,
+              -2.8368680801507552e-05,
+              -1.656089821529941e-05,
+              -5.902976289213981e-06,
+              1.8994644830550082e-06,
+              7.374064452680698e-06,
+              1.184141573085198e-05,
+              1.5483446152294468e-05,
+              1.7865861075033856e-05,
+              1.9529525328375224e-05,
+              2.0911548258964836e-05,
+              2.1849091860434014e-05,
+              2.220177624535108e-05
+            ],
+            "pte": 0.01643258711065289,
+            "success": true,
+            "theta": {
+              "b1": 1.7778702779369495,
+              "p": -0.15334981671059023
+            }
+          }
+        },
+        "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/task44_pngbase_c300_fixedfnl_pk0_vs_xi0_pstochcov_smin30_bestfit_curves.pdf",
+        "sha256": "006ef8f7bf808ceb48261f3d30241f5c7ee4ae6d881a532473dfdbfd6a2c53b6"
+      },
+      "c302": {
+        "curves": [
+          "pk",
+          "xi"
+        ],
+        "fixed_fnl": 100.0,
+        "layout": "two best-fit panels without annotations or residuals",
+        "map": {
+          "pk": {
+            "at_parameter_boundary": false,
+            "chi2": 47.42483239204769,
+            "dof": 46,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              84579.67216524351,
+              62743.425681784276,
+              57652.79524292962,
+              55709.22054597904,
+              54950.09829193513,
+              54263.958059425895,
+              53139.72013624509,
+              51851.7137801075,
+              50335.63752460882,
+              48390.765633989504,
+              46383.52706334003,
+              44282.74770257477,
+              42056.64244015354,
+              39892.12034014253,
+              37592.98608047699,
+              35519.94737656681,
+              33722.17120917126,
+              31836.790796358942,
+              30258.592558331067,
+              28875.407984724465,
+              27589.925955721334,
+              26548.67581566938,
+              25546.274184918748,
+              24683.93663956485,
+              23954.735907400853,
+              23259.78272417677,
+              22645.00049749602,
+              22138.96404701545,
+              21639.205265434302,
+              21156.246569183917,
+              20703.531990640742,
+              20238.75245009794,
+              19777.237664332446,
+              19278.978077829863,
+              18761.295686921985,
+              18235.069636156684,
+              17684.674995923677,
+              17113.816743565585,
+              16533.417632573513,
+              15936.336102884277,
+              15346.635040784558,
+              14776.638674027095,
+              14207.193759550637,
+              13674.37680796071,
+              13147.872171572062,
+              12652.410247588548,
+              12202.823459233945,
+              11784.488283556058,
+              11415.566413193183
+            ],
+            "pte": 0.4143217611569532,
+            "success": true,
+            "theta": {
+              "b1": 1.78080268538173,
+              "p": 1.0272110380006811,
+              "sn0": 0.10881778873296313
+            }
+          },
+          "xi": {
+            "at_parameter_boundary": false,
+            "chi2": 44.59284228374001,
+            "dof": 30,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              0.04734187731033299,
+              0.023612989155781833,
+              0.012761352910721118,
+              0.007271047558552035,
+              0.004199494706553436,
+              0.002696390105293547,
+              0.003711907703567535,
+              0.0035757821860921586,
+              0.0015496728505358496,
+              0.00040978673730116563,
+              2.8912979058354866e-05,
+              -6.602441203495214e-05,
+              -7.338880960498475e-05,
+              -5.008992499054248e-05,
+              -2.3923348397310846e-05,
+              2.0905699888153174e-06,
+              2.6039408856705476e-05,
+              3.7078565731235905e-05,
+              4.3594541022535043e-05,
+              5.353646207755165e-05,
+              6.308270506251312e-05,
+              6.877577845648224e-05,
+              7.390478195903724e-05,
+              7.669023881938599e-05,
+              7.759128661317503e-05,
+              7.786921994650667e-05,
+              7.765885260466647e-05,
+              7.648782167868282e-05,
+              7.48621067777396e-05,
+              7.318879588184173e-05,
+              7.128093914885643e-05,
+              6.89771801518233e-05
+            ],
+            "pte": 0.042101017264350345,
+            "success": true,
+            "theta": {
+              "b1": 1.773208818130862,
+              "p": 0.9178066152716728
+            }
+          }
+        },
+        "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/task44_pngbase_c302_fixedfnl_pk0_vs_xi0_pstochcov_smin30_bestfit_curves.pdf",
+        "sha256": "c75f15bdeab6b8cdfb7d2fb0028a3db17b2c6e2ff772f4bbef5eea0ed1334ef4"
+      }
+    },
+    "stochastic_covariance_corrected_fixedfnl_freep_contours": {
+      "c300": {
+        "credible_contours": [
+          0.68,
+          0.95
+        ],
+        "density_thresholds": {
+          "pk": {
+            "density_max": 273.6136612262564,
+            "level68": 86.25354314734301,
+            "level95": 13.549567923230683
+          },
+          "xi": {
+            "density_max": 282.0389839055372,
+            "level68": 88.25650747296939,
+            "level95": 13.796229209711163
+          }
+        },
+        "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/task44_pngbase_c300_fixedfnl_pk0_vs_xi0_pstochcov_smin30_p_b1_contours.pdf",
+        "plot_ranges": {
+          "b1": [
+            1.720867302478138,
+            1.8661753878290035
+          ],
+          "p": [
+            -1.7698129680045462,
+            2.3354375749081218
+          ]
+        },
+        "sample_counts": {
+          "pk": 512000,
+          "xi": 512000
+        },
+        "sha256": "cbea9960bcb8820949fc5f5d673598bc86555412feec16a04cb62608e0a94d5a"
+      },
+      "c302": {
+        "credible_contours": [
+          0.68,
+          0.95
+        ],
+        "density_thresholds": {
+          "pk": {
+            "density_max": 218.57003453717962,
+            "level68": 70.03755627495352,
+            "level95": 11.076183305335066
+          },
+          "xi": {
+            "density_max": 233.38918032963653,
+            "level68": 75.72345224907869,
+            "level95": 12.019694966746775
+          }
+        },
+        "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/task44_pngbase_c302_fixedfnl_pk0_vs_xi0_pstochcov_smin30_p_b1_contours.pdf",
+        "plot_ranges": {
+          "b1": [
+            1.7135054742884082,
+            1.8446631753025269
+          ],
+          "p": [
+            0.3717560317382198,
+            1.6535161186184264
+          ]
+        },
+        "sample_counts": {
+          "pk": 512000,
+          "xi": 512000
+        },
+        "sha256": "c80111bce1feb649e0e2fa802bd7dba15574cf95b3373ad895d3e500bb46bcd0"
+      }
+    },
+    "stochastic_covariance_corrected_summary": {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/task44_pngbase_hodmap_rawbox_fixedfnl_pstochcov_pk_xi_smin30_summary.pdf",
+      "sha256": "5b3494d7ce1e04c83a4333d25982c40c7c670eafbb72017f7e08818503cae7f6"
+    }
+  },
+  "scope": {
+    "boxsize_mpc_h": 2000.0,
+    "fixed_p": 1.0,
+    "fnl_prior": [
+      -500.0,
+      500.0
+    ],
+    "geometry": "full periodic real-space cube",
+    "kfund_h_mpc": 0.0031415926535897933,
+    "pk": {
+      "bin_center_max_h_mpc": 0.1,
+      "bin_edges_h_mpc": [
+        0.003,
+        0.101
+      ],
+      "free_parameters": [
+        "b1",
+        "fnl",
+        "sn0"
+      ],
+      "nbins": 49,
+      "selection": "all contiguous native periodic-box bins"
+    },
+    "volume_mpc_h3": 8000000000.0,
+    "xi": {
+      "fit_range_mpc_h": [
+        30.0,
+        350.0
+      ],
+      "free_parameters": [
+        "b1",
+        "fnl"
+      ]
+    }
+  },
+  "status": "pass",
+  "stochastic_covariance_corrected_catalogs": {
+    "c300": {
+      "catalog_baseline_fnl": 30.0,
+      "fits": {
+        "pk": {
+          "covariance_policy": "P0 self-consistent residual stochastic",
+          "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c300/pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl/task44_pngbase_c300_pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl.json",
+          "json_sha256": "3d3156a0ddd4c3ccf32e536cc5221bb65460bf8fcc087b5827e8e3f8e0517420",
+          "map": {
+            "at_parameter_boundary": false,
+            "chi2": 53.39010080891964,
+            "dof": 46,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              50921.893643419724,
+              46803.201606303635,
+              47717.36248275793,
+              49491.33054337483,
+              50624.348409525126,
+              51016.632322524005,
+              50761.54809764838,
+              50011.17437744737,
+              48892.4775069168,
+              47280.79906377793,
+              45513.4492178452,
+              43596.54596093047,
+              41515.225904670384,
+              39460.613487007155,
+              37252.46248199056,
+              35245.55599807855,
+              33495.06346179504,
+              31651.80685823749,
+              30104.125172960303,
+              28744.896030720578,
+              27479.960587566457,
+              26454.513802133955,
+              25466.95906608255,
+              24617.35177549882,
+              23899.021008892327,
+              23214.540658822327,
+              22608.98791131836,
+              22110.29829201381,
+              21617.21684690136,
+              21139.817162532385,
+              20691.184081332132,
+              20229.270890776956,
+              19769.22464425785,
+              19271.101086851482,
+              18752.16665033509,
+              18223.41790064174,
+              17669.301189771595,
+              17093.60901892734,
+              16507.501831745558,
+              15903.861624347162,
+              15307.14584512392,
+              14729.960825286944,
+              14153.017766326402,
+              13612.964705490811,
+              13079.158244296557,
+              12576.738259773747,
+              12120.809929059971,
+              11696.593185935042,
+              11322.540169022726
+            ],
+            "pte": 0.2114541484254372,
+            "success": true,
+            "theta": {
+              "b1": 1.8048455566418449,
+              "fnl": 47.765308368483936,
+              "sn0": 0.08149965962489703
+            }
+          },
+          "mcmc_gates": {
+            "acceptance_between_0p10_0p80": true,
+            "half_chain_shift_max_below_0p1sigma": true,
+            "postburn_length_min_above_50tau": true,
+            "posterior_68_not_at_prior_edge": true,
+            "split_rhat_max_below_1p01": true
+          },
+          "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c300/pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl/task44_pngbase_c300_pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl.npz",
+          "npz_sha256": "b2c1bf3a42b06faab781b6a3d946692d699a93baebc10ab1d1bf70dfe406ab46",
+          "posterior": {
+            "b1": {
+              "mean": 1.8052712537912707,
+              "q16": 1.787551950249176,
+              "q50": 1.8051911342923483,
+              "q84": 1.8230167704178872,
+              "sigma68": 0.017732410084355665,
+              "std": 0.017907515233573333
+            },
+            "fnl": {
+              "mean": 46.58393590203037,
+              "q16": 28.33341688491939,
+              "q50": 46.924088531516816,
+              "q84": 64.76913949524301,
+              "sigma68": 18.21786130516181,
+              "std": 18.320900200495675
+            }
+          },
+          "status": "pass"
+        },
+        "xi": {
+          "covariance_policy": "xi0 includes primary-P0 residual stochastic power",
+          "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/fits/c300/xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedp1_freefnl/task44_pngbase_c300_xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedp1_freefnl.json",
+          "json_sha256": "d217c130313f96963418bf8753971b832e34ebebad295924f673e8e326836490",
+          "map": {
+            "at_parameter_boundary": false,
+            "chi2": 48.81003832847891,
+            "dof": 30,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              0.04607644326841303,
+              0.02263313533913386,
+              0.011981611577849735,
+              0.006635389739012387,
+              0.003669978842531281,
+              0.0022475700319486576,
+              0.003332019513808295,
+              0.0032486606170071554,
+              0.0012607847224301437,
+              0.00015467598281883294,
+              -0.00019681426031461545,
+              -0.0002670230949172301,
+              -0.00025368874114643536,
+              -0.0002129239311300376,
+              -0.0001718920092274874,
+              -0.00013308570459187388,
+              -9.803161444286955e-05,
+              -7.731430404539567e-05,
+              -6.226779705603557e-05,
+              -4.472228570061165e-05,
+              -2.8368553299895243e-05,
+              -1.6560779825732232e-05,
+              -5.902866115277987e-06,
+              1.8995672697065739e-06,
+              7.37416056484644e-06,
+              1.1841505759900168e-05,
+              1.548353061475065e-05,
+              1.7865940441467183e-05,
+              1.9529600003925642e-05,
+              2.091161859320663e-05,
+              2.1849158171144395e-05,
+              2.2201838822640294e-05
+            ],
+            "pte": 0.01643257543495266,
+            "success": true,
+            "theta": {
+              "b1": 1.7778702488293292,
+              "fnl": 74.48111539658059
+            }
+          },
+          "mcmc_gates": {
+            "acceptance_between_0p10_0p80": true,
+            "half_chain_shift_max_below_0p1sigma": true,
+            "postburn_length_min_above_50tau": true,
+            "posterior_68_not_at_prior_edge": true,
+            "split_rhat_max_below_1p01": true
+          },
+          "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/fits/c300/xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedp1_freefnl/task44_pngbase_c300_xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedp1_freefnl.npz",
+          "npz_sha256": "39d6800637cfdde2d295943d60691b7147d6041ce9abb041e0c44e10383565a6",
+          "posterior": {
+            "b1": {
+              "mean": 1.7781661600564969,
+              "q16": 1.7615334361415484,
+              "q50": 1.77815968276362,
+              "q84": 1.7947681435922362,
+              "sigma68": 0.016617353725343897,
+              "std": 0.01673536018890929
+            },
+            "fnl": {
+              "mean": 73.80956015662954,
+              "q16": 53.84354910993433,
+              "q50": 73.95925872984725,
+              "q84": 93.71838421199402,
+              "sigma68": 19.937417551029846,
+              "std": 20.079045205377856
+            }
+          },
+          "status": "pass"
+        }
+      },
+      "fixed_p": 1.0
+    },
+    "c302": {
+      "catalog_baseline_fnl": 100.0,
+      "fits": {
+        "pk": {
+          "covariance_policy": "P0 self-consistent residual stochastic",
+          "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c302/pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl/task44_pngbase_c302_pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl.json",
+          "json_sha256": "d48984bfaaa48a8daccd662485a2a6513c04a3b6531212ddb58d4007d28f9752",
+          "map": {
+            "at_parameter_boundary": false,
+            "chi2": 47.42477502670726,
+            "dof": 46,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              84579.96510543143,
+              62743.55627238604,
+              57652.87386801373,
+              55709.26806698603,
+              54950.1303955482,
+              54263.98150759838,
+              53139.73670103307,
+              51851.72614069781,
+              50335.64681521863,
+              48390.77238818366,
+              46383.53202211942,
+              44282.75131200231,
+              42056.64501340627,
+              39892.12214817292,
+              37592.98727757565,
+              35519.94814728717,
+              33722.171688854854,
+              31836.79102915909,
+              30258.59262154625,
+              28875.407921126025,
+              27589.925787709464,
+              26548.67556968176,
+              25546.273866785352,
+              24683.93625975779,
+              23954.73547467943,
+              23259.782240197826,
+              22644.99996848947,
+              22138.96348291536,
+              21639.20467118329,
+              21156.245952738413,
+              20703.531362148973,
+              20238.75181949593,
+              19777.237042301822,
+              19278.977476270138,
+              18761.295117410446,
+              18235.06910888935,
+              17684.67452121818,
+              17113.816330901147,
+              16533.417289118726,
+              15936.335835933625,
+              15346.634853542371,
+              14776.638566984602,
+              14207.193735074881,
+              13674.376862442372,
+              13147.87230524573,
+              12652.41045645549,
+              12202.82373654668,
+              11784.488624409483,
+              11415.566809652613
+            ],
+            "pte": 0.4143240422853396,
+            "success": true,
+            "theta": {
+              "b1": 1.7808024600988994,
+              "fnl": 96.51538560106113,
+              "sn0": 0.10881801222371919
+            }
+          },
+          "mcmc_gates": {
+            "acceptance_between_0p10_0p80": true,
+            "half_chain_shift_max_below_0p1sigma": true,
+            "postburn_length_min_above_50tau": true,
+            "posterior_68_not_at_prior_edge": true,
+            "split_rhat_max_below_1p01": true
+          },
+          "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c302/pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl/task44_pngbase_c302_pk0_periodic_contiguous49_kcentermax0p100_fixedp1_freefnl.npz",
+          "npz_sha256": "5aec9cd80a4929a441599701baad3b6d645df1c9d9b1fda84ffe19f16ba67280",
+          "posterior": {
+            "b1": {
+              "mean": 1.7808573163805874,
+              "q16": 1.7623257764005524,
+              "q50": 1.7806923818345695,
+              "q84": 1.7994746659365628,
+              "sigma68": 0.018574444768005183,
+              "std": 0.01878228563410621
+            },
+            "fnl": {
+              "mean": 95.75592314579065,
+              "q16": 73.73239315624465,
+              "q50": 95.8379858164262,
+              "q84": 117.81065917199803,
+              "sigma68": 22.039133007876686,
+              "std": 22.188236705968475
+            }
+          },
+          "status": "pass"
+        },
+        "xi": {
+          "covariance_policy": "xi0 includes primary-P0 residual stochastic power",
+          "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/fits/c302/xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedp1_freefnl/task44_pngbase_c302_xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedp1_freefnl.json",
+          "json_sha256": "d5cbb8acddff88f84664c5de3c42338d1ba6564835b05dcb20656a7844567266",
+          "map": {
+            "at_parameter_boundary": false,
+            "chi2": 44.59285206489406,
+            "dof": 30,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              0.047341879540886624,
+              0.023612991839632693,
+              0.012761355493677733,
+              0.007271049900138689,
+              0.0041994967993330065,
+              0.0026963919482237957,
+              0.003711909166615996,
+              0.0035757834239537314,
+              0.0015496740640729679,
+              0.00040978788223535486,
+              2.8914020004422192e-05,
+              -6.602347512524655e-05,
+              -7.338796520303591e-05,
+              -5.008916097316851e-05,
+              -2.3922653425154444e-05,
+              2.09120514175889e-06,
+              2.6039991848259475e-05,
+              3.707910385161413e-05,
+              4.3595039719192e-05,
+              5.3536925246316274e-05,
+              6.30831362947435e-05,
+              6.877618113445805e-05,
+              7.39051587523724e-05,
+              7.6690592197831e-05,
+              7.759161870866593e-05,
+              7.786953253598284e-05,
+              7.765914724542142e-05,
+              7.648809979232213e-05,
+              7.486236959365584e-05,
+              7.318904446595408e-05,
+              7.128117447274045e-05,
+              6.897740310480592e-05
+            ],
+            "pte": 0.04210092996099961,
+            "success": true,
+            "theta": {
+              "b1": 1.7732087334849047,
+              "fnl": 110.63033197909931
+            }
+          },
+          "mcmc_gates": {
+            "acceptance_between_0p10_0p80": true,
+            "half_chain_shift_max_below_0p1sigma": true,
+            "postburn_length_min_above_50tau": true,
+            "posterior_68_not_at_prior_edge": true,
+            "split_rhat_max_below_1p01": true
+          },
+          "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/fits/c302/xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedp1_freefnl/task44_pngbase_c302_xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedp1_freefnl.npz",
+          "npz_sha256": "c58378ba36ee47b504071fc784cd642953e9313516ddf561a241063e9119167f",
+          "posterior": {
+            "b1": {
+              "mean": 1.773461387378905,
+              "q16": 1.756134072150302,
+              "q50": 1.7734900398719309,
+              "q84": 1.7907969128311463,
+              "sigma68": 0.01733142034042212,
+              "std": 0.017491846179397287
+            },
+            "fnl": {
+              "mean": 109.79485150095006,
+              "q16": 87.44292057494202,
+              "q50": 109.91179908729455,
+              "q84": 132.1411215805754,
+              "sigma68": 22.34910050281669,
+              "std": 22.541485495900293
+            }
+          },
+          "status": "pass"
+        }
+      },
+      "fixed_p": 1.0
+    }
+  },
+  "stochastic_covariance_corrected_fixedfnl_freep_catalogs": {
+    "c300": {
+      "catalog_baseline_fnl": 30.0,
+      "fits": {
+        "pk": {
+          "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c300/pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep/task44_pngbase_c300_pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep.json",
+          "json_sha256": "bb00418b447d25532835f100c5faf407b0a12e727cc2bc42075b073cd45fe742",
+          "map": {
+            "at_parameter_boundary": false,
+            "chi2": 53.39010911879219,
+            "dof": 46,
+            "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+            "prediction": [
+              50921.867169901925,
+              46803.18832911478,
+              47717.35406163941,
+              49491.32526683593,
+              50624.344784542685,
+              51016.62965161255,
+              50761.54620044755,
+              50011.17295883817,
+              48892.47644044653,
+              47280.79828982779,
+              45513.44865165123,
+              43596.54555115439,
+              41515.225615064635,
+              39460.613286084794,
+              37252.462351727845,
+              35245.55591697717,
+              33495.06341410893,
+              31651.80683875682,
+              30104.12517274278,
+              28744.896044830566,
+              27479.96061342208,
+              26454.513836738995,
+              25466.95910878078,
+              24617.35182512812,
+              23899.02106448589,
+              23214.540720210694,
+              22608.9879778057,
+              22110.2983624708,
+              21617.21692074737,
+              21139.8172388295,
+              20691.184158884098,
+              20229.2709683937,
+              19769.224720664926,
+              19271.101160611615,
+              18752.16672005553,
+              18223.41796509861,
+              17669.301247719814,
+              17093.60906922329,
+              16507.5018735264,
+              15903.861656732057,
+              15307.145867731315,
+              14729.960838065144,
+              14153.017768991647,
+              13612.96469848945,
+              13079.158227602768,
+              12576.738233878625,
+              12120.809894789827,
+              11696.593143889886,
+              11322.54012017266
+            ],
+            "pte": 0.21145392156387108,
+            "success": true,
+            "theta": {
+              "b1": 1.8048455836846087,
+              "p": 0.5233901648834652,
+              "sn0": 0.08149963230335579
+            }
+          },
+          "mcmc_gates": {
+            "acceptance_between_0p10_0p80": true,
+            "half_chain_shift_max_below_0p1sigma": true,
+            "postburn_length_min_above_50tau": true,
+            "posterior_68_not_at_prior_edge": true,
+            "split_rhat_max_below_1p01": true
+          },
+          "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c300/pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep/task44_pngbase_c300_pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep.npz",
+          "npz_sha256": "24f4ea68285ed8b3ba953225e979a68a28684d1bb34c49fc8d9a467db89e3707",
+          "posterior": {
+            "b1": {
+              "mean": 1.8055221613016452,
+              "q16": 1.7876882342207039,
+              "q50": 1.8054684708857107,
+              "q84": 1.8232819674301843,
+              "sigma68": 0.017796866604740225,
+              "std": 0.017889820681403414
+            },
+            "p": {
+              "mean": 0.5685535320107388,
+              "q16": 0.090033605601581,
+              "q50": 0.555450949985238,
+              "q84": 1.0447776578853143,
+              "sigma68": 0.47737202614186663,
+              "std": 0.48250061886183687
+            }
+          },
+          "status": "pass"
+        },
+        "xi": {
+          "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/fits/c300/xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedfnl_freep/task44_pngbase_c300_xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedfnl_freep.json",
+          "json_sha256": "327d5d120496f53f9ecbb3c263ad7f056c09339e1b2cdcec1334408bf26e29d9",
+          "map": {
+            "at_parameter_boundary": false,
+            "chi2": 48.81003528774683,
+            "dof": 30,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              0.04607644252906108,
+              0.022633134447349212,
+              0.011981610722347713,
+              0.006635388967053738,
+              0.0036699781560545898,
+              0.0022475694309407315,
+              0.0033320190428398396,
+              0.003248660222749715,
+              0.0012607843357173509,
+              0.00015467561887525617,
+              -0.00019681458933803146,
+              -0.00026702338902301294,
+              -0.0002536890043071188,
+              -0.00021292416751139782,
+              -0.00017189222271810206,
+              -0.00013308589834819183,
+              -9.803179107908261e-05,
+              -7.731446604804091e-05,
+              -6.226794627632696e-05,
+              -4.4722423455353684e-05,
+              -2.8368680801507552e-05,
+              -1.656089821529941e-05,
+              -5.902976289213981e-06,
+              1.8994644830550082e-06,
+              7.374064452680698e-06,
+              1.184141573085198e-05,
+              1.5483446152294468e-05,
+              1.7865861075033856e-05,
+              1.9529525328375224e-05,
+              2.0911548258964836e-05,
+              2.1849091860434014e-05,
+              2.220177624535108e-05
+            ],
+            "pte": 0.01643258711065289,
+            "success": true,
+            "theta": {
+              "b1": 1.7778702779369495,
+              "p": -0.15334981671059023
+            }
+          },
+          "mcmc_gates": {
+            "acceptance_between_0p10_0p80": true,
+            "half_chain_shift_max_below_0p1sigma": true,
+            "postburn_length_min_above_50tau": true,
+            "posterior_68_not_at_prior_edge": true,
+            "split_rhat_max_below_1p01": true
+          },
+          "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/fits/c300/xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedfnl_freep/task44_pngbase_c300_xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedfnl_freep.npz",
+          "npz_sha256": "9bb9bf70f4d878b605f78fc864f89dc01217eea3499f29dac3182e43e08e6218",
+          "posterior": {
+            "b1": {
+              "mean": 1.7782264844812565,
+              "q16": 1.761582224965308,
+              "q50": 1.7781346329920023,
+              "q84": 1.794947721738336,
+              "sigma68": 0.016682748386514068,
+              "std": 0.0167737421774609
+            },
+            "p": {
+              "mean": -0.12500558342672155,
+              "q16": -0.625064035378024,
+              "q50": -0.13536442029492243,
+              "q84": 0.3733413225734716,
+              "sigma68": 0.49920267897574777,
+              "std": 0.5041818227534371
+            }
+          },
+          "status": "pass"
+        }
+      },
+      "fixed_fnl": 30.0,
+      "free_parameters": {
+        "pk": [
+          "b1",
+          "p",
+          "sn0"
+        ],
+        "xi": [
+          "b1",
+          "p"
+        ]
+      }
+    },
+    "c302": {
+      "catalog_baseline_fnl": 100.0,
+      "fits": {
+        "pk": {
+          "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c302/pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep/task44_pngbase_c302_pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep.json",
+          "json_sha256": "30963120723f9da709b8285b35c475b18175eb72448b32290765923189b2f1d6",
+          "map": {
+            "at_parameter_boundary": false,
+            "chi2": 47.42483239204769,
+            "dof": 46,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              84579.67216524351,
+              62743.425681784276,
+              57652.79524292962,
+              55709.22054597904,
+              54950.09829193513,
+              54263.958059425895,
+              53139.72013624509,
+              51851.7137801075,
+              50335.63752460882,
+              48390.765633989504,
+              46383.52706334003,
+              44282.74770257477,
+              42056.64244015354,
+              39892.12034014253,
+              37592.98608047699,
+              35519.94737656681,
+              33722.17120917126,
+              31836.790796358942,
+              30258.592558331067,
+              28875.407984724465,
+              27589.925955721334,
+              26548.67581566938,
+              25546.274184918748,
+              24683.93663956485,
+              23954.735907400853,
+              23259.78272417677,
+              22645.00049749602,
+              22138.96404701545,
+              21639.205265434302,
+              21156.246569183917,
+              20703.531990640742,
+              20238.75245009794,
+              19777.237664332446,
+              19278.978077829863,
+              18761.295686921985,
+              18235.069636156684,
+              17684.674995923677,
+              17113.816743565585,
+              16533.417632573513,
+              15936.336102884277,
+              15346.635040784558,
+              14776.638674027095,
+              14207.193759550637,
+              13674.37680796071,
+              13147.872171572062,
+              12652.410247588548,
+              12202.823459233945,
+              11784.488283556058,
+              11415.566413193183
+            ],
+            "pte": 0.4143217611569532,
+            "success": true,
+            "theta": {
+              "b1": 1.78080268538173,
+              "p": 1.0272110380006811,
+              "sn0": 0.10881778873296313
+            }
+          },
+          "mcmc_gates": {
+            "acceptance_between_0p10_0p80": true,
+            "half_chain_shift_max_below_0p1sigma": true,
+            "postburn_length_min_above_50tau": true,
+            "posterior_68_not_at_prior_edge": true,
+            "split_rhat_max_below_1p01": true
+          },
+          "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c302/pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep/task44_pngbase_c302_pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep.npz",
+          "npz_sha256": "4af8046646d3d7620f4bcc34724780a8c1ec15558df2161e4c9c27956b5492bb",
+          "posterior": {
+            "b1": {
+              "mean": 1.7812014728585746,
+              "q16": 1.7622625667647474,
+              "q50": 1.7812007345345047,
+              "q84": 1.8001174321154325,
+              "sigma68": 0.01892743267534258,
+              "std": 0.019032987469255885
+            },
+            "p": {
+              "mean": 1.0376465390198177,
+              "q16": 0.8647617107410148,
+              "q50": 1.033625283406789,
+              "q84": 1.2107690517751377,
+              "sigma68": 0.17300367051706145,
+              "std": 0.17445309758566327
+            }
+          },
+          "status": "pass"
+        },
+        "xi": {
+          "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/fits/c302/xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedfnl_freep/task44_pngbase_c302_xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedfnl_freep.json",
+          "json_sha256": "a5c0ef4250013b1b95d7507c28a1ad310449ef4418ad92ef75d9fd3e51c65915",
+          "map": {
+            "at_parameter_boundary": false,
+            "chi2": 44.59284228374001,
+            "dof": 30,
+            "message": "`ftol` termination condition is satisfied.",
+            "prediction": [
+              0.04734187731033299,
+              0.023612989155781833,
+              0.012761352910721118,
+              0.007271047558552035,
+              0.004199494706553436,
+              0.002696390105293547,
+              0.003711907703567535,
+              0.0035757821860921586,
+              0.0015496728505358496,
+              0.00040978673730116563,
+              2.8912979058354866e-05,
+              -6.602441203495214e-05,
+              -7.338880960498475e-05,
+              -5.008992499054248e-05,
+              -2.3923348397310846e-05,
+              2.0905699888153174e-06,
+              2.6039408856705476e-05,
+              3.7078565731235905e-05,
+              4.3594541022535043e-05,
+              5.353646207755165e-05,
+              6.308270506251312e-05,
+              6.877577845648224e-05,
+              7.390478195903724e-05,
+              7.669023881938599e-05,
+              7.759128661317503e-05,
+              7.786921994650667e-05,
+              7.765885260466647e-05,
+              7.648782167868282e-05,
+              7.48621067777396e-05,
+              7.318879588184173e-05,
+              7.128093914885643e-05,
+              6.89771801518233e-05
+            ],
+            "pte": 0.042101017264350345,
+            "success": true,
+            "theta": {
+              "b1": 1.773208818130862,
+              "p": 0.9178066152716728
+            }
+          },
+          "mcmc_gates": {
+            "acceptance_between_0p10_0p80": true,
+            "half_chain_shift_max_below_0p1sigma": true,
+            "postburn_length_min_above_50tau": true,
+            "posterior_68_not_at_prior_edge": true,
+            "split_rhat_max_below_1p01": true
+          },
+          "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/consistency_diagnostics/fits/c302/xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedfnl_freep/task44_pngbase_c302_xi0_smin30_smax350_pstochcov_from_periodiccontiguous49_primarypk_fixedfnl_freep.npz",
+          "npz_sha256": "8194c66ce6a4996a0223c97cf763c07604e1b5ddc87bdfade2f1f17aad7552fe",
+          "posterior": {
+            "b1": {
+              "mean": 1.7736070843269243,
+              "q16": 1.7563293314674688,
+              "q50": 1.7734326382198322,
+              "q84": 1.7909910086816014,
+              "sigma68": 0.0173308386070663,
+              "std": 0.017417785822220713
+            },
+            "p": {
+              "mean": 0.9269885802054301,
+              "q16": 0.7543001951236659,
+              "q50": 0.9230436930160848,
+              "q84": 1.1004408239822399,
+              "sigma68": 0.173070314429287,
+              "std": 0.1735898205033861
+            }
+          },
+          "status": "pass"
+        }
+      },
+      "fixed_fnl": 100.0,
+      "free_parameters": {
+        "pk": [
+          "b1",
+          "p",
+          "sn0"
+        ],
+        "xi": [
+          "b1",
+          "p"
+        ]
+      }
+    }
+  },
+  "task": "task44_pngbase_hodmap_rawbox_fixedp1_freefnl_pk_xi",
+  "warnings": [
+    "P0 and xi0 are measured from the same ph000 realization; independent-error differences are descriptive only.",
+    "c300 and c302 share ph000 initial phases and have separately retuned HOD parameters; do not multiply them as independent likelihoods.",
+    "The active xi0 result uses smin=30 Mpc/h only; non-active radial-cut chains are excluded from result products.",
+    "The original xi0 rows use Poisson-only covariance; stochastic_covariance_corrected_catalogs contains the corrected diagnostic chains."
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "catalogs": {
+    "c300": {
+      "change": {
+        "delta_chi2_strict_minus_old": -1.1949866126235733,
+        "delta_dof_strict_minus_old": -1,
+        "delta_p_over_descriptive_combined_sigma68": -0.6029738418073647,
+        "delta_p_over_old_sigma68": -1.0591517186880248,
+        "delta_p_q50_strict_minus_old": -0.5056094019417428,
+        "same_catalog_correlated_fit_warning": "old and strict fits use overlapping modes; combined-sigma shift is descriptive only",
+        "sigma68_ratio_strict_over_old": 1.4441109196218824
+      },
+      "fixed_fnl": 30.0,
+      "gates": {
+        "common_remeasured_bins_bitwise_identical_to_old_measurement": true,
+        "fixed_fnl_matches_catalog": true,
+        "strict_edges_exact": true,
+        "strict_fit_all_gates_pass": true,
+        "strict_fit_pass": true,
+        "strict_measurement_hash_valid": true,
+        "strict_measurement_pass": true
+      },
+      "old_kmin0p003": {
+        "chi2": 53.39010911879219,
+        "dof": 46,
+        "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c300/pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep/task44_pngbase_c300_pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep.json",
+        "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c300/pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep/task44_pngbase_c300_pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep.npz",
+        "p": {
+          "mean": 0.5685535320107388,
+          "q16": 0.090033605601581,
+          "q50": 0.555450949985238,
+          "q84": 1.0447776578853143,
+          "sigma68": 0.47737202614186663,
+          "std": 0.48250061886183687
+        }
+      },
+      "remeasurement_crosscheck": {
+        "common_P0_max_abs_difference": 0.0,
+        "common_P0_values_bitwise_equal": true,
+        "common_edges_bitwise_equal": true,
+        "n_common_shells": 47
+      },
+      "strict_kmin0p006": {
+        "chi2": 52.195122506168616,
+        "dof": 45,
+        "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c300/pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep/task44_pngbase_c300_pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep.json",
+        "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c300/pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep/task44_pngbase_c300_pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep.npz",
+        "p": {
+          "mean": 0.06052233324816738,
+          "q16": -0.6277022559704886,
+          "q50": 0.049841548043495276,
+          "q84": 0.751054055376496,
+          "sigma68": 0.6893781556734924,
+          "std": 0.6924087515218739
+        }
+      }
+    },
+    "c302": {
+      "change": {
+        "delta_chi2_strict_minus_old": -1.1232040461788984,
+        "delta_dof_strict_minus_old": -1,
+        "delta_p_over_descriptive_combined_sigma68": -0.5467297094339869,
+        "delta_p_over_old_sigma68": -0.9062723618031865,
+        "delta_p_q50_strict_minus_old": -0.15678844508011758,
+        "same_catalog_correlated_fit_warning": "old and strict fits use overlapping modes; combined-sigma shift is descriptive only",
+        "sigma68_ratio_strict_over_old": 1.3220127736469245
+      },
+      "fixed_fnl": 100.0,
+      "gates": {
+        "common_remeasured_bins_bitwise_identical_to_old_measurement": true,
+        "fixed_fnl_matches_catalog": true,
+        "strict_edges_exact": true,
+        "strict_fit_all_gates_pass": true,
+        "strict_fit_pass": true,
+        "strict_measurement_hash_valid": true,
+        "strict_measurement_pass": true
+      },
+      "old_kmin0p003": {
+        "chi2": 47.42483239204769,
+        "dof": 46,
+        "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c302/pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep/task44_pngbase_c302_pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep.json",
+        "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/fits/c302/pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep/task44_pngbase_c302_pk0_periodic_contiguous49_kcentermax0p100_fixedfnl_freep.npz",
+        "p": {
+          "mean": 1.0376465390198177,
+          "q16": 0.8647617107410148,
+          "q50": 1.033625283406789,
+          "q84": 1.2107690517751377,
+          "sigma68": 0.17300367051706145,
+          "std": 0.17445309758566327
+        }
+      },
+      "remeasurement_crosscheck": {
+        "common_P0_max_abs_difference": 0.0,
+        "common_P0_values_bitwise_equal": true,
+        "common_edges_bitwise_equal": true,
+        "n_common_shells": 47
+      },
+      "strict_kmin0p006": {
+        "chi2": 46.30162834586879,
+        "dof": 45,
+        "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c302/pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep/task44_pngbase_c302_pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep.json",
+        "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c302/pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep/task44_pngbase_c302_pk0_strictkmin0p006_kcentermax0p100_fixedfnl_freep.npz",
+        "p": {
+          "mean": 0.8784262866603922,
+          "q16": 0.6495846273597027,
+          "q50": 0.8768368383266714,
+          "q84": 1.1070107519824208,
+          "sigma68": 0.22871306231135907,
+          "std": 0.2306229589960529
+        }
+      }
+    }
+  },
+  "fit_quality_policy": "chi2/dof and PTE are descriptive diagnostics, not pass/fail gates",
+  "global_gates": {
+    "both_catalog_measurements_fits_and_crosschecks_pass": true,
+    "both_expected_pdfs_exist": true,
+    "pdf_only_in_extension_plot_tree": true,
+    "standalone_pk_contour_removed": true,
+    "strict_contract_has_48_shells": true,
+    "strict_first_shell_has_6_signed_modes": true
+  },
+  "independence_warning": "c300 and c302 are both ph000 and are not multiplied as independent likelihoods",
+  "k_range": {
+    "kmax_bin_center_contract_h_mpc": 0.1,
+    "kmin_h_mpc": 0.006,
+    "last_bin_h_mpc": [
+      0.099,
+      0.101
+    ]
+  },
+  "mode_change": {
+    "common_shells_after_0p007": 47,
+    "important_note": "the strict first shell was remeasured; the old [0.005,0.007) value was not relabelled",
+    "old": {
+      "first_shell_mode_counts": [
+        18,
+        14
+      ],
+      "first_shells_h_mpc": [
+        [
+          0.003,
+          0.005
+        ],
+        [
+          0.005,
+          0.007
+        ]
+      ],
+      "total_signed_modes": 138984
+    },
+    "removed_signed_modes": 26,
+    "strict": {
+      "first_shell_h_mpc": [
+        0.006,
+        0.007
+      ],
+      "first_shell_mode_count": 6,
+      "physical_rule": "k>=0.006 h/Mpc",
+      "total_signed_modes": 138958
+    }
+  },
+  "payload_npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/summary/task44_pngbase_hodmap_strictk0p006_fixedfnl_freep_audit.npz",
+  "payload_npz_sha256": "7824e0a6c64ca19cf0593fed90573f864dfca2f728e0ca8ecbc0a172ce8220f2",
+  "plots": {
+    "bestfit_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/task44_pngbase_c300_c302_fixedfnl_strictkmin0p006_pk0_bestfit_curves.pdf",
+    "bestfit_pdf_sha256": "fbd2dadad0f7d9d4c2534ca5ff655181c64ec5fabaee01113bec135d3e9c6506",
+    "old_vs_strict_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/task44_pngbase_c300_c302_fixedfnl_p_kmin0p003_vs_strict0p006.pdf",
+    "old_vs_strict_pdf_sha256": "2480b0d556527990bb102266a7c5529b2eee50920ccd16107a7ec9c67dcaf56a"
+  },
+  "status": "pass",
+  "task": "task44_pngbase_hodmap_strictk0p006_fixedfnl_freep_audit"
+}

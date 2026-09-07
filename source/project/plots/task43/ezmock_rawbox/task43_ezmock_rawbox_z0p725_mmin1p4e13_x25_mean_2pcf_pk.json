@@ -1,0 +1,33 @@
+{
+  "comparison_label": "Pipeline smoke",
+  "ezmock_fixed_amplitude": true,
+  "ezmock_input": "outputs/task43_outputs/ezmock_calibration_rawbox_z0p725_mmin1p4e13/trial001_c1p00_e0p60_b0p22_v200/summary/trial001_c1p00_e0p60_b0p22_v200_x5_fixedamp_mean_2pcf_pk.npz",
+  "ezmock_input_sha256": "d85b43b6de4bd1f1889ee6705ac022affc5dcb824cd2d2416a1adf04e8d6334a",
+  "ezmock_ngrid": 256,
+  "ezmock_nreal": 5,
+  "ezmock_parameters": {
+    "pdf_base": 0.22,
+    "rho_c": 1.0,
+    "rho_exp": 0.6,
+    "sigma_v": 200.0
+  },
+  "ezmock_seeds": [
+    430101,
+    430102,
+    430103,
+    430104,
+    430105
+  ],
+  "input": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rawbox_z0p725_mmin1p4e13/summary/task43_ezmock_rawbox_z0p725_mmin1p4e13_x25.npz",
+  "input_sha256": "d24f058fa905ed3fc0cc290bd0023accc58fea72ffe97ed16ba516f03d88fe33",
+  "ndata_mean": 1297050.36,
+  "nphase": 25,
+  "output_pdf": "plots/task43/ezmock_rawbox/task43_ezmock_rawbox_z0p725_mmin1p4e13_x25_mean_2pcf_pk.pdf",
+  "pk_valid_nbins": 149,
+  "plot_policy": "Abacus x25 mean/scatter with EZmock x5 fixed-amplitude mean overlay",
+  "redshift_mean": 0.7261738153357711,
+  "status": "done",
+  "task": "task43_plot_ezmock_rawbox_mean_clustering",
+  "xi_nbins": 50,
+  "xi_plot_max": 250.0
+}

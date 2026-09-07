@@ -1,0 +1,453 @@
+{
+  "catalogs": {
+    "c300": {
+      "gates": {
+        "both_all_fit_gates_pass": true,
+        "both_fit_status_pass": true,
+        "both_sample_fnl_not_fix_it": true,
+        "both_sample_p_with_gaussian_prior": true,
+        "input_baseline_fnl_metadata_correct": true,
+        "pk_range_is_exact_current_contract": true,
+        "prior_mean_exact_for_both": true,
+        "prior_sigma_exact_for_both": true,
+        "same_ndata_for_pk_and_xi": true,
+        "same_validated_host_catalog_for_pk_and_xi": true,
+        "xi_range_is_exact_current_contract": true
+      },
+      "halo_pk": {
+        "b1": {
+          "mean": 2.026757240952663,
+          "q16": 2.001646679286325,
+          "q50": 2.026660724620646,
+          "q84": 2.0518530995029765,
+          "sigma68": 0.025103210108325724,
+          "std": 0.0252057331886795
+        },
+        "chi2_data": 56.588485231361055,
+        "dof": 44,
+        "fnl": {
+          "mean": 41.12611898497268,
+          "q16": 19.100290744121736,
+          "q50": 38.52896248961879,
+          "q84": 62.57252254144439,
+          "sigma68": 21.73611589866133,
+          "std": 24.34503349543461
+        },
+        "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c300/hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_gaussianp_freefnl/task44_pngbase_c300_hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_gaussianp_freefnl.json",
+        "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c300/hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_gaussianp_freefnl/task44_pngbase_c300_hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_gaussianp_freefnl.npz",
+        "p": {
+          "mean": 0.7702999368751945,
+          "q16": 0.4947013835210115,
+          "q50": 0.7694425525096064,
+          "q84": 1.0451099857891761,
+          "sigma68": 0.27520430113408234,
+          "std": 0.2769518031525608
+        }
+      },
+      "halo_xi": {
+        "b1": {
+          "mean": 2.0017163056231686,
+          "q16": 1.9802061118751582,
+          "q50": 2.0017277635797117,
+          "q84": 2.02320946514426,
+          "sigma68": 0.021501676634550937,
+          "std": 0.021654542454252704
+        },
+        "chi2_data": 22.51986350132185,
+        "dof": 9,
+        "fnl": {
+          "mean": 50.114941065759936,
+          "q16": 29.3715257387685,
+          "q50": 47.197779965272375,
+          "q84": 70.05586408794032,
+          "sigma68": 20.342169174585912,
+          "std": 23.322312062725203
+        },
+        "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c300/hodhost_mmin1e13_xi0_smin30_smax150_gaussianp_freefnl/task44_pngbase_c300_hodhost_mmin1e13_xi0_smin30_smax150_gaussianp_freefnl.json",
+        "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c300/hodhost_mmin1e13_xi0_smin30_smax150_gaussianp_freefnl/task44_pngbase_c300_hodhost_mmin1e13_xi0_smin30_smax150_gaussianp_freefnl.npz",
+        "p": {
+          "mean": 0.7703120790903071,
+          "q16": 0.4960307843559372,
+          "q50": 0.7676525043962862,
+          "q84": 1.04515072194274,
+          "sigma68": 0.2745599687934014,
+          "std": 0.2765977779123378
+        }
+      },
+      "input_fnl": 30.0,
+      "p_gaussian_prior": {
+        "mean": 0.7072363788448802,
+        "sigma": 0.2694701311625559
+      }
+    },
+    "c302": {
+      "gates": {
+        "both_all_fit_gates_pass": true,
+        "both_fit_status_pass": true,
+        "both_sample_fnl_not_fix_it": true,
+        "both_sample_p_with_gaussian_prior": true,
+        "input_baseline_fnl_metadata_correct": true,
+        "pk_range_is_exact_current_contract": true,
+        "prior_mean_exact_for_both": true,
+        "prior_sigma_exact_for_both": true,
+        "same_ndata_for_pk_and_xi": true,
+        "same_validated_host_catalog_for_pk_and_xi": true,
+        "xi_range_is_exact_current_contract": true
+      },
+      "halo_pk": {
+        "b1": {
+          "mean": 2.0041114867801175,
+          "q16": 1.977841260719543,
+          "q50": 2.0040931393486634,
+          "q84": 2.0303007296733058,
+          "sigma68": 0.026229734476881372,
+          "std": 0.026275449087506612
+        },
+        "chi2_data": 48.63739404244701,
+        "dof": 44,
+        "fnl": {
+          "mean": 97.08411032123647,
+          "q16": 65.31062191244402,
+          "q50": 91.24718764367452,
+          "q84": 127.46291075298244,
+          "sigma68": 31.07614442026921,
+          "std": 36.15575317039953
+        },
+        "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c302/hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_gaussianp_freefnl/task44_pngbase_c302_hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_gaussianp_freefnl.json",
+        "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c302/hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_gaussianp_freefnl/task44_pngbase_c302_hodhost_mmin1e13_pk0_strictkmin0p006_kcentermax0p100_gaussianp_freefnl.npz",
+        "p": {
+          "mean": 0.7698987701861513,
+          "q16": 0.49453849500405556,
+          "q50": 0.7708042987727552,
+          "q84": 1.0424444945123978,
+          "sigma68": 0.27395299975417114,
+          "std": 0.2755622996351194
+        }
+      },
+      "halo_xi": {
+        "b1": {
+          "mean": 1.9928206737422745,
+          "q16": 1.9711048559222886,
+          "q50": 1.9928048874722846,
+          "q84": 2.0146695957610565,
+          "sigma68": 0.02178236991938398,
+          "std": 0.021878869688162498
+        },
+        "chi2_data": 14.404082924351245,
+        "dof": 9,
+        "fnl": {
+          "mean": 102.04370487735618,
+          "q16": 71.50569744589889,
+          "q50": 95.67978628052876,
+          "q84": 130.71110386374642,
+          "sigma68": 29.602703208923764,
+          "std": 36.06401772306149
+        },
+        "json": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c302/hodhost_mmin1e13_xi0_smin30_smax150_gaussianp_freefnl/task44_pngbase_c302_hodhost_mmin1e13_xi0_smin30_smax150_gaussianp_freefnl.json",
+        "npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c302/hodhost_mmin1e13_xi0_smin30_smax150_gaussianp_freefnl/task44_pngbase_c302_hodhost_mmin1e13_xi0_smin30_smax150_gaussianp_freefnl.npz",
+        "p": {
+          "mean": 0.771963183033359,
+          "q16": 0.4957846131716602,
+          "q50": 0.7708755225035819,
+          "q84": 1.0478418069611923,
+          "sigma68": 0.27602859689476605,
+          "std": 0.27786011026875285
+        }
+      },
+      "input_fnl": 100.0,
+      "p_gaussian_prior": {
+        "mean": 0.7072363788448802,
+        "sigma": 0.2694701311625559
+      }
+    }
+  },
+  "contour_plot_contract": {
+    "chain_parameter_order": [
+      "fnl",
+      "b1",
+      "p"
+    ],
+    "diagonal": "normalized 1D marginalized posteriors for halo P0 and halo xi0",
+    "legend_anchor": {
+      "axes": [
+        0,
+        1
+      ],
+      "bbox_to_anchor": [
+        0.04,
+        0.22
+      ],
+      "location": "center left"
+    },
+    "lower_triangle": "Task43-smoothed 68% and 95% credible contours",
+    "parameter_order": [
+      "fNL",
+      "b1",
+      "p"
+    ],
+    "reference_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/8.21meeting/task43_rsd_boxsafe_zobs0p4_0p8_x25_pk0_vs_xi0_smin50_l0only_contours.pdf",
+    "subplot_spacing": {
+      "hspace": 0.0,
+      "wspace": 0.0
+    },
+    "upper_triangle": "Task43-style legend plus rounded Gaussian-p/geometry/fit-range annotation box"
+  },
+  "fit_ranges": {
+    "halo_pk": {
+      "edges_h_mpc": [
+        [
+          0.006,
+          0.007
+        ],
+        [
+          0.007,
+          0.009000000000000001
+        ],
+        [
+          0.009000000000000001,
+          0.011
+        ],
+        [
+          0.011,
+          0.013000000000000001
+        ],
+        [
+          0.013000000000000001,
+          0.015
+        ],
+        [
+          0.015,
+          0.017
+        ],
+        [
+          0.017,
+          0.019
+        ],
+        [
+          0.019,
+          0.021
+        ],
+        [
+          0.021,
+          0.023
+        ],
+        [
+          0.023,
+          0.024999999999999998
+        ],
+        [
+          0.024999999999999998,
+          0.027
+        ],
+        [
+          0.027,
+          0.029
+        ],
+        [
+          0.029,
+          0.031
+        ],
+        [
+          0.031,
+          0.033
+        ],
+        [
+          0.033,
+          0.035
+        ],
+        [
+          0.035,
+          0.037000000000000005
+        ],
+        [
+          0.037000000000000005,
+          0.03900000000000001
+        ],
+        [
+          0.03900000000000001,
+          0.041
+        ],
+        [
+          0.041,
+          0.043000000000000003
+        ],
+        [
+          0.043000000000000003,
+          0.045000000000000005
+        ],
+        [
+          0.045000000000000005,
+          0.047
+        ],
+        [
+          0.047,
+          0.049
+        ],
+        [
+          0.049,
+          0.051000000000000004
+        ],
+        [
+          0.051000000000000004,
+          0.053000000000000005
+        ],
+        [
+          0.053000000000000005,
+          0.05500000000000001
+        ],
+        [
+          0.05500000000000001,
+          0.057
+        ],
+        [
+          0.057,
+          0.059000000000000004
+        ],
+        [
+          0.059000000000000004,
+          0.061000000000000006
+        ],
+        [
+          0.061000000000000006,
+          0.063
+        ],
+        [
+          0.063,
+          0.065
+        ],
+        [
+          0.065,
+          0.067
+        ],
+        [
+          0.067,
+          0.069
+        ],
+        [
+          0.069,
+          0.07100000000000001
+        ],
+        [
+          0.07100000000000001,
+          0.07300000000000001
+        ],
+        [
+          0.07300000000000001,
+          0.07500000000000001
+        ],
+        [
+          0.07500000000000001,
+          0.077
+        ],
+        [
+          0.077,
+          0.079
+        ],
+        [
+          0.079,
+          0.081
+        ],
+        [
+          0.081,
+          0.083
+        ],
+        [
+          0.083,
+          0.085
+        ],
+        [
+          0.085,
+          0.08700000000000001
+        ],
+        [
+          0.08700000000000001,
+          0.08900000000000001
+        ],
+        [
+          0.08900000000000001,
+          0.091
+        ],
+        [
+          0.091,
+          0.093
+        ],
+        [
+          0.093,
+          0.095
+        ],
+        [
+          0.095,
+          0.097
+        ],
+        [
+          0.097,
+          0.099
+        ],
+        [
+          0.099,
+          0.101
+        ]
+      ],
+      "kmax_bin_center_h_mpc": 0.1,
+      "kmin_h_mpc": 0.006,
+      "nbins": 48
+    },
+    "halo_xi": {
+      "edges_mpc_h": [
+        30.0,
+        40.0,
+        50.0,
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        130.0,
+        140.0,
+        150.0
+      ],
+      "nbins": 12,
+      "smax_mpc_h": 150.0,
+      "smin_mpc_h": 30.0
+    }
+  },
+  "global_gates": {
+    "both_additional_test_pdfs_exist": true,
+    "both_catalogs_all_gates_pass": true,
+    "contour_has_1d_marginal_for_every_parameter": true,
+    "contour_has_rounded_annotation_box": true,
+    "contour_parameter_order_is_fnl_b1_p": true,
+    "contour_subplots_have_zero_spacing": true,
+    "kmax_bin_center_is_0p100": true,
+    "kmin_is_0p006": true,
+    "legend_is_anchored_in_first_upper_triangle_cell": true,
+    "pdf_only_in_extension_plot_tree": true,
+    "same_prior_for_both_mocks": true,
+    "smax_is_150": true,
+    "smin_is_30": true,
+    "source_path_count_is_two_catalogs": true,
+    "task43_contour_reference_exists": true
+  },
+  "p_gaussian_prior": {
+    "mean": 0.7072363788448802,
+    "same_for_c300_and_c302": true,
+    "sigma": 0.2694701311625559
+  },
+  "payload_npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/summary/task44_pngbase_hodhost_mmin1e13_gaussianp_freefnl_pk0_vs_xi0_audit.npz",
+  "payload_npz_sha256": "c9a6db003ae5a245ce3f1f4083a1403b4b29273c510320b8bc2385f516543395",
+  "plots": [
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/task44_pngbase_c300_c302_hodhost_mmin1e13_gaussianp_freefnl_pk0_kmin0p006_kmax0p100_xi0_smin30_smax150_bestfit_measurements.pdf",
+      "sha256": "f3e198b2340ceff3f5b37509fd529cd882d05749519af6667d05fe62d989d5ec"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task44/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/task44_pngbase_c300_c302_hodhost_mmin1e13_gaussianp_freefnl_pk0_kmin0p006_kmax0p100_vs_xi0_smin30_smax150_fnl_b1_p_contours.pdf",
+      "sha256": "7ca8fed2a7d219077844d4d2a63e490f74975e6f6b2c7aacf6bbac024f7d9e5c"
+    }
+  ],
+  "sample": "unit-weight unique occupied HOD hosts with official cleaned CompaSO M>=1e13 Msun/h",
+  "status": "pass",
+  "task": "task44_pngbase_hodhost_mmin1e13_gaussianp_freefnl_pk0_vs_xi0_audit"
+}

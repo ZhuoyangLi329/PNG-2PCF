@@ -1,0 +1,82 @@
+{
+  "contract": {
+    "all_bins_have_modes": true,
+    "all_mode_counts_match_signed_lattice": true,
+    "all_mode_mean_k_match_signed_lattice": true,
+    "all_values_finite": true,
+    "exactly_48_shells": true,
+    "first_shell_has_six_modes": true,
+    "first_shell_is_0p006_to_0p007": true,
+    "kmax_center_contract_is_0p100": true,
+    "last_shell_is_0p099_to_0p101": true,
+    "measured_edges_bitwise_equal": true,
+    "ndata_matches_source_catalog": true,
+    "source_is_exact_validated_hodhost_mmin1e13_catalog": true,
+    "source_mass_cut_is_1e13_hmsun": true,
+    "strict_first_edge_is_0p006": true,
+    "unit_weight_one_per_selected_host": true
+  },
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "elapsed_sec": 22.673552549997112,
+  "engine": "jaxpower CPU",
+  "estimator": "clustering_statistics.spectrum2_tools.compute_box_mesh2_spectrum",
+  "geometry": {
+    "boxsize_mpc_h": 2000.0,
+    "position_origin": "[0,L)",
+    "type": "full periodic real-space cube",
+    "volume_mpc_h3": 8000000000.0
+  },
+  "jax_backend": "cpu",
+  "mesh": 400,
+  "mode_selection": {
+    "first_shell_exact_mode_k_h_mpc": 0.006283185307179587,
+    "first_shell_h_mpc": [
+      0.006,
+      0.007
+    ],
+    "first_shell_signed_mode_count": 6,
+    "kmax_bin_center_h_mpc": 0.1,
+    "last_upper_edge_h_mpc": 0.101,
+    "n_shells": 48,
+    "physical_rule": "retain signed Fourier lattice modes with k>=0.006 h/Mpc",
+    "subsequent_shells": "[0.007,0.009), ..., [0.099,0.101)"
+  },
+  "nbar_h3_mpc3": 0.000219650125,
+  "ndata": 1757201,
+  "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/pk/task44_pngbase_c300_hodhost_mmin1e13_z0p500_pk0_strictk0p006_mesh400.npz",
+  "output_sha256": "b251708d1c00f4a683b149b4be592b4e47201a46604df93f767efbd8c599da01",
+  "paint": {
+    "compensate": true,
+    "interlacing": 3,
+    "resampler": "tsc"
+  },
+  "selection": {
+    "comparison": ">=",
+    "effective_minimum_mass_hmsun": 10003267064625.404,
+    "halo_mass_min_hmsun": 10000000000000.0,
+    "interpretation": "mass-cut subset of actual occupied HOD hosts, not all CompaSO halos above the threshold",
+    "largest_rejected_particle_mass_hmsun": 9993132042270.16,
+    "mass_definition": "M = N_cleaned * ParticleMassHMsun from official cleaned CompaSO loader",
+    "not_a_complete_mass_threshold_catalog": true,
+    "particle_mass_hmsun": 10135022355.24357,
+    "particle_n_min": 987,
+    "population": "unique HALO_ID values present in the exact HOD-MAP LRG catalog",
+    "weight": "one per selected host halo"
+  },
+  "source_host_catalog": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/catalogs/task44_pngbase_c300_hodhost_mmin1e13_z0p500_realspace_periodic.npz",
+  "source_host_catalog_sha256": "e62f86569ad3958ab23655ac2cd677b45eb6d101605c64a1a420a01781e48d4c",
+  "status": "pass",
+  "tag": "c300",
+  "task": "task44_measure_pngbase_hodhost_mmin1e13_pk",
+  "threads": 8,
+  "tracer": "unit-weight unique occupied HOD hosts with official cleaned CompaSO M>=1e13 Msun/h"
+}

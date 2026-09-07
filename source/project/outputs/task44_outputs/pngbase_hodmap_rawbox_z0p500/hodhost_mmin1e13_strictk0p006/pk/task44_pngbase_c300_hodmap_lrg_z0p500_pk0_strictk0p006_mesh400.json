@@ -1,0 +1,77 @@
+{
+  "contract": {
+    "all_bins_have_modes": true,
+    "all_mode_counts_match_signed_lattice": true,
+    "all_mode_mean_k_match_signed_lattice": true,
+    "all_values_finite": true,
+    "exactly_48_shells": true,
+    "first_shell_has_six_modes": true,
+    "first_shell_is_0p006_to_0p007": true,
+    "kmax_center_contract_is_0p100": true,
+    "last_shell_is_0p099_to_0p101": true,
+    "measured_edges_bitwise_equal": true,
+    "remeasured_not_sliced_from_old_product": true,
+    "strict_first_edge_is_0p006": true
+  },
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "elapsed_sec": 21.046208851999836,
+  "engine": "jaxpower CPU",
+  "estimator": "clustering_statistics.spectrum2_tools.compute_box_mesh2_spectrum",
+  "geometry": "full periodic real-space cube",
+  "input_hdf5": "/pscratch/sd/s/siyizhao/desi-dr2-hod/loa-v2_HODv4/mocks_base-A/Abacus_pngbase_c300_ph000/LRG/0p500/LRG_hodMAP_realspace_clustering.dat.h5",
+  "input_hdf5_sha256": "9fa523e6713ebe49d605a4cced3bf089583730f26badb083db613e86c9d81c97",
+  "jax_backend": "cpu",
+  "mesh": 400,
+  "mode_selection": {
+    "first_remeasured_shell_h_mpc": [
+      0.006,
+      0.007
+    ],
+    "first_shell_exact_mode_k_h_mpc": 0.006283185307179587,
+    "first_shell_signed_mode_count": 6,
+    "kmax_center_h_mpc": 0.1,
+    "last_upper_edge_h_mpc": 0.101,
+    "n_shells": 48,
+    "physical_rule": "retain signed Fourier lattice modes with k>=0.006 h/Mpc",
+    "subsequent_shells": "unchanged old shells [0.007,0.009), ..., [0.099,0.101)"
+  },
+  "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/pk/task44_pngbase_c300_hodmap_lrg_z0p500_pk0_strictk0p006_mesh400.npz",
+  "output_sha256": "af7fa4e9348c19274fc68bd68aab41f38c6e9d9596a7d3296927ed8fbd9f5095",
+  "paint": {
+    "compensate": true,
+    "interlacing": 3,
+    "resampler": "tsc"
+  },
+  "position": {
+    "boxcenter_mpc_h": 1000.0,
+    "boxsize_mpc_h": 2000.0,
+    "coordinate_max": [
+      1999.999755859375,
+      1999.99984867012,
+      1999.9990234375
+    ],
+    "coordinate_min": [
+      0.0003662109375,
+      0.000244140625,
+      0.0
+    ],
+    "nbar_h3_mpc3": 0.000524147375,
+    "ndata": 4193179,
+    "origin": "positive",
+    "source": "/pscratch/sd/s/siyizhao/desi-dr2-hod/loa-v2_HODv4/mocks_base-A/Abacus_pngbase_c300_ph000/LRG/0p500/LRG_hodMAP_realspace_clustering.dat.h5",
+    "tag": "c300"
+  },
+  "status": "pass",
+  "tag": "c300",
+  "task": "task44_measure_pngbase_hodmap_strictk0p006",
+  "threads": 8
+}

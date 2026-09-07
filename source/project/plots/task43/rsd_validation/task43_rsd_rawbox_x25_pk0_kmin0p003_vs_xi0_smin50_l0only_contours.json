@@ -1,0 +1,89 @@
+{
+  "chain_shapes": {
+    "pk0": [
+      25000,
+      64,
+      4
+    ],
+    "xi0": [
+      6000,
+      48,
+      3
+    ]
+  },
+  "contour_density_thresholds": {
+    "b1_vs_sigma_s": {
+      "pk0": {
+        "density_max": 246.45384565485108,
+        "level68": 123.8470055014937,
+        "level95": 28.259019088237018
+      },
+      "xi0": {
+        "density_max": 162.47167400566738,
+        "level68": 50.27198953959808,
+        "level95": 7.764163248761618
+      }
+    },
+    "fNL_vs_b1": {
+      "pk0": {
+        "density_max": 517.2985672560735,
+        "level68": 166.6935998424314,
+        "level95": 26.458177595576288
+      },
+      "xi0": {
+        "density_max": 92.00668594407779,
+        "level68": 29.600241212154955,
+        "level95": 4.761819663754766
+      }
+    },
+    "fNL_vs_sigma_s": {
+      "pk0": {
+        "density_max": 251.06795534469398,
+        "level68": 123.42625757993036,
+        "level95": 25.548636946085267
+      },
+      "xi0": {
+        "density_max": 171.4433514880022,
+        "level68": 55.50214324409343,
+        "level95": 8.365425969109355
+      }
+    }
+  },
+  "credible_contours": [
+    0.68,
+    0.95
+  ],
+  "ell2_arrays": [],
+  "input_json": "outputs/task43_outputs/rsd_validation/rawbox/comparison/task43_rsd_rawbox_x25_pk0_kmin0p003_vs_xi0_smin50_l0only_longchain.json",
+  "input_json_sha256": "b8509e76d5d4a989986974b7c900cce8fc388ae42cdefa0ad2adda7c8f10b6b4",
+  "input_npz": "outputs/task43_outputs/rsd_validation/rawbox/comparison/task43_rsd_rawbox_x25_pk0_kmin0p003_vs_xi0_smin50_l0only_longchain.npz",
+  "input_npz_sha256": "31da1c574d373e379f31dfc4519e8846d261909931045adf2f72875aba196f63",
+  "output_pdf": "plots/task43/rsd_validation/task43_rsd_rawbox_x25_pk0_kmin0p003_vs_xi0_smin50_l0only_contours.pdf",
+  "output_pdf_sha256": "0069c81eba6e691a07af566d9d6fca21c7c2aaa5e7dae511d3e70bf1b2a3c2a6",
+  "parameter_order": [
+    "fNL",
+    "b1",
+    "sigma_s"
+  ],
+  "plot_ranges": {
+    "b1": [
+      2.3586993483357768,
+      2.7192277043177757
+    ],
+    "fNL": [
+      -59.05065868336992,
+      41.148099916993644
+    ],
+    "sigma_s": [
+      0.0,
+      14.701813780540357
+    ]
+  },
+  "sample_counts": {
+    "pk0": 1600000,
+    "xi0": 288000
+  },
+  "scope": "rawbox P0(kmax=0.10) vs xi0(smin=50), common parameters, ell=0 only",
+  "status": "pass",
+  "task": "task43_plot_rsd_rawbox_pk0_vs_xi0_contours"
+}

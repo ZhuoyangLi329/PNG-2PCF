@@ -1,0 +1,85 @@
+{
+  "tag": "LCp50",
+  "case": "xi_r80_350",
+  "parameters": {
+    "fnl_loc": {
+      "mean": 57.99135738844433,
+      "std": 123.7652425184201,
+      "median": 45.333080232110255,
+      "q16": -37.43588490737802,
+      "q84": 160.11187776042175,
+      "err_low": 82.76896513948827,
+      "err_high": 114.77879752831149,
+      "err_low_percival": 84.32227393781795,
+      "err_high_percival": 116.93282852002396
+    },
+    "b1": {
+      "mean": 2.4626103485666526,
+      "std": 0.5320596214464778,
+      "median": 2.4702255405174376,
+      "q16": 1.9128207630394045,
+      "q84": 3.01606185659223,
+      "err_low": 0.5574047774780331,
+      "err_high": 0.5458363160747925,
+      "err_low_percival": 0.5678654826907716,
+      "err_high_percival": 0.5560799182604423
+    },
+    "sigmas": {
+      "mean": 11.627963767751314,
+      "std": 6.868850687105185,
+      "median": 10.862292354207526,
+      "q16": 4.4579016648039405,
+      "q84": 18.93056311140752,
+      "err_low": 6.404390689403585,
+      "err_high": 8.068270757199993,
+      "err_low_percival": 6.524580622780499,
+      "err_high_percival": 8.219686398719059
+    },
+    "sn0": {
+      "mean": 6.757671787268979e-05,
+      "std": 0.0008336631159872914,
+      "median": 7.629328823883293e-05,
+      "q16": -0.0007843784638504463,
+      "q84": 0.0009070412622286377,
+      "err_low": 0.0008606717520892792,
+      "err_high": 0.0008307479739898048,
+      "err_low_percival": 0.0008768238086329497,
+      "err_high_percival": 0.0008463384569083508
+    }
+  },
+  "maximum_likelihood": {
+    "logl": -0.06591258335294561,
+    "point": {
+      "fnl_loc": 42.027735863280554,
+      "b1": 2.7983428352082265,
+      "sigmas": 10.593220463177108,
+      "sn0": -1.0940925412650238e-05
+    }
+  },
+  "ultranest": {
+    "logz": -10.64454668932499,
+    "logzerr": 0.25346201124707984,
+    "ncall": 33185,
+    "niter": 11908,
+    "ess": 4201.4689197259895
+  },
+  "covariance_corrections": {
+    "hartlap": 0.9438877755511023,
+    "percival_error_factor": 1.0187668022152014,
+    "percival_m1_variance": 1.0378857972957873,
+    "A": 9.034729500198764e-06,
+    "B": 0.002127678797296809,
+    "nmock": 500,
+    "ndata": 27,
+    "nparams": 4,
+    "covariance_estimator": "C_sample",
+    "used_covariance_divided_by_nmock": false,
+    "condition_number": 854.624020800017
+  },
+  "elapsed_sec": 5104.521705150604,
+  "paths": {
+    "run_dir": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_ultranest_free_sn0_30k/ultranest_runs/LCp50/xi_r80_350",
+    "samples_npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task4_outputs/quijote_ultranest_free_sn0_30k/samples/task45_free_sn0_30k_LCp50_xi_r80_350_weighted_samples.npz",
+    "corner_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task4/quijote_ultranest_free_sn0_30k/corners/task45_free_sn0_30k_LCp50_xi_r80_350_corner.pdf"
+  }
+}

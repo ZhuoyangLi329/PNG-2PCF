@@ -1,0 +1,13 @@
+{
+  "complete_source_runtime": false,
+  "review_offline_audit_executed": true,
+  "excluded": [
+    "original halo/galaxy catalogs",
+    "selected huge chains/caches over export size limit",
+    "lightcone and subbox application data/workflows",
+    "NERSC binaries and complete conda environments"
+  ],
+  "recovered_dependency": "task42_quijote_lcp50_profiler.py recovered from old_doc_codes/task4_task44_cleanup_20260707T061844Z/moved/codes/task4",
+  "external_snapshot": "desilike primordial_non_gaussianity.py, power_template.py, base.py from existing desilike environment",
+  "source_edits": "shared general joint helpers excerpted; retained scientific function bodies unchanged"
+}

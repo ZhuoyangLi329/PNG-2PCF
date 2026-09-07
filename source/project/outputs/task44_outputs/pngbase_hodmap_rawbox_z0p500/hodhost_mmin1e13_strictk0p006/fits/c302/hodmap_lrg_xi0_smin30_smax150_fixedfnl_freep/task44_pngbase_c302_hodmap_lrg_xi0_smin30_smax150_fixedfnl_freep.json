@@ -1,0 +1,534 @@
+{
+  "boxsize_mpc_h": 2000.0,
+  "catalog_baseline_fnl": 100.0,
+  "covariance": {
+    "final_diagnostics": {
+      "condition_number": 873.8705437762264,
+      "floor": 1.3761776741169602e-18,
+      "n_floored": 0,
+      "raw_max_eigenvalue": 1.3761776741169602e-06,
+      "raw_min_eigenvalue": 1.5748072571140006e-09
+    },
+    "final_fiducial": {
+      "b1": 1.7639731810445884,
+      "p": 0.8104726328437373
+    },
+    "final_map_minus_fiducial": {
+      "b1": -1.0029139851930324e-07,
+      "p": -1.6560589884972998e-06
+    },
+    "fixed_point_converged": true,
+    "fixed_point_history": [
+      {
+        "covariance_diagnostics": {
+          "condition_number": 947.5086643452332,
+          "floor": 1.9132745855798124e-18,
+          "n_floored": 0,
+          "raw_max_eigenvalue": 1.9132745855798123e-06,
+          "raw_min_eigenvalue": 2.0192686965052345e-09
+        },
+        "covariance_fiducial": {
+          "b1": 2.0,
+          "p": 1.4
+        },
+        "delta_map_minus_covariance_fiducial": {
+          "b1": -0.23586470366442214,
+          "p": -0.5701134406711045
+        },
+        "iteration": 0,
+        "map": {
+          "at_parameter_boundary": false,
+          "chi2": 17.82100059953941,
+          "dof": 10,
+          "message": "`ftol` termination condition is satisfied.",
+          "prediction": [
+            0.04731608934157737,
+            0.023706960905724186,
+            0.012889238684385648,
+            0.00740320565548162,
+            0.004326333165425672,
+            0.00281194566627045,
+            0.0037979322113324797,
+            0.0036470581957216684,
+            0.001626876878461895,
+            0.000486599142894042,
+            0.00010009249831618392,
+            -1.5538904337186244e-06
+          ],
+          "pte": 0.05805922590155789,
+          "success": true,
+          "theta": {
+            "b1": 1.7641352963355779,
+            "p": 0.8298865593288954
+          }
+        }
+      },
+      {
+        "covariance_diagnostics": {
+          "condition_number": 867.7608451350607,
+          "floor": 1.3663561519790487e-18,
+          "n_floored": 0,
+          "raw_max_eigenvalue": 1.3663561519790488e-06,
+          "raw_min_eigenvalue": 1.5745768660101142e-09
+        },
+        "covariance_fiducial": {
+          "b1": 1.7641352963355779,
+          "p": 0.8298865593288954
+        },
+        "delta_map_minus_covariance_fiducial": {
+          "b1": -3.374475964035284e-05,
+          "p": -0.017386480963808237
+        },
+        "iteration": 1,
+        "map": {
+          "at_parameter_boundary": false,
+          "chi2": 24.080156124730287,
+          "dof": 10,
+          "message": "`ftol` termination condition is satisfied.",
+          "prediction": [
+            0.04741022847389076,
+            0.02377640579727625,
+            0.012943025374792017,
+            0.007446370929498481,
+            0.00436193966733447,
+            0.0028420333259051227,
+            0.0038239648225417665,
+            0.0036697126819220656,
+            0.0016465149834155007,
+            0.0005037574973717799,
+            0.0001152664310769724,
+            1.2010177462220878e-05
+          ],
+          "pte": 0.007390451016909571,
+          "success": true,
+          "theta": {
+            "b1": 1.7641015515759375,
+            "p": 0.8125000783650872
+          }
+        }
+      },
+      {
+        "covariance_diagnostics": {
+          "condition_number": 873.3499224204438,
+          "floor": 1.3755046930884985e-18,
+          "n_floored": 0,
+          "raw_max_eigenvalue": 1.3755046930884986e-06,
+          "raw_min_eigenvalue": 1.5749754568894387e-09
+        },
+        "covariance_fiducial": {
+          "b1": 1.7641015515759375,
+          "p": 0.8125000783650872
+        },
+        "delta_map_minus_covariance_fiducial": {
+          "b1": -0.00011663802614259033,
+          "p": -0.0018334418004044561
+        },
+        "iteration": 2,
+        "map": {
+          "at_parameter_boundary": false,
+          "chi2": 24.06040312299065,
+          "dof": 10,
+          "message": "`ftol` termination condition is satisfied.",
+          "prediction": [
+            0.047413798415112236,
+            0.023780477685319327,
+            0.012946882606716104,
+            0.007449844832405801,
+            0.004365034547680224,
+            0.0028447574705459857,
+            0.003826147216782458,
+            0.0036715684915441327,
+            0.0016483211014238924,
+            0.0005054559512525651,
+            0.00011681120326515463,
+            1.3403057304837328e-05
+          ],
+          "pte": 0.007441666627263614,
+          "success": true,
+          "theta": {
+            "b1": 1.763984913549795,
+            "p": 0.8106666365646827
+          }
+        }
+      },
+      {
+        "covariance_diagnostics": {
+          "condition_number": 873.8200806542084,
+          "floor": 1.3761114368615498e-18,
+          "n_floored": 0,
+          "raw_max_eigenvalue": 1.3761114368615498e-06,
+          "raw_min_eigenvalue": 1.5748224003175595e-09
+        },
+        "covariance_fiducial": {
+          "b1": 1.763984913549795,
+          "p": 0.8106666365646827
+        },
+        "delta_map_minus_covariance_fiducial": {
+          "b1": -1.069405963005643e-05,
+          "p": -0.00017687064469806835
+        },
+        "iteration": 3,
+        "map": {
+          "at_parameter_boundary": false,
+          "chi2": 24.062174752730066,
+          "dof": 10,
+          "message": "`xtol` termination condition is satisfied.",
+          "prediction": [
+            0.04741417425707923,
+            0.02378088662240072,
+            0.012947263746510252,
+            0.007450185355895819,
+            0.004365336442299568,
+            0.0028450225561180748,
+            0.0038263606015805874,
+            0.003671750222569797,
+            0.0016484967117597663,
+            0.0005056204138757761,
+            0.00011696056389208799,
+            1.3537674693837951e-05
+          ],
+          "pte": 0.007437059345269715,
+          "success": true,
+          "theta": {
+            "b1": 1.7639742194901649,
+            "p": 0.8104897659199847
+          }
+        }
+      },
+      {
+        "covariance_diagnostics": {
+          "condition_number": 873.8660893977227,
+          "floor": 1.3761718314672509e-18,
+          "n_floored": 0,
+          "raw_max_eigenvalue": 1.376171831467251e-06,
+          "raw_min_eigenvalue": 1.5748085984383718e-09
+        },
+        "covariance_fiducial": {
+          "b1": 1.7639742194901649,
+          "p": 0.8104897659199847
+        },
+        "delta_map_minus_covariance_fiducial": {
+          "b1": -1.0384455764178568e-06,
+          "p": -1.7133076247399792e-05
+        },
+        "iteration": 4,
+        "map": {
+          "at_parameter_boundary": false,
+          "chi2": 24.062326569314134,
+          "dof": 10,
+          "message": "`ftol` termination condition is satisfied.",
+          "prediction": [
+            0.04741421052176131,
+            0.023780926162586535,
+            0.012947300626256765,
+            0.007450218317757996,
+            0.004365365671646128,
+            0.0028450482245909684,
+            0.0038263812593587548,
+            0.0036717678147800783,
+            0.0016485137170816682,
+            0.0005056363427855656,
+            0.00011697503114518044,
+            1.355071419682503e-05
+          ],
+          "pte": 0.00743666465934421,
+          "success": true,
+          "theta": {
+            "b1": 1.7639731810445884,
+            "p": 0.8104726328437373
+          }
+        }
+      }
+    ],
+    "fixed_point_parameter_tolerance": {
+      "b1": 1e-05,
+      "p": 0.0001
+    },
+    "hartlap_percival": false,
+    "initial_diagnostics": {
+      "condition_number": 947.5086643452332,
+      "floor": 1.9132745855798124e-18,
+      "n_floored": 0,
+      "raw_max_eigenvalue": 1.9132745855798123e-06,
+      "raw_min_eigenvalue": 2.0192686965052345e-09
+    },
+    "initial_fiducial": {
+      "b1": 2.0,
+      "p": 1.4
+    },
+    "initial_map": {
+      "at_parameter_boundary": false,
+      "chi2": 17.82100059953941,
+      "dof": 10,
+      "message": "`ftol` termination condition is satisfied.",
+      "prediction": [
+        0.04731608934157737,
+        0.023706960905724186,
+        0.012889238684385648,
+        0.00740320565548162,
+        0.004326333165425672,
+        0.00281194566627045,
+        0.0037979322113324797,
+        0.0036470581957216684,
+        0.001626876878461895,
+        0.000486599142894042,
+        0.00010009249831618392,
+        -1.5538904337186244e-06
+      ],
+      "pte": 0.05805922590155789,
+      "success": true,
+      "theta": {
+        "b1": 1.7641352963355779,
+        "p": 0.8298865593288954
+      }
+    },
+    "iteration_posterior_comparison": {
+      "b1": {
+        "final_q50": 1.7645438730119256,
+        "initial_q50": 1.7648924446634087,
+        "shift_over_final_sigma68": -0.020617286241638666,
+        "sigma68_ratio_final_over_initial": 0.8484765319705863
+      },
+      "p": {
+        "final_q50": 0.8181803903208529,
+        "initial_q50": 0.8381744954420661,
+        "shift_over_final_sigma68": -0.10876630728024506,
+        "sigma68_ratio_final_over_initial": 0.8965981900525389
+      }
+    },
+    "nbar_h3_mpc3": 0.000523626875,
+    "not_divided_by_number_of_boxes": true,
+    "same_shell_kernels_as_mean": true,
+    "type": "single-periodic-box analytic Gaussian xi covariance",
+    "volume_mpc_h3": 8000000000.0
+  },
+  "elapsed_sec": 32.67717412702041,
+  "fit_quality_policy": "chi2/dof and PTE are diagnostics, not pass/fail gates",
+  "fit_range": {
+    "bin_selection": "leading independent FCFC pair-count shells through smax=150; no radial rebinning",
+    "edge_convention": "[low, high); final shell [140,150)",
+    "nbins": 12,
+    "s_edges_mpc_h": [
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0,
+      110.0,
+      120.0,
+      130.0,
+      140.0,
+      150.0
+    ],
+    "smax_mpc_h": 150.0,
+    "smin_mpc_h": 30.0,
+    "source_measurement_total_bins_to_350": 32
+  },
+  "fixed_fnl": 100.0,
+  "free_parameters": [
+    "b1",
+    "p"
+  ],
+  "gates": {
+    "covariance_final_p_shift_below_0p01sigma": true,
+    "covariance_fixed_point_converged": true,
+    "fit_centers_match_requested_contract": true,
+    "fit_edges_match_requested_smin_to_150_step10": true,
+    "fixed_fnl_equals_catalog_baseline": true,
+    "free_parameters_are_b1_p": true,
+    "input_tracer_matches_requested": true,
+    "map_not_at_prior_boundary": true,
+    "map_optimizer_success": true,
+    "mcmc_all_convergence_gates": true,
+    "single_box_covariance_not_divided": true,
+    "source_is_validated_xi": true,
+    "theory_and_covariance_use_same_shell_kernels": true,
+    "uses_exact_requested_pair_count_bins": true
+  },
+  "geometry": "full periodic real-space cube",
+  "input": {
+    "engine": "FCFC, independently validated against pycorr and GPU CuCount",
+    "nbar_h3_mpc3": 0.000523626875,
+    "ndata": 4189015,
+    "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/xi_engine_validation/fcfc/task44_pngbase_c302_xi0_s30_350_ds10_fcfc.npz",
+    "sha256": "d25d13c637ef8d0555eae08633ae2fad94074411897a2535081023f9df62aa1d"
+  },
+  "kfund_h_mpc": 0.0031415926535897933,
+  "map": {
+    "at_parameter_boundary": false,
+    "chi2": 24.062341361490677,
+    "dof": 10,
+    "message": "`ftol` termination condition is satisfied.",
+    "prediction": [
+      0.04741421403174712,
+      0.02378092998688984,
+      0.012947304192347365,
+      0.007450221504608472,
+      0.00436536849740866,
+      0.0028450507060085676,
+      0.003826383256533464,
+      0.0036717695156191915,
+      0.0016485153609949725,
+      0.0005056378825407953,
+      0.00011697642957752671,
+      1.3551974611437608e-05
+    ],
+    "pte": 0.007436626204378325,
+    "success": true,
+    "theta": {
+      "b1": 1.76397308075319,
+      "p": 0.8104709767847488
+    }
+  },
+  "mcmc": {
+    "acceptance_fraction_mean": 0.7155455729166667,
+    "burnin": 2000,
+    "gates": {
+      "acceptance_between_0p10_0p80": true,
+      "half_chain_shift_max_below_0p1sigma": true,
+      "postburn_length_min_above_50tau": true,
+      "posterior_68_not_at_prior_edge": true,
+      "split_rhat_max_below_1p01": true
+    },
+    "half_chain_shift_sigma": {
+      "b1": 0.026346261558952914,
+      "p": 0.03379701719922212
+    },
+    "map_chain": {
+      "b1": 1.7639753279399943,
+      "p": 0.8104263695300415
+    },
+    "map_chain_log_probability": -12.031170827613545,
+    "nsteps": 12000,
+    "nwalkers": 64,
+    "postburn_length_over_tau": {
+      "b1": 319.2540829727685,
+      "p": 319.9533888657755
+    },
+    "postburn_steps_per_walker": 10000,
+    "posterior": {
+      "b1": {
+        "mean": 1.7645914513638905,
+        "q16": 1.7476625357279045,
+        "q50": 1.7645438730119256,
+        "q84": 1.7814760694197518,
+        "sigma68": 0.016906766845923626,
+        "std": 0.017039756732055055
+      },
+      "p": {
+        "mean": 0.8212351924627689,
+        "q16": 0.6376084791582448,
+        "q50": 0.8181803903208529,
+        "q84": 1.0052610293123443,
+        "sigma68": 0.18382627507704974,
+        "std": 0.1853711418649567
+      }
+    },
+    "prior_edge_68": {
+      "b1": false,
+      "p": false
+    },
+    "split_rhat": {
+      "b1": 1.0031422864184258,
+      "p": 1.004045756670631
+    },
+    "tau": {
+      "b1": 31.323013653839382,
+      "p": 31.254552531697442
+    }
+  },
+  "mcmc_initial_covariance": {
+    "acceptance_fraction_mean": 0.7157096354166668,
+    "burnin": 2000,
+    "gates": {
+      "acceptance_between_0p10_0p80": true,
+      "half_chain_shift_max_below_0p1sigma": true,
+      "postburn_length_min_above_50tau": true,
+      "posterior_68_not_at_prior_edge": true,
+      "split_rhat_max_below_1p01": true
+    },
+    "half_chain_shift_sigma": {
+      "b1": 0.000780561286183409,
+      "p": 0.00898794562161851
+    },
+    "map_chain": {
+      "b1": 1.7641740423804895,
+      "p": 0.8302776100282642
+    },
+    "map_chain_log_probability": -8.91050240323187,
+    "nsteps": 12000,
+    "nwalkers": 64,
+    "postburn_length_over_tau": {
+      "b1": 307.25574373014,
+      "p": 319.83283460777477
+    },
+    "postburn_steps_per_walker": 10000,
+    "posterior": {
+      "b1": {
+        "mean": 1.764883809685845,
+        "q16": 1.7449348289386473,
+        "q50": 1.7648924446634087,
+        "q84": 1.7847868842610441,
+        "sigma68": 0.019926027661198442,
+        "std": 0.020041698003580577
+      },
+      "p": {
+        "mean": 0.8425593921282168,
+        "q16": 0.637895541655351,
+        "q50": 0.8381744954420661,
+        "q84": 1.0479482879502724,
+        "sigma68": 0.2050263731474607,
+        "std": 0.2069314396326789
+      }
+    },
+    "prior_edge_68": {
+      "b1": false,
+      "p": false
+    },
+    "split_rhat": {
+      "b1": 1.002207373075705,
+      "p": 1.002829553856498
+    },
+    "tau": {
+      "b1": 32.54617758678227,
+      "p": 31.266333277705662
+    }
+  },
+  "mean_stochastic_term": "zero at s>0",
+  "model": "full-discrete shell-averaged [b1 + fNL*2*delta_c*(b1-p)*alpha(k)]^2 Pm",
+  "output_npz": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/hodhost_mmin1e13_strictk0p006/fits/c302/hodmap_lrg_xi0_smin30_smax150_fixedfnl_freep/task44_pngbase_c302_hodmap_lrg_xi0_smin30_smax150_fixedfnl_freep.npz",
+  "output_npz_sha256": "443447463a63c2f7440b6ae0440ab753754ba0ec4fa8c91208265b5c69983bf0",
+  "priors": {
+    "b1": [
+      0.5,
+      5.0
+    ],
+    "p": [
+      -5.0,
+      5.0
+    ]
+  },
+  "realization": "Abacus_pngbase_c302_ph000",
+  "redshift": 0.5,
+  "residual_diagnostic_not_plotted": {
+    "max_abs_sigma": 1.8815948711780368,
+    "rms_sigma": 0.9514128490346091
+  },
+  "status": "pass",
+  "tag": "c302",
+  "task": "task44_fit_pngbase_hodmap_lrg_xi_smax150",
+  "theory": {
+    "cosmology": "abacus_c000",
+    "gic_ric_aic": false,
+    "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task44_outputs/pngbase_hodmap_rawbox_z0p500/theory/task44_abacus_c000_z0p500_L2000_fulldiscrete_kmax5_smin30.npz",
+    "periodic_discrete_modes": true,
+    "radial_kernel": "exact [30,40), ..., [140,150) column slice",
+    "sha256": "e84c3d0d2cf8d708d739f913a1bb5f75d37d776999396c878f808302a269959c",
+    "survey_window": false
+  },
+  "tracer": "HOD-MAP LRG galaxies",
+  "volume_mpc_h3": 8000000000.0
+}
