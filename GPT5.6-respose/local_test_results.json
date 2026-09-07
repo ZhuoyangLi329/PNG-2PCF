@@ -1,23 +1,9 @@
 {
-  "scope": "synthetic and exact geometry tests; NOT an original rawbox refit",
-  "audit_driver_synthetic_fixture": "pass; no original cache used",
-  "conditional_chi2_identity_error": 0.0,
-  "radial_rebin_membership_geometry": {
-    "dk_factor": 0.1,
-    "exact_counts": [18,14,60,86,156,234,410,672,1262,1656,2570,2994,4190,5070,6000,7170],
-    "rebinned_counts": [18.0,14.0,60.0,86.0,156.0,234.0,410.0,672.0,1094.0,1752.0,2378.0,2754.0,4016.0,4974.0,5352.0,6594.0],
-    "relative_count_errors": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-0.13312202852614896,0.05797101449275366,-0.07470817120622564,-0.08016032064128253,-0.04152744630071603,-0.018934911242603603,-0.10799999999999998,-0.08033472803347286],
-    "scope": "source-equivalent geometry reproduction; not an original NPZ read"
-  },
-  "first_bin": {
-    "nmodes": 18,
-    "mean_k": 0.004009119509968842,
-    "mu2_mu4_mu6": [0.3333333333333333,0.2222222222222222,0.16666666666666663],
-    "P2_constant_Plin_toy": 3.898124999999995,
-    "P2_continuum_toy": 3.128914285714286,
-    "scope": "constant radial power toy, not measured P2"
-  },
-  "I0_quadrature_relative_errors": {
+  "scope": "synthetic and geometry tests; original NPZ not used",
+  "chi2_unit_relative_error": 2.220446049250313e-16,
+  "conditional_chi2_identity_abs_error": 0.0,
+  "moments_max_relative_error_vs_quad": 1.141309269314661e-13,
+  "I0_GL_relative_errors": {
     "ksigma=24,nmu=64": -0.008612631523321368,
     "ksigma=24,nmu=128": -8.614363789738455e-06,
     "ksigma=24,nmu=256": -4.722444657545566e-12,
@@ -25,25 +11,149 @@
     "ksigma=90,nmu=128": -0.17212244365740215,
     "ksigma=90,nmu=256": -0.005717204629210104
   },
-  "synthetic_legacy_floor_unit_dependence": 0.91112899792092,
-  "moment_max_relative_error_vs_adaptive_quad": 1.141309269314661e-13,
-  "mode_covariance_mc": {
-    "draws": 50000,
-    "independent_complex_modes": 40,
-    "max_discrepancy_in_approximate_covariance_standard_errors": 1.946885293079542,
-    "scope": "exponential powers of Gaussian complex modes; covariance SE is an approximate diagnostic"
+  "shell_max_abs_error_vs_quad": 1.541822225448186e-14,
+  "first_bin": {
+    "nmodes": 18,
+    "mu2_mu4_mu6": [
+      0.3333333333333333,
+      0.2222222222222222,
+      0.16666666666666663
+    ],
+    "constant_Plin_P2_discrete": 3.898124999999995,
+    "constant_Plin_P2_continuous": 3.128914285714286
   },
-  "shell_kernel_max_absolute_error_vs_quad": 1.541822225448186e-14,
-  "unit_invariance_relative_chi2_error": 2.220446049250313e-16,
+  "mode_covariance_MC": {
+    "draws": 50000,
+    "complex_modes": 40,
+    "max_approx_SE_discrepancy": 2.0664618264895687
+  },
+  "source_equivalent_rebin_geometry": {
+    "bins": [
+      [
+        0.003,
+        0.005
+      ],
+      [
+        0.005,
+        0.007
+      ],
+      [
+        0.007,
+        0.009
+      ],
+      [
+        0.009,
+        0.011
+      ],
+      [
+        0.013,
+        0.015
+      ],
+      [
+        0.017,
+        0.019
+      ],
+      [
+        0.021,
+        0.023
+      ],
+      [
+        0.029,
+        0.031
+      ],
+      [
+        0.037,
+        0.039
+      ],
+      [
+        0.045,
+        0.047
+      ],
+      [
+        0.053,
+        0.055
+      ],
+      [
+        0.061,
+        0.063
+      ],
+      [
+        0.069,
+        0.071
+      ],
+      [
+        0.077,
+        0.079
+      ],
+      [
+        0.085,
+        0.087
+      ],
+      [
+        0.093,
+        0.095
+      ]
+    ],
+    "exact_counts": [
+      18,
+      14,
+      60,
+      86,
+      156,
+      234,
+      410,
+      672,
+      1262,
+      1656,
+      2570,
+      2994,
+      4190,
+      5070,
+      6000,
+      7170
+    ],
+    "grouped_counts": [
+      18.0,
+      14.0,
+      60.0,
+      86.0,
+      156.0,
+      234.0,
+      410.0,
+      672.0,
+      1094.0,
+      1752.0,
+      2378.0,
+      2754.0,
+      4016.0,
+      4974.0,
+      5352.0,
+      6594.0
+    ],
+    "relative_error": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.13312202852614896,
+      0.05797101449275366,
+      -0.07470817120622564,
+      -0.08016032064128253,
+      -0.04152744630071603,
+      -0.018934911242603603,
+      -0.10799999999999998,
+      -0.08033472803347286
+    ]
+  },
+  "audit_driver_test": "synthetic-cache flow test passed; NOT an original-cache audit",
   "tests_run": 14,
   "failures": 0,
   "errors": 0,
   "passed": true,
   "numpy_version": "2.3.5",
-  "scipy_version": "1.17.0",
-  "code_sha256": {
-    "audit_rawbox.py": "ea70438d05eaa303aa75e3fcea596ee3422a3c73ed1c234ec80da39603d15fdc",
-    "rawbox_numerics.py": "b12c8bcad1dbb3d4727c27090b4362cf779d2d6dfd49e3dea780e727573424c1",
-    "test_rawbox_numerics.py": "3317ea71b4a1814808e6bc9d53d9720c6d3605a9d221e0055dae18dcdf39d952"
-  }
+  "scipy_version": "1.17.0"
 }
