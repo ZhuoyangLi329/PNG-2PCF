@@ -1,0 +1,42 @@
+{
+  "scope": "Independent local implementation supplied with this review. Not a byte-identical regression test of the other GitHub files, and not an original rawbox-data refit. Existing repository files were not overwritten after concurrent-update conflicts.",
+  "archive_name": "GPT5.6-respose-verified.zip",
+  "files_sha256": {
+    "README.md": "dd1006d21e790bba4a7dea40a007a2a55e511358d5027efc5534d93bb55d8282",
+    "REVIEW_zh.md": "285af55416be088a076d761f19ade9bbb676f15024d116c267b437d1b60cc99f",
+    "audit_rawbox.py": "c837432686f4e266fe567b5e1bd6995b5211037a176c8bae50743f2597c9d8e6",
+    "local_test_results.json": "2872ea4242bdd7554a552ab3612f89ab9ed1bf0e5284eb23007bca4b4d015a09",
+    "rawbox_numerics.py": "eb2f98d1ea3b72bd9a6a3d9bf958b1e837752c237d653c9f2ff2be11cdfcf735",
+    "test_rawbox_numerics.py": "d22e6bf604c70eaf51003aff6f5a8dfdb483f13880f9c22a9ef0501cae76d7f7"
+  },
+  "executed_tests": {
+    "tests_run": 14,
+    "failures": 0,
+    "errors": 0,
+    "passed": true,
+    "numpy_version": "2.3.5",
+    "scipy_version": "1.17.0",
+    "unit_relative_chi2_error": 2.220446049250313e-16,
+    "conditional_identity_error": 0.0,
+    "moment_max_relative_error_vs_quad": 1.141309269314661e-13,
+    "shell_max_absolute_error_vs_quad": 1.541822225448186e-14,
+    "mode_covariance_monte_carlo_draws": 50000,
+    "mode_covariance_max_discrepancy_in_approximate_SE": 1.946885293079542,
+    "first_bin_modes": 18,
+    "first_bin_mu4": 0.2222222222222222,
+    "bin_0p037_0p039_exact_modes": 1262,
+    "bin_0p037_0p039_rebinned_modes": 1094,
+    "bin_0p061_0p063_exact_modes": 2994,
+    "bin_0p061_0p063_rebinned_modes": 2754,
+    "GL64_I0_relative_error_ksigma24": -0.008612631523321368,
+    "GL64_I0_relative_error_ksigma90": -0.6497047105617273,
+    "driver_test": "End-to-end on a synthetic cache only"
+  },
+  "not_executed": [
+    "Original repository theory/measurement NPZ numerical audit",
+    "Catalogue, FCFC, or jaxpower remeasurement",
+    "Original or revised physical-model MCMC",
+    "Page-by-page visual verification of repository PDF figures"
+  ],
+  "interpretation": "The implementation checks pass. They do not establish that a shared physical model passes rawbox shape, parameter-consistency, or covariance-coverage tests."
+}
