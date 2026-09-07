@@ -1,0 +1,67 @@
+{
+  "scope": "xi-only synthetic identities; no original catalog/cache or fit",
+  "wrong_constant_variance": {
+    "result_over_amplitude": 0.04065709721077624,
+    "expected_without_f_squared": 0.04065738626880525,
+    "missing_f_squared": 0.0004388599898565059
+  },
+  "wrong_constant_beta_monopole_fractional_error": [
+    0.017203327762075116,
+    0.0016569270811814807,
+    2.6067426911247082e-05
+  ],
+  "fog_kernel": {
+    "normalization": 1.0000000000000002,
+    "pair_variance": 127.99999999999999,
+    "expected_pair_variance": 128.0,
+    "max_fourier_abs_error": 3.3306690738754696e-16
+  },
+  "gsm_linear_limit": [
+    {
+      "amplitude": 0.1,
+      "xi_gsm": 0.004105765622570237,
+      "xi_linear": 0.004109624625866176,
+      "scaled_error": 3.859003295939023e-05,
+      "quadrature_error": 1.1637598305570797e-14
+    },
+    {
+      "amplitude": 0.05,
+      "xi_gsm": 0.0020538493034932877,
+      "xi_linear": 0.002054812312933088,
+      "scaled_error": 1.9260188795999778e-05,
+      "quadrature_error": 8.393175845548534e-15
+    },
+    {
+      "amplitude": 0.025,
+      "xi_gsm": 0.001027165621869644,
+      "xi_linear": 0.001027406156466544,
+      "scaled_error": 9.621383876001754e-06,
+      "quadrature_error": 5.9712348436818715e-15
+    },
+    {
+      "amplitude": 0.0125,
+      "xi_gsm": 0.0005136429718104495,
+      "xi_linear": 0.000513703078233272,
+      "scaled_error": 4.80851382579639e-06,
+      "quadrature_error": 4.231078481961124e-15
+    }
+  ],
+  "gsm_parity_and_tail_abs_difference": 5.204170427930421e-17,
+  "finite_mode_derivative_identity_max_abs_error": 1.4149385395983982e-10,
+  "wrong_stream_xi_only": {
+    "correct_over_amplitude": 0.0410958617487649,
+    "wrong_over_amplitude": 0.03532605411518658,
+    "expected_kaiser": 0.041096246258661755,
+    "expected_real": 0.03532629553575132
+  },
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "code_sha256": {
+    "test_xi_rsd_reference.py": "21a6908e4fe0348f84aae9a6c030b02e02e71dcd3e4ef574954c871acc8db294",
+    "xi_rsd_reference.py": "f89e42d8b0c2a1bda3c40194dba43c039179ba4fe45ec6a35622b1db155a377e"
+  }
+}
