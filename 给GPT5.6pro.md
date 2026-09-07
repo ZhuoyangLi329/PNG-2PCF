@@ -61,7 +61,7 @@
 - PNG-base HOD-MAP：task44_fit_pngbase_hodmap_rawbox.py、task44_fit_pngbase_pk_xi_consistency.py及原始三个pair-counter审计。P为连续49 bins，xi主口径smin30；不要套用Abacus x25的稀疏16-bin配置。
 - 其他HOD/host-halo尺度诊断和旧图在图册扩展组，宁可保留供你判断，但它们不自动替代任务书冻结结果。
 
-## 目前最值得独立检查的疑点
+## 目前最值得独立检查的疑点（对于GPT5.6pro，应该先独立思考寻找线索问题出在哪，再结合这部分看问题）
 
 ### 已有可重复证据：joint矩阵的量纲敏感floor
 
