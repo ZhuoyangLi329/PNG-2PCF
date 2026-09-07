@@ -1,393 +1,324 @@
-# Rawbox 的 P(k)–2PCF 不一致：实现审计、物理解释与执行方案
+# Rawbox 的 P(k)–2PCF 不一致：独立审阅、可检验解释与执行任务书
 
-## 0. 核心判断与验证边界
+## 结论先行
 
-按 `给GPT5.6pro.md` 审阅，仅讨论 rawbox。审阅起点为 `273753d05e5fe143f61b8edd646a0e8593ba36ea`；不修改原始代码、测量、缓存、拟合或正式图。
+**当前不是一个“给 2PCF 找到正确变换公式就全部解决”的问题。至少要分别处理：联合协方差实现错误、有限盒估计器/数值操作不一致，以及最简物理模板在不同权重下得到不同有效参数。**
 
-**不能把结论压缩成“只修一个 bug”或“P 与 ξ 本来就不需要一致”。现有问题有三个层次：**
+最有把握的判断如下。
 
-1. **联合推断存在确定的实现错误。** 混合量纲 covariance 的全局 eigenvalue floor 改变了原 ξ 边块，即使 cross=0 也严重削弱 ξ 权重。旧 joint 的信息增益和“联合结果靠近 P”的物理解释因此不成立。这是仓库已有审计的发现，本次核查并提供替代实现，不冒充新发现。
-2. **独立拟合仍有未解决的形状与协方差问题。** joint bug 不解释 marginal 的全部差异。实空间失败说明 RSD 坐标映射不是唯一原因；P02 的零边界又不同于 P0 的宽后验。
-3. **最值得检验的物理假设：同一个简化 sigma_s 正在吸收不同的缺失形状。** ξ 对 BAO 展宽和宽波数范围敏感，P02 对角向非线性敏感；线性 Kaiser × 单一 Lorentzian 未必给出可跨尺度共享的有效阻尼。该解释尚未定量证实。
+1. 原四向 joint 的量纲敏感 eigenvalue floor 确实错误。已有单极/四向 joint 的信息增益结论应暂停引用。但这个步骤不在独立 P、xi 拟合中，不能用它解释独立探针的全部差异。
+2. “P 和 xi 的 sigma_s 始终严重冲突”需要细分：P0 单独的宽后验与 xi0 明显重叠；P02 与 xi02 的差异才十分突出，而且 P02 的 MAP 接近 sigma_s=0 边界。
+3. 实空间不含 FoG/Kaiser 仍有均值形状失败，排除了“只修 RSD 坐标就全部解决”的解释。当前实空间 P0 本身也没有通过均值形状检验，不能视为无偏真值。
+4. 本次独立几何复算确认了一个应优先修改的实现：先做 CachedRebin，再用聚合中心重新归入窄 P 箱，会改变成员模式数；四向 P/cross 协方差的分子与实际 Nmodes 分母因此不再使用同一组模式。
+5. BAO/非线性 bias、随机项和更完整速度模型是重要物理方向，但尚未证明哪一个单独占主导。必须先完成共同模式、角向、核和协方差闭合测试，再用最小模型增量判断。
 
-**实际完成：**源码与原审计 JSON 的交叉审阅、论文相关方法核对、14项独立实现测试。测试包括50,000次独立复模式功率抽样、解析角矩、解析壳平均核、量纲不变性、格点几何、重分箱归属和合成缓存端到端审计。见 `local_test_results.json`。
+本报告限定在 rawbox。没有设计 lightcone、survey window 或 RIC/GIC 的补救。下文“已证实”指代码逻辑、已有审计或明确标注的本次数值测试；不等于整个生产管线已经验证。
 
-**没有完成：**原始 rawbox NPZ 的本地重拟合、原 catalog 的 FCFC/jaxpower 重测、长链 MCMC、仓库 PDF 图像逐图核验。当前成功取得源码与审计文本，但未能把原始二进制数据/图像转入计算环境。因此拟合数值引用原 JSON；下文图名是待复核产物，不表示已逐图看过。实现测试通过不等于新物理模型通过。
+## 1. 已做与未做
 
-## 1. 项目目标与方法
+已阅读交接文件、README/方法与结果导读，追踪 Abacus catalog/测量、FullDiscrete/快速插值、P 精确模式平均、xi covariance、实空间检查和联合拟合代码，核对结果 JSON；同时对照 Mission 10–12、notebook 源码镜像和其他样本的配置差异。相关论文用于核对低 k、Gaussian covariance、BAO/RSD 的理论依据，而不是替代本项目验证。
 
-项目用 local PNG 的尺度依赖 bias 约束 fNL，希望得到不依赖测量 P 回填的纯 forward 2PCF 模型。沿用当前代码约定：
+**本次实际运行了 14 项确定性/合成测试，全部通过。**包括 50,000 次独立模式功率抽样、单位缩放、条件似然恒等式、解析角矩、解析壳核、首箱角度、CachedRebin 成员计数以及审计脚本的合成缓存流程。完整数值见 [local_test_results.json](local_test_results.json)。
 
-\[
-A(k)=b_1+f_{\rm NL}\,2\delta_c(b_1-p)\alpha(k),\quad\delta_c=1.686,
-\]
-\[
-P^s(k,\mu)=P_{dd}^{lin}(k)[A(k)+f\mu^2]^2
-\left[1+\frac{(k\mu\sigma_s)^2}{2}\right]^{-2}.
-\]
+**没有运行原始 rawbox NPZ 的本地审计、catalog 重测或 MCMC；也没有逐图完成仓库 PDF 的视觉核验。**连接器成功提供了源码、图索引和 JSON，但原始二进制数组/图未能进入当前运行环境。下文拟合数值来自仓库原结果；“图定位”是执行代理复核入口，不声称已经看过图像像素。代码的合成缓存测试不能当作原始缓存复算。
 
-alpha 是代码中的逆传递映射，不应反转其定义。P0 的 residual stochastic 可另加 `sn0 * 1e4`；不能把无量纲 sn0 直接当有量纲功率。
+交付的是可运行的诊断与修复构件及任务书，不是已经证明解决参数偏差的新生产模型。
 
-BinAvgFit 匹配实际离散模式平均，而非 bin-center 点值。FullDiscrete 匹配有限周期盒的非零模及径向壳层简并度；球壳平均核匹配 pair-count 的体积平均。**这些解决测量/变换定义，不自动修复物理谱形状。**
+## 2. 对项目目标和方法的理解
 
-本轮核心 Abacus 是 L=2000 Mpc/h、z=0.725、25相位、mmin=1.4e13 的 halo rawbox。P拟合是有间隙的16个窄 bins，并非连续覆盖0.003–0.095；ξ模板求和到 k=3。实空间最简控制只有 fNL、b1，不拟合速度FoG。
-
-有限周期盒去零模涉及 PNG 相关函数的红外与均值定义；这不是任意改变 kmin、经验 ExpWindow 或迁移 survey IC 的理由。[L1] 本轮不推进 lightcone/survey 修复。
-
-## 2. 原始结果：先分清不同差异
-
-区间为原审计的16/50/84分位数，使用 **C_single**；均值形状检验使用 **C_mean=C_single/25**。后者不是把所有非高斯后验区间机械除以5。以下χ²尚未按本报告修复或重新优化。
-
-| 对照 | b1后验中位数 | sigma_s中位数及68%区间 | 均值χ²/自由度 | 来源 |
-|---|---:|---:|---:|---|
-| 实空间P0，16 bins | 2.6501 [2.6354,2.6650] | 不拟合 | 45.234/14 | R1 |
-| 实空间ξ0，s≥50 | 2.5416 [2.4899,2.5923] | 不拟合 | 331.279/28 | R2,R3 |
-| 实空间ξ0，s≥120 | 2.3682 [1.9433,2.8517] | 不拟合 | 12.025/21 | R2,R3 |
-| RSD P0，free sn0 | 2.5327 | 6.489 [2.261,10.180] | 10.946/12 | R4 |
-| RSD ξ0，s≥50 | 2.5532 | 8.843 [7.855,9.884] | 162.980/27 | R4 |
-| RSD P0+P2 | 2.5760 | 0.984 [0.313,1.807] | 73.879/28 | R5 |
-| RSD ξ0+ξ2，smin=50/80 | 2.5425 | 7.791 [7.067,8.545] | 297.279/54 | R5 |
-
-关键解读：
-
-- **P0的sigma_s本来就很宽。** P0–ξ0与P02–ξ02不是同一种强度的问题；加入P2才出现强烈的零阻尼偏好。
-- P02的MAP sigma_s为 `4.2414e-8`，实质在零边界。中位数约1不等于测出了非零速度弥散。
-- 实空间P0自己的均值PTE也只有 `3.73696e-5`，不能把其b1当作精确验证的真值。ξ0 s≥50拒绝更严重，但不是唯一失败者。
-- s≥120的ξ0虽PTE≈0.939、MAP b1≈2.7435，边际中位数却是2.3682且区间很宽。这是后验几何与信息损失，不能称为“精确恢复b1=2.74”。
-- 同批相位下不能用独立误差平方和直接给中心差定显著性；sigma_s还有边界和先验体积效应。应使用paired或条件残差检验。
-
-## 3. 证据表与优先级
-
-代码和JSON的完整路径见末尾来源索引。对应图位于 `source/project/plots/task43/rsd_validation/`；图像尚待实际核验。
-
-| 状态/优先级 | 文件与函数/对象 | 判断及影响范围 | 对应产物 |
-|---|---|---|---|
-| 已证实/P0 | C1 joint组装；R6 `raw_floor` | 混合量纲floor改写ξ边块，旧joint失效；不解释全部marginal差异 | `task43_rsd_rawbox_joint_p02xi02_contours.pdf` |
-| 已证实/P0 | C1 `pk_pole_cov`,`cross_block`；C2 `precompute_rebin_cache` | 聚合中心重新归类窄P bins，分子mode set与分母不一致 | 本区 `radial_rebin_membership_geometry` |
-| 已证实操作不同/P1 | C3 `FullDiscreteRSDModel.evaluate`；C4 `ExactPeriodicPk0Model` | 连续mu与离散mu不相同；参数影响尚待量化 | 本区 `first_bin` |
-| 已证实数值风险/P1 | C3 GL64；C5 FastRSDModel | 高k sigma角积分有误差，共享近似的surrogate测试检不出 | 本区 `I0_quadrature_relative_errors` |
-| 已证实/P0 | C6 realspace脚本 `fit_with`及其调用 | 更新covariance后未重新优化，MAP和最终likelihood不一致 | realspace check/contours |
-| 原数据拒绝/P1 | R7 phase scatter统计 | covariance形状问题不依赖理论均值，不能只改mean model | 原x25 closure JSON/图 |
-| 待验证/P1 | C1 quadrant scales | 四象限经验rescaling不能代替模式归一化；需PSD与独立校准 | canonical rho/白化scatter |
-| 已证实非正则/P1 | R5 P02 `nominal.theta` | sigma=0导数消失，局部Fisher不能代表边界后验 | sigma² profile |
-| 强物理假设/P2 | R1–R5；线性模板 | BAO展宽、非线性bias与density–velocity项被b1/sigma吸收 | BAO/broadband分解残差 |
-| 待检查，不先判bug | C3 `shell_jell_kernel` | shell-average已经实现；j2求积影响须独立测 | 解析核与原核白化差 |
-| 风险，非已测主因 | C3 `build_cache`；C8 | cache身份未完整包含cosmology/solver/growth/数值规则 | 新manifest |
-
-## 4. 联合covariance：必须先修，但不能误归因
-
-### 4.1 原floor为什么不合法
-
-R6在cross=0下给出：
-
-```
-lambda_max = 4.269509520005424e9
-lambda_min = 1.0042022457664528e-9
-floor      = 4.269509520005424e-5
-n_floored  = 57
-median xi sigma inflation = 15.4000867140
-```
-
-P与ξ单位不同。对整个原始数值矩阵的特征值做比较，结果随P单位改变。这里floor高于ξ最大特征值，故不是修复少数浮点方向，而是大幅抹去ξ信息。
-
-保持原marginal模型、协方差及参数域不变，cross=0必须满足
+目标是在固定背景宇宙学下，从 local PNG 的尺度依赖 bias 限制 fNL，并把已有 P(k) 模型变成可信的配置空间前向模型。代码中的 alpha 常是 1/M，而不是 M 本身：
 
 \[
-\min_\theta[\chi_P^2(\theta)+\chi_\xi^2(\theta)]\geq
-\min\chi_P^2+\min\chi_\xi^2.
+\Delta b=f_{\rm NL}b_\phi\alpha(k),\qquad b_\phi=2\delta_c(b_1-p),\quad \delta_c=1.686.
 \]
 
-原四向naive joint最小值约3.1418，小于独立最小值之和14.8463；单极也违反。这不能解释为物理互补或cosmic variance cancellation。
-
-### 4.2 修复原则与排除错误指控
-
-固定C时，D=diag(sqrt(Cii))，R=D^-1 C D^-1，R=LLᵀ，统一使用 `r_white=solve(L,D^-1 r)`。优化与MCMC调用同一实现。`GaussianMetric`验证R；`assemble_covariance`保留边块。
-
-**不要再做混合量纲floor，也不要把报错改成更大ridge。** 真正线性冗余应显式定义支持子空间和有效秩；cross造成非正定则修cross或其校准。
-
-已保存marginal的 `precision_meta.scaled_eigenvalues.n_below_floor=0`。不能只因源码有pinv/eigenfloor，就断言这些具体结果已丢模式。单独ξ的小floor也远低于其最小特征值。确定错误是混合joint，不是“所有矩阵处理都已被同样污染”。
-
-### 4.3 不能武断再加一个2，也不能把P2再乘2
-
-`angular_totals`计算完整 `integral_-1^1`，不是半区间平均。各向同性极限是2T²，径向公式已包含Gaussian模式配对的2。P2实际执行 `5*mean(P L2)`，也是正确prefactor；有些注释里的2.5不是执行公式。
-
-可从同一个全±非零模式向量建立行算子W：
+当前 RSD 模板为
 
 \[
-m=WP_q,\qquad C_G=2W\,\mathrm{diag}(T_q^2)W^T.
+P^s(k,\mu)=P_{\rm lin}(k)[b_1+f_{\rm NL}b_\phi\alpha(k)+f\mu^2]^2
+[1+(k\mu\sigma_s)^2/2]^{-2}.
 \]
 
-Tq是总功率，偶多极且±两成员都在表中。此构造自动PSD并统一marginal/cross。本区给出小规模实现与抽样测试；不自动包括真实FCFC的有限N、mu-bin、mesh alias修正。
+P 侧某些实验另外拟合 S0=SN0_SCALE*sn0；Abacus RSD 的数值尺度为 10^4，不能把 sn0 的数字直接解释成物理功率。
 
-固定正定边块时，令L为各边块Cholesky，完整PSD要求
+BinAvgFit 要在拟合阶段对预测做模式平均，而不是最后画图改中心点。FullDiscrete 保留周期盒 k=2πn/L 的离散性、排除零模，并以体积壳平均核投影：
 
 \[
-\rho_i=\mathrm{svd}(L_\xi^{-1}C_{\xi P}L_P^{-T})_i\leq1;
+\xi_{\ell j}=V^{-1}\sum_q g_q P_\ell(k_q)K_{\ell j}(k_q),\quad
+K_{\ell j}=i^\ell\frac{\int_{s_-}^{s_+}s^2j_\ell(ks)ds}{\int_{s_-}^{s_+}s^2ds}.
 \]
 
-严格正定要求<1。代码以等价标准化形式计算。四象限经验放大后尤其应检查此条件。
+需要纠正一个容易被简写误导的点：PNG 的无限体积 IR 问题不是简单地说“整个 P∝k^-2”。平方 bias 项使 P∝k^(n_s−4)，xi 被积项∝k^(n_s−2)。有限盒非零模求和解决的是这个定义问题，不自动解决非线性谱、BAO、估计器与似然问题。[Wands–Slosar](https://arxiv.org/abs/0902.1084)；仓库 [背景](../docs/01_background.md)。
 
-## 5. 新线索：CachedRebin不保留P-bin归属
+当前 Abacus 使用 L=2000 Mpc/h、z=0.725、c000、25 个相位、p=1。P 是稀疏的 16 个 k 区间，至 0.095 h/Mpc；xi 主模型求和至 3 h/Mpc，xi0 常取 s≥50，xi2 常取 s≥80。这些向量不是有限维双射。不能把 s_min 等同于一个严格的 π/s_min 波数截断，也不能只截理论、不截测量和协方差来冒充原来的 xi。
 
-C2按 `dk=0.1*kf` 聚合成G和keff；C1再按keff是否落入另一组窄P bins，决定整个聚合组的归属。跨边界模式会整组移入/移出，分母却仍用原测量Nmodes²。
+样本口径不能混用：Quijote 每个 tag 的 500 相位、FastPM 的 z=1/p=1.2/98 盒、Abacus 的 x25 Gaussian C，以及 HOD-MAP 的单 ph000/连续 49 箱，具有不同的参数和误差定义。Quijote 的较宽后验相容，不反驳 Abacus 均值形状失败；FastPM shell-average 后相容改善，也不等于绝对无偏回收输入 fNL。参见 [结果地图](../docs/04_results.md)。
 
-**先聚合再选择，不等于先按实际模式选择再聚合。**
+## 3. 先把实际差异定量分开
 
-本次按源码运算顺序 `kf=2*pi/L; dk=0.1*kf` 独立枚举得到：
+以下 sigma68=(q84−q16)/2，只是边际区间摘要，不假设分布严格 Gaussian。RSD 表取 joint 审计中的**独立 marginal**结果；这些 marginal 没经过错误的 joint assemble，仍需另审计各自 covariance。
 
-| P区间 h/Mpc | 精确模式数 | keff归类的聚合数 | 相对计数差 |
+| 独立拟合 | b1 中位数 ± sigma68 | sigma_s 中位数 ± sigma68 | chi²(C_mean)/名义自由度 |
 |---|---:|---:|---:|
-| [0.037,0.039) | 1262 | 1094 | −13.31% |
+| RSD P0，free sn0 | 2.53274 ± 0.05205 | 6.4891 ± 3.9597 | 10.9464/12 |
+| RSD xi0，s≥50 | 2.55317 ± 0.05334 | 8.8433 ± 1.0149 | 162.9797/27 |
+| RSD P02 | 2.57604 ± 0.04560 | 0.9844 ± 0.7472 | 73.8786/28 |
+| RSD xi02，s0≥50,s2≥80 | 2.54252 ± 0.05300 | 7.7905 ± 0.7389 | 297.2792/54 |
+
+来源：[单极原审计](../source/project/outputs/task43_outputs/rsd_validation/rawbox/joint_pkxi/audits/task43_rsd_rawbox_joint_pkxi_summary.json) 的 p0_marginal、xi0_marginal_s50；[四向原审计](../source/project/outputs/task43_outputs/rsd_validation/rawbox/joint_p02xi02/audits/task43_rsd_rawbox_joint_4way_summary.json) 的独立探针项。四向不同项的精确键以原 JSON 为准，勿把 joint 项抄成 marginal。
+
+因此，P0 的 sigma_s 宽度大，不能只看中位数不同就宣称强冲突。P0 MAP 的 sigma_s≈8.248，与 xi0 MAP≈8.771 也相近。P02 MAP 则约 4.24×10^-8，边界效应是真正需要注意的事情。b1 在 RSD 中的单盒边际区间明显重叠；不要把 sigma_s 的显著分离套在所有参数上。
+
+独立 P02 的均值检验也不能沿用 P0 的“通过”。按原有固定 Gaussian C 及名义自由度，P02 的形式 PTE≈5.25×10^-6，xi02≈2.51×10^-35；边界和 covariance 不确定性意味着它们不是已经标定好的精确拒绝概率，但绝不能把这两行描述成均值形状都已通过。
+
+| 实空间最简控制 | b1 MAP | b1 后验中位数 [q16,q84] | chi²(C_mean)/自由度 |
+|---|---:|---:|---:|
+| P0，固定 residual sn0=0 | 2.64906 | 2.65011 [2.63541,2.66504] | 45.2344/14 |
+| xi0，s≥50 | 2.54484 | 2.54157 [2.48991,2.59231] | 331.2791/28 |
+| xi0，s≥120 | 2.74355 | 2.36816 [1.94330,2.85174] | 12.0251/21 |
+
+来源：[P 实空间审计](../source/project/outputs/task43_outputs/rsd_validation/rawbox/realspace_check/audits/task43_rsd_rawbox_realspace_pk_check.json)、[xi 实空间检验](../source/project/outputs/task43_outputs/rsd_validation/rawbox/realspace_check/audits/task43_rsd_rawbox_realspace_check.json)、[xi 实空间 MCMC](../source/project/outputs/task43_outputs/rsd_validation/rawbox/realspace_check/audits/task43_rsd_rawbox_realspace_mcmc.json)。
+
+当前这组实空间实验根本没有自由 sigma_s。需要解释的是 b1/形状及 fNL，而不是“真实速度弥散测得多少”。s≥120 的宽区间和显著 MAP–中位数差说明，良好 PTE 可能同时伴随信息损失与退化；不能将 MAP b1=2.74 当成精确物理偏置。
+
+以上后验采用 C_single 是项目明确选择的一盒精度展示；均值检验采用 C_mean=C_single/25。不要把这个有意约定误报成除 25 的 bug，但必须把它与“25 盒联合观测的真实后验”区别开。共同相位的参数差需要配对校准，不应用独立误差平方和直接算显著性。
+
+## 4. 证据表与修复优先级
+
+源码前缀 C=`source/project/codes/task43/`；结果前缀 R=`source/project/outputs/task43_outputs/rsd_validation/`。图前缀 F=`source/project/plots/task43/rsd_validation/`。图入口另见 [FIGURES](../docs/FIGURES.md)；表中图仅定位，未逐图视觉核验。
+
+| 级别 | 判断 | 文件/函数或结果键 | 图定位/影响范围 |
+|---|---|---|---|
+| P0，已证实 | raw dimensional eigenfloor 改变 xi 边块 | C/task43_rsd_rawbox_joint_4way.py 的 assemble；review_data/joint_covariance_reproduction.json | F/task43_rsd_rawbox_joint_p02xi02_contours.pdf；原 joint 结论失效 |
+| P0，本次几何复现 | 聚合中心重新归箱改变成员集合 | C/task43_rsd_rawbox_joint_4way.py::{pk_pole_cov,cross_block}；task4/task41_rawbox_norsd_fnl100_profiler.py::precompute_rebin_cache | 四向 P/cross covariance；不能泛化为所有 P-only 代码均有此问题 |
+| P1，代码已证实，影响待量化 | 实空间更新 C 后未在新 C 下重新优化 | C/task43_rsd_rawbox_realspace_{check,mcmc,pk_check}.py::main/fit_with | realspace_check 的 MAP、保存 prediction 与 MCMC 目标不同 |
+| P1，数学不等价，影响待量化 | P 真离散角度 vs xi 连续角积分 | ExactPeriodicPk0Model 与 FullDiscreteRSDModel.evaluate | RSD P02/xi02；最小模式尤其值得查 |
+| P1，本次标量数值复现 | GL64 高 k sigma 角积分不充分 | FullDiscreteRSDModel.evaluate、FastRSDModel 的参考基准 | Fast 与“exact”相符不等于真实角积分收敛 |
+| P1，已有数据证据 | xi 均值 shape 与 Gaussian precision 尚未通过 | R/rawbox/closure/task43_rsd_rawbox_x25_fulldiscrete_lorentzian.json (Gaussian covariance/phase scatter diagnostics) | F/task43_rsd_rawbox_closure_x25.pdf |
+| P2，强怀疑 | FoG 在 xi 中补偿 BAO/broadband，非普适参数 | 上述四组 marginal，加实空间 s50 失败 | 需实验4，不是已确定唯一原因 |
+| P2，强怀疑 | 固定 residual sn0=0 与线性 bias 使 P 的 b1 吸收形状误差 | 实空间 P 模型与 RSD free-sn0 对照 | F/task43_rsd_rawbox_realspace_pk0_check.pdf |
+| P2，未知主因大小 | 非 Gaussian/非 Poisson covariance、插值/UV、pair/paint误差 | covariance 构造、FCFC 和 jaxpower 测量脚本 | 需共同模式及样本校准，不直接经验乘2 |
+
+### 4.1 必须先修的 joint floor
+
+原规则在有量纲混合矩阵上用 max eigenvalue×10^-14 作下限。仓库已保存的 cross=0 复现给出：最大特征值 4.26950952×10^9，下限 4.26950952×10^-5；57 个 xi 方向全部被抬升；xi 单 bin sigma 的中位数变成原来的 15.4001 倍。该 15.4 是**仓库已有离线复现**，不是本次原缓存复算。[原复现 JSON](../review_data/joint_covariance_reproduction.json)。
+
+一个完全不依赖物理解释的必要条件是：保留边块、cross=0、同一模型和参数域时，
+
+\[
+\min_\theta(\chi_P^2+\chi_\xi^2)\ge\min\chi_P^2+\min\chi_\xi^2.
+\]
+
+原四向记录为 3.1418 < 14.8463，单极也有相同类型违反。它揭示的不是 cosmic variance cancellation，而是似然被改变，或至少不同结果未使用同一目标函数。
+
+修复：先 D=diag(sqrt(Cii))，R=D^-1 C D^-1，验证 R 再 Cholesky。上游已经改变的边块不能靠下游标准化救回。cross=0 必须逐元素保留边块。rho_max=svd(Lx^-1 Cxp Lp^-T) 的最大值必须≤1；超过就拒绝矩阵并修构造/校准。真正精确线性冗余应显式定义支持子空间，不能任意增噪声使矩阵满秩。
+
+原 standalone xi 的相关矩阵最小特征值约0.02765，不接近 10^-12 级阈值；不能说“所有 xi 偏差都由原特征值截断造成”。MCMC 收敛只说明链采样了某个目标，不证明目标正确。
+
+### 4.2 新增线索：CachedRebin 与窄箱成员不交换
+
+CachedRebin 把临近 k_q 先合成 G_B 和 k_eff,B。对平滑全谱求和，这可以是良好近似；但对窄 P 区间加指示函数时，
+
+\[
+\sum_q g_q\,1_i(k_q)F_q\ne\sum_B G_B\,1_i(k_{\rm eff,B})F(k_{\rm eff,B}).
+\]
+
+本次按源代码相同 dk=0.1 k_f 的几何规则独立重算：
+
+| P 箱 h/Mpc | 真模式数 | 用聚合中心归箱 | 相对差 |
+|---|---:|---:|---:|
 | [0.045,0.047) | 1656 | 1752 | +5.80% |
-| [0.053,0.055) | 2570 | 2378 | −7.47% |
+| [0.037,0.039) | 1262 | 1094 | −13.31% |
+| [0.061,0.063) | 2994 | 2754 | -8.02% |
 | [0.085,0.087) | 6000 | 5352 | −10.80% |
 
-这些是**模式归属差**，不是covariance对角差恰等于该比例，更不是参数移动比例。T²、Legendre与核还需加权。
+完整 16 箱见测试 JSON。这是确定的成员计数差，不是已经测出的 covariance 总偏差或 b1 偏移；权重 T² 随 k 变化，必须用原谱重算。也没有直接与测量 NPZ 的 nmodes 做本地比较。
 
-浮点截断分组在整数边界对运算顺序敏感；复现时须保留原 `kf`、`dk` 和 `astype(int)` 顺序，不能把代数等价重排默认为逐bin数值相同。这里以上表及保存JSON为准；无论这些边界细节，跨不同bin体系的整组归类都不是合法的精确P-bin选择。
+应对 P 和 cross 块直接按原始离散模式/bin ID 求和，或在每个观测 bin 内单独 rebin，绝不能跨边界再仅靠中心重新归类。原 xi 全谱快速求和可以继续保留，但必须单独验证精度。模式数闭合测试应成为构建缓存的硬门。
 
-修复：P低k区域先按原q或三维模式确定bin_id，再构建bin-aware累计权重。PP与XP必须使用相同选择。P0独立exact-mode covariance与P02这段缓存代码不是同一路径，不能一概而论。最后仍要从原NPZ实际核对Nmodes，而不是把本几何复现称为原数组已重跑。
+### 4.3 角向离散性：不是一个缺失的固定系数
 
-## 6. FullDiscrete的角向并不全离散
+L=2000 的首 P 箱包含18个模式，本次复算得到 <mu²>=1/3、<mu⁴>=2/9、<mu⁶>=1/6，而连续值为1/3、1/5、1/7。
 
-L=2000的首个[0.003,0.005) bin只有q=1、2的18个模式：
-
-\[
-\langle\mu^2\rangle=1/3,\quad\langle\mu^4\rangle=2/9,\quad
-\langle\mu^6\rangle=1/6,
-\]
-
-连续球平均则为1/3、1/5、1/7。取bin内P_lin常数、sigma=0的几何toy：
+在仅作说明的“箱内 Plin 常数、sigma=0”模型中，
 
 \[
-P_2^{disc}/P_{lin}=5bf/3+25f^2/36,
-\quad P_2^{cont}/P_{lin}=4bf/3+4f^2/7.
+P_2^{\rm discrete}/P_{\rm lin}=5bf/3+25f^2/36,
+\quad P_2^{\rm cont}/P_{\rm lin}=4bf/3+4f^2/7.
 \]
 
-b=2.55、f=0.81时为3.898125和3.128914；P0相对影响小得多。**这不是实际首bin谱预测，更不是整体后验有25%偏差**：实际谱在壳间变化，低模噪声也很大。它证明尤其四极不能未经检验就把连续角向当恒等替代。
+b=2.55,f=0.81 时为3.898125与3.128914，差约24.6%。**不是实际 P2 首箱已经偏了24.6%**：真实谱、FoG和径向权重不同；它证明连续角平均不能作为低模数盒子的恒等操作。xi0 的同一 toy 改变量小得多，不能据此宣布角向离散性解释实空间 b1 全部偏差。
 
-低k使用真实mu_q的均值与covariance，高k连续近似须扫描转换波数。隔离角向误差时两侧用相同未压缩径向节点，避免混入rebin误差。本区audit只计算到0.095的角修正诊断，不自动应用到正式ξ。
+现行 P2 的 5×模式平均归一化已经修过，不应再次改成2.5。2.5只适用于权重和为2的连续积分。对 real-space xi2≈0 的检查也不足以证明 RSD 高阶角矩及 covariance 正确。
 
-## 7. 数值、缓存、优化与边界
+### 4.4 连续角积分自身也要收敛
 
-### 7.1 连续角积分可以解析处理
-
-令x=k sigma：
+令 x=k sigma，I_n^(m)=∫_0^1 mu^(2n)/(1+x²mu²/2)^m dmu。解析式为
 
 \[
-I_n^{(p)}(x)=\frac12\int_{-1}^{1}\frac{\mu^{2n}d\mu}{(1+x^2\mu^2/2)^p}
-=\frac{{}_2F_1(p,n+1/2;n+3/2;-x^2/2)}{2n+1}.
+I_n^{(m)}=\frac{{}_2F_1(m,n+1/2;n+3/2;-x^2/2)}{2n+1}.
 \]
 
-signal用p=2、signal²用p=4，另加shot交叉项才能得到完整T²。
+信号用 m=2，信号平方用 m=4。P2 需要到 n=3；P2–P2 covariance 需要到 n=6。仓库 task44 已有单极解析矩，可推广复用。
 
-GL64对I0的相对误差：x=24为−0.861263%，x=90为−64.970471%；GL256在x=90仍约−0.571720%。**这是局部积分误差，不是ξ总误差。** 应计算真实权重后的Δmᵀ C_mean^-1 Δm。相同GL64的exact/surrogate比较发现不了共享误差。
+本次标量测试：GL64 对 I0 的相对误差在 x=24 为−0.861263%，x=90 为−64.9705%；即使 GL256，在 x=90 仍有−0.57172%。但这**不是 xi 的总体误差**。要在真实谱、shell 核和 C_mean 中测量 delta_m，而不能直接把这些百分数贴在 b1/sigma_s 上。
 
-本区解析角矩与独立自适应积分最大相对差约1.14e-13。高k积分准确仍不意味着线性模型在k=3物理有效。
+提供的解析矩与自适应积分最大相对差1.14×10^-13。壳核也可用 F0(x)=sin x−x cos x、F2(x)=3Si(x)+x cos x−4sin x 的解析原函数，结合小 x 展开；本次核最大绝对差1.54×10^-14。快速 sigma 插值对同一个 GL64 参考的验证不能发现参考自身的偏差。
 
-### 7.2 shell-average已经实现，不重复推荐center→shell作为新发现
+### 4.5 实空间 MAP 与最后使用的协方差不一致
 
-提供独立解析参考：
+三份实空间脚本先用 covariance(2.5) 找 best，再设 covariance(best.b1)，但没有第二次优化；MCMC 使用更新后的固定 C，保存的 MAP/prediction 却仍来自旧 C。应在最终冻结 C 下重新求 MAP，再保存预测、chi²与链起点。不能凭注释“two-step/refit”判断已做过 refit。
+
+如果真正让 C 随每个 theta 改变，就应使用 r^T C(theta)^-1 r + log det C(theta) 的完整定义；本轮更简单的办法是明确冻结最终 C 并重拟合。这个 bug 的实际位移尚未测量，不应声称它足以解释约0.1的实空间 b1 差。
+
+## 5. 为什么 b1 与 sigma_s 会系统地不同：物理解释与判别
+
+底层完整傅里叶与配置空间有确定联系，不等于截断、稀疏分箱后的两个向量含相同信息。即使数值实现完美，模型遗漏 delta_m 时，局部线性近似中的参数偏移仍为
 
 \[
-\int x^2j_0(x)dx=\sin x-x\cos x,
-\qquad
-\int x^2j_2(x)dx=3Si(x)+x\cos x-4\sin x.
+\delta\theta\simeq(J^TC^{-1}J)^{-1}J^TC^{-1}\delta m.
 \]
 
-端点差除以k³(rh³−rl³)/3，再乘i^ell；小参数用级数。与自适应积分最大绝对差约1.54e-14。现有j2求积是否影响原拟合需实测，不能仅凭节点数判错。
+不同探针的 J、C 和保留模式不同，得到不同的“最佳有效参数”并不矛盾；这也不意味着可以接受偏差而无需处理。
 
-### 7.3 最终covariance更新后必须refit
+**实空间的首要候选：非线性/尺度依赖 bias 与随机项。**固定 S0=0 时，P 的 b1 会尝试吸收真实 residual power 或谱形变化。RSD 的 free-sn0 和实空间的 fixed-sn0 不是严格只开关速度项的 A/B。应先在相同真实空间配置释放一个低 k 常数随机项，观察 b1 的稳定性及留出箱预测。正的遗漏随机功率可能把 P 的有效 b1 推高，方向与当前差异相容，但其真实幅度尚未测得。
 
-C6先用C(b1=2.5)优化，再用C(b1_hat)报χ²或跑MCMC，却未重新优化。应在最终冻结的C下重做MAP并保存该预测。若每一步都用C(theta)，似然还要logdet C(theta)；固定plug-in covariance不需要随theta加此项。
+**第二个候选：线性 BAO 与 broadband 不足。**xi s50–120 对 BAO/局部曲率有敏感性，删掉该区间后形状检验缓解却丢失很多信息。它支持“误差与这些尺度相关”，不单独证明 BAO damping 是唯一解释。FoG 参数乘整个谱时，可同时调整 BAO与平滑成分；xi 偏好的 sigma_s 可能正在补偿未建模的位移/非线性，而 P02 在其波数权重下更愿意贴0边界。
 
-cache身份至少包括cosmology/solver、z、matter species、growth、L、kmax、ells、s_edges、rebin/求积规则、模板和代码hash。SHA只保证文件没变，不保证符合当前物理请求。当前growth近似Ωm(z)^0.55与可选模板cosmology需核对，但尚未证明是主要偏差。
+**RSD 的第三个候选：简单 Kaiser×单参数 FoG 不足。**密度–速度非线性耦合不会一般地化为同一个常数 sigma_s。Taruya–Nishimichi–Saito 的密度/速度耦合修正提供的是后续物理扩展依据，不是允许直接把未校准的复杂模型称为正确答案。[TNS](https://arxiv.org/abs/1006.0699)。
 
-### 7.4 sigma=0不是常规高斯估计点
+### 建议的最小扩展，而不是一次加十个参数
 
-模型依赖sigma²，所以零点一阶导数消失，中央差分Fisher病态。巨大Fisher error与有限MCMC区间不自动说明sampler坏了。
-
-优化可用lambda=sigma²；保持uniform-sigma先验时必须用 `p(lambda)∝1/(2sqrt(lambda))`，不可无声换成uniform-lambda。应报告profile、边界、分位数与先验敏感性。需有符号形状补偿时用counterterm，而不是负的物理速度方差。
-
-## 8. 物理模型为什么值得改
-
-### 8.1 当前有限向量并不保持完整傅里叶信息等价
-
-只有完整、可逆、同covariance的线性变换才保持似然信息。稀疏16个P bins和有限r的ξ不互为可逆变换，也不覆盖同样k；`smin=50`不严格等于某个kmax。
-
-模型缺失Δd时，局部参数偏移约为
+先将 BAO 与 FoG 的作用拆开：
 
 \[
-\delta\theta=(J^TC^{-1}J)^{-1}J^TC^{-1}\Delta d.
+P_{\rm IR}(k,\mu)=P_{\rm nw}(k)+e^{-k^2\Sigma^2(\mu)/2}P_{\rm w}(k),
+\quad \Sigma^2(\mu)=(1-\mu^2)\Sigma_\perp^2+\mu^2\Sigma_\parallel^2.
 \]
 
-算子、J、C、尺度不同，使缺失形状投影到b1/sigma的方向不同。这是可检验解释，不是允许任意失配的借口：共同模式与正确模型的注入仍必须恢复参数和覆盖率。
-
-### 8.2 优先物理假设：BAO展宽与FoG被绑成一个参数
-
-实空间s≥50失败，说明密度模板、bias/stochastic、算子/covariance至少一项不充分。非线性大尺度位移在实空间也展宽BAO，不该全归为LOS小尺度速度。[L2]
-
-现有sigma同时改变smooth broadband和wiggles。ξ的BAO误差可能把sigma推高；P02低k/角向信息却要求接近零。这支持“有效参数吸收不同缺项”的检验方向，尚非定论。
-
-更完整RSD涉及不同density-density、density-velocity、velocity-velocity谱和模式耦合。把单一nonlinear P塞进Kaiser不等于解决这些项。[L3]
-
-### 8.3 最小模型阶梯与过拟合控制
-
-先实空间、逐级增加，不一次放开所有nuisance：
+第一阶段先固定位移模板/各向异性关系，只释放一个 BAO damping 幅度；sigma_FoG 独立保留。统一的诊断模板可以写成
 
 \[
-P_{IR}(k)=P_{nw}(k)+e^{-k^2\Sigma_{BAO}^2/2}P_w(k),
-\]
-\[
-P_h^{real}(k)=A(k)^2P_{IR}(k)+c_0k^2P_{lin}(k)+N_0.
-\]
-
-这是诊断性dewiggling模板，不冒充完整IR-resummed one-loop理论。先独立标定或增加一个Σ_BAO，再检验有符号c0（单位长度平方）。N0是低k残余stochastic，不代表所有k恒定的halo exclusion。
-
-RSD最小扩展：
-
-\[
-P_h^s=D_{FoG}(k\mu\sigma_v)[A+f\mu^2]^2
-\{P_{nw}+e^{-k^2\Sigma^2(\mu)/2}P_w\}
-+k^2P_{lin}(c_0+c_2\mu^2)+N_0,
-\]
-\[
-\Sigma^2(\mu)=(1-\mu^2)\Sigma_\perp^2+\mu^2\Sigma_\parallel^2.
+P^s_{\rm trial}=D_{\rm FoG}(k\mu\sigma_F)
+\{[b_1+f_{\rm NL}b_\phi\alpha+f\mu^2]^2P_{\rm IR}
++c_0k^2P_{\rm lin}+c_2k^2\mu^2P_{\rm lin}\}+S_0+S_2k^2.
 \]
 
-先固定或外部标定位移关系，只放开一个BAO尺度；不要同时任意放开Σperp、Σparallel、sigma_v、c0、c2和多项noise。若仍失败，再升级含bias operators与density–velocity耦合的TNS/EFT，而非无限增加经验多项式。[L2,L3]
+这只是按层级添加的诊断 ansatz：先独立比较 S0、一个 BAO 参数、一个形状反项；不是将所有 c0,c2,S2 同时放开。需要保持 P 与 xi 使用同一 underlying spectrum，再进行各自的正确估计器投影。完整生产模型可在证据支持时升级为有一致 bias/速度项的微扰或 EFT 模板。BAO 位移与反项背景见 [Vlah 等](https://arxiv.org/abs/1509.02120)。
 
-所有新增项经相同离散/壳平均算子生成P与ξ。检验fNL=0及非零注入、PNG–nuisance退化和留出尺度预测。Gaussian truth时改变p不改变fNL=0的确定性谱，故调p不是修复Gaussian b1/sigma差异的首选。
+**不能把低 k 的 k² 反项或常数随机项无条件外推到 k=3。**必须有明确 UV 完备化/平滑延拓和理论误差预算，或构造一致的带限统计量。否则新模型在 xi 上的改善可能只是截断振铃。
 
-可选同相位matter modes：用P_hm/P_mm低k平台约束b1，用 `P_hh-P_hm^2/P_mm` 区分residual stochastic。校准需独立或留出相位；把同份测量P回填ξ不再是独立纯forward检验。
+检查过拟合/PNG退化：记录 fNL–b1–形状参数相关、固定参数真值的 synthetic recovery、留出波数/距离预测和参数随 cut 的漂移。不得通过事后调 p 或给 xi 添任意常数来强迫与 P 相等。高 s cut 的好 PTE 与宽先验驱动后验不是充分成功标准。
 
-### 8.4 stochastic与高k尾必须匹配估计器
+另一个有判别力的后续观测量是现成 matter 场可用时的 P_hm/P_mm 和 P_hh−P_hm²/P_mm：在 Gaussian 大尺度控制中，它能分离 cross-bias 与 auto stochasticity。当前报告没有这些数组，不能声称已经测得。
 
-理想完整变换的常数是contact项；hard cutoff却产生
+### 常数项的特别警告
+
+完整无限体积变换中的全 k 常数对应 s=0 接触项；周期盒去掉零模还带空间常数 −S0/V。有限截断则有振铃，N²/N(N−1) 的 pair 归一化与 Poisson 自对项可能改变/抵消相应偏置。必须从同一个估计器推导，不能把 −S0/V 或 Hankel 截断尾项随意添到 xi。
+
+尤其，低 k 拟合到的 residual stochastic power 不是已证明在所有 k 都恒定。xi 在非零 s 的均值不写常数，也不意味着 covariance 可以忽略噪声：Gaussian C 使用总 T=P_signal+P_noise 的平方。
+
+## 6. 从同一模式推导协方差，避免经验因子替代理论
+
+对于包含完整 ±k 的模式列表和偶对称权重，定义
 
 \[
-\xi_{N_0}^{K}(r)=N_0[\sin(Kr)-Kr\cos(Kr)]/(2\pi^2r^3).
+W_{P_{\ell i},q}=(2\ell+1)1_i(k_q)L_\ell(\mu_q)/N_i,
+\quad W_{\xi_{\ell j},q}=(2\ell+1)L_\ell(\mu_q)K_{\ell j}(k_q)/V.
 \]
 
-不能把P低k的N0无条件外推到k=3，再把数值尾称作halo信号。完整周期非零模还涉及零模减除与有限N pair normalization，应匹配FCFC实际定义。
-
-P已减shot不代表covariance能删shot；ξ的Poisson covariance高频部分也需尾部/解析闭合检验，signal衰减不保证covariance尾同样可忽略。
-
-## 9. 协方差政策
-
-R7的64维ξ向量围绕经验均值，平均phase χ²=119.1887；固定正确covariance假设下期望 `(24/25)*64=61.44`。该统计量不依赖理论mean，故仅改BAO mean不能解释。
-
-empirical/Gaussian单-bin sigma中位数约1.105，ξ0约1.041、ξ2约1.182；不支持把整个矩阵武断乘2。应区分相关结构、离散角向、非Gaussian/非Poisson、有限N和estimator近似。[R7,L4]
-
-Abacus x25 sample covariance秩最多24，不能逆64维ξ或89维joint。Hartlap不能修秩亏；也不能给analytic covariance机械套Wishart sample correction。可用场级analytic基线+少量独立校准，或预注册低维压缩后检验。四象限cross从同25相位回归且矩阵相关不高，不能当高精度物理定标。
-
-Quijote500相位可在检查独立性/维数后采用sample covariance及有限mock修正，规则不自动迁移到x25。FastPM须保留自己的Nmock、z、p与shell版本。单相位HOD不能自估高维covariance。[L5,L6]
-
-## 10. 第一阶段：最多五个最小判别实验
-
-阈值为建议预注册的验收门，不是从结果调出来的结论。先复用现成向量/cache，再决定是否重测大catalog。
-
-### 实验1：不改物理，修likelihood与比较对象
-
-**固定：**原data、marginal C、模型、先验、尺度。**只改：**joint raw floor与统一whitening；实空间在最终C下refit。
-
-**输入/输出：**原向量和cache；输出block差、单位缩放、cross=0 χ²、MAP与sigma² profile。
-
-**门：**边块保留；χ²相加及单位变换相对误差<1e-10；joint minimum不低于独立minima sum（优化容差内）；MAP与MCMC对同theta的likelihood相同。
-
-**解释：**未通过则不解释新joint。通过而marginal仍异，并不奇怪：joint bug本来不解释全部marginal。cross=0只用于验算，不作为真实联合科学likelihood。
-
-### 实验2：共同模式算子与数值闭合
-
-**固定：**A(k)、f、sigma、L、P bins、s edges与metric。**逐项只改：**bin-aware mode set、低k离散mu、解析角矩、解析j2核、rebin/插值/UV精度。
-
-**输入/输出：**原theory NPZ、一个P02 NPZ与合成模式；输出exact/rebinned Nmodes、P/ξ差、白化Δm、分k贡献及k-switch扫描图。
-
-**门：**计数严格匹配；共同模式投影与Gaussian covariance在数值/抽样误差内闭合；实际预测误差建议 `Δmᵀ C_mean^-1 Δm<0.01`，在代表性参数网格和更严设置下稳定。不能只看Δξ/ξ的零交叉发散。
-
-**解释：**修复显著改变预测则先解决实现；修复远低于门而失配不变则降低其主因优先级。band-limited ξ注入只证明该算子，不证明未滤波FCFC；若仍可疑，再用小型可控catalog核验mu-bin、self-pair、normalization与mesh response。
-
-### 实验3：不依赖mean model的covariance测试
-
-**固定：**每相位数据，残差减经验均值，采用实验2算子。**只改：**Gaussian构造及少量有物理依据的校准，不任意缩放四象限。
-
-**输入/输出：**25相位向量与模式MC；输出白化方差、固定低维投影分布、canonical rho、有限样本置信带。
-
-**门：**PSD；预注册低维统计在独立模拟/留出抽样置信带内；明确检验119.19相对61.44的异常，不只比较diagonal median。25样本不足验证所有89维方向，不报告完整经验逆。
-
-**解释：**mean-independent异常持续则暂停tension显著性。通过后再用该C量化mean失配。多模式检验需全局校准，避免逐点挑异常。
-
-### 实验4：最小物理阶梯，先实后红移
-
-**固定：**通过实验1–3的算子/C、PNG约定。**逐项只加：**P residual N0对照、一个BAO展宽尺度、一个有符号k²P项，再到RSD的独立速度/密度形状。
-
-**输入/输出：**实/RSD向量，可选独立matter谱；输出BAO/smooth残差、共同b1/sigma profile、P遗漏bins与k>0.095以及ξ排除r bins的留出预测。
-
-**门：**整体均值GOF经covariance/边界校准后不再拒绝，且留出预测改善；建议预注册全局5%拒绝门，避免反复挑通过。检验fNL偏差与覆盖率。
-
-**解释：**独立BAO展宽降低ξ对sigma的要求且P2不再贴边，支持有效阻尼混合假设；失败则查nonlinear bias/density–velocity项。删除BAO后仅因误差变宽而重叠不是证明，要做同等信息损失控制。
-
-### 实验5：paired参数一致性与正式重画门
-
-**固定：**通过上述检验的模型、C与先验。**比较：**共享/分别参数、合法尺度选择、Gaussian与非零PNG注入。
-
-**输入/输出：**paired phase vectors，必要时独立mock；输出Δtheta分布、条件残差、共享/分开likelihood ratio的模拟标定、覆盖率和最终corner。
+Gaussian、无额外模式耦合近似下，
 
 \[
-r_{\xi|P}=r_\xi-C_{\xi P}C_{PP}^{-1}r_P,
-\quad S=C_{\xi\xi}-C_{\xi P}C_{PP}^{-1}C_{P\xi}.
+C_{AB}=2\sum_qW_{Aq}W_{Bq}T_q^2.
 \]
 
-固定共享C下 `chi2_joint=chi2_P+r_condᵀ S^-1 r_cond`。**门：**条件残差/paired差通过预注册全局检验；边界下用模拟标定，不直接套Wilks或独立高斯sigma。fNL结论须覆盖率，不只Rhat。
+这个 Gram 构造使 P、xi、cross 三块相容，并保证半正定；独立半空间写法需要相应调整，不能混用模式数。转写成径向 g_q 及积分_-1^1 dmu 时，积分权重和为2，已经包含从角平均换成角积分的因子，不要再乘一次2。Grieb 等提供相关多极与壳平均公式的外部核对。[Grieb](https://arxiv.org/abs/1509.04293)。
 
-**解释：**正确模型注入失败仍是实现/统计问题；注入通过而真实数据失败更支持物理缺项。不同压缩的误差宽度可不同，但不允许错误覆盖率或系统性均值失配。
+代码的共同模式算子描述的是明确有限频带的场相关函数，不自动包含 FCFC 的有限 mu-bin 投影、N(N−1)、mesh paint/interlacing/alias；真正测量闭合还要匹配这些定义。Gaussian 模式测试不是对 connected trispectrum 或非 Poisson stochastic covariance 的验证。
 
-## 11. 执行agent交接
+原 covariance 的 phase 检验：xi02 的平均 chi²_about_empirical_mean=119.1887，正确期望基准为64×24/25=61.44；而 xi0 对角 sigma 比中位数约1.0405，xi2约1.1819。因此“误差棒接近，所以整个 precision 正确”不成立，也不能直接从119/61≈1.94断言漏了一个因子2。
 
-新增run目录和manifest，保留历史产物。先跑本区14项测试，再让 `audit_rawbox.py` 读原theory cache；缺文件/checksum不符直接报错，不自动重建替代。
+**样本政策：**Abacus x25 的 89 维 sample C 最高秩24；用作低维投影/散布诊断、结构化 shrinkage 与交叉验证，不直接逆。Quijote 500 和 FastPM 98 的 sample precision 可以在独立样本与维数条件满足时考虑 Hartlap/Percival；这些不是给任意解析 C 的默认乘数，也不是模型误差修正。[Hartlap](https://arxiv.org/abs/astro-ph/0608064)、[Percival](https://arxiv.org/abs/1312.4841)。单相位 HOD 不能伪造经验 full covariance。
 
-修改顺序：
+四个 cross 象限系数约1.03、2.51、2.34、1.72来自同25相位，不能当成已知常数。先用共同估计器归一化检验，再低维校准/留出测试；必须报告这些系数的不确定性与 rho_max。不要先把无效 C floor 成 SPD 再宣称 joint 可信。
 
-1. C1与单极joint的assemble：去混合量纲floor、共用GaussianMetric、加入cross=0下界测试。
-2. C6三个实空间入口：最终C冻结后再次fit，保存最终MAP和一致likelihood。
-3. C1 `pk_pole_cov/cross_block`：exact/bin-aware选择后累计，核对Nmodes；先取消经验scales做归一化检验，不无验证升级为正式C。
-4. C3/C5：解析角矩、独立核测试、低k格点角向；补齐cache身份。
-5. 依次完成五组实验，逐项记录只改了什么；算子、数值、C、形状、覆盖率都有证据后才重画正式限制。
+条件残差是比叠画两条边际轮廓更直接的诊断：
 
-`rawbox_numerics.py`是构件；`audit_rawbox.py`是只读诊断，默认fNL=0、b1=2.55、sigma=8，低k角修正仅到0.095。它们不是已验证生产pipeline，也没有运行MCMC。
+\[
+r_{\xi|P}=r_\xi-C_{\xi P}C_{PP}^{-1}r_P,\quad
+C_{\xi|P}=C_{\xi\xi}-C_{\xi P}C_{PP}^{-1}C_{P\xi}.
+\]
 
-## 12. 来源与图像核验清单
+在有效固定 C 下，chi²_joint=chi²_P+chi²_cond；代码测试了这一恒等式。
 
-### 仓库数据与代码
+## 7. 第一阶段最多五个最小判别实验
 
-- [R1](../source/project/outputs/task43_outputs/rsd_validation/rawbox/realspace_check/audits/task43_rsd_rawbox_realspace_pk_check.json)：`map,posterior,chi2_mean,pte_mean`。
-- [R2](../source/project/outputs/task43_outputs/rsd_validation/rawbox/realspace_check/audits/task43_rsd_rawbox_realspace_check.json)：`results.smin50/smin120,sanity_xi2_real`。
-- [R3](../source/project/outputs/task43_outputs/rsd_validation/rawbox/realspace_check/audits/task43_rsd_rawbox_realspace_mcmc.json)：`results.*.b1/fNL`。
-- [R4](../source/project/outputs/task43_outputs/rsd_validation/rawbox/joint_pkxi/audits/task43_rsd_rawbox_joint_pkxi_summary.json)：查找 `p0_marginal,xi0_marginal_s50` 对象内的 `nominal,posterior`。
-- [R5](../source/project/outputs/task43_outputs/rsd_validation/rawbox/joint_p02xi02/audits/task43_rsd_rawbox_joint_4way_summary.json)：`p02_marginal,xi02_marginal` 的 `nominal,posterior,precision_meta`。
-- [R6](../review_data/joint_covariance_reproduction.json)：量纲floor与χ²下界。
-- [R7](../source/project/outputs/task43_outputs/rsd_validation/rawbox/closure/task43_rsd_rawbox_x25_fulldiscrete_lorentzian.json)：x25 phase scatter与covariance诊断。
-- [C1](../source/project/codes/task43/task43_rsd_rawbox_joint_4way.py)：P02、cross和joint组装。
-- [C2](../source/project/codes/task4/task41_rawbox_norsd_fnl100_profiler.py)：`precompute_rebin_cache`与格点简并度。
-- [C3](../source/project/codes/task43/task43_rsd_model.py)：cache、shell核、FullDiscrete。
-- [C4](../source/project/codes/task43/task43_fit_rsd_rawbox_pk0_vs_xi0_smin50.py)：exact-mode P0与16 bins。
-- [C5](../source/project/codes/task43/task43_fit_rsd_rawbox_x25.py)：FastRSDModel与periodic covariance。
-- C6：[check](../source/project/codes/task43/task43_rsd_rawbox_realspace_check.py)、[mcmc](../source/project/codes/task43/task43_rsd_rawbox_realspace_mcmc.py)、[pk_check](../source/project/codes/task43/task43_rsd_rawbox_realspace_pk_check.py)。
-- [C7](../source/project/codes/task43/task43_measure_rsd_rawbox_xi_fcfc.py)：pair定义；[P02测量](../source/project/codes/task43/task43_measure_rsd_rawbox_p02_jaxpower.py)：paint、noise、多极、P0桥接。
-- [C8](../source/project/codes/task44/task44_rsd_theory.py)：growth、角矩与共享理论。
-- 历史：[Mission10](../source/background/agent/mission10_log/full_discrete_vs_databin.md)、[Mission11](../source/background/agent/mission11_log/mission11_acceleration_results.md)、[Mission12](../source/background/agent/mission12_log/mission12_results.md)。DataBin回填不等于独立forward验证；rebin加速成功不证明跨不连续P-bin选择安全。
+以下阈值是建议预注册的工程/科学门，不是从当前数据调出来的“通用正确值”。第一阶段以现成向量、缓存和合成模式为主，不要求重测大 catalog。每项必须新建 run 目录，不覆盖冻结结果。
 
-### 方法论文
+### 实验1：似然恒等式和最终 metric 统一（先做）
 
-- L1：[Wands & Slosar 2009, 0902.1084](https://arxiv.org/abs/0902.1084)：PNG bias、相关函数红外与均值；仓库保留v2。
-- L2：[Senatore & Zaldarriaga, 1404.5954](https://arxiv.org/abs/1404.5954)：位移、IR resummation、BAO相关函数。
-- L3：[Taruya, Nishimichi & Saito 2010, 1006.0699](https://arxiv.org/abs/1006.0699)：density–velocity耦合与RSD谱。
-- L4：[Grieb et al., 1509.04293](https://arxiv.org/abs/1509.04293)：多极P/ξ Gaussian covariance及bin平均。
-- L5：[Hartlap et al., astro-ph/0608064](https://arxiv.org/abs/astro-ph/0608064)：sample inverse bias，不能修秩亏。
-- L6：[Percival et al., 1312.4841](https://arxiv.org/abs/1312.4841)：有限mock covariance噪声传播。
+固定数据、模型、参数域、各边块与 cuts；只替换 assemble/precision，并在最终冻结 C 下重新求 MAP。读取原 C 和原 MAP，先不用长链。
 
-这些论文提供方法依据，不代表本仓库已经通过对应理论的验证，也不将不同版本数值无声替代历史实验。
+产物：原/新 marginal blocks、相关矩阵特征谱、rho_max、单位重标度测试、随机参数点的 chi²_MAP 与 MCMC loglike 一致性、cross=0 最小值下界检查；图为白化残差与边块变化。相对单位变化误差门可设10^-10，cross=0 边块保持到浮点精度。若原 cross 违反 PSD，停止 joint 而不是继续放宽 floor。
 
-### 待执行agent逐图核验
+通过意味着“数值目标函数自洽”，不意味着形状正确；不通过时先修实现，不进入模型优劣比较。独立探针结果若未变而 joint 变了，正是预期，并不能证明 independent tension 已消失。
 
-实空间 `task43_rsd_rawbox_realspace_{pk0_check,xi0_check,pk0_vs_xi0_contours}.pdf`，RSD `task43_rsd_rawbox_x25_fulldiscrete_lorentzian.pdf`，单极与四向joint contours。核对样本、mask、C_single/C_mean、参数和JSON的一一对应；旧joint图标记失效而不覆盖。另输出新实验的白化残差与模型分量图，不能只交新的corner。
+### 实验2：共同模式的数值/估计器闭合
+
+固定 underlying P(k,mu)、b/f/sigma/fNL 与 covariance 定义；一次只改变一个离散操作。先列出真 bin IDs/Nmodes，对照 CachedRebin；再用同一未压缩低 k 径向节点比较离散 mu 与连续 mu；再将 GL64 替换解析角矩；最后检查解析壳核、径向 dk、sigma 插值及 UV cutoff。
+
+输入：现成 theory cache、测量 nmodes/k_edges；合成模式功率，不需要新 halo catalog。低 k 显式模式上限逐步提高，例如0.03/0.06/0.10/0.15，直到角向补偿变化收敛；不得只截掉第一箱当作修复。PNG 合成控制同时覆盖0和非零值。UV与径向步长扫描应独立，不将求和 kmax 当成拟合 kmax。
+
+产物：计数比、各操作的 delta_m、delta_m^T C_mean^-1 delta_m、线性化 delta_theta、按 k 累积的核贡献；图为误差来源分解和累计响应。建议数值误差预算门 delta_chi²_mean<0.1，且目标参数移动<0.05 sigma_single，在预设参数网格上通过。
+
+共同频带 Gaussian 模式闭合是强基础门；实际 FCFC 全谱闭合若仍有差异，再要求一致 band-pass 测量或独立小 catalog 对照，检查 mu bins、shot/pairs、mesh。全部数值项小仍有均值残差，则物理模型/真实 covariance 成为重点；若某项大，修完必须重新做原数据拟合。
+
+### 实验3：先在实空间分离随机项与 bias/BAO 形状
+
+固定同25相位、cosmology、p、真实空间坐标、最终冻结 C 和原始 cuts；基线无 FoG。先只释放 P 的 S0；下一组才添加单个 BAO damping 或单个 k²P 型参数，不同时开放全部。
+
+输入：现成 P0/xi0 向量与模型缓存。产物：b1/fNL MAP与分位数、C_mean 白化残差、BAO区域与非BAO区域的残差、留出 bins 的预测评分、随 cuts 的稳定性。所有低 k 新项的 xi 延拓必须明确，不能把常数只在数值截断内 Hankel 后当成物理修复。
+
+如果 S0 使 P 的 b1 稳定而 xi 的 BAO残差仍在，说明至少两类问题并存；如果 BAO自由度降低训练chi²却不改善留出预测或使 fNL 先验主导，不算通过。建议以预注册留出预测/校准后的 PTE及 synthetic fNL recovery共同决定，而非要求两条轮廓视觉重合。
+
+### 实验4：解释 RSD 的 sigma_s，而不是强行共享一个有效参数
+
+只在实验1–2通过后，固定数值算子和最终 metric；分别比较原 Kaiser×FoG 与“独立 BAO位移 + FoG”，必要时才加入最小 density–velocity 修正。依次查看 P0、P02、xi0、xi02；不以错误 joint 作为裁判。
+
+首先只做 sigma profile：优化 u=sigma_s²≥0，避免在 sigma=0处对称导数为0的 Fisher退化。MCMC 若改变量，必须保留先验：原 uniform sigma 对应 pi(u)∝u^-1/2，而不是无声改成 uniform u。用原 sigma 采样也可以。
+
+产物：profile delta_chi²(sigma)、各多极的白化残差、BAO/FoG参数相关、同 cut 的预测评分与 fNL漂移。若独立 BAO参数使 sigma_F 恢复跨探针一致且改善留出形状，支持“原 FoG 代偿 BAO”；若不改善，继续 density–velocity/bias 与 covariance诊断，不能仅凭有更多参数让 chi²下降就宣称解决。
+
+### 实验5：配对参数差与协方差可靠性
+
+固定候选模型、算子和 cuts；只比较预定义的 covariance候选（正确 Gaussian、少参数结构化校准/收缩），用25相位做低维投影和交叉验证，不估计89维自由 precision。
+
+每相位在同一固定 metric 下作 P/xi profile，保存 delta_theta^a=theta_P^a−theta_xi^a；报告配对均值、散布和参数协方差，不假设 P与xi独立。优先对 fNL,b1 的低维差做检验；sigma边界使用带边界的合成校准/重采样，不硬套 Gaussian z值。
+
+产物：配对参数差散点、白化 phase scatter、cross canonical correlations、条件残差、留出预测。通过要求均值残差与phase scatter同时在预设校准区间内，且参数回收偏差满足预定预算，例如<0.1 sigma_single。若仅放大 C 才“通过”，同时记录精度损失和模型残差结构，不能声称均值模型已正确。
+
+## 8. 给执行 agent 的修改清单与禁止事项
+
+首先运行本目录单元测试，然后读取原缓存执行 --cache 审计。接着修改生产源码的以下节点，但写入新的版本/分支和独立输出路径：
+
+- `task43_rsd_rawbox_joint_4way.py` 与 `task43_rsd_rawbox_joint_pkxi.py`：删除有量纲 whole-matrix floor；保持边块，统一 metric，诊断 rho/Schur；不要恢复未经验证的象限常数。
+- 四向 `pk_pole_cov/cross_block`：改成真实成员模式或保留bin ID的分组求和，添加 counts 对照。
+- `task43_rsd_model.py::evaluate` 和快速模型参考：先推广解析角矩，保留sigma插值加速但改用真正独立的参考；另做低 k方向修正收敛测试。
+- 实空间三份 `fit_with/main`：在最终冻结 C 下重新优化并保存同一目标的 MAP/预测/chi²。
+- 拟合层：对 sigma=0 边界采用 profile/正确先验，不把伪逆 Fisher 的零方差当成高精度；保存有效秩和参数可识别性。
+- 缓存层：key或元数据验证加入 cosmology、growth、kernel/bin edges、数值精度与代码版本。现 `build_cache` 的可复用检查主要看 status/hash；当前缓存有 c000 标记不等于任意换宇宙学复用都安全。没有证据表明本组数据实际用错了 cosmology。
+
+正式重画约束之前必须完成：似然同一性与单位不变性、原始 Nmodes闭合、数值误差预算、mean/phase双检验、共同相位参数差校准、链收敛与先验边界说明。图上分开标注 C_single 约束展示和 C_mean 形状检验；错误 joint 图只能标历史/失效，不再引用0.5%或0.9%增益作物理结论。
+
+**不要做：**单靠改 IR 窗口追着数据调；DataBin 将测得 P 喂回 standalone xi理论；认为提高 MCMC步数能修复 likelihood；直接逆x25的89维样本协方差；任意乘2或整体抬高误差来让PTE过关；将有限带宽xi与原始FCFC xi混称；将本报告合成测试通过写成原始物理验证通过。
+
+## 9. 交付代码与证据边界
+
+[rawbox_diagnostics.py](rawbox_diagnostics.py) 提供 GaussianMetric、保留边块的 assemble、cross canonical correlations、条件残差、解析 Lorentzian角矩、解析壳平均核、低 k共同模式算子、Gaussian Gram covariance、rebin几何复算，以及原 theory cache 的只读审计入口。读取缓存时校验SHA256、cosmology与几何；禁止输出覆盖；不导入NERSC绝对路径脚本，不自动重建缓存。
+
+原缓存审计覆盖：cross=0 floor、单位敏感性、原缓存bin计数、解析/象限定标cross的rho、GL64→解析角矩和缓存核→解析核的预测改变量。它没有自动实现低 k角向修正、完整UV/PNG网格、真实测量nmodes核验或科学重拟合；这些明确留给实验2及执行代理。它还固定当前fiducial b1=2.55,sigma=8,fNL=0,nbar=0.000162131295，不冒充通用生产配置。
+
+[test_rawbox_diagnostics.py](test_rawbox_diagnostics.py) 的14项测试当前全部通过：单位chi²相对误差2.22×10^-16，解析角矩最大相对误差1.14×10^-13，解析核最大绝对误差1.54×10^-14；50,000次Gaussian模式功率抽样的协方差最大偏离约2.07个近似标准误。Monte Carlo标准误表达式只是诊断尺度，不是对非Gaussian field covariance的证明。
+
+需要补齐的原始执行产物：实际缓存审计JSON/NPZ、测量nmodes比对、原图视觉核验、各相位P/xi同口径profile、最终C下的MAP、数值/UV扫描和候选物理模型留出预测。完成这些之前，最稳妥的科学表述是：**联合结果存在确定的数值失真；独立探针还存在估计器/协方差和均值模板问题，不能把某一个修复预先宣布为全部原因。**
