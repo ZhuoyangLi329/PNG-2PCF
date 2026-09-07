@@ -1,11 +1,8 @@
-"""Read-only audit of the original theory NPZ. No catalogue jobs or MCMC.
+"""Read-only audit of an ORIGINAL rawbox theory cache. No MCMC/catalog jobs.
 
-From a repository checkout:
-  python GPT5.6-respose/audit_rawbox.py . --out /path/to/NEW/audit.json
-
-Writes a new JSON and companion NPZ, never overwrites. Cache checksum and
-cosmology sidecar are required. --measurement checks existing P02 mode counts.
-No project imports with NERSC dependencies are executed.
+python GPT5.6-respose/audit_rawbox.py . --out /path/to/NEW/audit.json
+A checksum sidecar is mandatory. Output JSON and NPZ must not already exist.
+Use --measurement existing_P02.npz to additionally check measured mode counts.
 """
 from __future__ import annotations
 import argparse
@@ -38,14 +35,12 @@ def checksum(path):
 
 def load_cache(path):
     path = Path(path)
-    if not path.is_file():
-        raise FileNotFoundError(f'Missing original theory cache: {path}')
     meta = json.loads(path.with_suffix('.json').read_text())
     digest = checksum(path)
     if meta.get('status') != 'pass' or meta.get('output_sha256') != digest:
-        raise ValueError('Cache sidecar status/checksum failed; no silent rebuilding')
+        raise ValueError('Cache status/checksum failed; no automatic rebuild')
     if meta.get('cosmology') != 'abacus_c000':
-        raise ValueError('This audit is explicitly scoped to abacus_c000')
+        raise ValueError('This audit is scoped to abacus_c000')
     with np.load(path, allow_pickle=False) as data:
         d = {key: np.asarray(data[key]) for key in data.files}
     for key in ('k_eff','g_nz','pk_dd','alpha','kernels','s_edges','ells','volume','boxsize','f_growth'):
@@ -78,6 +73,7 @@ def angular_gauss(d, b1, sigma, nbar, nmu=64):
 
 
 def covariance_blocks(d, counts, angular):
+    """Reproduce legacy radial-bin membership; NOT the proposed correction."""
     k, g, v = d['k_eff'], d['g_nz'], float(d['volume'])
     centers = (d['s_edges'][1:]+d['s_edges'][:-1])/2
     kernels = {0:d['kernels'][0][:,centers>=50], 2:d['kernels'][1][:,centers>=80]}
@@ -117,22 +113,22 @@ def run_audit(root, out, cache=None, measurement=None, nbar=.000162131295, b1=2.
         raise FileExistsError('Refusing to overwrite audit output')
     if out.suffix.lower() != '.json':
         raise ValueError('--out must end in .json')
-    if nbar <= 0 or sigma < 0:
-        raise ValueError('Invalid nbar/sigma')
+    if not np.all(np.isfinite([nbar,b1,sigma])) or nbar <= 0 or sigma < 0:
+        raise ValueError('Invalid fiducial parameters')
     path = Path(cache) if cache is not None else root/CACHE
     d, digest = load_cache(path)
     v, f = float(d['volume']), float(d['f_growth'])
     _, km, mu = lattice_modes(float(d['boxsize']), float(BINS.max()))
     keep_bins = [(km>=lo)&(km<hi) for lo,hi in BINS]
     counts = np.array([int(s.sum()) for s in keep_bins])
-    if np.any(counts == 0):
-        raise ValueError('Empty fit bin')
-    measurement_check = 'not_requested: enumerated counts, not compared to measured nmodes'
+    measurement_check = 'not_requested: enumerated counts, not checked against measured nmodes'
     if measurement is not None:
         with np.load(measurement, allow_pickle=False) as m:
             edges, measured = np.asarray(m['k_edges']), np.asarray(m['nmodes'])
         if edges.ndim == 1:
             edges = np.column_stack([edges[:-1], edges[1:]])
+        if edges.ndim != 2 or edges.shape[1] != 2:
+            raise ValueError('Invalid measured Fourier edges')
         indices = []
         for row in BINS:
             match = np.flatnonzero(np.all(np.isclose(edges,row,rtol=0,atol=1e-12),axis=1))
@@ -144,8 +140,10 @@ def run_audit(root, out, cache=None, measurement=None, nbar=.000162131295, b1=2.
         measurement_check = 'pass'
     k,g,p = d['k_eff'],d['g_nz'],d['pk_dd']
     rebinned_counts = np.array([np.sum(g[(k>=lo)&(k<hi)]) for lo,hi in BINS])
-    cpp,cxx,cxp = covariance_blocks(d,counts,angular_gauss(d,b1,sigma,nbar))
-    _,cxx_a,_ = covariance_blocks(d,counts,angular_total_integrals(k,p,b1,f,sigma,1/nbar))
+    old_ang = angular_gauss(d,b1,sigma,nbar)
+    exact_ang = angular_total_integrals(k,p,b1,f,sigma,1/nbar)
+    cpp,cxx,cxp = covariance_blocks(d,counts,old_ang)
+    _,cxx_a,_ = covariance_blocks(d,counts,exact_ang)
     fixed = assemble_covariance(cpp,cxx)
     floored,floor_meta = old_floor(fixed)
     nk, nx = cpp.shape[0], cxx.shape[0]
@@ -179,7 +177,7 @@ def run_audit(root, out, cache=None, measurement=None, nbar=.000162131295, b1=2.
     xia = vector(poles_a,d['kernels'],g,v,centers)
     new_kernels = np.stack([shell_kernel(k,d['s_edges'],a) for a in (0,2)])
     xia_kernel = vector(poles_a,new_kernels,g,v,centers)
-    # Isolate angular discreteness using IDENTICAL uncompressed radial nodes.
+    # Identical uncompressed radial nodes isolate ANGULAR discreteness.
     ku, inverse, ng = np.unique(km,return_inverse=True,return_counts=True)
     pu = np.interp(np.log(ku),np.log(k),p)
     cont_low = continuous_poles(ku,pu,b1,f,sigma)
@@ -208,9 +206,9 @@ def run_audit(root, out, cache=None, measurement=None, nbar=.000162131295, b1=2.
             'continuous_angular_quadrature_only':25*mx.chi2(xia-xi64),
             'radial_kernel_quadrature_only':25*mx.chi2(xia_kernel-xia),
             'low_k_angular_discreteness_only_kmax_0p095':25*mx.chi2(delta_angular)},
-        'warnings':['Prediction deltas are NOT fitted parameter shifts.',
-                    'Low-k correction is not applied automatically; a k-switch convergence scan is required.',
-                    'Gaussian covariance excludes connected/non-Poisson terms.',
+        'warnings':['Prediction changes are not fitted parameter shifts.',
+                    'Low-k correction is not applied automatically; test k-switch convergence.',
+                    'Connected/non-Poisson covariance terms are not included.',
                     'Empirical cross-quadrant scales are audited, not endorsed.']}
     arrays = dict(C_PP_legacy=cpp,C_XX_legacy=cxx,C_XP_analytic64=cxp,
         C_XP_scaled=scaled_cross,C_PP_exact_modes=cpp_discrete,C_XX_exact_angle=cxx_a,
@@ -220,8 +218,7 @@ def run_audit(root, out, cache=None, measurement=None, nbar=.000162131295, b1=2.
     with npz_out.open('xb') as stream:
         np.savez_compressed(stream,**arrays)
     with out.open('x') as stream:
-        json.dump(report,stream,indent=2)
-        stream.write('\n')
+        json.dump(report,stream,indent=2); stream.write('\n')
     return report
 
 
