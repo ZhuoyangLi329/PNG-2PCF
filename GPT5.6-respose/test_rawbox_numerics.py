@@ -1,9 +1,15 @@
-"""Deterministic geometry and synthetic tests. NO original rawbox arrays."""
+"""Deterministic and synthetic tests. No original rawbox NPZ is read.
+
+The JSON records actual local results. Rerunning replaces only this test JSON,
+not any production or audit inputs. Dependencies: NumPy and SciPy.
+"""
+import hashlib
 import json
 from pathlib import Path
 import tempfile
 import unittest
 import numpy as np
+import scipy
 from scipy.integrate import quad
 from scipy.special import eval_legendre, spherical_jn
 from rawbox_numerics import (GaussianMetric, assemble_covariance,
@@ -11,19 +17,19 @@ from rawbox_numerics import (GaussianMetric, assemble_covariance,
     continuous_poles, angular_total_integrals, shell_kernel, lattice_modes,
     projectors, gaussian_mode_covariance)
 
-RESULTS = {'scope': 'synthetic and exact geometry tests, not a rawbox-data refit'}
+RESULTS = {'scope':'synthetic and exact geometry tests; NOT an original rawbox refit'}
 
 
 class NumericsTests(unittest.TestCase):
     def test_unit_invariance(self):
         rng = np.random.default_rng(43)
-        a = rng.normal(size=(7,7)); c = a@a.T + np.eye(7)
+        a = rng.normal(size=(7,7)); c = a@a.T+np.eye(7)
         r = rng.normal(size=7)
-        scale = np.array([1e6,1e-6,1e3,1e-3,1e2,1e-2,1.])
-        chi = GaussianMetric(c).chi2(r)
-        changed = GaussianMetric(c*np.outer(scale,scale)).chi2(r*scale)
-        self.assertAlmostEqual(changed,chi,places=11)
-        RESULTS['unit_invariance_relative_chi2_error'] = abs(changed/chi-1)
+        units = np.array([1e6,1e-6,1e3,1e-3,1e2,1e-2,1.])
+        old = GaussianMetric(c).chi2(r)
+        new = GaussianMetric(c*np.outer(units,units)).chi2(r*units)
+        self.assertAlmostEqual(old,new,places=11)
+        RESULTS['unit_invariance_relative_chi2_error'] = abs(new/old-1)
 
     def test_block_identity_and_conditional(self):
         p = np.array([[2e9,3e8],[3e8,4e9]])
@@ -35,15 +41,15 @@ class NumericsTests(unittest.TestCase):
         expected = GaussianMetric(p).chi2(rp)+GaussianMetric(x).chi2(rx)
         self.assertAlmostEqual(GaussianMetric(c).chi2(np.r_[rp,rx]),expected,places=12)
         cross = np.array([[.1,-.05],[.02,.08]])
-        c = assemble_covariance(p,x,cross)
-        _,_,conditional = conditional_xi_residual(rp,rx,p,x,cross)
-        joint = GaussianMetric(c).chi2(np.r_[rp,rx])
-        self.assertAlmostEqual(joint,GaussianMetric(p).chi2(rp)+conditional,places=12)
+        _,_,conditional_chi = conditional_xi_residual(rp,rx,p,x,cross)
+        joint = GaussianMetric(assemble_covariance(p,x,cross)).chi2(np.r_[rp,rx])
+        discrepancy = abs(joint-GaussianMetric(p).chi2(rp)-conditional_chi)
+        self.assertLess(discrepancy,1e-12)
         self.assertLess(canonical_correlations(p,x,cross)[0],1)
-        RESULTS['conditional_chi2_identity_error'] = abs(joint-GaussianMetric(p).chi2(rp)-conditional)
+        RESULTS['conditional_chi2_identity_error'] = discrepancy
 
     def test_bad_covariance_rejected(self):
-        for c in ([[1.,2.],[2.,1.]],[[1.,1.],[1.,1.]], [[-1.,0.],[0.,1.]],
+        for c in ([[1.,2.],[2.,1.]], [[1.,1.],[1.,1.]], [[-1.,0.],[0.,1.]],
                   [[1.,np.nan],[np.nan,1.]], [[1.,.2],[.1,1.]]):
             with self.assertRaises(ValueError):
                 GaussianMetric(c)
@@ -64,20 +70,19 @@ class NumericsTests(unittest.TestCase):
         worst = 0.
         for exponent in (2,4):
             for x in (0.,.01,.2,1.,8.,24.,90.):
-                moments = lorentzian_moments(x,6,exponent)
+                m = lorentzian_moments(x,6,exponent)
                 for n in range(7):
-                    reference = quad(lambda u: u**(2*n)/(1+.5*(x*u)**2)**exponent,
-                                     0,1,epsabs=1e-27,epsrel=2e-12,limit=300)[0]
-                    error = abs(moments[n]-reference)/max(abs(reference),1e-300)
-                    worst = max(worst,error)
-                    np.testing.assert_allclose(moments[n],reference,rtol=1e-9,atol=1e-25)
+                    expected = quad(lambda u:u**(2*n)/(1+.5*(x*u)**2)**exponent,
+                                    0,1,epsabs=1e-27,epsrel=2e-12,limit=300)[0]
+                    worst = max(worst,abs(m[n]/expected-1))
+                    np.testing.assert_allclose(m[n],expected,rtol=1e-9,atol=1e-25)
         RESULTS['moment_max_relative_error_vs_adaptive_quad'] = worst
 
     def test_kaiser_limit_and_quadrature_tail(self):
         b,f = 2.55,.81
-        p = continuous_poles(np.array([.003,.1]),1.,b,f,0.)
-        np.testing.assert_allclose(p[0],b*b+2*b*f/3+f*f/5,rtol=1e-13)
-        np.testing.assert_allclose(p[2],4*b*f/3+4*f*f/7,rtol=1e-13)
+        poles = continuous_poles(np.array([.003,.1]),1.,b,f,0.)
+        np.testing.assert_allclose(poles[0],b*b+2*b*f/3+f*f/5,rtol=1e-13)
+        np.testing.assert_allclose(poles[2],4*b*f/3+4*f*f/7,rtol=1e-13)
         errors = {}
         for x in (24.,90.):
             exact = float(lorentzian_moments(x,0,2)[0])
@@ -88,18 +93,18 @@ class NumericsTests(unittest.TestCase):
         RESULTS['I0_quadrature_relative_errors'] = errors
 
     def test_covariance_angular_integral_normalization(self):
-        pure = angular_total_integrals(np.array([.01]),0.,2.,.8,8.,1.)
-        self.assertAlmostEqual(pure[0,0][0],2.,places=12)
-        self.assertAlmostEqual(pure[2,2][0],2./5.,places=12)
-        self.assertAlmostEqual(pure[0,2][0],0.,places=12)
-        k,p,a,f,s,shot = .19,3500.,2.6,.81,8.,6100.
-        result = angular_total_integrals(np.array([k]),p,a,f,s,shot)
+        shot = angular_total_integrals(np.array([.01]),0.,2.,.8,8.,1.)
+        self.assertAlmostEqual(shot[0,0][0],2.,places=12)
+        self.assertAlmostEqual(shot[2,2][0],2./5,places=12)
+        self.assertAlmostEqual(shot[0,2][0],0.,places=12)
+        k,p,a,f,s,n = .19,3500.,2.6,.81,8.,6100.
+        result = angular_total_integrals(np.array([k]),p,a,f,s,n)
         for ell,ell2 in result:
             def integrand(u):
-                total = p*(a+f*u*u)**2/(1+.5*(k*s*u)**2)**2+shot
+                total = p*(a+f*u*u)**2/(1+.5*(k*s*u)**2)**2+n
                 return total*total*eval_legendre(ell,u)*eval_legendre(ell2,u)
-            ref = quad(integrand,-1,1,epsabs=1e-5,epsrel=1e-11)[0]
-            np.testing.assert_allclose(result[ell,ell2],ref,rtol=1e-10,atol=1e-5)
+            expected = quad(integrand,-1,1,epsabs=1e-5,epsrel=1e-11)[0]
+            np.testing.assert_allclose(result[ell,ell2],expected,rtol=1e-10,atol=1e-5)
 
     def test_shell_antiderivatives(self):
         edges = np.array([30.,40.,50.,110.,120.,340.,350.])
@@ -107,30 +112,28 @@ class NumericsTests(unittest.TestCase):
         largest = 0.
         for ell in (0,2):
             calculated = shell_kernel(ks,edges,ell)
-            reference = np.empty_like(calculated)
+            expected = np.empty_like(calculated)
             for i,k in enumerate(ks):
                 for j,(lo,hi) in enumerate(zip(edges[:-1],edges[1:])):
-                    reference[i,j] = ((-1)**(ell//2)*3/(hi**3-lo**3) *
-                        quad(lambda r:r*r*spherical_jn(ell,k*r),lo,hi,
-                             epsabs=1e-8,epsrel=2e-11,limit=500)[0])
-            largest = max(largest,float(np.max(np.abs(calculated-reference))))
-            np.testing.assert_allclose(calculated,reference,rtol=3e-9,atol=3e-13)
+                    expected[i,j] = ((-1)**(ell//2)*3/(hi**3-lo**3)*quad(
+                        lambda r:r*r*spherical_jn(ell,k*r),lo,hi,
+                        epsabs=1e-8,epsrel=2e-11,limit=500)[0])
+            largest = max(largest,float(np.max(np.abs(calculated-expected))))
+            np.testing.assert_allclose(calculated,expected,rtol=3e-9,atol=3e-13)
         RESULTS['shell_kernel_max_absolute_error_vs_quad'] = largest
 
     def test_first_rawbox_bin_geometry(self):
         _,k,mu = lattice_modes(2000.,.005)
-        select = (k>=.003)&(k<.005)
-        self.assertEqual(int(select.sum()),18)
-        moments = [float(np.mean(mu[select]**(2*n))) for n in (1,2,3)]
+        keep = (k>=.003)&(k<.005)
+        self.assertEqual(int(keep.sum()),18)
+        moments = [float(np.mean(mu[keep]**(2*n))) for n in (1,2,3)]
         np.testing.assert_allclose(moments,[1/3,2/9,1/6],atol=1e-14)
         b,f = 2.55,.81
-        actual = float(np.mean(5*(b+f*mu[select]**2)**2*eval_legendre(2,mu[select])))
-        expected = 5*b*f/3+25*f*f/36
-        self.assertAlmostEqual(actual,expected,places=12)
-        RESULTS['first_bin'] = {'nmodes':18,'mean_k':float(np.mean(k[select])),
+        actual = float(np.mean(5*(b+f*mu[keep]**2)**2*eval_legendre(2,mu[keep])))
+        self.assertAlmostEqual(actual,5*b*f/3+25*f*f/36,places=12)
+        RESULTS['first_bin'] = {'nmodes':18,'mean_k':float(np.mean(k[keep])),
             'mu2_mu4_mu6':moments,'P2_constant_Plin_toy':actual,
-            'P2_continuum_toy':4*b*f/3+4*f*f/7,
-            'note':'constant radial power toy, not the measured spectrum'}
+            'P2_continuum_toy':4*b*f/3+4*f*f/7,'scope':'constant radial power toy, not measured P2'}
 
     def test_mode_covariance_monte_carlo(self):
         vectors,k,mu = lattice_modes(600.,.028)
@@ -145,12 +148,12 @@ class NumericsTests(unittest.TestCase):
         powers = rng.exponential(size=(nmc,int(half.sum())))*total[half]
         mock = 2*powers@w[:,half].T
         empirical = np.cov(mock,rowvar=False)
-        se = np.sqrt((np.outer(np.diag(theory),np.diag(theory))+theory*theory)/(nmc-1))
-        zmax = float(np.max(np.abs(empirical-theory)/se))
+        approximate_se = np.sqrt((np.outer(np.diag(theory),np.diag(theory))+theory*theory)/(nmc-1))
+        zmax = float(np.max(np.abs(empirical-theory)/approximate_se))
         self.assertLess(zmax,6.)
         RESULTS['mode_covariance_mc'] = {'draws':nmc,'independent_complex_modes':int(half.sum()),
-            'max_element_discrepancy_in_gaussian_covariance_standard_errors':zmax,
-            'note':'SE is approximate diagnostic; theory uses exponential mode powers'}
+            'max_discrepancy_in_approximate_covariance_standard_errors':zmax,
+            'scope':'exponential powers of Gaussian complex modes; covariance SE is an approximate diagnostic'}
 
     def test_zero_mode_and_large_enumeration_rejected(self):
         v,k,_ = lattice_modes(2000.,.01)
@@ -161,11 +164,37 @@ class NumericsTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             projectors(k,k*0,[[1.,2.]],[30.,40.],2000.**3)
 
+    def test_sigma_boundary_derivative(self):
+        h,k = 1e-4,.1
+        model = lambda s:1/(1+.5*(k*s)**2)**2
+        self.assertEqual((model(h)-model(-h))/(2*h),0.)
+        self.assertAlmostEqual((1/(1+.5*k*k*h)**2-1)/h,-k*k,places=7)
+
+    def test_cached_rebin_does_not_preserve_pk_bin_membership(self):
+        from audit_rawbox import BINS
+        _,km,_ = lattice_modes(2000.,.10)
+        ku,ng = np.unique(km,return_counts=True)
+        index = (ku/(.1*(2*np.pi/2000.))).astype(np.int64)
+        g = np.bincount(index,weights=ng)
+        gk = np.bincount(index,weights=ng*ku)
+        nonzero = g>0
+        keff,g = gk[nonzero]/g[nonzero],g[nonzero]
+        actual = np.array([np.sum((km>=lo)&(km<hi)) for lo,hi in BINS])
+        rebinned = np.array([np.sum(g[(keff>=lo)&(keff<hi)]) for lo,hi in BINS])
+        self.assertEqual(actual[8],1262)
+        self.assertEqual(rebinned[8],1094)
+        RESULTS['radial_rebin_membership_geometry'] = {'dk_factor':.1,
+            'exact_counts':actual.tolist(),'rebinned_counts':rebinned.tolist(),
+            'relative_count_errors':(rebinned/actual-1).tolist(),
+            'scope':'source-equivalent geometry reproduction; not an original NPZ read'}
+
     def test_audit_driver_synthetic_fixture(self):
-        from audit_rawbox import run_audit,checksum,BINS
+        from audit_rawbox import run_audit, checksum, BINS
         with tempfile.TemporaryDirectory() as directory:
-            root = Path(directory); path = root/'synthetic_cache.npz'
-            kf = 2*np.pi/2000.; k = np.geomspace(kf,3.,1800)
+            root = Path(directory)
+            path = root/'synthetic_cache.npz'
+            kf = 2*np.pi/2000.
+            k = np.geomspace(kf,3.,1800)
             edges = np.arange(30.,360.,10.)
             g = 4*np.pi*k*k*np.gradient(k)/kf**3
             np.savez(path,k_eff=k,g_nz=g,pk_dd=10000/(1+(k/.03)**2),
@@ -178,41 +207,26 @@ class NumericsTests(unittest.TestCase):
             measurement = root/'synthetic_P02.npz'
             np.savez(measurement,k_edges=BINS,nmodes=counts)
             out = root/'audit.json'
-            report = run_audit(root,out,path,measurement)
-            self.assertEqual(report['inputs']['measurement_count_check'],'pass')
-            self.assertLess(report['strict_metric_unit_relative_chi2_error'],1e-10)
+            result = run_audit(root,out,path,measurement)
+            self.assertEqual(result['inputs']['measurement_count_check'],'pass')
+            self.assertLess(result['strict_metric_unit_relative_chi2_error'],1e-10)
             self.assertTrue(out.with_suffix('.npz').is_file())
             with self.assertRaises(FileExistsError):
                 run_audit(root,out,path)
-            RESULTS['audit_driver_synthetic_fixture'] = 'pass; no original cache was used'
-
-    def test_cached_rebin_does_not_preserve_pk_bin_membership(self):
-        from audit_rawbox import BINS
-        _,km,_ = lattice_modes(2000.,.10)
-        ku,multiplicity = np.unique(km,return_counts=True)
-        index = (ku/(.1*(2*np.pi/2000.))).astype(np.int64)
-        g = np.bincount(index,weights=multiplicity)
-        gk = np.bincount(index,weights=multiplicity*ku)
-        nonzero = g>0; effective_k = gk[nonzero]/g[nonzero]; g = g[nonzero]
-        actual = np.array([np.sum((km>=lo)&(km<hi)) for lo,hi in BINS])
-        rebinned = np.array([np.sum(g[(effective_k>=lo)&(effective_k<hi)]) for lo,hi in BINS])
-        self.assertEqual(actual[8],1262); self.assertEqual(rebinned[8],1094)
-        RESULTS['radial_rebin_membership_geometry'] = {'dk_factor':.1,
-            'exact_counts':actual.tolist(),'rebinned_counts':rebinned.tolist(),
-            'relative_count_errors':(rebinned/actual-1).tolist(),
-            'scope':'source-equivalent geometry reproduction; not an original NPZ read'}
-
-    def test_sigma_boundary_derivative(self):
-        h,k = 1e-4,.1
-        model = lambda s: 1/(1+.5*(k*s)**2)**2
-        self.assertEqual((model(h)-model(-h))/(2*h),0.)
-        lambda_derivative = (1/(1+.5*k*k*h)**2-1)/h
-        self.assertAlmostEqual(lambda_derivative,-k*k,places=7)
+            # A changed input must fail its sidecar, not silently rebuild.
+            path.with_suffix('.json').write_text(json.dumps({'status':'pass','output_sha256':'bad','cosmology':'abacus_c000'}))
+            with self.assertRaises(ValueError):
+                run_audit(root,root/'new.json',path)
+        RESULTS['audit_driver_synthetic_fixture'] = 'pass; no original cache used'
 
 
 if __name__ == '__main__':
-    result = unittest.TextTestRunner(verbosity=2).run(unittest.defaultTestLoader.loadTestsFromTestCase(NumericsTests))
+    suite = unittest.defaultTestLoader.loadTestsFromTestCase(NumericsTests)
+    result = unittest.TextTestRunner(verbosity=2).run(suite)
     RESULTS.update(tests_run=result.testsRun,failures=len(result.failures),errors=len(result.errors),
-                   passed=result.wasSuccessful(),numpy_version=np.__version__)
-    Path(__file__).with_name('local_test_results.json').write_text(json.dumps(RESULTS,indent=2)+'\n')
+                   passed=result.wasSuccessful(),numpy_version=np.__version__,scipy_version=scipy.__version__)
+    root = Path(__file__).parent
+    RESULTS['code_sha256'] = {p.name:hashlib.sha256(p.read_bytes()).hexdigest()
+                             for p in sorted(root.glob('*.py'))}
+    (root/'local_test_results.json').write_text(json.dumps(RESULTS,indent=2)+'\n')
     raise SystemExit(0 if result.wasSuccessful() else 1)
