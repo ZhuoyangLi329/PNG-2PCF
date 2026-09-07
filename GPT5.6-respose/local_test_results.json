@@ -1,0 +1,44 @@
+{
+  "scope": "synthetic/exact geometry tests, NOT an original rawbox-data refit",
+  "audit_driver_synthetic_fixture": "pass; NO original cache used",
+  "conditional_chi2_identity_error": 0.0,
+  "first_bin": {
+    "nmodes": 18,
+    "mean_k": 0.004009119509968842,
+    "mu2_mu4_mu6": [0.3333333333333333, 0.2222222222222222, 0.16666666666666663],
+    "P2_constant_Plin_toy": 3.898124999999995,
+    "P2_continuum_toy": 3.128914285714286,
+    "note": "constant radial power toy, NOT measured spectrum or parameter shift"
+  },
+  "I0_quadrature_relative_errors": {
+    "ksigma=24,nmu=64": -0.008612631523321368,
+    "ksigma=24,nmu=128": -8.614363789738455e-06,
+    "ksigma=24,nmu=256": -4.722444657545566e-12,
+    "ksigma=90,nmu=64": -0.6497047105617273,
+    "ksigma=90,nmu=128": -0.17212244365740215,
+    "ksigma=90,nmu=256": -0.005717204629210104
+  },
+  "synthetic_legacy_floor_unit_dependence": 0.91112899792092,
+  "mode_covariance_mc": {
+    "draws": 50000,
+    "independent_complex_modes": 40,
+    "max_element_discrepancy_in_approximate_standard_errors": 1.946885293079542,
+    "note": "SE is a Gaussian approximation; mode power sampling is exponential"
+  },
+  "moment_max_relative_error_vs_adaptive_quad": 1.141309269314661e-13,
+  "radial_rebin_membership_geometry": {
+    "dk_factor": 0.1,
+    "exact_counts": [18,14,60,86,156,234,410,672,1262,1656,2570,2994,4190,5070,6000,7170],
+    "rebinned_counts": [18.0,14.0,60.0,86.0,156.0,234.0,410.0,672.0,1094.0,1752.0,2378.0,2754.0,4016.0,4974.0,5352.0,6594.0],
+    "relative_count_errors": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-0.13312202852614896,0.05797101449275366,-0.07470817120622564,-0.08016032064128253,-0.04152744630071603,-0.018934911242603603,-0.10799999999999998,-0.08033472803347286],
+    "scope": "source-equivalent geometry reproduction; NOT an original NPZ read"
+  },
+  "shell_kernel_max_absolute_error_vs_quad": 1.541822225448186e-14,
+  "unit_invariance_relative_chi2_error": 2.220446049250313e-16,
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0"
+}
