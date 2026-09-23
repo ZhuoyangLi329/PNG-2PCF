@@ -1,0 +1,100 @@
+{
+  "covariance": "ezmock1000",
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "data_contract": "9.18 22 P + 52 xi = 74 joint; x25 mean; C_single; full cross; kmax0.08 smin50 BAO mask80-120",
+  "emulator_method": "cubic",
+  "emulator_sha256": "d93fd463efe428e6cd9d5530482ed17da22abeed325eed2495f0763e48278d06",
+  "frozen_inputs_sha256": "0e3601dde3607d4137b5537ca96e0d76bd0acafc66849e8403f44cf10f419f37",
+  "gic_interpolation_error": [
+    4.345913697305587e-11,
+    3.907385753252083e-11,
+    5.13735822825373e-11,
+    2.932721506439316e-11,
+    4.951267729350734e-11,
+    2.3597585880772917e-11,
+    7.105593065028165e-11,
+    5.300997269654518e-12,
+    4.306782639800768e-11,
+    3.515153709356491e-11
+  ],
+  "host": "login11",
+  "mock_crosscheck": {
+    "nmock": 1000,
+    "rebuild_relative_frobenius": 0.0,
+    "stack_shape": [
+      1000,
+      74
+    ]
+  },
+  "model_contract": "Task432 hybrid at original bin centers + mandatory deterministic isotropized formal-GIC. xi0 -= C_W(hybrid); xi2 unchanged. No new free parameter.",
+  "numerical_error_chi2_by_method": {
+    "cubic": [
+      1.946807934539096e-08,
+      2.0127425272896763e-08,
+      1.7113447215137494e-08,
+      2.067025480816713e-08,
+      1.938519631325534e-08,
+      2.483730928166352e-08,
+      1.837348247993215e-08,
+      2.157697798430239e-08,
+      1.974324955665543e-08,
+      2.168652216566997e-08
+    ],
+    "linear": [
+      0.0026827496737067648,
+      0.0020705451214048354,
+      0.002349383889583931,
+      0.0028759548245586393,
+      0.0020903031841069705,
+      0.005940919020304812,
+      0.0010808207366803373,
+      0.0008805442626926972,
+      1.9743249556993547e-08,
+      2.168652216614977e-08
+    ]
+  },
+  "parent_audit_sha256": "5f1f8b88248d323f70c6268ec3033a6a3ab51c8db28cb6ed0b0888f7a9cb521d",
+  "parent_run": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1",
+  "priors": {
+    "lower": [
+      -500.0,
+      0.5,
+      0.0,
+      -1.0
+    ],
+    "upper": [
+      500.0,
+      5.0,
+      30.0,
+      1.0
+    ]
+  },
+  "source_hashes": {
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_hybrid_gic.py": "cb05a1f07a8fb8201e7569d520a7c696d1e3e1b2e5559279286d5336b943d615",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_hybrid_gic_0918_contract.py": "9a56ea2408a2e7e01ea494c4708252a1dfe347136c60de83dbeb770daa6e5f79",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_hybrid_jaxpower_0918_contract.py": "68dc336d129c97d8c01f45daadde1260acb466ef5738f8aa0637f53aa9f2ff5f"
+  },
+  "status": "pass",
+  "unchanged_input_arrays": {
+    "covariance": true,
+    "data_p": true,
+    "data_x": true,
+    "f_growth": true,
+    "p_edges": true,
+    "p_spline_c": true,
+    "p_spline_x": true,
+    "shot": true,
+    "xi_centers": true
+  },
+  "window_audit": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/window_audit.json",
+  "window_audit_sha256": "a92fb730adc30c7016fd29821990c9e4485ef2e2c580acfaa0ae616a57733474"
+}

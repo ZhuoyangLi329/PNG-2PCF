@@ -1,0 +1,92 @@
+{
+  "acceptance_fraction_mean": 0.7147192708333334,
+  "best_chain_chi2": 5.1134278223414436,
+  "best_chain_theta": [
+    -3.8908252827655367,
+    2.4332395048249134
+  ],
+  "burnin": 5000,
+  "covariance": "jaxpower",
+  "data_dimension": 52,
+  "elapsed_seconds": 275.7284954620409,
+  "emulated_map_chi2": 5.1134276641619305,
+  "emulated_map_theta": [
+    -3.897068790286237,
+    2.433223848077508
+  ],
+  "gates": {
+    "half_chain_shift_max_below_0p1sigma": true,
+    "postburn_length_min_above_50tau": true,
+    "split_rhat_max_below_1p01": true
+  },
+  "gic_at_direct_map": 1.2664382428936705e-05,
+  "gic_posterior_q16_q50_q84": [
+    7.098711559405426e-06,
+    1.2013841152917832e-05,
+    1.8944675424477046e-05
+  ],
+  "half_chain_shift_sigma": {
+    "b1": 0.0028995150010926616,
+    "fNL": 0.005416919382272967
+  },
+  "input_audit_sha256": "0a2ce8f6e1007b31505432faba43218243552bfe04856108dd8e68900b29c078",
+  "map_chi2": 5.113473952925132,
+  "map_evaluation": "direct hybrid+GIC, Nint1200 shell quadrature8; posterior uses validated emulator",
+  "map_success": true,
+  "map_theta": [
+    -3.8972744152388343,
+    2.433223806024124
+  ],
+  "model": "hybrid+GIC",
+  "multistart_chi2": [
+    5.1134276641619305,
+    5.113427664163056,
+    5.113427664163976,
+    5.113427664162525,
+    5.113427664162193
+  ],
+  "nsteps": 30000,
+  "nwalkers": 64,
+  "parameter_names": [
+    "fNL",
+    "b1"
+  ],
+  "postburn_length_over_tau": {
+    "b1": 788.1441728923628,
+    "fNL": 775.5450269331028
+  },
+  "posterior": {
+    "b1": {
+      "q16": 2.3243721570684652,
+      "q50": 2.4289922851173418,
+      "q84": 2.531865188184336,
+      "sigma68": 0.10374651555793535
+    },
+    "fNL": {
+      "q16": -33.75668200971904,
+      "q50": -6.051989463896444,
+      "q84": 20.557323027681516,
+      "sigma68": 27.15700251870028
+    }
+  },
+  "priors": {
+    "lower": [
+      -500.0,
+      0.5
+    ],
+    "upper": [
+      500.0,
+      5.0
+    ]
+  },
+  "seed": 4321901,
+  "split_rhat": {
+    "b1": 1.0012675684796652,
+    "fNL": 1.001119162653298
+  },
+  "status": "pass",
+  "tau": {
+    "b1": 31.720084801558585,
+    "fNL": 32.23539463448388
+  }
+}

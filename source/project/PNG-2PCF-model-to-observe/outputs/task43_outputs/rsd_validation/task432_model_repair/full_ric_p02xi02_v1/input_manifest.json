@@ -1,0 +1,12 @@
+{
+  "status": "geometry_development",
+  "baseline": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract",
+  "frozen": {
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/frozen_inputs.npz": "0e3601dde3607d4137b5537ca96e0d76bd0acafc66849e8403f44cf10f419f37",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/xi_emulator.npz": "d93fd463efe428e6cd9d5530482ed17da22abeed325eed2495f0763e48278d06",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/input_audit.json": "4cc8220b309aee36d60faf5d22b8f1c4a5ec2595ea744c39066f4625f8368cdd"
+  },
+  "formal_inputs_modified": false,
+  "covariance": "EZmock1000 C_single full-cross",
+  "geometry_pool": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/random_pool_ph001.npz"
+}

@@ -1,0 +1,55 @@
+{
+  "acceptance_fraction_mean": 0.7146203125,
+  "gates": {
+    "half_chain_shift_max_below_0p1sigma": true,
+    "postburn_length_min_above_50tau": true,
+    "split_rhat_max_below_1p01": true
+  },
+  "half_chain_shift_sigma": {
+    "b1": 0.01676558780446148,
+    "fNL": 3.6890957376914725e-05
+  },
+  "map_chain": {
+    "b1": 2.4369532669470173,
+    "fNL": -5.613271111770265
+  },
+  "map_chain_log_probability": -2.56118087924642,
+  "mcmc": {
+    "burnin": 5000,
+    "nsteps": 30000,
+    "nwalkers": 64,
+    "seed": 20260926,
+    "workers": 8
+  },
+  "name": "xi02",
+  "parameter_names": [
+    "fNL",
+    "b1"
+  ],
+  "postburn_length_over_tau": {
+    "b1": 788.7067552474916,
+    "fNL": 786.4390462971119
+  },
+  "posterior": {
+    "b1": {
+      "q16": 2.3297905053993007,
+      "q50": 2.4332796743984337,
+      "q84": 2.5358343864767714,
+      "sigma68": 0.10302194053873537
+    },
+    "fNL": {
+      "q16": -34.94279452501428,
+      "q50": -7.897474380913749,
+      "q84": 17.82265653460255,
+      "sigma68": 26.382725529808415
+    }
+  },
+  "split_rhat": {
+    "b1": 1.0013600053651726,
+    "fNL": 1.0009154514539322
+  },
+  "tau": {
+    "b1": 31.697458952478662,
+    "fNL": 31.788859057431836
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "analytic_covariance": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/kmax0p08_smin50_v1/task43_lightcone_standard_joint_baomask80_120_covariance_v1.npz",
+  "analytic_covariance_sha256": "bd08daba92825729c39f40681196e48a52793a0aa50d325fdc352741e4ac0f09",
+  "data_contract": "9.18 page 2: P0 13 + P2 9 + xi0 26 + xi2 26; x25 mean; C_single; full cross covariance",
+  "emulator_method": "linear",
+  "gates": {
+    "integration_pass": true,
+    "interpolation_pass": true,
+    "p_batch_pass": true
+  },
+  "host": "login11",
+  "hybrid_source_sha256": "3f76f8ab40cb7e939462eefa55dd39f5b673b7f899f03259c5a1dc797baf51ca",
+  "method_error_chi2_joint": {
+    "linear": [
+      0.0031141358755326304,
+      0.002377043617954086,
+      0.002718005629686987,
+      0.0033324717857489915,
+      0.002390397072097128,
+      0.0068390784200325835,
+      0.001224883355944169,
+      0.0010217029391460578,
+      3.991765553576296e-08,
+      4.374634748958146e-08
+    ]
+  },
+  "old_emulator": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/lightcone_png_velocileptors_gsm_longchain/lightcone_xi_emulator.npz",
+  "old_emulator_sha256": "9b275530f7521100f2ae49ad8516f2eb64a921e335d6efc878e299cf4cdf0741",
+  "p_batch_max_relative_error": 9.277612844723985e-16,
+  "p_payload": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/pk_summary/task43_rsd_boxsafe_lightcone_pk0_x25_kmin0p004291_kmax0p10_l0only_15bin.npz",
+  "p_payload_sha256": "576d7d0d15a282e49f2bd05bea0618fc117d7be5d0c73f19b960d7a2154d9b7b",
+  "priors": {
+    "lower": [
+      -500.0,
+      0.5,
+      0.0,
+      -1.0
+    ],
+    "upper": [
+      500.0,
+      5.0,
+      30.0,
+      1.0
+    ]
+  },
+  "reference": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.18meeting/task43_ezmock_covariance_mcmc_vs_jaxpower/task43_ezmock604_vs_jaxpower_rsd_P02xi02_joint_kmax0p08_smin50_baomask80_120_v1.json",
+  "reference_sha256": "c551883c688296923affd70421fd74e3a7a7ffb5df1206098b52724cd28faaa6",
+  "runner_sha256": "28bc22e0eff00a1a10eda59c107bdda7ca55f65a32a14ed3c0988301e824b232",
+  "status": "pass",
+  "validation": [
+    {
+      "emulator_error_chi2_joint": 0.0031141358755326304,
+      "emulator_error_chi2_xi": 0.00026367260524582054,
+      "integration_error_chi2_joint": 8.656694831737477e-09,
+      "theta": [
+        -7.73,
+        2.3904
+      ],
+      "xi_likelihood_chi2_change": -0.0038380366074317607
+    },
+    {
+      "emulator_error_chi2_joint": 0.002377043617954086,
+      "emulator_error_chi2_xi": 0.00022207818355429626,
+      "integration_error_chi2_joint": 8.904375949014407e-09,
+      "theta": [
+        -5.6,
+        2.4368
+      ],
+      "xi_likelihood_chi2_change": -0.0009800162681408153
+    },
+    {
+      "emulator_error_chi2_joint": 0.002718005629686987,
+      "emulator_error_chi2_xi": 0.0002419295102428551,
+      "integration_error_chi2_joint": 7.898408086210944e-09,
+      "theta": [
+        -63.7,
+        2.273
+      ],
+      "xi_likelihood_chi2_change": -0.06175372407423474
+    },
+    {
+      "emulator_error_chi2_joint": 0.0033324717857489915,
+      "emulator_error_chi2_xi": 0.0002874017769900157,
+      "integration_error_chi2_joint": 9.212636410680802e-09,
+      "theta": [
+        -31.3,
+        2.517
+      ],
+      "xi_likelihood_chi2_change": -0.02690276624982424
+    },
+    {
+      "emulator_error_chi2_joint": 0.002390397072097128,
+      "emulator_error_chi2_xi": 0.00022852994066327814,
+      "integration_error_chi2_joint": 8.52820316357474e-09,
+      "theta": [
+        18.7,
+        2.347
+      ],
+      "xi_likelihood_chi2_change": 0.016979599815043045
+    },
+    {
+      "emulator_error_chi2_joint": 0.0068390784200325835,
+      "emulator_error_chi2_xi": 0.0006055439750784573,
+      "integration_error_chi2_joint": 1.0364592957203875e-08,
+      "theta": [
+        57.3,
+        2.643
+      ],
+      "xi_likelihood_chi2_change": 0.21577975119344472
+    },
+    {
+      "emulator_error_chi2_joint": 0.001224883355944169,
+      "emulator_error_chi2_xi": 0.00012101166202028984,
+      "integration_error_chi2_joint": 7.877658226858782e-09,
+      "theta": [
+        96.1,
+        2.177
+      ],
+      "xi_likelihood_chi2_change": 0.06085071150369359
+    },
+    {
+      "emulator_error_chi2_joint": 0.0010217029391460578,
+      "emulator_error_chi2_xi": 8.979983789346262e-05,
+      "integration_error_chi2_joint": 9.862804638500656e-09,
+      "theta": [
+        -102.3,
+        2.713
+      ],
+      "xi_likelihood_chi2_change": -0.04693389684268823
+    },
+    {
+      "emulator_error_chi2_joint": 3.991765553576296e-08,
+      "emulator_error_chi2_xi": 3.542696870609553e-08,
+      "integration_error_chi2_joint": 8.735065668051449e-09,
+      "theta": [
+        0.0,
+        2.4
+      ],
+      "xi_likelihood_chi2_change": -3.1111816698015105e-05
+    },
+    {
+      "emulator_error_chi2_joint": 4.374634748958146e-08,
+      "emulator_error_chi2_xi": 3.8673325198670704e-08,
+      "integration_error_chi2_joint": 9.37281032800678e-09,
+      "theta": [
+        25.0,
+        2.5
+      ],
+      "xi_likelihood_chi2_change": -0.00010121020973663519
+    }
+  ],
+  "xi_model_contract": "Existing hybrid at bin centers, no formal GIC, no xi FoG parameter; unchanged physical implementation",
+  "xi_summary": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/ell2_increment/task43_rsd_boxsafe_x25_mean_xi02_s30_350_ds10.npz",
+  "xi_summary_sha256": "b6c7cc43a3615f21bd3c9cfbad20d5869e8f34dbfe27b6956fab6d0abf47a7b0"
+}

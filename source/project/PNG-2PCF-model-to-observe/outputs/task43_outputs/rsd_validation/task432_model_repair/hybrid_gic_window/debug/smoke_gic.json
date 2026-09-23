@@ -1,0 +1,277 @@
+{
+  "probes": [
+    {
+      "C": {
+        "q16_n2400_a4": 1.333778572038054e-05,
+        "q4_n600_a4": 1.3337783403988591e-05,
+        "q8_n1200_a4": 1.3337740336162034e-05,
+        "q8_n1200_a8": 1.3338785621782142e-05
+      },
+      "batch_native_max_abs": 9.80118763926896e-17,
+      "delta_chi2_angular": 4.878254737397375e-10,
+      "delta_chi2_q4_to_q16": 2.3956237853135298e-15,
+      "delta_chi2_q8_to_q16": 9.196111878614757e-13,
+      "elapsed": 2.1643472489668056,
+      "theta": [
+        0,
+        2.4
+      ]
+    },
+    {
+      "C": {
+        "q16_n2400_a4": 1.0961491940181498e-05,
+        "q4_n600_a4": 1.0961489433218513e-05,
+        "q8_n1200_a4": 1.0961447060628008e-05,
+        "q8_n1200_a8": 1.0962491430666713e-05
+      },
+      "batch_native_max_abs": 4.9439619065339e-17,
+      "delta_chi2_angular": 4.869712606676072e-10,
+      "delta_chi2_q4_to_q16": 2.8060174451635737e-15,
+      "delta_chi2_q8_to_q16": 8.992730493652089e-13,
+      "elapsed": 2.1354780009714887,
+      "theta": [
+        -10,
+        2.4
+      ]
+    },
+    {
+      "C": {
+        "q16_n2400_a4": 6.173725249564518e-05,
+        "q4_n600_a4": 6.173722416179586e-05,
+        "q8_n1200_a4": 6.173720401687942e-05,
+        "q8_n1200_a8": 6.173829119869448e-05
+      },
+      "batch_native_max_abs": 6.971419969081794e-17,
+      "delta_chi2_angular": 5.277143234660932e-10,
+      "delta_chi2_q4_to_q16": 3.5843109839665003e-13,
+      "delta_chi2_q8_to_q16": 1.0492950692257785e-12,
+      "elapsed": 2.1393663389608264,
+      "theta": [
+        80,
+        2.7
+      ]
+    },
+    {
+      "C": {
+        "q16_n2400_a4": 4.780733327959448e-06,
+        "q4_n600_a4": 4.7807469286040164e-06,
+        "q8_n1200_a4": 4.780690420648184e-06,
+        "q8_n1200_a8": 4.781702363105876e-06
+      },
+      "batch_native_max_abs": 1.734723475976807e-18,
+      "delta_chi2_angular": 4.571999338021793e-10,
+      "delta_chi2_q4_to_q16": 8.25873451488254e-14,
+      "delta_chi2_q8_to_q16": 8.219721912844901e-13,
+      "elapsed": 2.1217776379780844,
+      "theta": [
+        -100,
+        2.2
+      ]
+    },
+    {
+      "C": {
+        "q16_n2400_a4": 0.004572170954997059,
+        "q4_n600_a4": 0.004572170758805159,
+        "q8_n1200_a4": 0.004572170827617657,
+        "q8_n1200_a8": 0.004572171956207746
+      },
+      "batch_native_max_abs": 1.6653345369377348e-16,
+      "delta_chi2_angular": 5.686787328444741e-10,
+      "delta_chi2_q4_to_q16": 1.7185282320312058e-11,
+      "delta_chi2_q8_to_q16": 7.244241764200233e-12,
+      "elapsed": 2.143236512958538,
+      "theta": [
+        500,
+        5
+      ]
+    },
+    {
+      "C": {
+        "q16_n2400_a4": 7.366790745500914e-05,
+        "q4_n600_a4": 7.366801004751939e-05,
+        "q8_n1200_a4": 7.366780465523586e-05,
+        "q8_n1200_a8": 7.366798032569822e-05
+      },
+      "batch_native_max_abs": 1.113475631142613e-16,
+      "delta_chi2_angular": 1.377818500533128e-11,
+      "delta_chi2_q4_to_q16": 4.69922063114137e-12,
+      "delta_chi2_q8_to_q16": 4.7182270581197544e-12,
+      "elapsed": 2.1321517120231874,
+      "theta": [
+        -500,
+        0.5
+      ]
+    }
+  ],
+  "radial": {
+    "n_r": 2301,
+    "original_nodes_preserved": true,
+    "refinement": 1,
+    "rmax_actual": 3996.2294188132973,
+    "rmax_requested": 4000.0
+  },
+  "unit_constant_chi2": 446472303.7015459,
+  "window": {
+    "mean_window": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_boxsafe_formal_gic_x25_equal_phase_mean_nsub200000_seedbase430340.npz",
+    "mean_window_sha256": "a28f68de1ad3d112724a4f17b0942491314325ed7117c90e2f8369877a6d5b96",
+    "normalization": "Each phase RR normalized independently, then arithmetic mean of 25 phases",
+    "pair_weight_ge600": 0.8353243274388111,
+    "phases": [
+      {
+        "coverage": 0.9999999998498658,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph000_nsub200000_seed430340.npz",
+        "phase": "ph000",
+        "sha256": "915fbe88350b3fdcddae4f94accc6231e55656705ad698636ac6894ac6aab9f4"
+      },
+      {
+        "coverage": 0.9999999998827127,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph001_nsub200000_seed430341.npz",
+        "phase": "ph001",
+        "sha256": "d65fd7d83ceba8665850b3f1230de4ab37b9fd34034b6d909e076d61ebae7f3a"
+      },
+      {
+        "coverage": 0.9999999996354406,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph002_nsub200000_seed430342.npz",
+        "phase": "ph002",
+        "sha256": "9fe2b7df6e00e35596ae277e56ff55cc43892a7806f5f275f21c9fea3814fad7"
+      },
+      {
+        "coverage": 0.9999999997353836,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph003_nsub200000_seed430343.npz",
+        "phase": "ph003",
+        "sha256": "61ae0281fe6a0b5e16ab8b713f881a5f95a95824b66f74a4fdee90114a3189f9"
+      },
+      {
+        "coverage": 0.9999999997296954,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph004_nsub200000_seed430344.npz",
+        "phase": "ph004",
+        "sha256": "177de8a4e210918e20f7d8c7b2fdeeda29ca5e6ffe2bfb3028b891607603d516"
+      },
+      {
+        "coverage": 0.9999999998172645,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph005_nsub200000_seed430345.npz",
+        "phase": "ph005",
+        "sha256": "dd2f80ccd0814f09999ac938829cdbd7a0333a831c8080a3e0b83122ffb47e44"
+      },
+      {
+        "coverage": 0.9999999998559657,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph006_nsub200000_seed430346.npz",
+        "phase": "ph006",
+        "sha256": "b34e4736f97778c305d442f7bf6fe32c3216497813e4659d00c88f99102f0194"
+      },
+      {
+        "coverage": 0.9999999998398095,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph007_nsub200000_seed430347.npz",
+        "phase": "ph007",
+        "sha256": "3120433285051e441502127634ff2525f5555c6759405426eefc27ea56ecaa50"
+      },
+      {
+        "coverage": 0.9999999999230722,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph008_nsub200000_seed430348.npz",
+        "phase": "ph008",
+        "sha256": "8593131d4050db50d5df9247918520dc9ed98049292b25387c14156b1d814460"
+      },
+      {
+        "coverage": 0.9999999997652933,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph009_nsub200000_seed430349.npz",
+        "phase": "ph009",
+        "sha256": "d93807bc9b4f6c46c6f2144d32ed3b646bbd092869037b5b4d297be3e6e0ba28"
+      },
+      {
+        "coverage": 0.9999999998076803,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph010_nsub200000_seed430350.npz",
+        "phase": "ph010",
+        "sha256": "0717b5f93d95476102914483c2a49c37d162ba1eb29b59203d466538571b3b0f"
+      },
+      {
+        "coverage": 0.9999999998860744,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph011_nsub200000_seed430351.npz",
+        "phase": "ph011",
+        "sha256": "bb9a959f07407bb035bfd82ea06b2a47ff1e9c599864ec9828c49781a195e405"
+      },
+      {
+        "coverage": 0.9999999996713311,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph012_nsub200000_seed430352.npz",
+        "phase": "ph012",
+        "sha256": "2c76c7730b7ce93bd550ea83922d6ce9d198d79d5d3d2cbd452163c5f8bd1265"
+      },
+      {
+        "coverage": 0.99999999982153,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph013_nsub200000_seed430353.npz",
+        "phase": "ph013",
+        "sha256": "4257b07b694357cbd2b1e118593488885eb2664d9482adbae5986b5eb0f2156a"
+      },
+      {
+        "coverage": 0.9999999998235729,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph014_nsub200000_seed430354.npz",
+        "phase": "ph014",
+        "sha256": "8e8a8e74b8ffc995d644d8fb833f36e42a3e11ab69f970b477afe28b0e477ae6"
+      },
+      {
+        "coverage": 0.9999999997556641,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph015_nsub200000_seed430355.npz",
+        "phase": "ph015",
+        "sha256": "9c28fb1285195caee235502f64121cb26767161138ca5c13be03679b0ee0a865"
+      },
+      {
+        "coverage": 0.9999999997526292,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph016_nsub200000_seed430356.npz",
+        "phase": "ph016",
+        "sha256": "27461abd6c9b2b9c686ef5ba16544a95c90d3dc3d8d23d3aa0cc7e1aa9764d75"
+      },
+      {
+        "coverage": 0.9999999997010848,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph017_nsub200000_seed430357.npz",
+        "phase": "ph017",
+        "sha256": "c2bcbf9f9cfe9c2690ecf9e86712d27246a979f2ae154909ef3b9399673bd784"
+      },
+      {
+        "coverage": 0.9999999997831126,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph018_nsub200000_seed430358.npz",
+        "phase": "ph018",
+        "sha256": "8378256afae968029b88f018cc553c673df4ade8b474aea7dd3acd607e7167bf"
+      },
+      {
+        "coverage": 0.9999999998008391,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph019_nsub200000_seed430359.npz",
+        "phase": "ph019",
+        "sha256": "4562a38d8460375dfe11cc65ef196dcffe3591a6d6b06b2fc0aa4f7f808d2b45"
+      },
+      {
+        "coverage": 0.9999999998707425,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph020_nsub200000_seed430360.npz",
+        "phase": "ph020",
+        "sha256": "fb2b18a9aa387b95540e688e72e26b76d988508dbcd32707094a652a44f2cf88"
+      },
+      {
+        "coverage": 0.9999999999333713,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph021_nsub200000_seed430361.npz",
+        "phase": "ph021",
+        "sha256": "fe9f1ce3c3f8cc859f5c58eb2df4fc0ab5d8b7f7ac8e6f225f8529b05596ccc5"
+      },
+      {
+        "coverage": 0.9999999998692733,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph022_nsub200000_seed430362.npz",
+        "phase": "ph022",
+        "sha256": "e1b8414125130587c7a0efba7be79c96b22c4369ef97a88f64c62dfc30901e23"
+      },
+      {
+        "coverage": 0.9999999997130395,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph023_nsub200000_seed430363.npz",
+        "phase": "ph023",
+        "sha256": "c53b0c32a2abc8cc139c11825e4c1d0f34b6427c96d54387f8b7ca0da364e8e4"
+      },
+      {
+        "coverage": 0.9999999999674694,
+        "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/formal_gic_windows/task43_rsd_formal_gic_ph024_nsub200000_seed430364.npz",
+        "phase": "ph024",
+        "sha256": "f174bdcc5d74d7c233c9b838175fb8b114fcd4e0eaccecf0fea0e615f600c62c"
+      }
+    ],
+    "s_range": [
+      0.5,
+      3500.0
+    ]
+  },
+  "window_reconstruction_max_abs": 5.551115123125783e-17
+}

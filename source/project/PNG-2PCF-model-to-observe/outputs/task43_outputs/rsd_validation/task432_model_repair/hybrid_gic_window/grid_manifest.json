@@ -1,0 +1,31 @@
+{
+  "C_max": 0.004572170758805159,
+  "C_min": 4.7223604409070695e-07,
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "elapsed_seconds": 33.0404783069971,
+  "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/hybrid_gic_grid.npz",
+  "parent_emulator": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/xi_emulator.npz",
+  "parent_emulator_sha256": "9b275530f7521100f2ae49ad8516f2eb64a921e335d6efc878e299cf4cdf0741",
+  "quadrature": {
+    "Nint": 600,
+    "ngauss": 4,
+    "rmax": 4000,
+    "shell_order": 4
+  },
+  "sha256": "d93fd463efe428e6cd9d5530482ed17da22abeed325eed2495f0763e48278d06",
+  "shape": [
+    41,
+    46
+  ],
+  "status": "pass",
+  "window_audit_sha256": "a92fb730adc30c7016fd29821990c9e4485ef2e2c580acfaa0ae616a57733474"
+}

@@ -1,0 +1,303 @@
+{
+  "phase": "ph000",
+  "row": {
+    "analysis_scope": "task43.2_boxsafe_lightcone_within_mother_box",
+    "analysis_tag": "zobs0p4_0p8",
+    "fallback_policy": "official_cleaned_nonzero_posavg_uses_posavg_velavg_origin_modulo_3",
+    "immutability": "independent box-safe products; never overwrite narrow/wide/Task43 or Task44 products",
+    "injected_fnl": 0.0,
+    "legacy_bridge_catalog_path": null,
+    "lightcone_catalog_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8.npz",
+    "lightcone_fkp_data_view_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp_catalogs/task43_rsd_data_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8_fkpP010000.npz",
+    "lightcone_fkp_metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8_dz0p01.json",
+    "lightcone_fkp_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+    "lightcone_fkp_random_view_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp_catalogs/task43_rsd_random_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8_fkpP010000_x25.npz",
+    "lightcone_metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8.json",
+    "lightcone_random_metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/randoms/task43_rsd_random_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8_x25.json",
+    "lightcone_random_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/randoms/task43_rsd_random_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8_x25.npz",
+    "lightcone_shells": [
+      "z0.400",
+      "z0.450",
+      "z0.500",
+      "z0.575",
+      "z0.650",
+      "z0.725",
+      "z0.800"
+    ],
+    "lightcone_source_paths": [
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/halo_light_cones/AbacusSummit_base_c000_ph000/z0.400/lc_halo_info.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/halo_light_cones/AbacusSummit_base_c000_ph000/z0.450/lc_halo_info.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/halo_light_cones/AbacusSummit_base_c000_ph000/z0.500/lc_halo_info.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/halo_light_cones/AbacusSummit_base_c000_ph000/z0.575/lc_halo_info.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/halo_light_cones/AbacusSummit_base_c000_ph000/z0.650/lc_halo_info.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/halo_light_cones/AbacusSummit_base_c000_ph000/z0.725/lc_halo_info.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/halo_light_cones/AbacusSummit_base_c000_ph000/z0.800/lc_halo_info.asdf"
+    ],
+    "lightcone_xi_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/xi/task43_rsd_xi0_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8_x25_s30_350_ds10.npz",
+    "lightcone_zero_velocity_catalog_path": null,
+    "lightcone_zero_velocity_metadata_path": null,
+    "mass_threshold_hmsun": 14000000000000.0,
+    "p0_fkp": 10000.0,
+    "p_fixed": 1.0,
+    "phase": "ph000",
+    "phase_index": 0,
+    "provenance_boxsafe": {
+      "cut_records": {
+        "ph000": {
+          "ndata_after": 591308,
+          "ndata_before": 953541,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph000"
+        },
+        "ph001": {
+          "ndata_after": 591151,
+          "ndata_before": 954912,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph001_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph001"
+        },
+        "ph002": {
+          "ndata_after": 592679,
+          "ndata_before": 955484,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph002_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph002"
+        },
+        "ph003": {
+          "ndata_after": 593109,
+          "ndata_before": 954739,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph003_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph003"
+        },
+        "ph004": {
+          "ndata_after": 594795,
+          "ndata_before": 953953,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph004_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph004"
+        },
+        "ph005": {
+          "ndata_after": 593343,
+          "ndata_before": 954851,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph005_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph005"
+        },
+        "ph006": {
+          "ndata_after": 589185,
+          "ndata_before": 950997,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph006_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph006"
+        },
+        "ph007": {
+          "ndata_after": 591200,
+          "ndata_before": 952643,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph007_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph007"
+        },
+        "ph008": {
+          "ndata_after": 593662,
+          "ndata_before": 955101,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph008_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph008"
+        },
+        "ph009": {
+          "ndata_after": 594294,
+          "ndata_before": 957017,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph009_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph009"
+        },
+        "ph010": {
+          "ndata_after": 591000,
+          "ndata_before": 953232,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph010_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph010"
+        },
+        "ph011": {
+          "ndata_after": 590921,
+          "ndata_before": 955309,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph011_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph011"
+        },
+        "ph012": {
+          "ndata_after": 589926,
+          "ndata_before": 952649,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph012_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph012"
+        },
+        "ph013": {
+          "ndata_after": 594826,
+          "ndata_before": 955138,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph013_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph013"
+        },
+        "ph014": {
+          "ndata_after": 590575,
+          "ndata_before": 953937,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph014_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph014"
+        },
+        "ph015": {
+          "ndata_after": 591102,
+          "ndata_before": 953836,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph015_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph015"
+        },
+        "ph016": {
+          "ndata_after": 591011,
+          "ndata_before": 954302,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph016_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph016"
+        },
+        "ph017": {
+          "ndata_after": 590537,
+          "ndata_before": 954190,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph017_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph017"
+        },
+        "ph018": {
+          "ndata_after": 592136,
+          "ndata_before": 953338,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph018_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph018"
+        },
+        "ph019": {
+          "ndata_after": 590649,
+          "ndata_before": 956423,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph019_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph019"
+        },
+        "ph020": {
+          "ndata_after": 592145,
+          "ndata_before": 953491,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph020_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph020"
+        },
+        "ph021": {
+          "ndata_after": 591002,
+          "ndata_before": 953030,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph021_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph021"
+        },
+        "ph022": {
+          "ndata_after": 588913,
+          "ndata_before": 952184,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph022_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph022"
+        },
+        "ph023": {
+          "ndata_after": 592067,
+          "ndata_before": 953232,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph023_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph023"
+        },
+        "ph024": {
+          "ndata_after": 591089,
+          "ndata_before": 954476,
+          "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph024_mmin1p4e13_zobs0p4_0p8.npz",
+          "phase": "ph024"
+        }
+      },
+      "derived_from_manifest": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/manifests/task43_rsd_validation_lightcone_wide_zobs0p4_1p1_x25.jsonl",
+      "derived_from_tag": "zobs0p4_1p1",
+      "reason": "wide catalog incomplete where chi>2000 Mpc/h (z>0.834) requires box replicas; cut to conservative zmax=0.8 (chi=1936.43) verified complete by angular-cell tests"
+    },
+    "random_multiplier": 25,
+    "random_radial_policy": "data_observed_redshift_resample",
+    "rawbox_source_paths": [
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_000.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_001.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_002.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_003.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_004.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_005.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_006.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_007.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_008.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_009.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_010.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_011.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_012.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_013.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_014.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_015.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_016.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_017.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_018.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_019.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_020.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_021.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_022.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_023.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_024.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_025.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_026.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_027.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_028.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_029.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_030.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_031.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_032.asdf",
+      "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_033.asdf"
+    ],
+    "rsd_lightcone_los": "local_radial",
+    "rsd_velocity_scale": 1.0,
+    "s_edges_mpc_h": [
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0,
+      110.0,
+      120.0,
+      130.0,
+      140.0,
+      150.0,
+      160.0,
+      170.0,
+      180.0,
+      190.0,
+      200.0,
+      210.0,
+      220.0,
+      230.0,
+      240.0,
+      250.0,
+      260.0,
+      270.0,
+      280.0,
+      290.0,
+      300.0,
+      310.0,
+      320.0,
+      330.0,
+      340.0,
+      350.0
+    ],
+    "sim_name": "AbacusSummit_base_c000_ph000",
+    "smin_scan_mpc_h": [
+      30,
+      40,
+      50,
+      80,
+      100,
+      120
+    ],
+    "task": "task43_rsd_validation_lightcone_boxsafe",
+    "zmax_observed": 0.8,
+    "zmin_observed": 0.4
+  },
+  "pool_n": 131072,
+  "full_random_n": 14782700,
+  "seed": 4322203,
+  "fkp_summary": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+  "fkp_sha256": "746ff04897a0ea3428ef8af1307675e40ca7ebda72a1047225814a4c587e7d27",
+  "random_hash_recorded_in_production": "5530020bf13589d290e08fa2ffc1cefbf869cef168d220c423fff578d21e161a",
+  "measurement": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph000_mesh256_kmax0p300_dk0p002.npz",
+  "measurement_metadata_sha256": "42b808b6b205955e940a9c1021cece946e1c066b32a0b4960be94671e720d076",
+  "weight_rule": "production piecewise-constant fkp_weights[z_bin] times WEIGHT",
+  "max_stored_weight_error": 1.4116557534027407e-08,
+  "P_pair_volume": 3167943088.074874,
+  "P_I2": 13.19423993868954,
+  "P_data_weight_sum": 204447.06213632168,
+  "source_sha256": "3c45ededa8166b7ce930a8f18b8e9172447022dce1a6630927eca36490440ee5"
+}

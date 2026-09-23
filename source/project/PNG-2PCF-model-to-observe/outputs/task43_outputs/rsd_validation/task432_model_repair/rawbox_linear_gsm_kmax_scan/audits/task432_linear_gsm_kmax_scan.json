@@ -1,0 +1,409 @@
+{
+  "data_contract": {
+    "cache": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p725000_box2000_kmax3_ell02.npz",
+    "k_switch": null,
+    "nbar": 0.000162131295,
+    "p_bins": 16,
+    "quadrant_scales": {
+      "P0_xi0": 1.116174090868313,
+      "P0_xi2": 2.5767512627364275,
+      "P2_xi0": 2.312298630091175,
+      "P2_xi2": 1.7274063919587246
+    },
+    "xi0_bins": 26,
+    "xi2_bins": 26,
+    "xi_angle_mode": "continuous",
+    "xi_mask_contract": "50 <= s < 350; 80 <= s < 120 excluded"
+  },
+  "elapsed_sec": 28.375795255997218,
+  "literature_contract": {
+    "eBOSS_configuration_space_precedent": "CLPT-GS/CLPT-GSRSD; Alam et al. 2020 mock challenge fit 32--160 h^-1 Mpc",
+    "eft": false,
+    "streaming_model": "Scoccimarro 2004 pair conservation; Reid & White 2011 GSM"
+  },
+  "model_contract": {
+    "kmax_scan_h_mpc": [
+      0.15,
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      2.0
+    ],
+    "p_fixed": 1.0,
+    "p_side_parameters": [
+      "sigma_s_P",
+      "sn0"
+    ],
+    "shared_parameters": [
+      "fNL",
+      "b1"
+    ],
+    "sigma_fog_units": "Mpc/h displacement; added as sigma_FOG^2 to LOS pair variance",
+    "xi_side_parameters": []
+  },
+  "scan_rows": [
+    {
+      "fits": {
+        "joint": {
+          "label": "joint",
+          "map_chi2": 42.167308163287245,
+          "map_theta": [
+            3.9944663421129882,
+            2.536595389902817,
+            5.5774673442952796e-11,
+            0.21854508101870831
+          ],
+          "n_function_evaluations": 7,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        },
+        "p_marginal": {
+          "label": "p_marginal",
+          "map_chi2": 2.9551422156846447,
+          "map_theta": [
+            2.3050038958494463,
+            2.5732113936950003,
+            3.0864754587163067e-07,
+            0.143779438107075
+          ],
+          "n_function_evaluations": 9,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        },
+        "xi_marginal": {
+          "label": "xi_marginal",
+          "map_chi2": 867.2628092741323,
+          "map_theta": [
+            -309.4358605280202,
+            0.5000000000000422
+          ],
+          "n_function_evaluations": 12,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        }
+      },
+      "kmax_gsm_h_mpc": 0.15,
+      "moment_cache": {
+        "k_max_used_h_mpc": 0.14999762385637627,
+        "k_min_h_mpc": 0.0031415926535897933,
+        "kmax_gsm_h_mpc": 0.15,
+        "moment_definition": "leading linear moments; no EFT or nonlinear bias operators",
+        "n_modes": 444,
+        "n_radial": 2800,
+        "radial_max_mpc_h": 1400.0,
+        "radial_min_mpc_h": 0.5,
+        "sigma_u2_one_component": 8.279550731714881
+      },
+      "quadrature": {
+        "angular_order": 12,
+        "radial_n": 2800,
+        "shell_order": 4,
+        "stream_order": 8,
+        "zmax": 8.0
+      }
+    },
+    {
+      "fits": {
+        "joint": {
+          "label": "joint",
+          "map_chi2": 51.84840973712871,
+          "map_theta": [
+            4.999569880639678,
+            2.539248447154779,
+            1.86726125862676e-13,
+            0.21341587107094337
+          ],
+          "n_function_evaluations": 8,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        },
+        "p_marginal": {
+          "label": "p_marginal",
+          "map_chi2": 2.9551422156846447,
+          "map_theta": [
+            2.3050038958494463,
+            2.5732113936950003,
+            3.0864754587163067e-07,
+            0.143779438107075
+          ],
+          "n_function_evaluations": 9,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        },
+        "xi_marginal": {
+          "label": "xi_marginal",
+          "map_chi2": 817.0733439896869,
+          "map_theta": [
+            -325.05272498851923,
+            0.5000000000000004
+          ],
+          "n_function_evaluations": 12,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        }
+      },
+      "kmax_gsm_h_mpc": 0.25,
+      "moment_cache": {
+        "k_max_used_h_mpc": 0.24988562256639768,
+        "k_min_h_mpc": 0.0031415926535897933,
+        "kmax_gsm_h_mpc": 0.25,
+        "moment_definition": "leading linear moments; no EFT or nonlinear bias operators",
+        "n_modes": 762,
+        "n_radial": 2800,
+        "radial_max_mpc_h": 1400.0,
+        "radial_min_mpc_h": 0.5,
+        "sigma_u2_one_component": 9.336125478503886
+      },
+      "quadrature": {
+        "angular_order": 12,
+        "radial_n": 2800,
+        "shell_order": 4,
+        "stream_order": 8,
+        "zmax": 8.0
+      }
+    },
+    {
+      "fits": {
+        "joint": {
+          "label": "joint",
+          "map_chi2": 49.759791987617945,
+          "map_theta": [
+            4.53762070832675,
+            2.5410833258774126,
+            3.3604131078693556e-07,
+            0.21016942974842695
+          ],
+          "n_function_evaluations": 10,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        },
+        "p_marginal": {
+          "label": "p_marginal",
+          "map_chi2": 2.9551422156846447,
+          "map_theta": [
+            2.3050038958494463,
+            2.5732113936950003,
+            3.0864754587163067e-07,
+            0.143779438107075
+          ],
+          "n_function_evaluations": 9,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        },
+        "xi_marginal": {
+          "label": "xi_marginal",
+          "map_chi2": 346.24556709363156,
+          "map_theta": [
+            137.6220113099309,
+            1.6688849926485227
+          ],
+          "n_function_evaluations": 10,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        }
+      },
+      "kmax_gsm_h_mpc": 0.5,
+      "moment_cache": {
+        "k_max_used_h_mpc": 0.49996649252086006,
+        "k_min_h_mpc": 0.0031415926535897933,
+        "kmax_gsm_h_mpc": 0.5,
+        "moment_definition": "leading linear moments; no EFT or nonlinear bias operators",
+        "n_modes": 1558,
+        "n_radial": 2800,
+        "radial_max_mpc_h": 1400.0,
+        "radial_min_mpc_h": 0.5,
+        "sigma_u2_one_component": 10.195133760361824
+      },
+      "quadrature": {
+        "angular_order": 12,
+        "radial_n": 2800,
+        "shell_order": 4,
+        "stream_order": 8,
+        "zmax": 8.0
+      }
+    },
+    {
+      "fits": {
+        "joint": {
+          "label": "joint",
+          "map_chi2": 47.66969165645099,
+          "map_theta": [
+            4.300123903677363,
+            2.5438566003911665,
+            7.057589081033613e-07,
+            0.20469441832801058
+          ],
+          "n_function_evaluations": 16,
+          "optimizer_message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "optimizer_status": 4
+        },
+        "p_marginal": {
+          "label": "p_marginal",
+          "map_chi2": 2.9551422156846447,
+          "map_theta": [
+            2.3050038958494463,
+            2.5732113936950003,
+            3.0864754587163067e-07,
+            0.143779438107075
+          ],
+          "n_function_evaluations": 9,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        },
+        "xi_marginal": {
+          "label": "xi_marginal",
+          "map_chi2": 365.91845083260586,
+          "map_theta": [
+            116.88713411897406,
+            1.7542726542944558
+          ],
+          "n_function_evaluations": 10,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        }
+      },
+      "kmax_gsm_h_mpc": 0.75,
+      "moment_cache": {
+        "k_max_used_h_mpc": 0.7497322618729167,
+        "k_min_h_mpc": 0.0031415926535897933,
+        "kmax_gsm_h_mpc": 0.75,
+        "moment_definition": "leading linear moments; no EFT or nonlinear bias operators",
+        "n_modes": 2353,
+        "n_radial": 2800,
+        "radial_max_mpc_h": 1400.0,
+        "radial_min_mpc_h": 0.5,
+        "sigma_u2_one_component": 10.468065899097672
+      },
+      "quadrature": {
+        "angular_order": 12,
+        "radial_n": 2800,
+        "shell_order": 4,
+        "stream_order": 8,
+        "zmax": 8.0
+      }
+    },
+    {
+      "fits": {
+        "joint": {
+          "label": "joint",
+          "map_chi2": 48.5677573268415,
+          "map_theta": [
+            4.392066096739094,
+            2.542725717703554,
+            6.236187934054994e-07,
+            0.20693737457232317
+          ],
+          "n_function_evaluations": 17,
+          "optimizer_message": "`xtol` termination condition is satisfied.",
+          "optimizer_status": 3
+        },
+        "p_marginal": {
+          "label": "p_marginal",
+          "map_chi2": 2.9551422156846447,
+          "map_theta": [
+            2.3050038958494463,
+            2.5732113936950003,
+            3.0864754587163067e-07,
+            0.143779438107075
+          ],
+          "n_function_evaluations": 9,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        },
+        "xi_marginal": {
+          "label": "xi_marginal",
+          "map_chi2": 366.6509732922155,
+          "map_theta": [
+            127.17172278996105,
+            1.7104500778126366
+          ],
+          "n_function_evaluations": 10,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        }
+      },
+      "kmax_gsm_h_mpc": 1.0,
+      "moment_cache": {
+        "k_max_used_h_mpc": 0.9998086843030415,
+        "k_min_h_mpc": 0.0031415926535897933,
+        "kmax_gsm_h_mpc": 1.0,
+        "moment_definition": "leading linear moments; no EFT or nonlinear bias operators",
+        "n_modes": 3149,
+        "n_radial": 2800,
+        "radial_max_mpc_h": 1400.0,
+        "radial_min_mpc_h": 0.5,
+        "sigma_u2_one_component": 10.594564397326202
+      },
+      "quadrature": {
+        "angular_order": 12,
+        "radial_n": 2800,
+        "shell_order": 4,
+        "stream_order": 8,
+        "zmax": 8.0
+      }
+    },
+    {
+      "fits": {
+        "joint": {
+          "label": "joint",
+          "map_chi2": 47.18355909694379,
+          "map_theta": [
+            4.254445536903842,
+            2.5443457459599146,
+            1.7996235594480727e-06,
+            0.2037185197381308
+          ],
+          "n_function_evaluations": 16,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        },
+        "p_marginal": {
+          "label": "p_marginal",
+          "map_chi2": 2.9551422156846447,
+          "map_theta": [
+            2.3050038958494463,
+            2.5732113936950003,
+            3.0864754587163067e-07,
+            0.143779438107075
+          ],
+          "n_function_evaluations": 9,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        },
+        "xi_marginal": {
+          "label": "xi_marginal",
+          "map_chi2": 359.75489126643356,
+          "map_theta": [
+            116.0545157662827,
+            1.7563892909374255
+          ],
+          "n_function_evaluations": 10,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        }
+      },
+      "kmax_gsm_h_mpc": 2.0,
+      "moment_cache": {
+        "k_max_used_h_mpc": 1.999782489439579,
+        "k_min_h_mpc": 0.0031415926535897933,
+        "kmax_gsm_h_mpc": 2.0,
+        "moment_definition": "leading linear moments; no EFT or nonlinear bias operators",
+        "n_modes": 6332,
+        "n_radial": 2800,
+        "radial_max_mpc_h": 1400.0,
+        "radial_min_mpc_h": 0.5,
+        "sigma_u2_one_component": 10.75867076994309
+      },
+      "quadrature": {
+        "angular_order": 12,
+        "radial_n": 2800,
+        "shell_order": 4,
+        "stream_order": 8,
+        "zmax": 8.0
+      }
+    }
+  ],
+  "status": "complete",
+  "task": "Task 4.3.2 rawbox linear-input GSM kmax scan"
+}

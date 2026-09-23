@@ -1,0 +1,209 @@
+{
+  "EZ_25sample_variance_95_interval": [
+    [
+      0.5258674022779943,
+      0.5021093674107454,
+      0.5145246419385883,
+      0.5111376995837755,
+      0.4960615875680416
+    ],
+    [
+      1.6178387991457126,
+      1.648906074341971,
+      1.6468195007255206,
+      1.6392059782263555,
+      1.6912588099984769
+    ]
+  ],
+  "EZ_bootstrap_mean_contrast_tail": 0.015898410158984102,
+  "canonical_correlations": [
+    0.9597640964358326,
+    0.9347526271535277,
+    0.9035995948041855,
+    0.8685621331931123,
+    0.8602147449672208,
+    0.8188880338633321,
+    0.8045582830824894,
+    0.7900135167332659,
+    0.7691378877174405,
+    0.7553271325279793,
+    0.7258451190643529,
+    0.6918924704770716,
+    0.6886008967394438,
+    0.6537478189541203,
+    0.6093781801186774,
+    0.4925861344298886,
+    0.43921286967722817,
+    0.41055233368537375,
+    0.3342894623266456,
+    0.1854414954151345,
+    0.1778373490981086,
+    0.14887113277854874
+  ],
+  "caveat": "Linear contrasts assume fiducial tangent model. Modes3-5 means are not postfit p values. EZ bootstrap conditions on estimated covariance; 25 halo sample covariance is not inverted.",
+  "contrast_covariance_Csingle": [
+    [
+      0.005480849400927774,
+      0.0020965899649741325
+    ],
+    [
+      0.002096589964974139,
+      0.007587571426931721
+    ]
+  ],
+  "contrast_empirical_covariance": [
+    [
+      0.003240012962418958,
+      0.0012856721452456296
+    ],
+    [
+      0.0012856721452456296,
+      0.0047000042188784
+    ]
+  ],
+  "contrast_mean_chi2_2df_reference": 0.017346064678647986,
+  "contrast_mean_mahalanobis_EZ": 8.108779235982418,
+  "contrast_variance_ratios": [
+    0.5911516127172739,
+    0.6194345930235279
+  ],
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "current_formal_MAP": {
+    "joint": {
+      "b1": 2.378192441940271,
+      "chi2": 4.006149283020766,
+      "theta": [
+        4.723196798957899,
+        2.378192441940271,
+        2.1701791436597304,
+        0.08521900069780709
+      ]
+    },
+    "p02": {
+      "b1": 2.413458927143941,
+      "chi2": 0.8946687598586981,
+      "theta": [
+        -5.284309987687385,
+        2.413458927143941,
+        2.375189141319515,
+        0.009684279597250439
+      ]
+    },
+    "xi02": {
+      "b1": 2.4228661969543683,
+      "chi2": 2.7335396232944187,
+      "theta": [
+        3.784362786876732,
+        2.4228661969543683,
+        0.9999999999999999
+      ]
+    }
+  },
+  "derivative_halfstep_relative_error": 3.8238019084162276e-08,
+  "fit_weight": "C_single unchanged; divide by25 only for mean-noise diagnostics",
+  "halo_mode_covariance": [
+    [
+      0.5911516127172725,
+      0.00758715467324993,
+      0.10745013060713011,
+      -0.020598740283206886,
+      -0.2500968537775007
+    ],
+    [
+      0.00758715467324993,
+      0.6175606383821498,
+      -0.11467112816762488,
+      -0.03717779135632546,
+      -0.1512116436957425
+    ],
+    [
+      0.10745013060713011,
+      -0.11467112816762488,
+      1.323288854301135,
+      -0.18193852316606454,
+      -0.10732308686516567
+    ],
+    [
+      -0.020598740283206886,
+      -0.03717779135632546,
+      -0.18193852316606454,
+      0.9407008472267565,
+      0.11029041666070512
+    ],
+    [
+      -0.2500968537775007,
+      -0.1512116436957425,
+      -0.10732308686516567,
+      0.11029041666070512,
+      1.3428068126195956
+    ]
+  ],
+  "halo_variance_ratios": [
+    0.5911516127172725,
+    0.6175606383821498,
+    1.323288854301135,
+    0.9407008472267565,
+    1.3428068126195956
+  ],
+  "inputs": {
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/pilot/mean4xi_mean2P_prodrr_stochastic/engine.npz": "dde0ba534d5eac07ec0580c67eafebcaea3596673fbd50b045e84b8f96e8fc7a",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/ezmock1000_covariance_and_stack.npz": "7f95b415db2d35c871c5186571fa3655a5c403902c6f8b117808d66df2f3be15",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/frozen_inputs.npz": "0e3601dde3607d4137b5537ca96e0d76bd0acafc66849e8403f44cf10f419f37",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_joint_b1_diagnostics/paired_phase_data.npz": "47ad6e6db06360d38263e6a8693a3a6e4ec393c2039c4b36cd940f953b24daf6"
+  },
+  "labels": [
+    "joint_minus_P_b1",
+    "joint_minus_xi_b1_orthogonal",
+    "joint_b1_orthogonal",
+    "conditional_canonical1_orthogonal",
+    "conditional_canonical2_orthogonal"
+  ],
+  "local_common_model_null_error": 4.226523949193839e-16,
+  "mean_b1_contrasts_linear": [
+    -0.03507366700802221,
+    -0.03945331650868551
+  ],
+  "mean_modes": [
+    -0.47375874538916646,
+    -0.3160756564599361,
+    -0.6591313220266274,
+    -0.7815847718002803,
+    -0.08206976569877494
+  ],
+  "mean_modes_in_EZ_mean_sigma": [
+    -2.368793726945832,
+    -1.5803782822996806,
+    -3.295656610133137,
+    -3.9079238590014014,
+    -0.4103488284938747
+  ],
+  "mode_covariance_identity_error": 1.3322676295501878e-15,
+  "mode_selection": "Fixed fiducial derivatives and EZ covariance only; no halo residual ranking",
+  "n_ez": 1000,
+  "n_halo": 25,
+  "seed": 4322401,
+  "source_sha256": "27b005ff9311a7a57c88aa7700c04e01b62d515f7f6c64f628cf1f08beb64d66",
+  "status": "pass",
+  "theta_anchor": [
+    0.0,
+    2.42,
+    2.2,
+    0.08
+  ],
+  "variance_lower_tail_frequency": [
+    0.05599440055994401,
+    0.08399160083991601,
+    0.8653134686531346,
+    0.45985401459854014,
+    0.8651134886511349
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "RESULTS.md": "77c487067eca4b1654daa6291bc4ee2a1aedb11603afbf013abca29279f093f6",
+    "STATUS.json": "fde81eeeda9601f89c0a952db1cd854b19c62fe73b0f777b8d9fe1ce5bef406e",
+    "constraints.csv": "85172b460d72e2170715f5b90b312badcf249d375d53f53731531fb43ed2be4f",
+    "executed_cut_manifest.json": "9956a201ff9d3fa79faee7cc5c9b9caefedbf4676623f2f0cdfa246f3bdb7d7e",
+    "expanded_input_audit.json": "ca17a13ed8255879a73407c075919b45791702ee8ef907bc8c00dde46f153696",
+    "expanded_model_manifest.json": "e839f07bc39a52adf3f5d376f1cacd399b52d32d394cea095902a2d6073f45fa",
+    "expanded_validation.json": "1867b45c2a6ff5b6fc6170984882c3208ac77f9c7a80505eec5dc56c9877cccf",
+    "hygiene_audit.json": "34e821b3fbdea5a05108be0c44e831fad9a2f4aaa92ff81538d4cbed74dd9a5e",
+    "map_scan.json": "795678564b6b279b37533804ab97af2d2ff07efd4dcc26c7c5aa3fa9ed41f203",
+    "paired_stability.json": "d8fdb1ecda8ce34457cb0d3e393aaf1e34533dec52aeece17646053e746ffe28",
+    "paired_stability.npz": "9062d46c61e08823570993802a5d2924d0bd9cce9e353dd7a57c3be8fdc760a1",
+    "postflight.json": "df90722345f70afc8442909d9bdfd7d228879e3c910bc14e492bd405ef791b7d",
+    "results.json": "711e7279834281af573fb2ca24d7dee78725c700eb0292a56ea7030e32d5757f",
+    "source/task432_scale_bao.py": "8c29c612f0084df3c3de09d759e429e0a199d5076c19ad06b2bc9f245d0e09b3",
+    "source/task432_scale_deliver.py": "63aa9a6cb41b006312df9bd0b968f25ecb2a3924ba79e513799b0ac8660f4427",
+    "source/task432_scale_dependent_fog_rawbox.py": "ca741440f1f0cc868bd25aaf6150df81f31f28184ef81321f2c39f3ac91e6c64",
+    "source/task432_scale_diagnostics.py": "fbc43f5c80f1e19336131305183c64ea271ba7c467a8f8af520ceb81fed8ecbb",
+    "source/task432_scale_finalize.py": "bcebcb3bb5bb91819e6661e16565a5a802dba123e46d2c12c88f11376d52dbc2",
+    "source/task432_scale_numerics.py": "3b770caf192e00c6d628b2c9c56084c02996464c019961706e55365d75711e02",
+    "source/task432_scale_selection.py": "f2487fb95c4dc02efce46b6c67b3259d16b2968ead1b10b06fb0f966b8d7ebf0",
+    "task432_scale_selection_ezmock1000_contours_and_diagnostics.pdf": "a1b70122422f179605cddeecadb7f5402c3da9163127f368830ee33f9b52e1b1"
+  },
+  "status": "pass"
+}

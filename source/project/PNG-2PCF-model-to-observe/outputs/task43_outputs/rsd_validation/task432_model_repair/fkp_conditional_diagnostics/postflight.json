@@ -1,0 +1,247 @@
+{
+  "P_measurement_audits": [
+    {
+      "branch": "own",
+      "cpu_affinity": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "elapsed_s": 127.32950901903678,
+      "normalization": 13.19146496140857,
+      "phase": "ph000",
+      "shot_relative_error": 5.49392053233382e-14,
+      "source_sha256": "eb463a1b88319bfdb663134d0fc55de63c136d4c16386b2103c852a61612d3d6"
+    },
+    {
+      "branch": "independent",
+      "cpu_affinity": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "elapsed_s": 109.25933311297558,
+      "normalization": 13.18486183104875,
+      "phase": "ph000",
+      "shot_relative_error": 1.4520455294298637e-13,
+      "source_sha256": "eb463a1b88319bfdb663134d0fc55de63c136d4c16386b2103c852a61612d3d6"
+    },
+    {
+      "branch": "own",
+      "cpu_affinity": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "elapsed_s": 126.85919142101193,
+      "normalization": 13.171698387516399,
+      "phase": "ph012",
+      "shot_relative_error": 1.186642708271615e-13,
+      "source_sha256": "eb463a1b88319bfdb663134d0fc55de63c136d4c16386b2103c852a61612d3d6"
+    },
+    {
+      "branch": "independent",
+      "cpu_affinity": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "elapsed_s": 116.90789701300673,
+      "normalization": 13.12845166281261,
+      "phase": "ph012",
+      "shot_relative_error": 7.296760127749058e-14,
+      "source_sha256": "eb463a1b88319bfdb663134d0fc55de63c136d4c16386b2103c852a61612d3d6"
+    },
+    {
+      "branch": "own",
+      "cpu_affinity": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "elapsed_s": 166.16084600199247,
+      "normalization": 13.191939281489796,
+      "phase": "ph024",
+      "shot_relative_error": 1.2660943303532582e-13,
+      "source_sha256": "eb463a1b88319bfdb663134d0fc55de63c136d4c16386b2103c852a61612d3d6"
+    },
+    {
+      "branch": "independent",
+      "cpu_affinity": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "elapsed_s": 152.42766384303104,
+      "normalization": 13.190483035321394,
+      "phase": "ph024",
+      "shot_relative_error": 5.67878336983779e-15,
+      "source_sha256": "eb463a1b88319bfdb663134d0fc55de63c136d4c16386b2103c852a61612d3d6"
+    }
+  ],
+  "checks": {
+    "common_parameter_null": true,
+    "diagnostic_optimizers_success": true,
+    "frozen_inputs_unchanged": true,
+    "mode_identity": true,
+    "paired_arrays_finite": true,
+    "paired_residual_identity": true,
+    "ph000_IC_difference_accuracy": true,
+    "ph000_independent_CPU_limit": true,
+    "ph000_independent_analytic_shot": true,
+    "ph000_kernel_independent_n16384_seed4322407_endpoint_constant_mode": true,
+    "ph000_kernel_independent_n16384_seed4322407_midpoint_constant_mode": true,
+    "ph000_kernel_independent_n8192_seed4322447_endpoint_constant_mode": true,
+    "ph000_kernel_independent_n8192_seed4322447_midpoint_constant_mode": true,
+    "ph000_kernel_own_n16384_seed4322407_endpoint_constant_mode": true,
+    "ph000_kernel_own_n16384_seed4322407_midpoint_constant_mode": true,
+    "ph000_kernel_own_n8192_seed4322447_endpoint_constant_mode": true,
+    "ph000_kernel_own_n8192_seed4322447_midpoint_constant_mode": true,
+    "ph000_own_CPU_limit": true,
+    "ph000_own_analytic_shot": true,
+    "ph000_production_bridge": true,
+    "ph012_IC_difference_accuracy": true,
+    "ph012_independent_CPU_limit": true,
+    "ph012_independent_analytic_shot": true,
+    "ph012_kernel_independent_n8192_seed4322407_endpoint_constant_mode": true,
+    "ph012_kernel_independent_n8192_seed4322407_midpoint_constant_mode": true,
+    "ph012_kernel_independent_n8192_seed4322447_endpoint_constant_mode": true,
+    "ph012_kernel_independent_n8192_seed4322447_midpoint_constant_mode": true,
+    "ph012_kernel_own_n8192_seed4322407_endpoint_constant_mode": true,
+    "ph012_kernel_own_n8192_seed4322407_midpoint_constant_mode": true,
+    "ph012_kernel_own_n8192_seed4322447_endpoint_constant_mode": true,
+    "ph012_kernel_own_n8192_seed4322447_midpoint_constant_mode": true,
+    "ph012_own_CPU_limit": true,
+    "ph012_own_analytic_shot": true,
+    "ph012_production_bridge": true,
+    "ph024_IC_difference_accuracy": true,
+    "ph024_independent_CPU_limit": true,
+    "ph024_independent_analytic_shot": true,
+    "ph024_kernel_independent_n8192_seed4322407_endpoint_constant_mode": true,
+    "ph024_kernel_independent_n8192_seed4322407_midpoint_constant_mode": true,
+    "ph024_kernel_independent_n8192_seed4322447_endpoint_constant_mode": true,
+    "ph024_kernel_independent_n8192_seed4322447_midpoint_constant_mode": true,
+    "ph024_kernel_own_n8192_seed4322407_endpoint_constant_mode": true,
+    "ph024_kernel_own_n8192_seed4322407_midpoint_constant_mode": true,
+    "ph024_kernel_own_n8192_seed4322447_endpoint_constant_mode": true,
+    "ph024_kernel_own_n8192_seed4322447_midpoint_constant_mode": true,
+    "ph024_own_CPU_limit": true,
+    "ph024_own_analytic_shot": true,
+    "ph024_production_bridge": true,
+    "three_pilot_phases": true
+  },
+  "kernel_precision": [
+    {
+      "b1_contrast_discrepancy": [
+        -3.0375779672744572e-05,
+        1.9568180594912258e-05
+      ],
+      "error_chi2_Csingle": 0.00010994973622388458,
+      "joint_b1_discrepancy": 5.195732249543619e-05,
+      "pass": true,
+      "paths": [
+        "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/paired/ph000/ric_response_n16384_seed4322407.npz",
+        "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/paired/ph000/ric_response_n8192_seed4322447.npz"
+      ],
+      "phase": "ph000"
+    },
+    {
+      "b1_contrast_discrepancy": [
+        -2.562714320205917e-06,
+        4.268558590215836e-05
+      ],
+      "error_chi2_Csingle": 0.00019648780868202983,
+      "joint_b1_discrepancy": -7.542187983599118e-05,
+      "pass": true,
+      "paths": [
+        "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/paired/ph012/ric_response_n8192_seed4322407.npz",
+        "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/paired/ph012/ric_response_n8192_seed4322447.npz"
+      ],
+      "phase": "ph012"
+    },
+    {
+      "b1_contrast_discrepancy": [
+        -6.086308181091657e-05,
+        -0.00035373234862283117
+      ],
+      "error_chi2_Csingle": 0.0003504650003192313,
+      "joint_b1_discrepancy": -1.3155402451661872e-05,
+      "pass": true,
+      "paths": [
+        "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/paired/ph024/ric_response_n8192_seed4322407.npz",
+        "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/paired/ph024/ric_response_n8192_seed4322447.npz"
+      ],
+      "phase": "ph024"
+    }
+  ],
+  "production_bridges": [
+    {
+      "b1_contrast_projection": [
+        -0.0001175965925383285,
+        -7.139097291941266e-05
+      ],
+      "error_chi2_Csingle": 0.00018529403388653365,
+      "nblocks": 2,
+      "phase": "ph000",
+      "scope": "Absolute CPU vs original FFT estimate; paired weight increments use same CPU positions and backend."
+    },
+    {
+      "b1_contrast_projection": [
+        0.0004454913701531386,
+        0.0002444527325449983
+      ],
+      "error_chi2_Csingle": 0.0003503662279040274,
+      "nblocks": 2,
+      "phase": "ph012",
+      "scope": "Absolute CPU vs original FFT estimate; paired weight increments use same CPU positions and backend."
+    },
+    {
+      "b1_contrast_projection": [
+        -0.00016863731904580173,
+        -0.00011250199515925142
+      ],
+      "error_chi2_Csingle": 0.0001410166950773755,
+      "nblocks": 2,
+      "phase": "ph024",
+      "scope": "Absolute CPU vs original FFT estimate; paired weight increments use same CPU positions and backend."
+    }
+  ],
+  "scope": "Diagnostic numerical gates only; no statement that frozen EZ covariance matches shuffled halo or that3phases determine an ensemble correction.",
+  "source_sha256": "32c19b4a51017779bc98b73f85812e2d0dde6520a3450a985bd962759f7fca7a",
+  "status": "pass",
+  "thresholds": {
+    "CPU_bridge_q": 0.001,
+    "IC_delta_b1": 0.001,
+    "IC_delta_q": 0.001
+  }
+}

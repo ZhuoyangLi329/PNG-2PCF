@@ -1,0 +1,20 @@
+{
+  "status": "physical_cache_pending_response_validation",
+  "source_sha256": "17cdcca25339719912961f856527ec78c9ca66654780fe2a7e3918691a8877c7",
+  "hybrid_source_sha256": "88fd6bd75490af9ef43458c149132f989a0b0374dd8b8f75122711b929e70739",
+  "nquad": 2,
+  "nint": 600,
+  "refinement": 1,
+  "model": "Unchanged hybrid; full ell0/2/4 shell averages without GIC/RIC",
+  "elapsed_s": 41.941404382989276,
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ]
+}

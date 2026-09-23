@@ -1,0 +1,52 @@
+{
+  "pdf": "task432_fullRIC_FKP_conditional_diagnostics.pdf",
+  "sha256": "f9503a524aa062176db84e56c0707d8c81c6275f400e94356269de214e4b6662",
+  "page_count": 4,
+  "pages": [
+    {
+      "page": 1,
+      "size_points": [
+        842.4,
+        489.6
+      ],
+      "words": 116,
+      "text_outside_page": [],
+      "visual_review": "pass; rendered in memory as JPEG, no raster artifact retained"
+    },
+    {
+      "page": 2,
+      "size_points": [
+        842.4,
+        489.6
+      ],
+      "words": 112,
+      "text_outside_page": [],
+      "visual_review": "pass; rendered in memory as JPEG, no raster artifact retained"
+    },
+    {
+      "page": 3,
+      "size_points": [
+        842.4,
+        597.6
+      ],
+      "words": 131,
+      "text_outside_page": [],
+      "visual_review": "pass; rendered in memory as JPEG, no raster artifact retained"
+    },
+    {
+      "page": 4,
+      "size_points": [
+        842.4,
+        597.6
+      ],
+      "words": 158,
+      "text_outside_page": [],
+      "visual_review": "pass; rendered in memory as JPEG, no raster artifact retained"
+    }
+  ],
+  "scientific_figure_formats": [
+    "PDF"
+  ],
+  "render_engine": "pypdfium2",
+  "visual_review_notes": "All pages reviewed. Page3 legend moved above panels to expose data; revised page visually verified."
+}

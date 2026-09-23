@@ -1,0 +1,30 @@
+{
+  "cross_norm": 0.36947219241311835,
+  "auto_norm": 0.36947219241311846,
+  "backend": {
+    "commits": {
+      "pycute": "e29ea2ee95ba9127d00187e9e341a63a9431c437",
+      "pywindow": "9857ebef68153660454fee34c4fda60e90f7289e"
+    },
+    "files": {
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pycute-e29ea2ee95ba9127d00187e9e341a63a9431c437/pycute/lib/cute.so": "5163a9662dad9bbadf0dff5f666cb678877bfc41e57b312368046bbbabf4041e",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pycute-e29ea2ee95ba9127d00187e9e341a63a9431c437/src/correlator.c": "cfa2c663a584c2d21ab14cdc091501a88a2cec210e58640af4687d83a19e662b",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal2pcf.py": "0a1a6d77a78090e0f59d5b4afd2981d849c766daf4d15cfef59c7611dcb904d0",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal3pcf.py": "2ceb3786f4547182a555bf2651ee0bb90be4c9bee3f8d4e13c84f803bb2d0087",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal4pcf.py": "a69cc00d62ee357c12c5acccea0928ae453d3be4b45ddd9fa68dae853f28a934"
+    },
+    "compatibility": "Process-local NumPy aliases for old scipy names; pure count modules loaded without FFT/nbodykit imports."
+  },
+  "nsub": 16384,
+  "radial_width": 0.0,
+  "refinement": 1,
+  "los_out": "endpoint",
+  "ells_out": [
+    0,
+    2
+  ],
+  "zero_mode_error": 5.773159728050814e-14,
+  "source_sha256": "ccfd1d4373032233f1d89d72627cd61c82ee3d4152d4cef9a40a8e04d5622979",
+  "noise_density": "nbar: constant P stochastic field",
+  "scope": "Normalized eBOSS IC shot shape; amplitude and finite-random validation applied separately."
+}

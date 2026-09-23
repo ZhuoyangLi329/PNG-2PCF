@@ -1,0 +1,309 @@
+{
+  "precomputed_cross_candidates": [],
+  "snapshot_entries": [
+    {
+      "path": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.400",
+      "exists": true,
+      "subdirectories": [
+        {
+          "name": "halo_info",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.400/halo_info/halo_info_016.asdf",
+          "sample_size_bytes": 2245973978
+        },
+        {
+          "name": "halo_pid_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.400/halo_pid_A/halo_pid_A_017.asdf",
+          "sample_size_bytes": 368275298
+        },
+        {
+          "name": "halo_rv_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.400/halo_rv_A/halo_rv_A_001.asdf",
+          "sample_size_bytes": 864608854
+        }
+      ]
+    },
+    {
+      "path": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.500",
+      "exists": true,
+      "subdirectories": [
+        {
+          "name": "field_pid_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.500/field_pid_A/field_pid_A_023.asdf",
+          "sample_size_bytes": 492479853
+        },
+        {
+          "name": "field_rv_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.500/field_rv_A/field_rv_A_019.asdf",
+          "sample_size_bytes": 1360060397
+        },
+        {
+          "name": "halo_info",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.500/halo_info/halo_info_016.asdf",
+          "sample_size_bytes": 2260201111
+        },
+        {
+          "name": "halo_pid_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.500/halo_pid_A/halo_pid_A_017.asdf",
+          "sample_size_bytes": 357312394
+        },
+        {
+          "name": "halo_rv_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.500/halo_rv_A/halo_rv_A_001.asdf",
+          "sample_size_bytes": 842469977
+        }
+      ]
+    },
+    {
+      "path": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.575",
+      "exists": true,
+      "subdirectories": [
+        {
+          "name": "halo_info",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.575/halo_info/halo_info_016.asdf",
+          "sample_size_bytes": 2266576369
+        },
+        {
+          "name": "halo_pid_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.575/halo_pid_A/halo_pid_A_017.asdf",
+          "sample_size_bytes": 283127213
+        }
+      ]
+    },
+    {
+      "path": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.650",
+      "exists": true,
+      "subdirectories": [
+        {
+          "name": "halo_info",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.650/halo_info/halo_info_016.asdf",
+          "sample_size_bytes": 2268437912
+        },
+        {
+          "name": "halo_pid_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.650/halo_pid_A/halo_pid_A_017.asdf",
+          "sample_size_bytes": 272573346
+        }
+      ]
+    },
+    {
+      "path": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725",
+      "exists": true,
+      "subdirectories": [
+        {
+          "name": "halo_info",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_info/halo_info_016.asdf",
+          "sample_size_bytes": 2267721777
+        },
+        {
+          "name": "halo_pid_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.725/halo_pid_A/halo_pid_A_017.asdf",
+          "sample_size_bytes": 262765932
+        }
+      ]
+    },
+    {
+      "path": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.800",
+      "exists": true,
+      "subdirectories": [
+        {
+          "name": "field_pid_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.800/field_pid_A/field_pid_A_023.asdf",
+          "sample_size_bytes": 501363597
+        },
+        {
+          "name": "field_rv_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.800/field_rv_A/field_rv_A_019.asdf",
+          "sample_size_bytes": 1429153595
+        },
+        {
+          "name": "halo_info",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.800/halo_info/halo_info_016.asdf",
+          "sample_size_bytes": 2263411076
+        },
+        {
+          "name": "halo_pid_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.800/halo_pid_A/halo_pid_A_017.asdf",
+          "sample_size_bytes": 319782687
+        },
+        {
+          "name": "halo_rv_A",
+          "n_entries": 35,
+          "sample": "/global/cfs/cdirs/desi/public/cosmosim/AbacusSummit/AbacusSummit_base_c000_ph000/halos/z0.800/halo_rv_A/halo_rv_A_001.asdf",
+          "sample_size_bytes": 770382267
+        }
+      ]
+    }
+  ],
+  "scope": "Bounded directory/name inventory only; particle content/completeness not certified.",
+  "status": "inventory_complete",
+  "fkp_weight_amplitudes_all25": [
+    {
+      "phase": "ph000",
+      "count_weighted_relative_FKP_RMS": 0.015650822302071443,
+      "max_abs_FKP_change": 0.03462093428257862,
+      "pilot": true
+    },
+    {
+      "phase": "ph001",
+      "count_weighted_relative_FKP_RMS": 0.018114859730729318,
+      "max_abs_FKP_change": 0.043562255077777,
+      "pilot": false
+    },
+    {
+      "phase": "ph002",
+      "count_weighted_relative_FKP_RMS": 0.015490014734714305,
+      "max_abs_FKP_change": 0.036929744853672286,
+      "pilot": false
+    },
+    {
+      "phase": "ph003",
+      "count_weighted_relative_FKP_RMS": 0.019889561205923608,
+      "max_abs_FKP_change": 0.04816316838811674,
+      "pilot": false
+    },
+    {
+      "phase": "ph004",
+      "count_weighted_relative_FKP_RMS": 0.015501083360669202,
+      "max_abs_FKP_change": 0.03345120645301891,
+      "pilot": false
+    },
+    {
+      "phase": "ph005",
+      "count_weighted_relative_FKP_RMS": 0.01336539981655902,
+      "max_abs_FKP_change": 0.040325762449918034,
+      "pilot": false
+    },
+    {
+      "phase": "ph006",
+      "count_weighted_relative_FKP_RMS": 0.01616553971623184,
+      "max_abs_FKP_change": 0.05601818321366636,
+      "pilot": false
+    },
+    {
+      "phase": "ph007",
+      "count_weighted_relative_FKP_RMS": 0.017879419930102062,
+      "max_abs_FKP_change": 0.05699567371718173,
+      "pilot": false
+    },
+    {
+      "phase": "ph008",
+      "count_weighted_relative_FKP_RMS": 0.01847849988089452,
+      "max_abs_FKP_change": 0.034260193064566624,
+      "pilot": false
+    },
+    {
+      "phase": "ph009",
+      "count_weighted_relative_FKP_RMS": 0.020408205802184633,
+      "max_abs_FKP_change": 0.05640796480794785,
+      "pilot": false
+    },
+    {
+      "phase": "ph010",
+      "count_weighted_relative_FKP_RMS": 0.018972290128322005,
+      "max_abs_FKP_change": 0.05411985932538699,
+      "pilot": false
+    },
+    {
+      "phase": "ph011",
+      "count_weighted_relative_FKP_RMS": 0.02075266543528847,
+      "max_abs_FKP_change": 0.05553043259978896,
+      "pilot": false
+    },
+    {
+      "phase": "ph012",
+      "count_weighted_relative_FKP_RMS": 0.01580911844576004,
+      "max_abs_FKP_change": 0.04405546206149413,
+      "pilot": true
+    },
+    {
+      "phase": "ph013",
+      "count_weighted_relative_FKP_RMS": 0.01756047572833517,
+      "max_abs_FKP_change": 0.053479942509976786,
+      "pilot": false
+    },
+    {
+      "phase": "ph014",
+      "count_weighted_relative_FKP_RMS": 0.019074604352155876,
+      "max_abs_FKP_change": 0.05001046214116789,
+      "pilot": false
+    },
+    {
+      "phase": "ph015",
+      "count_weighted_relative_FKP_RMS": 0.01871473079716051,
+      "max_abs_FKP_change": 0.05507093095263338,
+      "pilot": false
+    },
+    {
+      "phase": "ph016",
+      "count_weighted_relative_FKP_RMS": 0.022686401104922455,
+      "max_abs_FKP_change": 0.05217949507419639,
+      "pilot": false
+    },
+    {
+      "phase": "ph017",
+      "count_weighted_relative_FKP_RMS": 0.015187570440348287,
+      "max_abs_FKP_change": 0.04226343038053215,
+      "pilot": false
+    },
+    {
+      "phase": "ph018",
+      "count_weighted_relative_FKP_RMS": 0.01657275227693401,
+      "max_abs_FKP_change": 0.045091467796104956,
+      "pilot": false
+    },
+    {
+      "phase": "ph019",
+      "count_weighted_relative_FKP_RMS": 0.01811096791255186,
+      "max_abs_FKP_change": 0.03921734220477835,
+      "pilot": false
+    },
+    {
+      "phase": "ph020",
+      "count_weighted_relative_FKP_RMS": 0.02418807573510696,
+      "max_abs_FKP_change": 0.049115078216998564,
+      "pilot": false
+    },
+    {
+      "phase": "ph021",
+      "count_weighted_relative_FKP_RMS": 0.0212887097861718,
+      "max_abs_FKP_change": 0.05810985749256259,
+      "pilot": false
+    },
+    {
+      "phase": "ph022",
+      "count_weighted_relative_FKP_RMS": 0.017127571791616374,
+      "max_abs_FKP_change": 0.04622077488265397,
+      "pilot": false
+    },
+    {
+      "phase": "ph023",
+      "count_weighted_relative_FKP_RMS": 0.01910199873484905,
+      "max_abs_FKP_change": 0.042393955427964425,
+      "pilot": false
+    },
+    {
+      "phase": "ph024",
+      "count_weighted_relative_FKP_RMS": 0.021653053171107505,
+      "max_abs_FKP_change": 0.05037276542884561,
+      "pilot": true
+    }
+  ]
+}

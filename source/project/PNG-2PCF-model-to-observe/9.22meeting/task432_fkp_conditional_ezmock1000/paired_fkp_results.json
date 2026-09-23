@@ -1,0 +1,228 @@
+{
+  "diagnostic_constant_delta_MAP": {
+    "joint": {
+      "raw_chi2": 4.035035363446485,
+      "success": true,
+      "theta": [
+        5.326732103115511,
+        2.377712940868353,
+        2.128631442783839,
+        0.08341486644028277
+      ]
+    },
+    "p02": {
+      "raw_chi2": 0.9035688588028526,
+      "success": true,
+      "theta": [
+        -4.95821847273588,
+        2.4142211837315513,
+        2.34583114577596,
+        0.005374747331488481
+      ]
+    },
+    "xi02": {
+      "raw_chi2": 2.7216757144304298,
+      "success": true,
+      "theta": [
+        4.1957032317926135,
+        2.425207982862659,
+        0.9999999999999999
+      ]
+    }
+  },
+  "limitations": [
+    "Finite24phase reference nbar; cross-phase responses correlated through reference",
+    "Small number of pilot phases; not ensemble calibration",
+    "Limited common LS blocks; block spread reports differential random sensitivity",
+    "Model delta evaluated at fixed fiducial; constant-delta optimization is a sensitivity check, not final fit"
+  ],
+  "mean_b1_contrast_data_only": [
+    -0.0016803065110707843,
+    -0.0037078192227147856
+  ],
+  "mean_b1_contrast_model_only": [
+    -0.00035950078742793873,
+    -0.0007323313495186847
+  ],
+  "mean_b1_contrast_response": [
+    -0.001320805723642846,
+    -0.0029754878731961024
+  ],
+  "mean_b1_response_P_xi_joint": [
+    0.0007729474460413718,
+    0.0024276295955946285,
+    -0.0005478582776014735
+  ],
+  "mean_residual_change_norm_Csingle": 0.15930907611050452,
+  "nphase": 3,
+  "phase_SEM_b1_contrast_response": [
+    0.0016351652070666102,
+    0.00015709669368237658
+  ],
+  "phases": [
+    "ph000",
+    "ph012",
+    "ph024"
+  ],
+  "records": [
+    {
+      "IC_change_norm_Csingle": 0.004800823894707315,
+      "IC_difference_error_chi2_Csingle": 0.00010994973622388458,
+      "b1_contrast_net_response": [
+        0.001019661001231755,
+        -0.003012624532161762
+      ],
+      "b1_data_response_P_xi_joint": [
+        -0.0008110006986157526,
+        0.0039429427503474244,
+        -0.0003386339177368543
+      ],
+      "b1_net_response_P_xi_joint": [
+        -0.00013466482912707103,
+        0.0038976207042664465,
+        0.000884996172104685
+      ],
+      "conditional_mode_net_response": [
+        0.013773105519742986,
+        -0.0413073764177776,
+        0.013961944590534993,
+        -0.005491417391747914,
+        0.0211872400116377
+      ],
+      "data_change_norm_Csingle": 0.2323362117159094,
+      "model_scope": "ordinary_window_plus_fullIC",
+      "n_independent_IC_differences": 2,
+      "n_xi_blocks": 2,
+      "normalizations": {
+        "independent": 13.18486183104875,
+        "own": 13.19146496140857
+      },
+      "ordinary_window_change_norm_Csingle": 0.03576841811128556,
+      "phase": "ph000",
+      "residual_change_norm_Csingle": 0.22865167493590716,
+      "shotnoise": {
+        "independent": 6733.306804709121,
+        "own": 6737.708371335982
+      },
+      "xi_block_contrast_responses": [
+        [
+          0.0018712305380228207,
+          -0.0034242314293207654
+        ],
+        [
+          0.0001680914644407045,
+          -0.0026010176350030217
+        ]
+      ]
+    },
+    {
+      "IC_change_norm_Csingle": 0.008316347809898135,
+      "IC_difference_error_chi2_Csingle": 0.00019648780868202983,
+      "b1_contrast_net_response": [
+        -0.0005129194245026107,
+        -0.002686727454786793
+      ],
+      "b1_data_response_P_xi_joint": [
+        0.0007586142755047039,
+        0.002885490836160095,
+        7.141040303186775e-05
+      ],
+      "b1_net_response_P_xi_joint": [
+        0.0007845467839724054,
+        0.0029583548142565873,
+        0.0002716273594697945
+      ],
+      "conditional_mode_net_response": [
+        -0.006928276503922731,
+        -0.0302341079450252,
+        0.00428526841327621,
+        0.01291402591030331,
+        0.03526819359605308
+      ],
+      "data_change_norm_Csingle": 0.20729998908946984,
+      "model_scope": "ordinary_window_plus_fullIC",
+      "n_independent_IC_differences": 2,
+      "n_xi_blocks": 2,
+      "normalizations": {
+        "independent": 13.12845166281261,
+        "own": 13.171698387516399
+      },
+      "ordinary_window_change_norm_Csingle": 0.007894655689339794,
+      "phase": "ph012",
+      "residual_change_norm_Csingle": 0.20671704421466056,
+      "shotnoise": {
+        "independent": 6743.22062182006,
+        "own": 6752.368060552228
+      },
+      "xi_block_contrast_responses": [
+        [
+          -0.00037736801407376174,
+          -0.0052504468490597415
+        ],
+        [
+          -0.0006484708349313782,
+          -0.00012300806051391677
+        ]
+      ]
+    },
+    {
+      "IC_change_norm_Csingle": 0.013178935585201296,
+      "IC_difference_error_chi2_Csingle": 0.0003504650003192313,
+      "b1_contrast_net_response": [
+        -0.004469158747657681,
+        -0.0032271116326397513
+      ],
+      "b1_data_response_P_xi_joint": [
+        0.0015243725148463138,
+        0.0007260906401597563,
+        -0.0033017099267721004
+      ],
+      "b1_net_response_P_xi_joint": [
+        0.0016689603832787808,
+        0.00042691326826084795,
+        -0.002800198364378903
+      ],
+      "conditional_mode_net_response": [
+        -0.060367313196850556,
+        -0.01842224624469107,
+        -0.044176704530808124,
+        -0.018620699612137356,
+        0.016719482697013913
+      ],
+      "data_change_norm_Csingle": 0.3347836486754029,
+      "model_scope": "ordinary_window_plus_fullIC",
+      "n_independent_IC_differences": 2,
+      "n_xi_blocks": 2,
+      "normalizations": {
+        "independent": 13.190483035321394,
+        "own": 13.191939281489796
+      },
+      "ordinary_window_change_norm_Csingle": 0.013280698294405615,
+      "phase": "ph024",
+      "residual_change_norm_Csingle": 0.3310931705000446,
+      "shotnoise": {
+        "independent": 6726.577681647736,
+        "own": 6738.092176947717
+      },
+      "xi_block_contrast_responses": [
+        [
+          -0.0029092560865218733,
+          0.00018849363052651845
+        ],
+        [
+          -0.006029061408793505,
+          -0.0066427168958064445
+        ]
+      ]
+    }
+  ],
+  "scope": "Same catalog/random positions; independent-minus-own FKP. Mean across listed pilot phases, not25phase remeasurement. Original EZ1000 C_single used only as diagnostic metric. No posterior promoted.",
+  "source_sha256": "3fce3900383e0d7339e725b578363ec19232dcf6a7218867056d28616e5e9936",
+  "status": "complete_diagnostic",
+  "theta_anchor": [
+    0.0,
+    2.42,
+    2.2,
+    0.08
+  ]
+}

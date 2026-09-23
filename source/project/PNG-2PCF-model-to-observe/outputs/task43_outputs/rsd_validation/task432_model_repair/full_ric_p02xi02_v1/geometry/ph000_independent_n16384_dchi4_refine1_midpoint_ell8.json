@@ -1,0 +1,59 @@
+{
+  "normalization": 32021053.1429439,
+  "elapsed_s": 163.22473550296854,
+  "backend": {
+    "commits": {
+      "pycute": "e29ea2ee95ba9127d00187e9e341a63a9431c437",
+      "pywindow": "9857ebef68153660454fee34c4fda60e90f7289e"
+    },
+    "files": {
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pycute-e29ea2ee95ba9127d00187e9e341a63a9431c437/pycute/lib/cute.so": "5163a9662dad9bbadf0dff5f666cb678877bfc41e57b312368046bbbabf4041e",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pycute-e29ea2ee95ba9127d00187e9e341a63a9431c437/src/correlator.c": "cfa2c663a584c2d21ab14cdc091501a88a2cec210e58640af4687d83a19e662b",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal2pcf.py": "0a1a6d77a78090e0f59d5b4afd2981d849c766daf4d15cfef59c7611dcb904d0",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal3pcf.py": "2ceb3786f4547182a555bf2651ee0bb90be4c9bee3f8d4e13c84f803bb2d0087",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal4pcf.py": "a69cc00d62ee357c12c5acccea0928ae453d3be4b45ddd9fa68dae853f28a934"
+    },
+    "compatibility": "Process-local NumPy aliases for old scipy names; pure count modules loaded without FFT/nbodykit imports."
+  },
+  "ells_out": [
+    0,
+    2,
+    4,
+    6,
+    8
+  ],
+  "ells_in": [
+    0,
+    2,
+    4
+  ],
+  "los_out": "midpoint",
+  "los_in": "midpoint",
+  "independent_projection": true,
+  "status": "pilot_unvalidated",
+  "phase": "ph000",
+  "nsub": 16384,
+  "radial_width": 4.0,
+  "refinement": 1,
+  "occupied_bins": 215,
+  "radial_count_range": [
+    15,
+    122
+  ],
+  "pair_volume": 3167943088.074874,
+  "source_sha256": "8f0d540b2f6e5918c74787ebebd92962af42987559515c3c8038273bc395673e",
+  "backend_adapter_sha256": "8fc9fd64342108bfbebc606f4fa971a0b313092564b6e4b8f27869c7025d6352",
+  "scope": "Independent outer/A/B projection samples; full cross and symmetrized auto. Numerical convergence remains mandatory.",
+  "constant_field_relative_error": 1.301354485399464e-12,
+  "input_los": "midpoint",
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ]
+}

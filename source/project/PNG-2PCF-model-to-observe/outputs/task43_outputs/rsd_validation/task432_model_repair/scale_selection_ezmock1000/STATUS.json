@@ -1,0 +1,30 @@
+{
+  "all_work_on_login": "login07 taskset 6-13, BLAS/OMP=1; no Slurm",
+  "archive_manifest": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_scale_selection/checkpoint_move_manifest.json",
+  "cases": [
+    "baseline",
+    "kmin0p013",
+    "kmax0p06",
+    "smin80",
+    "smax250",
+    "bao_unmasked"
+  ],
+  "large_files_retained": "Four HDF backends for continuation/audit and four compressed postburn chains for exact plots; do not read by default",
+  "new_chains": 4,
+  "next_read": [
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/RESULTS.md",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/results.json",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/executed_cut_manifest.json",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/postflight.json"
+  ],
+  "numerical_audit": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/postflight.json",
+  "recommended_entry": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/RESULTS.md",
+  "science_status": "diagnostic_scale_sensitivity_baseline_not_replaced",
+  "status": "complete",
+  "visual_QA": {
+    "method": "All pages rendered in memory and visually inspected; no raster files retained",
+    "pages": 6,
+    "pdf_sha256": "a1b70122422f179605cddeecadb7f5402c3da9163127f368830ee33f9b52e1b1",
+    "status": "pass"
+  }
+}

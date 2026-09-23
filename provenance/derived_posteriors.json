@@ -1,0 +1,310 @@
+[
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/chain_ezmock604_xi02.npz",
+    "source_sha256": "4263f1e87efecf36f27f1b614ffd86317767101c039aff45da47e730e32f762d",
+    "path": "review_data/posterior_excerpt/9.18_chain_ezmock604_xi02.npz",
+    "source_shape": [
+      25000,
+      64,
+      3
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "11143035ecd72ea13b2e111140a9084c20b6111c65124e9c5ba021afc2ca88be"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/chain_jaxpower_xi02.npz",
+    "source_sha256": "82aaab288f637c38bd5f2396f63d06e33e2475b49a73f0d46da3679d922962bf",
+    "path": "review_data/posterior_excerpt/9.18_chain_jaxpower_xi02.npz",
+    "source_shape": [
+      25000,
+      64,
+      3
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "36606ebb4e639b1c0946f992127a3730827b01829e77259d5c0c6502e69d9235"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/chain_ezmock604_joint.npz",
+    "source_sha256": "bfa6d160ed5f4780ed63383a9a1a2795c31f323ba7479acaa486fea35d575bc4",
+    "path": "review_data/posterior_excerpt/9.18_chain_ezmock604_joint.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "12b076bdb8b3a9473997ac7329ede6cedb6ec7752281df85f6c408f29d116bec"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/chain_jaxpower_p02.npz",
+    "source_sha256": "f379c89c86e9a36066985479f1cf7ca5ac86bbd9adbdc00ab5c6520c97afdbb2",
+    "path": "review_data/posterior_excerpt/9.18_chain_jaxpower_p02.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "db7716645d4456d777f09724f51b7d6c80c30415a45419e8288a49c0c054f387"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/chain_jaxpower_joint.npz",
+    "source_sha256": "c0724d49df828e4a981818c15d86895ccc9983b6c116f1bf0f05b752c2d5fa5a",
+    "path": "review_data/posterior_excerpt/9.18_chain_jaxpower_joint.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "294f066a0850d68ddb28c33e38d9bad8abe4748747b599dc64d3401fa1c86c95"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/chain_ezmock604_p02.npz",
+    "source_sha256": "5e790671f1ed839b9cc2b864dedf59b4861ab705104982c34db45e9e1ca34d81",
+    "path": "review_data/posterior_excerpt/9.18_chain_ezmock604_p02.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "9f8c513917baaf5dda5c73c1fd08667cca1db70586db253d7c612ae309d79051"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/p02/samples.npz",
+    "source_sha256": "df5fd6353c3f3e82e11e89403b66ad2596e8d9a3661878831356313ffa3b06a3",
+    "path": "review_data/posterior_excerpt/jaxpower_0918_contract_v1_p02.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "a6c39a3fcd9c132eb716ac73e4de5b271cdca0428ae5f844042377f4dbb794fe"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/xi02/samples.npz",
+    "source_sha256": "6ca4b66a599cba5b6573105f7a9dc4067e226ed5f19891ba68a09f48b8ae62bd",
+    "path": "review_data/posterior_excerpt/jaxpower_0918_contract_v1_xi02.npz",
+    "source_shape": [
+      25000,
+      64,
+      2
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "3837d89a67493e7c5bd96f28e6489ee5c948b64ac1799c1417c66b4cdc02f0db"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/joint/samples.npz",
+    "source_sha256": "8d50a77e2ba4ef1f474a0f996d09eb403bcb01f6e4b254d73add5f6760d4c1c5",
+    "path": "review_data/posterior_excerpt/jaxpower_0918_contract_v1_joint.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "bfe7a3a87769bdec3dc5028c64766d89825eda4c2b06428b6d9a3069b1dee041"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/p02/samples.npz",
+    "source_sha256": "df5fd6353c3f3e82e11e89403b66ad2596e8d9a3661878831356313ffa3b06a3",
+    "path": "review_data/posterior_excerpt/jaxpower_gic_0918_contract_p02.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "a6c39a3fcd9c132eb716ac73e4de5b271cdca0428ae5f844042377f4dbb794fe"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/xi02/samples.npz",
+    "source_sha256": "5572659324a386065db04366f418a0ec0167143009adf8f76dbc690c6d4ea8b5",
+    "path": "review_data/posterior_excerpt/jaxpower_gic_0918_contract_xi02.npz",
+    "source_shape": [
+      25000,
+      64,
+      2
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "9fd53a071fc3a08c814055512df571c67ede59562845da03b09dfbc85ae62491"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/joint/samples.npz",
+    "source_sha256": "c7c0c12c15adbe06bcf3e6d43e0cf9c2929b1b90ad1d7f88d771ce76057c359b",
+    "path": "review_data/posterior_excerpt/jaxpower_gic_0918_contract_joint.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "5a19d665aab308a6bebdc9869a6600d802aecf9e3a39ac2d1f7fbc26e51a7e6b"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/p02/samples.npz",
+    "source_sha256": "b36ffde7ef78a8b26d9680ba06f54d8b667d33dc3759a8e5ff446250b6ce3253",
+    "path": "review_data/posterior_excerpt/ezmock1000_0918_contract_v1_p02.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "048e25db8e0aef00788aa8de8c0002e02f95278262bf8b22a48957eacd8b3f3e"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/xi02/samples.npz",
+    "source_sha256": "be5e606dfdca5623a9119e9272a1329b1674cb401df3a0fbda6a1a0601c668a6",
+    "path": "review_data/posterior_excerpt/ezmock1000_0918_contract_v1_xi02.npz",
+    "source_shape": [
+      25000,
+      64,
+      2
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "45302a10bbb34abe17fa3f908cefdcb467bc2426b2610f69cd09341c782993aa"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/joint/samples.npz",
+    "source_sha256": "6a5bf8d62672b96c7a7e0991de4b5e63598773a29e04d2f4731e785b3ae30454",
+    "path": "review_data/posterior_excerpt/ezmock1000_0918_contract_v1_joint.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "b2a7ee459a7157ea9601a26a20f9e3d4f6d209720b86f1c8f372a2509139bd05"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/fits/p02/samples.npz",
+    "source_sha256": "b36ffde7ef78a8b26d9680ba06f54d8b667d33dc3759a8e5ff446250b6ce3253",
+    "path": "review_data/posterior_excerpt/ezmock1000_gic_0918_contract_p02.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "048e25db8e0aef00788aa8de8c0002e02f95278262bf8b22a48957eacd8b3f3e"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/fits/xi02/samples.npz",
+    "source_sha256": "585406ed3640f7d0a6460826da0bcc462d5d35afddb51dcb69184630247497d7",
+    "path": "review_data/posterior_excerpt/ezmock1000_gic_0918_contract_xi02.npz",
+    "source_shape": [
+      25000,
+      64,
+      2
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "61a2453a5f3c6c478ef2e9b7ae9afc82c28d9a6d1afb686b3e73231c0bf18346"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/fits/joint/samples.npz",
+    "source_sha256": "aa8b98fc6685baa896c0218d340eccc38104ab864ba187f5046a002fb290ecec",
+    "path": "review_data/posterior_excerpt/ezmock1000_gic_0918_contract_joint.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "8a97ee4189ff33fd5cbcaf120ced9883dd937057a109bfce12b88e57a85e2403"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/p02/samples.npz",
+    "source_sha256": "855968be1030fc309b88742db18161168df9fd259296987f26a4132d72a4af17",
+    "path": "review_data/posterior_excerpt/scale_kmax0p06_p02.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "826fc0804c33442f0ca6aa7b4f84f855876596e9354889b29161d89f2abacf4c"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/joint/samples.npz",
+    "source_sha256": "e04aece9293b90ef85db0fe15a10cecb88e4d76d020752fc15b813624bf5baa6",
+    "path": "review_data/posterior_excerpt/scale_kmax0p06_joint.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "487e4e52c0b89de5a1791f3aeb29c59271ce883ec27266f91344101041224ea8"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/xi02/samples.npz",
+    "source_sha256": "32a601632d9bedf995b7ec80fd75721330d8b5e15defe7473676358f8f619a71",
+    "path": "review_data/posterior_excerpt/scale_bao_unmasked_xi02.npz",
+    "source_shape": [
+      25000,
+      64,
+      3
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "d66f92e4d3b6349e36c407a37b063c78e99f54dd0658ab6cc093785fcd772733"
+  },
+  {
+    "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/joint/samples.npz",
+    "source_sha256": "b4b2610bfcd68bcce84174a6653afb5ed8ea28dfaaf997c8c548d1f57eef125f",
+    "path": "review_data/posterior_excerpt/scale_bao_unmasked_joint.npz",
+    "source_shape": [
+      25000,
+      64,
+      4
+    ],
+    "selected": 60000,
+    "selection": "np.linspace over original flattened ordering; not independent; not a convergence diagnostic",
+    "source_key": "chain",
+    "sha256": "5bbb3d5b1848e46d4bf0a63f2fe001eb816e89d81209c196d9cd328aa9b81295"
+  }
+]

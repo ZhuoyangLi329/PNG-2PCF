@@ -1,0 +1,16 @@
+{
+  "mode_C_identity_maxabs": 1.3322676295501878e-15,
+  "contrast_common_parameter_derivative_maxabs": 7.771561172376096e-16,
+  "EZ_covariance_relative_Fro": 5.162207609273167e-16,
+  "halo_mean_matches_frozen": true,
+  "mode_all_finite": true,
+  "mean_contrast_T2_using_2D_halo_covariance": 13.38275254326613,
+  "two_contrast_mean": [
+    -0.03507366700802221,
+    -0.0394533165086855
+  ],
+  "no_74D_halo_covariance_inversion": true,
+  "status": "pass",
+  "conditional_Hotelling_F_reference": 0.006119410771626777,
+  "Hotelling_caveat": "Approximate Gaussian iid phases with preselected tangent contrasts; not a posterior tension result."
+}

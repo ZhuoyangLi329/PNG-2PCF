@@ -1,0 +1,25 @@
+{
+  "scope": "Deterministic coincident-pair contact injection on a synthetic weighted Poisson catalog; not a test that halo stochasticity is white, nor a zero-mean Poisson/GIC test.",
+  "seed": 4320922,
+  "data_n": 60000,
+  "random_n": 300000,
+  "mesh": 128,
+  "affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "monopole_relative_error": 1.947858949217787e-15,
+  "quadrupole_relative_leakage": 1.3485177340738527e-15,
+  "normalization_relative_error": 0.0,
+  "gate": true,
+  "elapsed_sec": 12.195184707641602,
+  "runner_sha256": "666aeb602508562684bbb51a5792374fdb972906e9e679f18a435c0722e87f96",
+  "estimator_source": "/pscratch/sd/l/lzy/desi-clustering/clustering_statistics/spectrum2_tools.py",
+  "estimator_sha256": "105c879c9ab0b32bd0827a426e60a637b00ff81d9603c334feebe3113d42147f"
+}

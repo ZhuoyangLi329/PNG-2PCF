@@ -1,0 +1,41 @@
+{
+  "contract": {
+    "cache": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p725000_box2000_kmax3_ell02.npz",
+    "k_switch": null,
+    "nbar": 0.000162131295,
+    "p_bins": 16,
+    "quadrant_scales": {
+      "P0_xi0": 1.116174090868313,
+      "P0_xi2": 2.5767512627364275,
+      "P2_xi0": 2.312298630091175,
+      "P2_xi2": 1.7274063919587246
+    },
+    "xi0_bins": 26,
+    "xi2_bins": 26,
+    "xi_angle_mode": "continuous",
+    "xi_mask_contract": "50 <= s < 350; 80 <= s < 120 excluded"
+  },
+  "fit": {
+    "map_chi2": 4.157112124073583,
+    "map_theta": [
+      4.778817010108328,
+      2.6163631311132636
+    ],
+    "parameter_names": [
+      "fNL",
+      "b1"
+    ]
+  },
+  "model": {
+    "b2_bs_b3": "fixed zero",
+    "baseline": "velocileptors Gaussian CLPT/GSM",
+    "eft_parameters": "all zero",
+    "kmax_h_mpc": 0.5,
+    "p_fixed": 1.0,
+    "png_response": "linear tracer P and density-velocity response using current b_PNG(k)",
+    "s2fog": 0.0
+  },
+  "note": "Hybrid PNG response diagnostic; not yet a complete CLPT-PNG operator basis.",
+  "status": "complete",
+  "task": "Task432 hybrid PNG velocileptors GSM xi-only diagnostic"
+}

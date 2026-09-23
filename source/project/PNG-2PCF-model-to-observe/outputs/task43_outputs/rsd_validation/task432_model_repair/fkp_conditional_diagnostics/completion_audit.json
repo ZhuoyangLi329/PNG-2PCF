@@ -1,0 +1,48 @@
+{
+  "status": "complete",
+  "meeting_directory": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_fkp_conditional_ezmock1000",
+  "verified_delivery_files": 28,
+  "postflight_checks": 49,
+  "archived_files": [
+    {
+      "original": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/paired_fkp_preview.json",
+      "archive": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_fkp_conditional/early_preview/paired_fkp_preview.json",
+      "sha256": "3a5e230f8ccddd95ee72f275957ffcd6ff18e6fb88363ffdb5d31f1d68b181d7",
+      "bytes": 5807,
+      "action": "move"
+    },
+    {
+      "original": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/paired_fkp_preview.npz",
+      "archive": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_fkp_conditional/early_preview/paired_fkp_preview.npz",
+      "sha256": "700ddd2b96b80762d143414d4fcc89982c02d1217dd5b448c2353153e61efc5b",
+      "bytes": 6808,
+      "action": "move"
+    },
+    {
+      "original": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_fkp_inspect_inputs.py",
+      "archive": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_fkp_conditional/early_preview/task432_fkp_inspect_inputs.py",
+      "sha256": "435701154e13ebcde0b267a35db4ce5219c2a34a96c7716d9099c7bb49262e0a",
+      "bytes": 911,
+      "action": "move"
+    },
+    {
+      "archive": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_fkp_conditional/run_task432_fkp_ric_dense_parameters.sh",
+      "sha256": "d0c37584b453bbfae2d6e2ef02ae85fce97c342de42b5b274960925baca148b5",
+      "bytes": 1134,
+      "action": "earlier parameter backup retained"
+    },
+    {
+      "original": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/agent/task.md",
+      "archive": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_fkp_conditional/task_before_fkp_conditional_2026-09-22.md",
+      "sha256": "ce99387cfa24480a1ad4c84ddfb1b54b3a7e107c7d4b5c11fdc7e5bfb934fd7d",
+      "bytes": 197088,
+      "action": "taskbook backup before append"
+    }
+  ],
+  "taskbook_sha256": "ccdb8a5b2ae47da0a84ad053c8ecfd23d3428ef66d8af3711c4e3280ac7fbe49",
+  "taskbook_backup": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_fkp_conditional/task_before_fkp_conditional_2026-09-22.md",
+  "remaining_task_processes": [],
+  "science_inputs_removed": false,
+  "formal_results_replaced": false,
+  "source_sha256": "facd99db8b94452a5cf25aa292b905442603586661d65c2eae631fc3d6cc7bb9"
+}

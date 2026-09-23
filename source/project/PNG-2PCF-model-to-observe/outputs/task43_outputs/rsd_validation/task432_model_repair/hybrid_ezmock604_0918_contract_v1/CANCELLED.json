@@ -1,0 +1,13 @@
+{
+  "status": "cancelled_superseded",
+  "reason": "User corrected covariance ensemble to all 1000 completed EZmocks; this 604-mock trial is not a scientific result.",
+  "replacement": "outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1",
+  "utc": "2026-09-21T11:52:02Z",
+  "terminated_owned_pids": [
+    1792046,
+    1792253,
+    1792254,
+    1792255
+  ],
+  "partial_files_retained": true
+}

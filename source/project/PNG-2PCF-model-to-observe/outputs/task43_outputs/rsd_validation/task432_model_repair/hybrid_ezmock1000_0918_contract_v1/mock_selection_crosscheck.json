@@ -1,0 +1,7 @@
+{
+  "nmock": 1000,
+  "all_1000_ids": true,
+  "old_604_vectors_bitwise_identical": true,
+  "old_604_covariance_relative_error": 5.580012119857712e-16,
+  "covariance_1000_vs_604_relative_difference": 0.06769602172629924
+}

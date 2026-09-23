@@ -1,0 +1,120 @@
+{
+  "contract": {
+    "cache": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p725000_box2000_kmax3_ell02.npz",
+    "k_switch": null,
+    "nbar": 0.000162131295,
+    "p_bins": 16,
+    "quadrant_scales": {
+      "P0_xi0": 1.116174090868313,
+      "P0_xi2": 2.5767512627364275,
+      "P2_xi0": 2.312298630091175,
+      "P2_xi2": 1.7274063919587246
+    },
+    "xi0_bins": 26,
+    "xi2_bins": 26,
+    "xi_angle_mode": "continuous",
+    "xi_mask_contract": "50 <= s < 350; 80 <= s < 120 excluded"
+  },
+  "elapsed_sec": 143.59881133196177,
+  "gsm_summary": {
+    "acceptance_fraction_mean": 0.5252083333333333,
+    "mcmc": {
+      "burnin": 200,
+      "nsteps": 900,
+      "nwalkers": 16,
+      "seed": 20260923
+    },
+    "parameter_names": [
+      "fNL",
+      "b1",
+      "sigma_s_P",
+      "sigma_FOG",
+      "sn0"
+    ],
+    "postburn_length_over_tau": [
+      17.67138010213676,
+      19.936914571937564,
+      16.203658246423736,
+      21.154679533367112,
+      20.271891024439793
+    ],
+    "posterior": {
+      "b1": {
+        "q16": 2.5268751131960325,
+        "q50": 2.571158379384433,
+        "q84": 2.61701431308991,
+        "sigma68": 0.04506959994693882
+      },
+      "fNL": {
+        "q16": -10.43794058522489,
+        "q50": 0.5145541603219118,
+        "q84": 11.864883814638782,
+        "sigma68": 11.151412199931837
+      },
+      "sigma_FOG": {
+        "q16": 15.874190073326199,
+        "q50": 16.97072634376232,
+        "q84": 18.114772357037914,
+        "sigma68": 1.1202911418558577
+      },
+      "sigma_s_P": {
+        "q16": 0.33541367621440743,
+        "q50": 1.0545841706361037,
+        "q84": 1.8873716630278614,
+        "sigma68": 0.7759789934067269
+      },
+      "sn0": {
+        "q16": 0.06918021630646197,
+        "q50": 0.16369349649950404,
+        "q84": 0.2536967766948203,
+        "sigma68": 0.09225828019417917
+      }
+    }
+  },
+  "kmax_gsm_h_mpc": 0.5,
+  "new_chain": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/rawbox_linear_gsm_contours_v2/linear_gsm_fog_joint_samples.npz",
+  "original_chain": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/rawbox_baomask_split_sigma_longchain/fits/joint/samples.npz",
+  "original_summary": {
+    "parameter_names": [
+      "fNL",
+      "b1",
+      "sigma_s_P",
+      "sigma_s_xi",
+      "sn0"
+    ],
+    "posterior": {
+      "b1": {
+        "q16": 2.5308447862506784,
+        "q50": 2.5763672096743835,
+        "q84": 2.6216672655069084,
+        "sigma68": 0.045411239628115
+      },
+      "fNL": {
+        "q16": -11.111102063640189,
+        "q50": 0.7427427919919201,
+        "q84": 11.851415298576793,
+        "sigma68": 11.481258681108491
+      },
+      "sigma_s_P": {
+        "q16": 0.31348847610749747,
+        "q50": 1.0062630636167689,
+        "q84": 1.8241637296163704,
+        "sigma68": 0.7553376267544365
+      },
+      "sigma_s_xi": {
+        "q16": 1.4077671201943862,
+        "q50": 4.251756242602667,
+        "q84": 7.2177797302002125,
+        "sigma68": 2.905006305002913
+      },
+      "sn0": {
+        "q16": 0.05802975225025189,
+        "q50": 0.150490094577099,
+        "q84": 0.24290254303076092,
+        "sigma68": 0.09243639539025451
+      }
+    }
+  },
+  "status": "complete",
+  "task": "Task 4.3.2 original-vs-linear-GSM contour comparison"
+}

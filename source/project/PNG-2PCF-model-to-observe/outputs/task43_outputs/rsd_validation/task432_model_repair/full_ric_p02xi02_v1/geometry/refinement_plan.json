@@ -1,0 +1,12 @@
+{
+  "reason": "xi-only 99th-percentile b1 point exceeds the unchanged 0.01 independent-kernel error gate: 0.01094588677",
+  "additional_seeds": [
+    4322291,
+    4322333
+  ],
+  "N_per_catalog": 32768,
+  "radial_width": 2,
+  "comparison": "mean(original two) versus mean(new two), identical 0.01 C_single quadratic-error threshold",
+  "final_kernel": "mean of all four, if comparison passes; P retains validated mean of original two",
+  "not_selected_by": "No kernel choice uses b1 centering or chi2 fit quality"
+}

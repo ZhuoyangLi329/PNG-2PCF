@@ -1,0 +1,46 @@
+{
+  "estimates": "Maximum likelihood, not posterior medians",
+  "formal_model_updated": false,
+  "rows": [
+    {
+      "joint": 2.383163939529294,
+      "joint_chi2_Csingle": 4.519122568010365,
+      "joint_sn0": 0.08238537108906505,
+      "label": "Hybrid + GIC baseline",
+      "p02": 2.419496301847228,
+      "xi02": 2.423164657037256
+    },
+    {
+      "joint": 2.3830523750022143,
+      "joint_chi2_Csingle": 4.518191498129142,
+      "joint_sn0": 0.08305062040585846,
+      "label": "Observed contact sn0",
+      "p02": 2.4194914755459966,
+      "xi02": 2.423164657037256
+    },
+    {
+      "joint": 2.404712681106569,
+      "joint_chi2_Csingle": 4.611819059008479,
+      "joint_sn0": 0.035847669522431055,
+      "label": "Legacy P0-only RIC probe",
+      "p02": 2.415021041243047,
+      "xi02": 2.423164657037256
+    },
+    {
+      "joint": 2.345010056829431,
+      "joint_chi2_Csingle": 8.010384307115807,
+      "joint_sn0": 0.14830675567694218,
+      "label": "Common Kaiser + FoG / box cut",
+      "p02": 2.419496301847228,
+      "xi02": 2.405388088822977
+    },
+    {
+      "joint": 2.3847928979536333,
+      "joint_chi2_Csingle": 4.499774726211197,
+      "joint_sn0": 0.07999685350576342,
+      "label": "Three-phase window pilot",
+      "p02": 2.4192811495096067,
+      "xi02": 2.423164657037256
+    }
+  ]
+}

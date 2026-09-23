@@ -1,0 +1,42 @@
+{
+  "normalization": 128361466.04759511,
+  "elapsed_s": 375.3036585850059,
+  "backend": {
+    "commits": {
+      "pycute": "e29ea2ee95ba9127d00187e9e341a63a9431c437",
+      "pywindow": "9857ebef68153660454fee34c4fda60e90f7289e"
+    },
+    "files": {
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pycute-e29ea2ee95ba9127d00187e9e341a63a9431c437/pycute/lib/cute.so": "5163a9662dad9bbadf0dff5f666cb678877bfc41e57b312368046bbbabf4041e",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pycute-e29ea2ee95ba9127d00187e9e341a63a9431c437/src/correlator.c": "cfa2c663a584c2d21ab14cdc091501a88a2cec210e58640af4687d83a19e662b",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal2pcf.py": "0a1a6d77a78090e0f59d5b4afd2981d849c766daf4d15cfef59c7611dcb904d0",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal3pcf.py": "2ceb3786f4547182a555bf2651ee0bb90be4c9bee3f8d4e13c84f803bb2d0087",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal4pcf.py": "a69cc00d62ee357c12c5acccea0928ae453d3be4b45ddd9fa68dae853f28a934"
+    },
+    "compatibility": "Process-local NumPy aliases for old scipy names; pure count modules loaded without FFT/nbodykit imports."
+  },
+  "ells_out": [
+    0,
+    2
+  ],
+  "ells_in": [
+    0,
+    2,
+    4
+  ],
+  "los_out": "endpoint",
+  "los_in": "midpoint",
+  "independent_projection": true,
+  "status": "pilot_unvalidated",
+  "sampling": "Three independently scrambled Sobol catalogs from production selection distribution",
+  "seed": 4322217,
+  "nsub": 32768,
+  "radial_width": 2.0,
+  "refinement": 1,
+  "phase": "ph000",
+  "pair_volume": 3167943088.074874,
+  "source_sha256": "9963821dc0fb63d82284541d1beb7af1b2dcbccf20773971ffcbc394bb1a423f",
+  "source_catalog": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8.npz",
+  "fkp_sha256": "746ff04897a0ea3428ef8af1307675e40ca7ebda72a1047225814a4c587e7d27",
+  "constant_field_relative_error": 2.3134543468094397e-12
+}

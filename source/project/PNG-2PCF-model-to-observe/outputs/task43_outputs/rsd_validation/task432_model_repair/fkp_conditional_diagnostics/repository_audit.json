@@ -1,0 +1,650 @@
+{
+  "scope": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics",
+  "files": [
+    {
+      "path": "postflight.json",
+      "bytes": 8722
+    },
+    {
+      "path": "external_bias_inventory.json",
+      "bytes": 10651
+    },
+    {
+      "path": "repository_audit.json",
+      "bytes": 17009
+    },
+    {
+      "path": "delivery_manifest.json",
+      "bytes": 4011
+    },
+    {
+      "path": "conditional_modes.npz",
+      "bytes": 666246
+    },
+    {
+      "path": "diagnostic_delivery.tar.gz",
+      "bytes": 695767
+    },
+    {
+      "path": "conditional_modes.json",
+      "bytes": 5691
+    },
+    {
+      "path": "completion_audit.json",
+      "bytes": 2680
+    },
+    {
+      "path": "paired_fkp_results.npz",
+      "bytes": 8474
+    },
+    {
+      "path": "paired_fkp_results.json",
+      "bytes": 6511
+    },
+    {
+      "path": "final_report_delivery.tar.gz",
+      "bytes": 764738
+    },
+    {
+      "path": "logs/fkp_pilot.log",
+      "bytes": 8166
+    },
+    {
+      "path": "logs/ric_response.log",
+      "bytes": 1824
+    },
+    {
+      "path": "logs/ric_response.completed",
+      "bytes": 32
+    },
+    {
+      "path": "logs/ric_response.hostname",
+      "bytes": 8
+    },
+    {
+      "path": "logs/ric_response_adaptive.log",
+      "bytes": 5690
+    },
+    {
+      "path": "paired/ph000/kernel_own_n16384_seed4322407_midpoint.npz",
+      "bytes": 9543677
+    },
+    {
+      "path": "paired/ph000/shot_own_random_global_n16384_seed4322407_endpoint.npz",
+      "bytes": 3425
+    },
+    {
+      "path": "paired/ph000/shot_own_random_global_n8192_seed4322447_midpoint.npz",
+      "bytes": 8183
+    },
+    {
+      "path": "paired/ph000/kernel_own_n16384_seed4322407_endpoint.npz",
+      "bytes": 3814305
+    },
+    {
+      "path": "paired/ph000/shot_own_sn_radial_n8192_seed4322447_midpoint.npz",
+      "bytes": 8067
+    },
+    {
+      "path": "paired/ph000/shot_independent_random_global_n8192_seed4322447_endpoint.npz",
+      "bytes": 3419
+    },
+    {
+      "path": "paired/ph000/catalogs.npz",
+      "bytes": 43219634
+    },
+    {
+      "path": "paired/ph000/independent_pk.json",
+      "bytes": 343
+    },
+    {
+      "path": "paired/ph000/shot_own_data_radial_n16384_seed4322407_endpoint.npz",
+      "bytes": 3383
+    },
+    {
+      "path": "paired/ph000/shot_independent_random_global_n8192_seed4322447_midpoint.npz",
+      "bytes": 8181
+    },
+    {
+      "path": "paired/ph000/shot_own_data_radial_n16384_seed4322407_midpoint.npz",
+      "bytes": 8047
+    },
+    {
+      "path": "paired/ph000/shot_own_sn_radial_n16384_seed4322407_endpoint.npz",
+      "bytes": 3386
+    },
+    {
+      "path": "paired/ph000/shot_own_sn_radial_n16384_seed4322407_midpoint.npz",
+      "bytes": 8041
+    },
+    {
+      "path": "paired/ph000/shot_own_data_radial_n8192_seed4322447_midpoint.npz",
+      "bytes": 8073
+    },
+    {
+      "path": "paired/ph000/independent_DD.npz",
+      "bytes": 9309
+    },
+    {
+      "path": "paired/ph000/ric_response_n8192_seed4322447.npz",
+      "bytes": 2645
+    },
+    {
+      "path": "paired/ph000/shot_independent_data_radial_n8192_seed4322447_midpoint.npz",
+      "bytes": 8073
+    },
+    {
+      "path": "paired/ph000/kernel_independent_n8192_seed4322447_endpoint.npz",
+      "bytes": 3756329
+    },
+    {
+      "path": "paired/ph000/own_xi_block1.npz",
+      "bytes": 39619
+    },
+    {
+      "path": "paired/ph000/independent_xi_block0.npz",
+      "bytes": 39576
+    },
+    {
+      "path": "paired/ph000/kernel_independent_n8192_seed4322447_midpoint.npz",
+      "bytes": 9391220
+    },
+    {
+      "path": "paired/ph000/shot_independent_sn_radial_n16384_seed4322407_midpoint.npz",
+      "bytes": 8052
+    },
+    {
+      "path": "paired/ph000/shot_independent_data_radial_n16384_seed4322407_endpoint.npz",
+      "bytes": 3387
+    },
+    {
+      "path": "paired/ph000/independent_pk.npz",
+      "bytes": 2288628
+    },
+    {
+      "path": "paired/ph000/shot_independent_sn_radial_n8192_seed4322447_endpoint.npz",
+      "bytes": 3393
+    },
+    {
+      "path": "paired/ph000/shot_own_random_global_n16384_seed4322407_midpoint.npz",
+      "bytes": 8186
+    },
+    {
+      "path": "paired/ph000/ric_response_n16384_seed4322407.json",
+      "bytes": 1249
+    },
+    {
+      "path": "paired/ph000/shot_own_sn_radial_n8192_seed4322447_endpoint.npz",
+      "bytes": 3386
+    },
+    {
+      "path": "paired/ph000/shot_own_random_global_n8192_seed4322447_endpoint.npz",
+      "bytes": 3426
+    },
+    {
+      "path": "paired/ph000/shot_own_data_radial_n8192_seed4322447_endpoint.npz",
+      "bytes": 3392
+    },
+    {
+      "path": "paired/ph000/shot_independent_data_radial_n16384_seed4322407_midpoint.npz",
+      "bytes": 8054
+    },
+    {
+      "path": "paired/ph000/own_pk.json",
+      "bytes": 333
+    },
+    {
+      "path": "paired/ph000/own_pk.npz",
+      "bytes": 2289855
+    },
+    {
+      "path": "paired/ph000/independent_xi_block1.npz",
+      "bytes": 39596
+    },
+    {
+      "path": "paired/ph000/own_xi_block0.npz",
+      "bytes": 39606
+    },
+    {
+      "path": "paired/ph000/own_DD.npz",
+      "bytes": 9317
+    },
+    {
+      "path": "paired/ph000/shot_independent_random_global_n16384_seed4322407_endpoint.npz",
+      "bytes": 3424
+    },
+    {
+      "path": "paired/ph000/kernel_own_n8192_seed4322447_midpoint.npz",
+      "bytes": 9391756
+    },
+    {
+      "path": "paired/ph000/shot_independent_sn_radial_n16384_seed4322407_endpoint.npz",
+      "bytes": 3390
+    },
+    {
+      "path": "paired/ph000/shot_independent_sn_radial_n8192_seed4322447_midpoint.npz",
+      "bytes": 8075
+    },
+    {
+      "path": "paired/ph000/kernel_independent_n16384_seed4322407_midpoint.npz",
+      "bytes": 9543500
+    },
+    {
+      "path": "paired/ph000/shot_independent_random_global_n16384_seed4322407_midpoint.npz",
+      "bytes": 8187
+    },
+    {
+      "path": "paired/ph000/shot_independent_data_radial_n8192_seed4322447_endpoint.npz",
+      "bytes": 3389
+    },
+    {
+      "path": "paired/ph000/ric_response_n8192_seed4322447.json",
+      "bytes": 1250
+    },
+    {
+      "path": "paired/ph000/kernel_independent_n16384_seed4322407_endpoint.npz",
+      "bytes": 3814056
+    },
+    {
+      "path": "paired/ph000/kernel_own_n8192_seed4322447_endpoint.npz",
+      "bytes": 3756292
+    },
+    {
+      "path": "paired/ph000/catalogs.json",
+      "bytes": 10586
+    },
+    {
+      "path": "paired/ph000/ric_response_n16384_seed4322407.npz",
+      "bytes": 2639
+    },
+    {
+      "path": "paired/ph024/shot_independent_random_global_n8192_seed4322407_endpoint.npz",
+      "bytes": 3424
+    },
+    {
+      "path": "paired/ph024/kernel_own_n8192_seed4322407_midpoint.npz",
+      "bytes": 9380401
+    },
+    {
+      "path": "paired/ph024/kernel_own_n8192_seed4322407_endpoint.npz",
+      "bytes": 3750410
+    },
+    {
+      "path": "paired/ph024/shot_own_random_global_n8192_seed4322447_midpoint.npz",
+      "bytes": 8193
+    },
+    {
+      "path": "paired/ph024/ric_response_n8192_seed4322407.npz",
+      "bytes": 2648
+    },
+    {
+      "path": "paired/ph024/shot_own_sn_radial_n8192_seed4322447_midpoint.npz",
+      "bytes": 8068
+    },
+    {
+      "path": "paired/ph024/shot_independent_random_global_n8192_seed4322447_endpoint.npz",
+      "bytes": 3427
+    },
+    {
+      "path": "paired/ph024/catalogs.npz",
+      "bytes": 43204371
+    },
+    {
+      "path": "paired/ph024/independent_pk.json",
+      "bytes": 342
+    },
+    {
+      "path": "paired/ph024/shot_independent_random_global_n8192_seed4322447_midpoint.npz",
+      "bytes": 8193
+    },
+    {
+      "path": "paired/ph024/shot_own_sn_radial_n8192_seed4322407_midpoint.npz",
+      "bytes": 8013
+    },
+    {
+      "path": "paired/ph024/shot_independent_data_radial_n8192_seed4322407_midpoint.npz",
+      "bytes": 8006
+    },
+    {
+      "path": "paired/ph024/kernel_independent_n8192_seed4322407_midpoint.npz",
+      "bytes": 9380204
+    },
+    {
+      "path": "paired/ph024/kernel_independent_n8192_seed4322407_endpoint.npz",
+      "bytes": 3750374
+    },
+    {
+      "path": "paired/ph024/shot_own_data_radial_n8192_seed4322447_midpoint.npz",
+      "bytes": 8067
+    },
+    {
+      "path": "paired/ph024/independent_DD.npz",
+      "bytes": 9282
+    },
+    {
+      "path": "paired/ph024/ric_response_n8192_seed4322447.npz",
+      "bytes": 2659
+    },
+    {
+      "path": "paired/ph024/shot_independent_data_radial_n8192_seed4322447_midpoint.npz",
+      "bytes": 8073
+    },
+    {
+      "path": "paired/ph024/kernel_independent_n8192_seed4322447_endpoint.npz",
+      "bytes": 3745135
+    },
+    {
+      "path": "paired/ph024/shot_own_data_radial_n8192_seed4322407_midpoint.npz",
+      "bytes": 7998
+    },
+    {
+      "path": "paired/ph024/own_xi_block1.npz",
+      "bytes": 39553
+    },
+    {
+      "path": "paired/ph024/shot_own_data_radial_n8192_seed4322407_endpoint.npz",
+      "bytes": 3370
+    },
+    {
+      "path": "paired/ph024/independent_xi_block0.npz",
+      "bytes": 39575
+    },
+    {
+      "path": "paired/ph024/kernel_independent_n8192_seed4322447_midpoint.npz",
+      "bytes": 9363050
+    },
+    {
+      "path": "paired/ph024/independent_pk.npz",
+      "bytes": 2287987
+    },
+    {
+      "path": "paired/ph024/shot_independent_sn_radial_n8192_seed4322447_endpoint.npz",
+      "bytes": 3389
+    },
+    {
+      "path": "paired/ph024/shot_own_sn_radial_n8192_seed4322447_endpoint.npz",
+      "bytes": 3383
+    },
+    {
+      "path": "paired/ph024/shot_own_random_global_n8192_seed4322447_endpoint.npz",
+      "bytes": 3423
+    },
+    {
+      "path": "paired/ph024/shot_own_data_radial_n8192_seed4322447_endpoint.npz",
+      "bytes": 3391
+    },
+    {
+      "path": "paired/ph024/own_pk.json",
+      "bytes": 336
+    },
+    {
+      "path": "paired/ph024/own_pk.npz",
+      "bytes": 2287744
+    },
+    {
+      "path": "paired/ph024/independent_xi_block1.npz",
+      "bytes": 39537
+    },
+    {
+      "path": "paired/ph024/own_xi_block0.npz",
+      "bytes": 39634
+    },
+    {
+      "path": "paired/ph024/own_DD.npz",
+      "bytes": 9306
+    },
+    {
+      "path": "paired/ph024/shot_independent_data_radial_n8192_seed4322407_endpoint.npz",
+      "bytes": 3370
+    },
+    {
+      "path": "paired/ph024/kernel_own_n8192_seed4322447_midpoint.npz",
+      "bytes": 9362795
+    },
+    {
+      "path": "paired/ph024/ric_response_n8192_seed4322407.json",
+      "bytes": 1249
+    },
+    {
+      "path": "paired/ph024/shot_independent_sn_radial_n8192_seed4322447_midpoint.npz",
+      "bytes": 8070
+    },
+    {
+      "path": "paired/ph024/shot_independent_sn_radial_n8192_seed4322407_endpoint.npz",
+      "bytes": 3362
+    },
+    {
+      "path": "paired/ph024/shot_independent_sn_radial_n8192_seed4322407_midpoint.npz",
+      "bytes": 8012
+    },
+    {
+      "path": "paired/ph024/shot_own_sn_radial_n8192_seed4322407_endpoint.npz",
+      "bytes": 3361
+    },
+    {
+      "path": "paired/ph024/shot_independent_data_radial_n8192_seed4322447_endpoint.npz",
+      "bytes": 3400
+    },
+    {
+      "path": "paired/ph024/ric_response_n8192_seed4322447.json",
+      "bytes": 1246
+    },
+    {
+      "path": "paired/ph024/shot_own_random_global_n8192_seed4322407_midpoint.npz",
+      "bytes": 8181
+    },
+    {
+      "path": "paired/ph024/kernel_own_n8192_seed4322447_endpoint.npz",
+      "bytes": 3744948
+    },
+    {
+      "path": "paired/ph024/catalogs.json",
+      "bytes": 10589
+    },
+    {
+      "path": "paired/ph024/shot_independent_random_global_n8192_seed4322407_midpoint.npz",
+      "bytes": 8197
+    },
+    {
+      "path": "paired/ph024/shot_own_random_global_n8192_seed4322407_endpoint.npz",
+      "bytes": 3423
+    },
+    {
+      "path": "paired/ph012/shot_independent_random_global_n8192_seed4322407_endpoint.npz",
+      "bytes": 3426
+    },
+    {
+      "path": "paired/ph012/kernel_own_n8192_seed4322407_midpoint.npz",
+      "bytes": 9381952
+    },
+    {
+      "path": "paired/ph012/kernel_own_n8192_seed4322407_endpoint.npz",
+      "bytes": 3750868
+    },
+    {
+      "path": "paired/ph012/shot_own_random_global_n8192_seed4322447_midpoint.npz",
+      "bytes": 8194
+    },
+    {
+      "path": "paired/ph012/ric_response_n8192_seed4322407.npz",
+      "bytes": 2646
+    },
+    {
+      "path": "paired/ph012/shot_own_sn_radial_n8192_seed4322447_midpoint.npz",
+      "bytes": 8005
+    },
+    {
+      "path": "paired/ph012/shot_independent_random_global_n8192_seed4322447_endpoint.npz",
+      "bytes": 3416
+    },
+    {
+      "path": "paired/ph012/catalogs.npz",
+      "bytes": 43119603
+    },
+    {
+      "path": "paired/ph012/independent_pk.json",
+      "bytes": 342
+    },
+    {
+      "path": "paired/ph012/shot_independent_random_global_n8192_seed4322447_midpoint.npz",
+      "bytes": 8185
+    },
+    {
+      "path": "paired/ph012/shot_own_sn_radial_n8192_seed4322407_midpoint.npz",
+      "bytes": 8058
+    },
+    {
+      "path": "paired/ph012/shot_independent_data_radial_n8192_seed4322407_midpoint.npz",
+      "bytes": 8058
+    },
+    {
+      "path": "paired/ph012/kernel_independent_n8192_seed4322407_midpoint.npz",
+      "bytes": 9381745
+    },
+    {
+      "path": "paired/ph012/kernel_independent_n8192_seed4322407_endpoint.npz",
+      "bytes": 3751005
+    },
+    {
+      "path": "paired/ph012/shot_own_data_radial_n8192_seed4322447_midpoint.npz",
+      "bytes": 8016
+    },
+    {
+      "path": "paired/ph012/independent_DD.npz",
+      "bytes": 9303
+    },
+    {
+      "path": "paired/ph012/ric_response_n8192_seed4322447.npz",
+      "bytes": 2654
+    },
+    {
+      "path": "paired/ph012/shot_independent_data_radial_n8192_seed4322447_midpoint.npz",
+      "bytes": 8012
+    },
+    {
+      "path": "paired/ph012/kernel_independent_n8192_seed4322447_endpoint.npz",
+      "bytes": 3745918
+    },
+    {
+      "path": "paired/ph012/shot_own_data_radial_n8192_seed4322407_midpoint.npz",
+      "bytes": 8061
+    },
+    {
+      "path": "paired/ph012/own_xi_block1.npz",
+      "bytes": 39638
+    },
+    {
+      "path": "paired/ph012/shot_own_data_radial_n8192_seed4322407_endpoint.npz",
+      "bytes": 3381
+    },
+    {
+      "path": "paired/ph012/independent_xi_block0.npz",
+      "bytes": 39560
+    },
+    {
+      "path": "paired/ph012/kernel_independent_n8192_seed4322447_midpoint.npz",
+      "bytes": 9366193
+    },
+    {
+      "path": "paired/ph012/independent_pk.npz",
+      "bytes": 2288197
+    },
+    {
+      "path": "paired/ph012/shot_independent_sn_radial_n8192_seed4322447_endpoint.npz",
+      "bytes": 3362
+    },
+    {
+      "path": "paired/ph012/shot_own_sn_radial_n8192_seed4322447_endpoint.npz",
+      "bytes": 3362
+    },
+    {
+      "path": "paired/ph012/shot_own_random_global_n8192_seed4322447_endpoint.npz",
+      "bytes": 3421
+    },
+    {
+      "path": "paired/ph012/shot_own_data_radial_n8192_seed4322447_endpoint.npz",
+      "bytes": 3365
+    },
+    {
+      "path": "paired/ph012/own_pk.json",
+      "bytes": 335
+    },
+    {
+      "path": "paired/ph012/own_pk.npz",
+      "bytes": 2288254
+    },
+    {
+      "path": "paired/ph012/independent_xi_block1.npz",
+      "bytes": 39601
+    },
+    {
+      "path": "paired/ph012/own_xi_block0.npz",
+      "bytes": 39621
+    },
+    {
+      "path": "paired/ph012/own_DD.npz",
+      "bytes": 9319
+    },
+    {
+      "path": "paired/ph012/shot_independent_data_radial_n8192_seed4322407_endpoint.npz",
+      "bytes": 3382
+    },
+    {
+      "path": "paired/ph012/kernel_own_n8192_seed4322447_midpoint.npz",
+      "bytes": 9365998
+    },
+    {
+      "path": "paired/ph012/ric_response_n8192_seed4322407.json",
+      "bytes": 1247
+    },
+    {
+      "path": "paired/ph012/shot_independent_sn_radial_n8192_seed4322447_midpoint.npz",
+      "bytes": 8024
+    },
+    {
+      "path": "paired/ph012/shot_independent_sn_radial_n8192_seed4322407_endpoint.npz",
+      "bytes": 3379
+    },
+    {
+      "path": "paired/ph012/shot_independent_sn_radial_n8192_seed4322407_midpoint.npz",
+      "bytes": 8049
+    },
+    {
+      "path": "paired/ph012/shot_own_sn_radial_n8192_seed4322407_endpoint.npz",
+      "bytes": 3384
+    },
+    {
+      "path": "paired/ph012/shot_independent_data_radial_n8192_seed4322447_endpoint.npz",
+      "bytes": 3366
+    },
+    {
+      "path": "paired/ph012/ric_response_n8192_seed4322447.json",
+      "bytes": 1247
+    },
+    {
+      "path": "paired/ph012/shot_own_random_global_n8192_seed4322407_midpoint.npz",
+      "bytes": 8184
+    },
+    {
+      "path": "paired/ph012/kernel_own_n8192_seed4322447_endpoint.npz",
+      "bytes": 3745748
+    },
+    {
+      "path": "paired/ph012/catalogs.json",
+      "bytes": 10582
+    },
+    {
+      "path": "paired/ph012/shot_independent_random_global_n8192_seed4322407_midpoint.npz",
+      "bytes": 8194
+    },
+    {
+      "path": "paired/ph012/shot_own_random_global_n8192_seed4322407_endpoint.npz",
+      "bytes": 3425
+    }
+  ],
+  "file_count": 160,
+  "total_bytes": 304460013,
+  "science_inputs_removed": false,
+  "recommended_entry": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_fkp_conditional_ezmock1000/RESULTS.md",
+  "archives_manifest": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_fkp_conditional/archive_manifest.json"
+}

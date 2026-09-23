@@ -1,0 +1,490 @@
+{
+  "axis_ranges": {
+    "b1": [
+      2.061203965628018,
+      2.746578965524653
+    ],
+    "fNL": [
+      -123.19886294765489,
+      95.35019750538237
+    ]
+  },
+  "b1_comparison": {
+    "joint": {
+      "maximum_likelihood": 2.3831638825921067,
+      "q16": 2.3137256363628778,
+      "q50": 2.382067330515083,
+      "q84": 2.45010263983765
+    },
+    "p02": {
+      "maximum_likelihood": 2.419496292298516,
+      "q16": 2.316626871782377,
+      "q50": 2.4148436747102373,
+      "q84": 2.513658148722536
+    },
+    "xi02": {
+      "maximum_likelihood": 2.4231646163957543,
+      "q16": 2.305109186571571,
+      "q50": 2.417980741752195,
+      "q84": 2.5282652306317024
+    }
+  },
+  "covariance": "ezmock1000",
+  "display_summary_quantile_max_error": {
+    "joint": 4.440892098500626e-16,
+    "p02": 4.440892098500626e-16,
+    "xi02": 4.440892098500626e-16
+  },
+  "finite_mock_note": "EZmock1000 only: Hartlap likelihood and Percival-rescaled display samples/intervals; raw chains preserved.",
+  "input_audit": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/input_audit.json",
+  "joint_b1_between_marginals": {
+    "maximum_likelihood": false,
+    "q50": false
+  },
+  "median_change_from_missing_gic": {
+    "joint": {
+      "b1": -0.008720572074675026,
+      "fNL": 4.180295590083663
+    },
+    "p02": {
+      "b1": 0.0,
+      "fNL": 0.0
+    },
+    "xi02": {
+      "b1": -0.003924274920531268,
+      "fNL": 2.5228038111784734
+    }
+  },
+  "model_contract": "Mandatory deterministic isotropized formal-GIC computed from current hybrid over full fixed RR window; no new free parameter",
+  "output_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_ezmock1000_gic_9.18contract/task432_hybrid_gic_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120.pdf",
+  "output_pdf_sha256": "760ba73a9bc6750f669f0611c1458a07457ef3804cec873d79ac32d7b47f334a",
+  "postflight_audit": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/postflight_audit.json",
+  "results": {
+    "joint": {
+      "acceptance_fraction_mean": 0.5742510416666666,
+      "best_chain_chi2": 4.1808303330820715,
+      "best_chain_theta": [
+        -1.6848739681888847,
+        2.3837262575636604,
+        2.1356815133441063,
+        0.08195879667358616
+      ],
+      "burnin": 5000,
+      "covariance": "ezmock1000",
+      "data_dimension": 74,
+      "dof": 70,
+      "elapsed_seconds": 294.09737690299517,
+      "emulated_map_chi2": 4.179849101944249,
+      "emulated_map_theta": [
+        -1.3537380819605214,
+        2.3831638809194224,
+        2.150919690096945,
+        0.08238552391458756
+      ],
+      "finite_mock_corrections": {
+        "hartlap": 0.924924924924925,
+        "ndata": 74,
+        "nmock": 1000,
+        "nparams": 4,
+        "percival_m1": 1.0700407710105988,
+        "percival_sigma_factor": 1.0344277505029527
+      },
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      },
+      "gic_at_direct_map": 1.2833779668771443e-05,
+      "gic_posterior_q16_q50_q84": [
+        7.61413368869578e-06,
+        1.232822027057402e-05,
+        1.8394343901115593e-05
+      ],
+      "half_chain_shift_sigma": {
+        "b1": 0.01306705972408522,
+        "fNL": 0.011748853485578794,
+        "sigma_s_P": 0.003247350754785276,
+        "sn0": 0.012534728283969572
+      },
+      "input_audit_sha256": "4cc8220b309aee36d60faf5d22b8f1c4a5ec2595ea744c39066f4625f8368cdd",
+      "map_chi2": 4.179838598912045,
+      "map_evaluation": "direct hybrid+GIC, Nint1200 shell quadrature8; posterior uses validated emulator",
+      "map_success": true,
+      "map_theta": [
+        -1.3538760129042737,
+        2.3831638825921067,
+        2.150920061751477,
+        0.0823855258672111
+      ],
+      "model": "hybrid+GIC",
+      "multistart_chi2": [
+        4.179849101945159,
+        4.179849101944712,
+        4.179849101944249,
+        4.179849101947201,
+        4.179849101951255
+      ],
+      "nsteps": 30000,
+      "nwalkers": 64,
+      "parameter_names": [
+        "fNL",
+        "b1",
+        "sigma_s_P",
+        "sn0"
+      ],
+      "postburn_length_over_tau": {
+        "b1": 494.55993951292146,
+        "fNL": 491.2804742153362,
+        "sigma_s_P": 443.86232184658695,
+        "sn0": 494.3290406535964
+      },
+      "posterior": {
+        "b1": {
+          "q16": 2.3137256363628778,
+          "q50": 2.382067330515083,
+          "q84": 2.45010263983765,
+          "sigma68": 0.06818850173738619
+        },
+        "fNL": {
+          "q16": -29.37205491302551,
+          "q50": -3.384440366808686,
+          "q84": 20.915231504141932,
+          "sigma68": 25.143643208583722
+        },
+        "sigma_s_P": {
+          "q16": 0.6739471028645734,
+          "q50": 1.847049862361666,
+          "q84": 2.836142019708059,
+          "sigma68": 1.0810974584217425
+        },
+        "sn0": {
+          "q16": -0.08123929352880449,
+          "q50": 0.08488314041942527,
+          "q84": 0.2503830780309644,
+          "sigma68": 0.16581118577988443
+        }
+      },
+      "posterior_raw": {
+        "b1": {
+          "q16": 2.316000179745997,
+          "q50": 2.382067330515083,
+          "q84": 2.4478382935325462,
+          "sigma68": 0.0659190568932746
+        },
+        "fNL": {
+          "q16": -28.507136981996453,
+          "q50": -3.384440366808686,
+          "q84": 20.106491560661155,
+          "sigma68": 24.306814271328804
+        },
+        "sigma_s_P": {
+          "q16": 0.7129902251112981,
+          "q50": 1.847049862361666,
+          "q84": 2.8032231251782163,
+          "sigma68": 1.045116450033459
+        },
+        "sn0": {
+          "q16": -0.075710418548283,
+          "q50": 0.08488314041942527,
+          "q84": 0.24487492092905566,
+          "sigma68": 0.16029266973866935
+        }
+      },
+      "priors": {
+        "lower": [
+          -500.0,
+          0.5,
+          0.0,
+          -1.0
+        ],
+        "upper": [
+          500.0,
+          5.0,
+          30.0,
+          1.0
+        ]
+      },
+      "pte_gaussian_approx": 1.0,
+      "seed": 4322902,
+      "split_rhat": {
+        "b1": 1.0021963174002881,
+        "fNL": 1.0027807898153513,
+        "sigma_s_P": 1.0020909341202613,
+        "sn0": 1.0019129968298381
+      },
+      "status": "pass",
+      "tau": {
+        "b1": 50.5499900065133,
+        "fNL": 50.88742848966168,
+        "sigma_s_P": 56.32377151544033,
+        "sn0": 50.57360167823698
+      }
+    },
+    "p02": {
+      "acceptance_fraction_mean": 0.5715333333333332,
+      "best_chain_chi2": 1.1121691485263938,
+      "best_chain_theta": [
+        -12.133381333916603,
+        2.420163387158376,
+        2.474058641329654,
+        0.0063580087633728355
+      ],
+      "burnin": 5000,
+      "chain_convention": "Stored chain sampled Hartlap-corrected likelihood; Percival applied only to reported intervals and displayed contour samples.",
+      "data_dimension": 22,
+      "dof": 18,
+      "elapsed_seconds": 248.81524846696993,
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      },
+      "half_chain_shift_sigma": {
+        "b1": 0.01360191012259874,
+        "fNL": 0.014180093501780332,
+        "sigma_s_P": 0.02309941383813895,
+        "sn0": 0.0111185835825181
+      },
+      "hartlap_percival": {
+        "A": 2.1017278304494125e-06,
+        "B": 0.0010256431812593132,
+        "hartlap": 0.9769769769769769,
+        "ndata": 22,
+        "nmock": 1000,
+        "nparams": 4,
+        "percival_m1": 1.0132632151221144,
+        "percival_sigma_factor": 1.0066097630770896
+      },
+      "input_audit_sha256": "5f1f8b88248d323f70c6268ec3033a6a3ab51c8db28cb6ed0b0888f7a9cb521d",
+      "map_chi2": 1.1105988550870602,
+      "map_success": true,
+      "map_theta": [
+        -11.96563477850883,
+        2.419496292298516,
+        2.5273829876428513,
+        0.00891366602973533
+      ],
+      "multistart_chi2": [
+        1.1105988550870654,
+        1.1105988550870602,
+        1.110598855087136,
+        1.1105988550870833,
+        1.1105988550870813
+      ],
+      "nsteps": 30000,
+      "nwalkers": 64,
+      "parameter_names": [
+        "fNL",
+        "b1",
+        "sigma_s_P",
+        "sn0"
+      ],
+      "postburn_length_over_tau": {
+        "b1": 499.6979021699235,
+        "fNL": 492.5012720867684,
+        "sigma_s_P": 435.1819006058762,
+        "sn0": 499.77941894818645
+      },
+      "posterior": {
+        "b1": {
+          "q16": 2.316626871782377,
+          "q50": 2.4148436747102373,
+          "q84": 2.513658148722536,
+          "sigma68": 0.09851563847007964
+        },
+        "fNL": {
+          "q16": -45.87184163994316,
+          "q50": -13.097759492386992,
+          "q84": 19.464446295307958,
+          "sigma68": 32.66814396762556
+        },
+        "sigma_s_P": {
+          "q16": 0.7967147919529769,
+          "q50": 2.2094552645788155,
+          "q84": 3.506362018044765,
+          "sigma68": 1.3548236130458942
+        },
+        "sn0": {
+          "q16": -0.2140800952654955,
+          "q50": 0.02243713773330408,
+          "q84": 0.2544758521331557,
+          "sigma68": 0.2342779736993256
+        }
+      },
+      "posterior_raw": {
+        "b1": {
+          "q16": 2.3172717987653595,
+          "q50": 2.4148436747102373,
+          "q84": 2.5130092972154614,
+          "sigma68": 0.09786874922505095
+        },
+        "fNL": {
+          "q16": -45.65663518555491,
+          "q50": -13.097759492386992,
+          "q84": 19.250631097583103,
+          "sigma68": 32.45363314156901
+        },
+        "sigma_s_P": {
+          "q16": 0.8059913558767438,
+          "q50": 2.2094552645788155,
+          "q84": 3.497846060135433,
+          "sigma68": 1.3459273521293447
+        },
+        "sn0": {
+          "q16": -0.21252703773405257,
+          "q50": 0.02243713773330408,
+          "q84": 0.25295220217151904,
+          "sigma68": 0.2327396199527858
+        }
+      },
+      "priors": {
+        "lower": [
+          -500.0,
+          0.5,
+          0.0,
+          -1.0
+        ],
+        "upper": [
+          500.0,
+          5.0,
+          30.0,
+          1.0
+        ]
+      },
+      "pte_gaussian_approx": 0.999999991595797,
+      "reuse_reason": "P data, covariance, prior and prediction unchanged by xi GIC fix",
+      "reused_from": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/p02",
+      "seed": 1000918,
+      "split_rhat": {
+        "b1": 1.0022734789454573,
+        "fNL": 1.0023735269343175,
+        "sigma_s_P": 1.0021445523259653,
+        "sn0": 1.0022567866302292
+      },
+      "status": "pass",
+      "tau": {
+        "b1": 50.03022804666226,
+        "fNL": 50.7612902075825,
+        "sigma_s_P": 57.44724209622248,
+        "sn0": 50.02206784067637
+      }
+    },
+    "xi02": {
+      "acceptance_fraction_mean": 0.7154802083333334,
+      "best_chain_chi2": 3.07317361221125,
+      "best_chain_theta": [
+        -2.02310911341538,
+        2.4230390394890984
+      ],
+      "burnin": 5000,
+      "covariance": "ezmock1000",
+      "data_dimension": 52,
+      "dof": 50,
+      "elapsed_seconds": 274.97936092398595,
+      "emulated_map_chi2": 3.073170985087629,
+      "emulated_map_theta": [
+        -2.064898236622593,
+        2.423164669099409
+      ],
+      "finite_mock_corrections": {
+        "hartlap": 0.9469469469469469,
+        "ndata": 52,
+        "nmock": 1000,
+        "nparams": 2,
+        "percival_m1": 1.0495758289399737,
+        "percival_sigma_factor": 1.024488081404549
+      },
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      },
+      "gic_at_direct_map": 1.3034476968358118e-05,
+      "gic_posterior_q16_q50_q84": [
+        7.563893245979825e-06,
+        1.271666770509842e-05,
+        1.9623171870249097e-05
+      ],
+      "half_chain_shift_sigma": {
+        "b1": 0.006857604719145226,
+        "fNL": 0.00644136933937842
+      },
+      "input_audit_sha256": "4cc8220b309aee36d60faf5d22b8f1c4a5ec2595ea744c39066f4625f8368cdd",
+      "map_chi2": 3.0731654072877337,
+      "map_evaluation": "direct hybrid+GIC, Nint1200 shell quadrature8; posterior uses validated emulator",
+      "map_success": true,
+      "map_theta": [
+        -2.065047198364116,
+        2.4231646163957543
+      ],
+      "model": "hybrid+GIC",
+      "multistart_chi2": [
+        3.07317098508763,
+        3.073170985087734,
+        3.073170985087928,
+        3.0731709850881246,
+        3.0731709850882374
+      ],
+      "nsteps": 30000,
+      "nwalkers": 64,
+      "parameter_names": [
+        "fNL",
+        "b1"
+      ],
+      "postburn_length_over_tau": {
+        "b1": 789.4298133870005,
+        "fNL": 803.1362464938744
+      },
+      "posterior": {
+        "b1": {
+          "q16": 2.305109186571571,
+          "q50": 2.417980741752195,
+          "q84": 2.5282652306317024,
+          "sigma68": 0.1115780220300658
+        },
+        "fNL": {
+          "q16": -30.874653680404585,
+          "q50": -3.3046699043884615,
+          "q84": 23.8353527072125,
+          "sigma68": 27.35500319380854
+        }
+      },
+      "posterior_raw": {
+        "b1": {
+          "q16": 2.3078071270178198,
+          "q50": 2.417980741752195,
+          "q84": 2.5256291281817473,
+          "sigma68": 0.10891100058196379
+        },
+        "fNL": {
+          "q16": -30.215655279853568,
+          "q50": -3.3046699043884615,
+          "q84": 23.18663156042959,
+          "sigma68": 26.701143420141577
+        }
+      },
+      "priors": {
+        "lower": [
+          -500.0,
+          0.5
+        ],
+        "upper": [
+          500.0,
+          5.0
+        ]
+      },
+      "pte_gaussian_approx": 1.0,
+      "seed": 4322901,
+      "split_rhat": {
+        "b1": 1.0012307534939298,
+        "fNL": 1.0012320364875995
+      },
+      "status": "pass",
+      "tau": {
+        "b1": 31.66842647193551,
+        "fNL": 31.12796877134928
+      }
+    }
+  },
+  "status": "pass"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "pilot_unvalidated",
+  "xi_kernel": "outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/ph000_qmc4322217_n32768_dchi2_refine1_midpoint_inmidpoint_ell8.npz",
+  "p_kernel": "outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/ph000_independent_n32768_dchi2_refine1_endpoint_ell2.npz",
+  "xi_kernel_sha256": "331f58cb834461afdd4c7825ad0c623821dd352b18a8f9bf520202d442ac67f0",
+  "p_kernel_sha256": "9bc1a9a311ac02c647de8e57bcf469228443508a50c36d57d8f865bc7206832e",
+  "physical_grid": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/hybrid_inner_refine1_q2_n600.npz",
+  "physical_grid_sha256": "e8c2c580ac87bdfd84a6e8c1c00d2bfff69a5dea92aea51b217d21e8360f69a0",
+  "baseline_data_covariance_sha256": "0e3601dde3607d4137b5537ca96e0d76bd0acafc66849e8403f44cf10f419f37",
+  "source_sha256": "de5bc64639e1cd94ccdb3824518a06e0026943e8df688e8516181a29215fe333",
+  "free_parameters_changed": false,
+  "xi_RR": "production_25phase_mean",
+  "warning": "Diagnostic optimization only; formal MCMC requires remaining geometry/LOS/interpolation gates."
+}

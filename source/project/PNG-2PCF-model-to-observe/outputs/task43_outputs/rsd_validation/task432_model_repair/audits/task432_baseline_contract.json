@@ -1,0 +1,164 @@
+{
+  "created_by": "task432_contract.py",
+  "created_pid": 1992808,
+  "historical_control_contracts": {
+    "meeting_pdfs": "9.11/9.18 figures are immutable provenance products and may have older bin contracts",
+    "rawbox_fourway_unmasked": "xi0 s>=50 and xi2 s>=80; retained only as provenance/control, not the promoted BAO-masked standard"
+  },
+  "planned_variants": [
+    "V0 shared-sigma current continuous-angle FullDiscrete model",
+    "V1 rawbox exact-lattice low-k angular correction",
+    "V2 FCFC-consistent xi(s,mu) and multipole projection",
+    "V3 lightcone xi theory including required higher multipoles/window operator",
+    "V4 phenomenological split sigma_s_P and sigma_s_xi diagnostic",
+    "V5 optional scale-dependent velocity/GSM xi-only diagnostic"
+  ],
+  "promoted_data_contract": {
+    "bao_exclusion_convention": "80 <= s < 120",
+    "bao_exclusion_mpc_h": [
+      80.0,
+      120.0
+    ],
+    "lightcone_p2_kmin_h_mpc": 0.015,
+    "likelihood_covariance": "C_single; never divide by 25",
+    "observed_curve": "arithmetic mean of 25 realizations",
+    "p_fixed": 1.0,
+    "plot_errorbar": "sqrt(diag(C_single))",
+    "plot_policy": "PDF only",
+    "removed_xi_centers_mpc_h": [
+      85.0,
+      95.0,
+      105.0,
+      115.0
+    ],
+    "sn0_policy": "P ell=0 only; xi contact term fixed to zero",
+    "xi_interval_convention": "50 <= s < 350",
+    "xi_range_mpc_h": [
+      50.0,
+      350.0
+    ]
+  },
+  "resource_contract": {
+    "cpu_only_total_threads": 8,
+    "gpu_only_for_required_measurement_or_raw_covariance": true,
+    "login_node_cpu_tasks": true,
+    "new_output_root": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair",
+    "overwrite_existing_production": false
+  },
+  "result_files": [
+    {
+      "exists": true,
+      "mtime_ns": 1788862871000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/standard_joint_baomask80_120_v1/task43_rawbox_standard_joint_baomask80_120_v1.json",
+      "sha256": "48c75ea9c092814aec2da2639d982f61347e7302af1877b3327d26086ac91108",
+      "size_bytes": 42924
+    },
+    {
+      "exists": true,
+      "mtime_ns": 1788875898000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_standard_joint_baomask80_120_v1/task43_lightcone_standard_joint_baomask80_120_v1.json",
+      "sha256": "22f5451a0b25b2a0f76b5c165d7bfcbea9cf17ec303b314a15d6f392d81524a2",
+      "size_bytes": 59369
+    },
+    {
+      "exists": true,
+      "mtime_ns": 1788785355000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/joint_p02xi02/audits/task43_rsd_rawbox_joint_4way_summary.json",
+      "sha256": "540de1f649493e4c7a7d41fcae2816e916512d666bd2dcac50ad770c7fbb8abb",
+      "size_bytes": 17184
+    },
+    {
+      "exists": true,
+      "mtime_ns": 1788948125000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.11meeting/task43_standard_kmax0p08_smin50/task43_rawbox_real_Pxi_rsd_P02xi02_joint_kmax0p08_smin50_baomask80_120_v1.json",
+      "sha256": "e863627cbf4cf32737e033d63b78bf288d5c9164edaba74850900049513705cd",
+      "size_bytes": 9852
+    },
+    {
+      "exists": true,
+      "mtime_ns": 1789103613000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.11meeting/task43_standard_kmax0p08_smin50/task43_lightcone_real_Pxi_rsd_P02xi02_joint_kmax0p08_smin50_baomask80_120_v1.json",
+      "sha256": "a43bed1fa03c8003aec2f93d91dbdd5ba3e7a803905c45fda6f618fb4cc5f460",
+      "size_bytes": 15910
+    }
+  ],
+  "scientific_scope": {
+    "lightcone_after_rawbox": true,
+    "primary_question": "Determine whether the P-versus-xi RSD sigma_s tension and lightcone joint b1 shift come from the 2PCF RSD model, finite-lattice angular projection, multipole measurement operator, covariance, or a genuinely different effective velocity nuisance.",
+    "rawbox_first": true,
+    "shared_sigma_is_baseline": true,
+    "split_sigma_is_diagnostic_only_initially": true
+  },
+  "source_files": [
+    {
+      "exists": true,
+      "mtime_ns": 1786892464000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task43/task43_rsd_model.py",
+      "sha256": "ef2a9d869f2c276320090f350012a5577a7bd72b8308e867fe739262edde0c22",
+      "size_bytes": 7550
+    },
+    {
+      "exists": true,
+      "mtime_ns": 1788858444000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task43/task43_fit_rsd_rawbox_x25.py",
+      "sha256": "338c370c9e58e63e7fc61b57f34c027fe7196c3a2890c03cd61a135d5e38e6b2",
+      "size_bytes": 30534
+    },
+    {
+      "exists": true,
+      "mtime_ns": 1788782925000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task43/task43_rsd_rawbox_joint_4way.py",
+      "sha256": "3686b08eb2f438231d897e27ee605aa5a329d85d6e9cab23189168390e19d128",
+      "size_bytes": 21517
+    },
+    {
+      "exists": true,
+      "mtime_ns": 1788761425000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task43/task43_rsd_joint_p02xi02_fit.py",
+      "sha256": "723f0873b56e7924ce7b0fa03e8b23fbf9de5a7e106b9801dfe4ecaa67ca561f",
+      "size_bytes": 17030
+    },
+    {
+      "exists": true,
+      "mtime_ns": 1788776888000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task43/task43_measure_rsd_rawbox_p02_jaxpower.py",
+      "sha256": "5289f576f5f2b09a36c464fa2d22aac468e696faf397f23dca4da33c75bdab4b",
+      "size_bytes": 9924
+    },
+    {
+      "exists": true,
+      "mtime_ns": 1786892823000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task43/task43_measure_rsd_rawbox_xi_fcfc.py",
+      "sha256": "8fc6eedaf3bf1298e18350adf60bbc6e3b922d345732e99c886170a10223e2e2",
+      "size_bytes": 14033
+    },
+    {
+      "exists": true,
+      "mtime_ns": 1786938277000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task43/task43_measure_rsd_rawbox_pk0_jaxpower.py",
+      "sha256": "36777ee90318725f2ff35a16028274f7f201b5afb540d5e3f461cc21faf31176",
+      "size_bytes": 11152
+    },
+    {
+      "exists": true,
+      "mtime_ns": 1788851699000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task43/task43_xi_linear_rsd.py",
+      "sha256": "bf834f869b44325d63e7407e9662a58986aaf3fad56305bb0c914ca2af057131",
+      "size_bytes": 10613
+    },
+    {
+      "exists": true,
+      "mtime_ns": 1788848923000000000,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task43/task43_xi_gsm.py",
+      "sha256": "5f46f2feae04c2a0c30b783e1ad2b661ea7bd4c7e198caebefb5fa7b099e6816",
+      "size_bytes": 17706
+    }
+  ],
+  "ssh_policy": {
+    "after_disconnect_wait_minutes": 15,
+    "keep_connection_when_possible": true,
+    "max_consecutive_reconnect_failures": 5
+  },
+  "status": "baseline_frozen",
+  "task": "Task 4.3.2 RSD model repair and closure"
+}

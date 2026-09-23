@@ -1,0 +1,21 @@
+{
+  "audit_sha256": {
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/pilot/mean4xi_mean2P_prodrr_stochastic/model_validation.json": "acca427e2b2aeb553c07da2ccd633470bf609435a6f7ad3a9d3748a47d08430c",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/geometry_validation_mean4.json": "0afe608b9f91d08fbc379e50b1ba43c6d607c4858e8a1c2f636478ae465cf702",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/paired_validation.json": "ac7c0e02e55fa14cde5e13b399e1f488d64c7ef14669d4b1d19b2d7c4d943365"
+  },
+  "baseline_frozen_sha256": "0e3601dde3607d4137b5537ca96e0d76bd0acafc66849e8403f44cf10f419f37",
+  "burnin": 5000,
+  "compiled": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/pilot/mean4xi_mean2P_prodrr_stochastic/engine.npz",
+  "compiled_sha256": "dde0ba534d5eac07ec0580c67eafebcaea3596673fbd50b045e84b8f96e8fc7a",
+  "engine_source_sha256": "0cd22c202f72974e8a9cdb965b857c73dd944f7ed3f5d4b2c4dc735414df0e99",
+  "nwalkers": 64,
+  "parameter_names": [
+    "fNL",
+    "b1",
+    "sn0"
+  ],
+  "seed": 4322301,
+  "source_sha256": "c1fb16a25b8a879ed4af4454a75c584773e7b72d5e84286d1c4989a48228ffa8",
+  "variant": "xi02"
+}

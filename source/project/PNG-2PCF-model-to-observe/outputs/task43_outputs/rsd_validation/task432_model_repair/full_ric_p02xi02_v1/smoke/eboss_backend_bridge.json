@@ -1,0 +1,78 @@
+{
+  "status": "pass",
+  "scope": "Small catalogue direct-sum cross/auto validation; input LOS midpoint; no survey accuracy claim.",
+  "reports": [
+    {
+      "sampling": "shared_reference",
+      "los_out": "midpoint",
+      "max_absolute_errors": {
+        "cross": 7.105427357601002e-15,
+        "auto": 5.329070518200751e-15
+      },
+      "scale": 21.83489182451552,
+      "relative_error": 3.254161923359407e-16,
+      "elapsed_s": 0.005300263001117855,
+      "backend": {
+        "commits": {
+          "pycute": "e29ea2ee95ba9127d00187e9e341a63a9431c437",
+          "pywindow": "9857ebef68153660454fee34c4fda60e90f7289e"
+        },
+        "files": {
+          "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pycute-e29ea2ee95ba9127d00187e9e341a63a9431c437/pycute/lib/cute.so": "5163a9662dad9bbadf0dff5f666cb678877bfc41e57b312368046bbbabf4041e",
+          "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pycute-e29ea2ee95ba9127d00187e9e341a63a9431c437/src/correlator.c": "cfa2c663a584c2d21ab14cdc091501a88a2cec210e58640af4687d83a19e662b",
+          "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal2pcf.py": "0a1a6d77a78090e0f59d5b4afd2981d849c766daf4d15cfef59c7611dcb904d0",
+          "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal3pcf.py": "2ceb3786f4547182a555bf2651ee0bb90be4c9bee3f8d4e13c84f803bb2d0087",
+          "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal4pcf.py": "a69cc00d62ee357c12c5acccea0928ae453d3be4b45ddd9fa68dae853f28a934"
+        },
+        "compatibility": "Process-local NumPy aliases for old scipy names; pure count modules loaded without FFT/nbodykit imports."
+      }
+    },
+    {
+      "sampling": "shared_reference",
+      "los_out": "endpoint",
+      "max_absolute_errors": {
+        "cross": 7.105427357601002e-15,
+        "auto": 5.329070518200751e-15
+      },
+      "scale": 21.83489182451552,
+      "relative_error": 3.254161923359407e-16,
+      "elapsed_s": 0.0036942160222679377,
+      "backend": {
+        "commits": {
+          "pycute": "e29ea2ee95ba9127d00187e9e341a63a9431c437",
+          "pywindow": "9857ebef68153660454fee34c4fda60e90f7289e"
+        },
+        "files": {
+          "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pycute-e29ea2ee95ba9127d00187e9e341a63a9431c437/pycute/lib/cute.so": "5163a9662dad9bbadf0dff5f666cb678877bfc41e57b312368046bbbabf4041e",
+          "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pycute-e29ea2ee95ba9127d00187e9e341a63a9431c437/src/correlator.c": "cfa2c663a584c2d21ab14cdc091501a88a2cec210e58640af4687d83a19e662b",
+          "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal2pcf.py": "0a1a6d77a78090e0f59d5b4afd2981d849c766daf4d15cfef59c7611dcb904d0",
+          "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal3pcf.py": "2ceb3786f4547182a555bf2651ee0bb90be4c9bee3f8d4e13c84f803bb2d0087",
+          "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/reference/pywindow-9857ebef68153660454fee34c4fda60e90f7289e/pywindow/pyreal4pcf.py": "a69cc00d62ee357c12c5acccea0928ae453d3be4b45ddd9fa68dae853f28a934"
+        },
+        "compatibility": "Process-local NumPy aliases for old scipy names; pure count modules loaded without FFT/nbodykit imports."
+      }
+    },
+    {
+      "sampling": "independent_A_B_reference",
+      "los_out": "midpoint",
+      "max_absolute_errors": {
+        "cross": 7.105427357601002e-15,
+        "auto": 5.329070518200751e-15
+      },
+      "scale": 24.131368095377596,
+      "relative_error": 2.944477631569533e-16,
+      "elapsed_s": 0.006686631997581571
+    },
+    {
+      "sampling": "independent_A_B_reference",
+      "los_out": "endpoint",
+      "max_absolute_errors": {
+        "cross": 7.105427357601002e-15,
+        "auto": 5.329070518200751e-15
+      },
+      "scale": 24.131368095377596,
+      "relative_error": 2.944477631569533e-16,
+      "elapsed_s": 0.0072971119661815464
+    }
+  ]
+}

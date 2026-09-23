@@ -1,0 +1,110 @@
+{
+  "gates": {
+    "emulator": true,
+    "geometry": true,
+    "integration": true,
+    "old_predictions_preserved": true
+  },
+  "maxima": {
+    "emulator_q": 4.577502035088394e-08,
+    "geometry_q": 0.00975202900737807,
+    "integration_q": 6.52835960614281e-10
+  },
+  "model_sha256": "adbca65975f52094d499a726bab4f4fdf9b8387e4a02d25c6d25164460e8f314",
+  "old_prediction_maxabs": 6.938893903907228e-18,
+  "records": [
+    {
+      "emulator_q": 2.7993736349390107e-08,
+      "geometry_q": 0.004327281006719143,
+      "integration_q": 6.52835960614281e-10,
+      "label": "anchor",
+      "theta": [
+        0,
+        2.4,
+        0.1
+      ]
+    },
+    {
+      "emulator_q": 2.395918763204774e-08,
+      "geometry_q": 0.0033839351188725947,
+      "label": "anchor",
+      "theta": [
+        -63.7,
+        2.273,
+        0.1
+      ]
+    },
+    {
+      "emulator_q": 3.002656306766501e-08,
+      "geometry_q": 0.004973156750330667,
+      "label": "anchor",
+      "theta": [
+        -31.3,
+        2.517,
+        0.1
+      ]
+    },
+    {
+      "emulator_q": 2.7210898802360216e-08,
+      "geometry_q": 0.004081226056187372,
+      "label": "anchor",
+      "theta": [
+        18.7,
+        2.347,
+        0.1
+      ]
+    },
+    {
+      "emulator_q": 3.63679484685271e-08,
+      "geometry_q": 0.006597237963877048,
+      "label": "anchor",
+      "theta": [
+        57.3,
+        2.643,
+        0.1
+      ]
+    },
+    {
+      "emulator_q": 2.50832092574799e-08,
+      "geometry_q": 0.0035511420676199506,
+      "label": "anchor",
+      "theta": [
+        96.1,
+        2.177,
+        0.1
+      ]
+    },
+    {
+      "emulator_q": 3.313786965657261e-08,
+      "geometry_q": 0.006075630566256228,
+      "label": "anchor",
+      "theta": [
+        -102.3,
+        2.713,
+        0.1
+      ]
+    },
+    {
+      "emulator_q": 3.5570371107982264e-08,
+      "geometry_q": 0.00689174406277731,
+      "label": "anchor",
+      "theta": [
+        -150,
+        2.85,
+        0.1
+      ]
+    },
+    {
+      "emulator_q": 4.577502035088394e-08,
+      "geometry_q": 0.00975202900737807,
+      "label": "anchor",
+      "theta": [
+        100,
+        2.85,
+        0.1
+      ]
+    }
+  ],
+  "scope": "Full82 C_single. Independent direct hybrid and independent two-kernel means; no threshold relaxation.",
+  "status": "pass"
+}

@@ -1,0 +1,221 @@
+{
+  "data_contract": {
+    "cache": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p725000_box2000_kmax3_ell02.npz",
+    "k_switch": null,
+    "nbar": 0.000162131295,
+    "p_bins": 16,
+    "quadrant_scales": {
+      "P0_xi0": 1.116174090868313,
+      "P0_xi2": 2.5767512627364275,
+      "P2_xi0": 2.312298630091175,
+      "P2_xi2": 1.7274063919587246
+    },
+    "xi0_bins": 26,
+    "xi2_bins": 26,
+    "xi_angle_mode": "continuous",
+    "xi_mask_contract": "50 <= s < 350; 80 <= s < 120 excluded"
+  },
+  "fit_contract": {
+    "P_model": "unchanged current P02 model; sigma_s_P",
+    "covariance": "fixed C_single family; no /25",
+    "diagnostic_only": true,
+    "xi_model": "FullDiscrete continuous-angle xi with separate sigma_xi_low/high by k band"
+  },
+  "fits": {
+    "joint_scale": {
+      "acceptance_fraction_mean": 0.4558333333333333,
+      "label": "joint_scale",
+      "map_chi2": 2.9857844528136392,
+      "map_optimizer": [
+        2.3472298024897,
+        2.573317458233437,
+        6.801290545527831e-06,
+        4.338527359288248,
+        4.560021753431716,
+        0.1435486040286119
+      ],
+      "mcmc": {
+        "burnin": 80,
+        "nsteps": 300,
+        "nwalkers": 32,
+        "seed": 20260932
+      },
+      "parameter_names": [
+        "fNL",
+        "b1",
+        "sigma_s_P",
+        "sigma_xi_low",
+        "sigma_xi_high",
+        "sn0"
+      ],
+      "postburn_length_over_tau": [
+        12.810620818074128,
+        12.286522606871593,
+        9.94455947562086,
+        13.031180215666199,
+        11.648144632832256,
+        11.981075338362315
+      ],
+      "posterior": {
+        "b1": {
+          "q16": 2.529555798529797,
+          "q50": 2.5713736900834396,
+          "q84": 2.6162182084826986,
+          "sigma68": 0.04333120497645071
+        },
+        "fNL": {
+          "q16": -9.186517737168279,
+          "q50": 1.7476385302700193,
+          "q84": 12.419653291504297,
+          "sigma68": 10.803085514336288
+        },
+        "sigma_s_P": {
+          "q16": 0.156112381181853,
+          "q50": 0.47653652066407415,
+          "q84": 1.2433567866130604,
+          "sigma68": 0.5436222027156037
+        },
+        "sigma_xi_high": {
+          "q16": 2.237360621558052,
+          "q50": 6.368139357306269,
+          "q84": 11.175232822926233,
+          "sigma68": 4.468936100684091
+        },
+        "sigma_xi_low": {
+          "q16": 2.2777383145746306,
+          "q50": 5.27049904651728,
+          "q84": 8.259242516668067,
+          "sigma68": 2.990752101046718
+        },
+        "sn0": {
+          "q16": 0.058321106019813634,
+          "q50": 0.14996621471897265,
+          "q84": 0.24143193220724837,
+          "sigma68": 0.09155541309371737
+        }
+      },
+      "samples_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/rawbox_baomask_scale_fog_smoke_v5/fits/joint_scale/samples.npz"
+    },
+    "p_marginal": {
+      "acceptance_fraction_mean": 0.5547916666666666,
+      "label": "p_marginal",
+      "map_chi2": 2.9551422156785994,
+      "map_optimizer": [
+        2.304983682612571,
+        2.573211424871246,
+        5.5952835015909476e-06,
+        0.14377939838589962
+      ],
+      "mcmc": {
+        "burnin": 80,
+        "nsteps": 300,
+        "nwalkers": 32,
+        "seed": 20260930
+      },
+      "parameter_names": [
+        "fNL",
+        "b1",
+        "sigma_s_P",
+        "sn0"
+      ],
+      "postburn_length_over_tau": [
+        15.780326145491454,
+        16.587951264549233,
+        11.175435953806813,
+        16.0814212211654
+      ],
+      "posterior": {
+        "b1": {
+          "q16": 2.5328039101993918,
+          "q50": 2.576348479517118,
+          "q84": 2.6242930713920343,
+          "sigma68": 0.04574458059632125
+        },
+        "fNL": {
+          "q16": -12.661361125981482,
+          "q50": 0.731061407614679,
+          "q84": 11.759250395810174,
+          "sigma68": 12.210305760895828
+        },
+        "sigma_s_P": {
+          "q16": 0.24809176949556788,
+          "q50": 0.7920989580230877,
+          "q84": 1.6674558639410353,
+          "sigma68": 0.7096820472227336
+        },
+        "sn0": {
+          "q16": 0.055349519590448176,
+          "q50": 0.1531822321840685,
+          "q84": 0.24449036386540068,
+          "sigma68": 0.09457042213747625
+        }
+      },
+      "samples_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/rawbox_baomask_scale_fog_smoke_v5/fits/p_marginal/samples.npz"
+    },
+    "xi_scale": {
+      "acceptance_fraction_mean": 0.5690625,
+      "label": "xi_scale",
+      "map_chi2": 3.5513847878307794,
+      "map_optimizer": [
+        2.6906526170735448,
+        2.618705692017229,
+        4.490724564320525,
+        4.326238369279638
+      ],
+      "mcmc": {
+        "burnin": 80,
+        "nsteps": 300,
+        "nwalkers": 32,
+        "seed": 20260931
+      },
+      "parameter_names": [
+        "fNL",
+        "b1",
+        "sigma_xi_low",
+        "sigma_xi_high"
+      ],
+      "postburn_length_over_tau": [
+        16.157705530701925,
+        13.306497236858949,
+        13.927912863661152,
+        14.28881058958369
+      ],
+      "posterior": {
+        "b1": {
+          "q16": 2.556571642640193,
+          "q50": 2.6168111155254534,
+          "q84": 2.676196979150929,
+          "sigma68": 0.05981266825536791
+        },
+        "fNL": {
+          "q16": -8.774377148877191,
+          "q50": 3.5386929919930985,
+          "q84": 14.810258000454942,
+          "sigma68": 11.792317574666066
+        },
+        "sigma_xi_high": {
+          "q16": 1.5694835541318313,
+          "q50": 3.4275817010494416,
+          "q84": 4.771826979809174,
+          "sigma68": 1.6011717128386715
+        },
+        "sigma_xi_low": {
+          "q16": 2.1848934231930213,
+          "q50": 3.665962800665201,
+          "q84": 4.86993800883087,
+          "sigma68": 1.3425222928189242
+        }
+      },
+      "samples_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/rawbox_baomask_scale_fog_smoke_v5/fits/xi_scale/samples.npz"
+    }
+  },
+  "k_split_h_mpc": 0.08,
+  "resource": {
+    "burnin": 80,
+    "nsteps": 300,
+    "nwalkers": 32,
+    "threads": 6
+  },
+  "status": "smoke_complete",
+  "task": "Task 4.3.2 rawbox BAO-masked scale-dependent xi FoG diagnostic"
+}

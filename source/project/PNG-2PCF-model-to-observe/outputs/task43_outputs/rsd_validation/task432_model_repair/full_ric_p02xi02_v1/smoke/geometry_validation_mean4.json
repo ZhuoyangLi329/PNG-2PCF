@@ -1,0 +1,748 @@
+{
+  "status": "pass",
+  "threshold_chi2_Csingle": 0.01,
+  "max_error_chi2_Csingle": 0.007716925260976589,
+  "records": [
+    {
+      "point": "p02:random",
+      "theta": [
+        -8.203901801702173,
+        2.455597370709678
+      ],
+      "error_chi2_Csingle": 0.00335402355613303
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        -7.3270833174299455,
+        2.4010368318702833
+      ],
+      "error_chi2_Csingle": 0.0031078961399245535
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        -30.548096224850116,
+        2.472850332633097
+      ],
+      "error_chi2_Csingle": 0.0033207436584391068
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        25.04290820948009,
+        2.3210742295658364
+      ],
+      "error_chi2_Csingle": 0.0029293284021273424
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        -8.932770748964188,
+        2.3269500128862073
+      ],
+      "error_chi2_Csingle": 0.002784765999552709
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        -51.98591081651512,
+        2.5266189388975695
+      ],
+      "error_chi2_Csingle": 0.0034714801495332225
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        10.499898634885177,
+        2.419014620559487
+      ],
+      "error_chi2_Csingle": 0.003287253948399288
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        -45.257475572886094,
+        2.547866544632119
+      ],
+      "error_chi2_Csingle": 0.003608254423906876
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        8.538261907661571,
+        2.3364231288201736
+      ],
+      "error_chi2_Csingle": 0.0029065020846602563
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        23.236076937575262,
+        2.468442205132569
+      ],
+      "error_chi2_Csingle": 0.003613688177727899
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        11.422244831808953,
+        2.341247974013189
+      ],
+      "error_chi2_Csingle": 0.002942036041066039
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        18.195529266344373,
+        2.433423732943734
+      ],
+      "error_chi2_Csingle": 0.0034040733473919304
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        6.550993789274629,
+        2.375909941028467
+      ],
+      "error_chi2_Csingle": 0.0030678556146406222
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        11.202826577689777,
+        2.4118246273932615
+      ],
+      "error_chi2_Csingle": 0.003257672903334085
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        -2.4882384490437026,
+        2.3824885860697065
+      ],
+      "error_chi2_Csingle": 0.0030500835147803085
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        -26.421359869245723,
+        2.5498777914261375
+      ],
+      "error_chi2_Csingle": 0.003718243679959244
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        -40.56916759530172,
+        2.41438148652208
+      ],
+      "error_chi2_Csingle": 0.0030141318549989425
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        34.458740652124874,
+        2.430693479018436
+      ],
+      "error_chi2_Csingle": 0.0035048522916463075
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        7.482211983598978,
+        2.4500432425036296
+      ],
+      "error_chi2_Csingle": 0.0034174154330347418
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        -29.76502714447648,
+        2.5363271880733302
+      ],
+      "error_chi2_Csingle": 0.0036313956128651652
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        -36.20776675160758,
+        2.527240182040954
+      ],
+      "error_chi2_Csingle": 0.0035525986950611247
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        -32.876819909592626,
+        2.4573595562932775
+      ],
+      "error_chi2_Csingle": 0.0032382965433227513
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        7.851275285590967,
+        2.304938153783057
+      ],
+      "error_chi2_Csingle": 0.0027716799617805684
+    },
+    {
+      "point": "p02:random",
+      "theta": [
+        92.00069669448942,
+        2.1550016841181
+      ],
+      "error_chi2_Csingle": 0.0026608786691242176
+    },
+    {
+      "point": "p02:tail_0_1",
+      "theta": [
+        -86.50112141900868,
+        2.5105252165222582
+      ],
+      "error_chi2_Csingle": 0.0032408716586901157
+    },
+    {
+      "point": "p02:tail_0_99",
+      "theta": [
+        72.8606713941248,
+        2.1622964357846803
+      ],
+      "error_chi2_Csingle": 0.00255523413238364
+    },
+    {
+      "point": "p02:tail_1_1",
+      "theta": [
+        37.090788154170745,
+        2.18124479833789
+      ],
+      "error_chi2_Csingle": 0.0024273429986408183
+    },
+    {
+      "point": "p02:tail_1_99",
+      "theta": [
+        -76.51145857428516,
+        2.6442359667238735
+      ],
+      "error_chi2_Csingle": 0.003939595950446629
+    },
+    {
+      "point": "p02:MAP",
+      "theta": [
+        -5.284309987687385,
+        2.413458927143941
+      ],
+      "error_chi2_Csingle": 0.003174139639808437
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        47.388055147286664,
+        2.414662598693861
+      ],
+      "error_chi2_Csingle": 0.003526673809705584
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        21.057301794708163,
+        2.462765961224123
+      ],
+      "error_chi2_Csingle": 0.0035692065094431818
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -22.82645850388382,
+        2.420248284529822
+      ],
+      "error_chi2_Csingle": 0.0031184501336101694
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        15.693142775818599,
+        2.575254633177213
+      ],
+      "error_chi2_Csingle": 0.004133341663756231
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -27.69749349626436,
+        2.484809842337283
+      ],
+      "error_chi2_Csingle": 0.003390991698229574
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        2.013096988074901,
+        2.4222714244688794
+      ],
+      "error_chi2_Csingle": 0.003253756802443836
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -25.135146013524235,
+        2.4125765905771153
+      ],
+      "error_chi2_Csingle": 0.0030739944807281977
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -17.259675838907306,
+        2.3802358347498225
+      ],
+      "error_chi2_Csingle": 0.002969871053787173
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -29.38183909822181,
+        2.588590804750833
+      ],
+      "error_chi2_Csingle": 0.0039033108194998587
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        22.8351741674284,
+        2.2635759452683897
+      ],
+      "error_chi2_Csingle": 0.0026772913513348254
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -8.56239673977367,
+        2.5020071277495357
+      ],
+      "error_chi2_Csingle": 0.0035777571109478906
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -40.30944902374203,
+        2.5263168367760374
+      ],
+      "error_chi2_Csingle": 0.003527294019174618
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -2.665445937845462,
+        2.4612051942399114
+      ],
+      "error_chi2_Csingle": 0.0034116131517977826
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        1.3412582562554203,
+        2.4870845165749995
+      ],
+      "error_chi2_Csingle": 0.0035623141087464125
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        36.62676625936097,
+        2.341113203132957
+      ],
+      "error_chi2_Csingle": 0.003089577406264422
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -14.47778226777784,
+        2.526761491492143
+      ],
+      "error_chi2_Csingle": 0.003668129988421349
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        8.655238203065416,
+        2.4874659054332495
+      ],
+      "error_chi2_Csingle": 0.0036105004422382157
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        14.977830563338483,
+        2.1333969995987827
+      ],
+      "error_chi2_Csingle": 0.00216339093788641
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -2.5457030423820326,
+        2.2816359723705277
+      ],
+      "error_chi2_Csingle": 0.0026317546323526213
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -46.52123171106914,
+        2.4727535737914903
+      ],
+      "error_chi2_Csingle": 0.0032456036974240657
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        15.234286174871356,
+        2.4509754753486352
+      ],
+      "error_chi2_Csingle": 0.003470809895641326
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -7.840291384051575,
+        2.3921414551234563
+      ],
+      "error_chi2_Csingle": 0.0030659504983841335
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -22.553775254267855,
+        2.4817004548260524
+      ],
+      "error_chi2_Csingle": 0.0034023301962570964
+    },
+    {
+      "point": "xi02:random",
+      "theta": [
+        -29.667678774130472,
+        2.519539376714331
+      ],
+      "error_chi2_Csingle": 0.003548586546055016
+    },
+    {
+      "point": "xi02:tail_0_1",
+      "theta": [
+        -64.68034485090506,
+        2.590686856923012
+      ],
+      "error_chi2_Csingle": 0.0037242973814338672
+    },
+    {
+      "point": "xi02:tail_0_99",
+      "theta": [
+        67.72768359522202,
+        2.295239365841018
+      ],
+      "error_chi2_Csingle": 0.0031061618196538535
+    },
+    {
+      "point": "xi02:tail_1_1",
+      "theta": [
+        58.25882038421967,
+        2.1546392448083656
+      ],
+      "error_chi2_Csingle": 0.00243631301791344
+    },
+    {
+      "point": "xi02:tail_1_99",
+      "theta": [
+        -26.45914061881726,
+        2.6715748297652233
+      ],
+      "error_chi2_Csingle": 0.004384493932667927
+    },
+    {
+      "point": "xi02:MAP",
+      "theta": [
+        3.8481724070539935,
+        2.4224909120475755
+      ],
+      "error_chi2_Csingle": 0.0032650573216971095
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -33.94721972420924,
+        2.4214376047264836
+      ],
+      "error_chi2_Csingle": 0.003073251125195586
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        10.659987793516223,
+        2.364430105780429
+      ],
+      "error_chi2_Csingle": 0.0030391069323706388
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -25.5467490041049,
+        2.389820814568279
+      ],
+      "error_chi2_Csingle": 0.002973847886794494
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        3.378244947264564,
+        2.3348538514626656
+      ],
+      "error_chi2_Csingle": 0.0028742394568123603
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -1.83190668990715,
+        2.390192902290307
+      ],
+      "error_chi2_Csingle": 0.0030874714244983983
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        27.535172866338918,
+        2.415377308708724
+      ],
+      "error_chi2_Csingle": 0.0033787690708936965
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -39.95607610064593,
+        2.3441367856506843
+      ],
+      "error_chi2_Csingle": 0.0027276681111043513
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -35.953461300005,
+        2.484819692129445
+      ],
+      "error_chi2_Csingle": 0.0033504929690077105
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        41.19891660326314,
+        2.323596505251599
+      ],
+      "error_chi2_Csingle": 0.00304020720393226
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        2.6404735559358423,
+        2.3473289930117947
+      ],
+      "error_chi2_Csingle": 0.0029234310000362126
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -17.150684236007564,
+        2.3665737173296484
+      ],
+      "error_chi2_Csingle": 0.0029124547082691465
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        18.356445774999838,
+        2.274484943398945
+      ],
+      "error_chi2_Csingle": 0.0026989332369205957
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -36.434311213177075,
+        2.479511952453531
+      ],
+      "error_chi2_Csingle": 0.0033234356698954577
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -21.332712899767227,
+        2.463509168114956
+      ],
+      "error_chi2_Csingle": 0.003322703766065887
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        13.553384935103324,
+        2.293533433450276
+      ],
+      "error_chi2_Csingle": 0.0027526489280091386
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -10.947658807368574,
+        2.371096802041349
+      ],
+      "error_chi2_Csingle": 0.002959794272237722
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -14.481153259346797,
+        2.414763113784541
+      ],
+      "error_chi2_Csingle": 0.0031338174374926984
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -25.696765397694918,
+        2.376652910808154
+      ],
+      "error_chi2_Csingle": 0.002917522303467394
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        14.703880608713241,
+        2.364742657441578
+      ],
+      "error_chi2_Csingle": 0.0030628022004464766
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        1.7904318185435262,
+        2.269168741422646
+      ],
+      "error_chi2_Csingle": 0.002601779060980712
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        14.427363740749449,
+        2.3293574708164186
+      ],
+      "error_chi2_Csingle": 0.002906817547826699
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -3.7995462745627453,
+        2.3195378745741033
+      ],
+      "error_chi2_Csingle": 0.002777354287438272
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        -21.275154119149285,
+        2.4416489421158953
+      ],
+      "error_chi2_Csingle": 0.0032220787265537423
+    },
+    {
+      "point": "joint:random",
+      "theta": [
+        26.700528760496834,
+        2.4127867349949943
+      ],
+      "error_chi2_Csingle": 0.0033604537691305073
+    },
+    {
+      "point": "joint:tail_0_1",
+      "theta": [
+        -61.03579360125369,
+        2.4788331741353957
+      ],
+      "error_chi2_Csingle": 0.0032087346045142685
+    },
+    {
+      "point": "joint:tail_0_99",
+      "theta": [
+        58.61762582092289,
+        2.367992140532625
+      ],
+      "error_chi2_Csingle": 0.003385373337533638
+    },
+    {
+      "point": "joint:tail_1_1",
+      "theta": [
+        21.060444267799387,
+        2.2198189554334538
+      ],
+      "error_chi2_Csingle": 0.0024976719761588273
+    },
+    {
+      "point": "joint:tail_1_99",
+      "theta": [
+        -65.79605768204212,
+        2.5321363805862362
+      ],
+      "error_chi2_Csingle": 0.003432572581095357
+    },
+    {
+      "point": "joint:MAP",
+      "theta": [
+        4.7433476651914885,
+        2.3781002956068384
+      ],
+      "error_chi2_Csingle": 0.00306797615356197
+    },
+    {
+      "point": "extended",
+      "theta": [
+        -150.0,
+        2.85
+      ],
+      "error_chi2_Csingle": 0.0047233488159648335
+    },
+    {
+      "point": "extended",
+      "theta": [
+        100.0,
+        2.85
+      ],
+      "error_chi2_Csingle": 0.007716925260976589
+    },
+    {
+      "point": "extended",
+      "theta": [
+        -150.0,
+        2.1
+      ],
+      "error_chi2_Csingle": 0.0016563526853784654
+    },
+    {
+      "point": "extended",
+      "theta": [
+        100.0,
+        2.1
+      ],
+      "error_chi2_Csingle": 0.002484980948843272
+    }
+  ],
+  "comparison": [
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/validated_mean2_midpoint.npz",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/refinement_independent_mean2_midpoint.npz"
+  ],
+  "reason": "xi-only 99th-percentile b1 point exceeds the unchanged 0.01 independent-kernel error gate: 0.01094588677",
+  "original_geometry_audit_sha256": "63bb1c5a69d23fc4240c510dcd42cb5183b1274fa5bdc0ef198f85f52373ce0a",
+  "original_postflight_sha256": "35b23415f0ca14ca196dbe32fb1e6fb3ad2a100f6e3adddedc2cd80f90361fbd",
+  "method": "Compare independent means of two scrambles, then average all four. Same error threshold as before; physical binning, data, covariance and priors unchanged.",
+  "kernels": {
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/validated_mean2_midpoint.npz": "3a72235d2d7d5071f22b7b63331a4a645c51fde4d7ba6f4f04c1fe5713c97653",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/ph000_qmc4322291_n32768_dchi2_refine1_midpoint_inmidpoint_ell8.npz": "c37e6e1f9ecf2049408b62a9378b130aeb9506a35229124d85b7b9ec8aa5e28d",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/ph000_qmc4322333_n32768_dchi2_refine1_midpoint_inmidpoint_ell8.npz": "82c19159eb32803e434121065aa45df2e9a6dfc5af3453fb926180359d069f26"
+  }
+}

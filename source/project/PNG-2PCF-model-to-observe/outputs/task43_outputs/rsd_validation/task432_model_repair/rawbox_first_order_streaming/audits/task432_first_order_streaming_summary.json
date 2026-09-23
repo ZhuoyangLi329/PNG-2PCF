@@ -1,0 +1,42 @@
+{
+  "contract": {
+    "cache": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p725000_box2000_kmax3_ell02.npz",
+    "k_switch": null,
+    "nbar": 0.000162131295,
+    "p_bins": 16,
+    "quadrant_scales": {
+      "P0_xi0": 1.116174090868313,
+      "P0_xi2": 2.5767512627364275,
+      "P2_xi0": 2.312298630091175,
+      "P2_xi2": 1.7274063919587246
+    },
+    "xi0_bins": 26,
+    "xi2_bins": 26,
+    "xi_angle_mode": "continuous",
+    "xi_mask_contract": "50 <= s < 350; 80 <= s < 120 excluded"
+  },
+  "elapsed_sec": 20.565064752008766,
+  "fit": {
+    "map_chi2": 41.21411706251688,
+    "map_theta": [
+      20.92810349455988,
+      2.3498617888659217
+    ],
+    "message": "`ftol` termination condition is satisfied.",
+    "nfev": 10,
+    "parameter_names": [
+      "fNL",
+      "b1"
+    ]
+  },
+  "model": {
+    "angular_order": 16,
+    "finite_difference_h": 0.05,
+    "formula": "xi_real - d[mu*v12]/dy + 0.5*d2[sigma12^2]/dy2",
+    "kmax_gsm_h_mpc": 0.5,
+    "new_parameters": [],
+    "radial_order": 4
+  },
+  "status": "complete",
+  "task": "Task432 first-order streaming xi-only rawbox baseline"
+}

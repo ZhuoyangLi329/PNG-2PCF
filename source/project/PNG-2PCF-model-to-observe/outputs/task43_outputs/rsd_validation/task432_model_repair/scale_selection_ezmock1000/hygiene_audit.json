@@ -1,0 +1,395 @@
+{
+  "archived_checkpoint_files": 41,
+  "deleted_files": [],
+  "files": [
+    {
+      "bytes": 1612,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/STATUS.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "fde81eeeda9601f89c0a952db1cd854b19c62fe73b0f777b8d9fe1ce5bef406e"
+    },
+    {
+      "bytes": 200161616,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/joint/chain.h5",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "3e273b6023d33d659b6afe3e894c7e1992b0372a6fbfae2a6ac93c25c2b66b5e"
+    },
+    {
+      "bytes": 1660,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/joint/convergence_latest.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "e39b590279a5d4a480b4adf964e759ab8fd1656839a506999fc7a798defedc1a"
+    },
+    {
+      "bytes": 1131,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/joint/input_manifest.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "c9cc06d198ab328ca41a9e991a84e24891665d4c4a8236f711f9a6e540953ac9"
+    },
+    {
+      "bytes": 203,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/joint/progress.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "196cb4d816854f158bc89de226a552b9fc9ea17aab1d84569270d174db32c36d"
+    },
+    {
+      "bytes": 29053685,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/joint/samples.npz",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "b4b2610bfcd68bcce84174a6653afb5ed8ea28dfaaf997c8c548d1f57eef125f"
+    },
+    {
+      "bytes": 5268,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/joint/summary.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "fc0ddf267c3fc969135e932db8f47abd66a742f5ed4da7685a8a06b14f55c8d1"
+    },
+    {
+      "bytes": 184704208,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/xi02/chain.h5",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "a161a0f691c0d3661ac73b77cda8cdc94868611d91c91955a5d0e9755e6a2a25"
+    },
+    {
+      "bytes": 1312,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/xi02/convergence_latest.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "f1999750b705f75ae315562a5737729aac9042854110222e70682c6527756d27"
+    },
+    {
+      "bytes": 964,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/xi02/input_manifest.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "2829729013a2526e9f3abf0e4c78043aa23f49e8ad91df9afaaaad159ac891ea"
+    },
+    {
+      "bytes": 204,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/xi02/progress.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "bf37c9651ce89e0a1b726ecc1ce48c9ab379c9a7aff776eb6115878c9b31bd4f"
+    },
+    {
+      "bytes": 22921336,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/xi02/samples.npz",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "32a601632d9bedf995b7ec80fd75721330d8b5e15defe7473676358f8f619a71"
+    },
+    {
+      "bytes": 4195,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/bao_unmasked/xi02/summary.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "864b7f1e3b3763ab7a4b4c9ea4a86bbdf99971afc38222bf37c57c4d9bf7745f"
+    },
+    {
+      "bytes": 200161616,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/joint/chain.h5",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "67191dee2b2b50b44d61c964ef8dc48065e5c5ba69bfa19e13c4261d3b368267"
+    },
+    {
+      "bytes": 1665,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/joint/convergence_latest.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "f2f25d010ed8a1d7081b1dac3c95e2e5ed702f5bdb47327f4d7ef039118368a6"
+    },
+    {
+      "bytes": 953,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/joint/input_manifest.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "cbd81fb3cc7025408fba4594f8aee78d2b42f70c9a3634a3c1bbae51b310d1c4"
+    },
+    {
+      "bytes": 201,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/joint/progress.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "57ca703fce90e287165b30979607903870789258a81d9440fc1568be38f0eb61"
+    },
+    {
+      "bytes": 28948399,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/joint/samples.npz",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "e04aece9293b90ef85db0fe15a10cecb88e4d76d020752fc15b813624bf5baa6"
+    },
+    {
+      "bytes": 4912,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/joint/summary.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "2b22c4f11689dd247b1d2b8f320ca3824eeab3e1288c10ae1c6d1eebaff6334a"
+    },
+    {
+      "bytes": 200161616,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/p02/chain.h5",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "e1e9e56932cb11f60193dbc012a2992e035d3458253d00fcbaec5d87757bb19d"
+    },
+    {
+      "bytes": 1660,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/p02/convergence_latest.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "19311d0c3a776fb6589acc1592524f701dd8d8b7d8236c260d3b7df2fbf402dc"
+    },
+    {
+      "bytes": 535,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/p02/input_manifest.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "4e3b28b80b14275d9471110891df39b3b51de69f9414596af5f47e43e58fbdfd"
+    },
+    {
+      "bytes": 198,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/p02/progress.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "a543238912de5dc1502fcb3622a57504d17b9128af76abe078f75032eee04413"
+    },
+    {
+      "bytes": 28483253,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/p02/samples.npz",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "855968be1030fc309b88742db18161168df9fd259296987f26a4132d72a4af17"
+    },
+    {
+      "bytes": 3454,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/chains/kmax0p06/p02/summary.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "52e0c653aa34538be4c9fe7b01b0190a7a38eeee31e5d9632e2ea811c005254d"
+    },
+    {
+      "bytes": 319886,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/expanded_input_audit.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "ca17a13ed8255879a73407c075919b45791702ee8ef907bc8c00dde46f153696"
+    },
+    {
+      "bytes": 695701,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/expanded_inputs.npz",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "29ed89e061af37314ce878935d1f73ef078a19438956157d7211fa9cd8a139a3"
+    },
+    {
+      "bytes": 2868263,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/expanded_model.npz",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "adbca65975f52094d499a726bab4f4fdf9b8387e4a02d25c6d25164460e8f314"
+    },
+    {
+      "bytes": 617,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/expanded_model_manifest.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "e839f07bc39a52adf3f5d376f1cacd399b52d32d394cea095902a2d6073f45fa"
+    },
+    {
+      "bytes": 2303,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/expanded_validation.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "1867b45c2a6ff5b6fc6170984882c3208ac77f9c7a80505eec5dc56c9877cccf"
+    },
+    {
+      "bytes": 2694,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/logs/bao_build.log",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "7838df6ba979a06b8ca13d5d6beff342e35b13d48a9e48f1c911c013d16a8fd8"
+    },
+    {
+      "bytes": 223,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/logs/bao_joint.log",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "ba4d036a77521c038a281c06a29a13d1abb58578dfaed5f280041e7a5e4f1e9a"
+    },
+    {
+      "bytes": 222,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/logs/bao_xi02.log",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "c790900ce92ded85465b6299f5cd7e33f1349d4076a0ef9499e960f782e01528"
+    },
+    {
+      "bytes": 219,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/logs/kmax_joint.log",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "628cdca93f57c1ede9afc90332d927e8714611ebd354d8939d2426464522cf2f"
+    },
+    {
+      "bytes": 217,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/logs/kmax_p02.log",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "e2453df1a9df8da77f394ee2c2bbaea3e63b7f34f3c6432df8aa157d7c204fff"
+    },
+    {
+      "bytes": 773,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/logs/subset_map.log",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "d7ce6a5a0811ed616b863e230a60d082a9416b1634b27bfd25c7be943a0cba57"
+    },
+    {
+      "bytes": 105088,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/map_scan.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "795678564b6b279b37533804ab97af2d2ff07efd4dcc26c7c5aa3fa9ed41f203"
+    },
+    {
+      "bytes": 48864,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/paired_stability.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "d8fdb1ecda8ce34457cb0d3e393aaf1e34533dec52aeece17646053e746ffe28"
+    },
+    {
+      "bytes": 380584,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/paired_stability.npz",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "9062d46c61e08823570993802a5d2924d0bd9cce9e353dd7a57c3be8fdc760a1"
+    },
+    {
+      "bytes": 27950,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/postflight.json",
+      "role": "numeric inputs/chains/audits",
+      "sha256": "df90722345f70afc8442909d9bdfd7d228879e3c910bc14e492bd405ef791b7d"
+    },
+    {
+      "bytes": 5501,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/RESULTS.md",
+      "role": "delivery",
+      "sha256": "77c487067eca4b1654daa6291bc4ee2a1aedb11603afbf013abca29279f093f6"
+    },
+    {
+      "bytes": 1612,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/STATUS.json",
+      "role": "delivery",
+      "sha256": "fde81eeeda9601f89c0a952db1cd854b19c62fe73b0f777b8d9fe1ce5bef406e"
+    },
+    {
+      "bytes": 2128,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/constraints.csv",
+      "role": "delivery",
+      "sha256": "85172b460d72e2170715f5b90b312badcf249d375d53f53731531fb43ed2be4f"
+    },
+    {
+      "bytes": 15332,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/executed_cut_manifest.json",
+      "role": "delivery",
+      "sha256": "9956a201ff9d3fa79faee7cc5c9b9caefedbf4676623f2f0cdfa246f3bdb7d7e"
+    },
+    {
+      "bytes": 319886,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/expanded_input_audit.json",
+      "role": "delivery",
+      "sha256": "ca17a13ed8255879a73407c075919b45791702ee8ef907bc8c00dde46f153696"
+    },
+    {
+      "bytes": 617,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/expanded_model_manifest.json",
+      "role": "delivery",
+      "sha256": "e839f07bc39a52adf3f5d376f1cacd399b52d32d394cea095902a2d6073f45fa"
+    },
+    {
+      "bytes": 2303,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/expanded_validation.json",
+      "role": "delivery",
+      "sha256": "1867b45c2a6ff5b6fc6170984882c3208ac77f9c7a80505eec5dc56c9877cccf"
+    },
+    {
+      "bytes": 105088,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/map_scan.json",
+      "role": "delivery",
+      "sha256": "795678564b6b279b37533804ab97af2d2ff07efd4dcc26c7c5aa3fa9ed41f203"
+    },
+    {
+      "bytes": 48864,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/paired_stability.json",
+      "role": "delivery",
+      "sha256": "d8fdb1ecda8ce34457cb0d3e393aaf1e34533dec52aeece17646053e746ffe28"
+    },
+    {
+      "bytes": 380584,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/paired_stability.npz",
+      "role": "delivery",
+      "sha256": "9062d46c61e08823570993802a5d2924d0bd9cce9e353dd7a57c3be8fdc760a1"
+    },
+    {
+      "bytes": 27950,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/postflight.json",
+      "role": "delivery",
+      "sha256": "df90722345f70afc8442909d9bdfd7d228879e3c910bc14e492bd405ef791b7d"
+    },
+    {
+      "bytes": 197005,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/results.json",
+      "role": "delivery",
+      "sha256": "711e7279834281af573fb2ca24d7dee78725c700eb0292a56ea7030e32d5757f"
+    },
+    {
+      "bytes": 12321,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/source/task432_scale_bao.py",
+      "role": "delivery",
+      "sha256": "8c29c612f0084df3c3de09d759e429e0a199d5076c19ad06b2bc9f245d0e09b3"
+    },
+    {
+      "bytes": 18149,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/source/task432_scale_deliver.py",
+      "role": "delivery",
+      "sha256": "63aa9a6cb41b006312df9bd0b968f25ecb2a3924ba79e513799b0ac8660f4427"
+    },
+    {
+      "bytes": 13904,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/source/task432_scale_dependent_fog_rawbox.py",
+      "role": "delivery",
+      "sha256": "ca741440f1f0cc868bd25aaf6150df81f31f28184ef81321f2c39f3ac91e6c64"
+    },
+    {
+      "bytes": 5017,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/source/task432_scale_diagnostics.py",
+      "role": "delivery",
+      "sha256": "fbc43f5c80f1e19336131305183c64ea271ba7c467a8f8af520ceb81fed8ecbb"
+    },
+    {
+      "bytes": 8279,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/source/task432_scale_finalize.py",
+      "role": "delivery",
+      "sha256": "bcebcb3bb5bb91819e6661e16565a5a802dba123e46d2c12c88f11376d52dbc2"
+    },
+    {
+      "bytes": 6446,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/source/task432_scale_numerics.py",
+      "role": "delivery",
+      "sha256": "3b770caf192e00c6d628b2c9c56084c02996464c019961706e55365d75711e02"
+    },
+    {
+      "bytes": 12451,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/source/task432_scale_selection.py",
+      "role": "delivery",
+      "sha256": "f2487fb95c4dc02efce46b6c67b3259d16b2968ead1b10b06fb0f966b8d7ebf0"
+    },
+    {
+      "bytes": 128978,
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/task432_scale_selection_ezmock1000_contours_and_diagnostics.pdf",
+      "role": "delivery",
+      "sha256": "a1b70122422f179605cddeecadb7f5402c3da9163127f368830ee33f9b52e1b1"
+    }
+  ],
+  "gates": {
+    "BAO_inputs": true,
+    "PDF_matches_result": true,
+    "chain:chains/bao_unmasked/joint": true,
+    "chain:chains/bao_unmasked/xi02": true,
+    "chain:chains/kmax0p06/joint": true,
+    "chain:chains/kmax0p06/p02": true,
+    "model:chains/bao_unmasked/joint": true,
+    "model:chains/bao_unmasked/xi02": true,
+    "model:chains/kmax0p06/joint": true,
+    "model:chains/kmax0p06/p02": true,
+    "no_raster": true,
+    "posterior_numeric": true,
+    "six_cases": true,
+    "source:chains/bao_unmasked/joint": true,
+    "source:chains/bao_unmasked/xi02": true,
+    "source:chains/kmax0p06/joint": true,
+    "source:chains/kmax0p06/p02": true,
+    "unchanged_input:/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/pilot/mean4xi_mean2P_prodrr_stochastic/engine.npz": true,
+    "unchanged_input:/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/frozen_inputs.npz": true,
+    "unchanged_input:/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/expanded_inputs.npz": true,
+    "unchanged_input:/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/expanded_model.npz": true
+  },
+  "note": "Bounded inventory of this experiment only. HDF and NPZ are intentional checkpoint/export pairs. Old baseline physics files match preflight hashes.",
+  "source_sha256": "bcebcb3bb5bb91819e6661e16565a5a802dba123e46d2c12c88f11376d52dbc2",
+  "status": "pass",
+  "taskbook": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/agent/task.md",
+  "taskbook_sha256": "94d4eda888cfcee3ea7ccbfa4c733bdcebc50b201712f25e7c30575491e7db6b",
+  "total_bytes": 900391875
+}

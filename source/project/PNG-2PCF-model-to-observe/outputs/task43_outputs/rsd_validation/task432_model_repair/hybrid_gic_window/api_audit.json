@@ -1,0 +1,7 @@
+{
+  "change": "Override inherited evaluate so both public model interfaces include mandatory GIC; prediction computation unchanged.",
+  "current_core_sha256": "88fd6bd75490af9ef43458c149132f989a0b0374dd8b8f75122711b929e70739",
+  "evaluate_vs_prediction_max_abs": 0.0,
+  "prediction_vs_frozen_direct_max_abs": 1.061650767297806e-15,
+  "status": "pass"
+}

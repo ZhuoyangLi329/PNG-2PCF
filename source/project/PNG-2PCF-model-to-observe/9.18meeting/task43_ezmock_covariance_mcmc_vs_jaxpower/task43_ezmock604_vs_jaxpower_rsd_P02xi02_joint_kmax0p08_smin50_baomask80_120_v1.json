@@ -1,0 +1,162 @@
+{
+  "constraints": {
+    "ezmock604_joint": {
+      "b1": {
+        "maximum_likelihood": 2.3573568098913897,
+        "q16": 2.2913555875622245,
+        "q50": 2.360389074348311,
+        "q84": 2.4290139783083804,
+        "sigma68": 0.06882919537307802
+      },
+      "chain_npz": "outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/chain_ezmock604_joint.npz",
+      "fNL": {
+        "maximum_likelihood": -0.27359739427928753,
+        "q16": -23.952376609457524,
+        "q50": 2.2585458115341623,
+        "q84": 26.81902560429491,
+        "sigma68": 25.385701106876216
+      },
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      }
+    },
+    "ezmock604_p02": {
+      "b1": {
+        "maximum_likelihood": 2.4208142833401474,
+        "q16": 2.316804970689874,
+        "q50": 2.4152532264458144,
+        "q84": 2.5150381142863654,
+        "sigma68": 0.09911657179824562
+      },
+      "chain_npz": "outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/chain_ezmock604_p02.npz",
+      "fNL": {
+        "maximum_likelihood": -12.44020578034666,
+        "q16": -45.37286860278022,
+        "q50": -13.222185386248336,
+        "q84": 19.162576629608218,
+        "sigma68": 32.26772261619422
+      },
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      }
+    },
+    "ezmock604_xi02": {
+      "b1": {
+        "maximum_likelihood": 2.4075695921083473,
+        "q16": 2.2819096418503837,
+        "q50": 2.39144911051742,
+        "q84": 2.5007656371324676,
+        "sigma68": 0.10942799764104198
+      },
+      "chain_npz": "outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/chain_ezmock604_xi02.npz",
+      "fNL": {
+        "maximum_likelihood": -2.0063010113590813,
+        "q16": -29.108671183603807,
+        "q50": -0.5220308939421145,
+        "q84": 27.63904414200349,
+        "sigma68": 28.373857662803648
+      },
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      }
+    },
+    "jaxpower_joint": {
+      "b1": {
+        "maximum_likelihood": 2.345269945857466,
+        "q16": 2.291545016534826,
+        "q50": 2.3534439609111675,
+        "q84": 2.415446490864051,
+        "sigma68": 0.06195073716461241
+      },
+      "chain_npz": "outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/chain_jaxpower_joint.npz",
+      "fNL": {
+        "maximum_likelihood": 0.6680692500452098,
+        "q16": -23.675177412311076,
+        "q50": 1.9182516987204188,
+        "q84": 24.73684335665032,
+        "sigma68": 24.2060103844807
+      },
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      }
+    },
+    "jaxpower_p02": {
+      "b1": {
+        "maximum_likelihood": 2.417746637477495,
+        "q16": 2.3174271153586647,
+        "q50": 2.4133116749370402,
+        "q84": 2.510584281148141,
+        "sigma68": 0.09657858289473809
+      },
+      "chain_npz": "outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/chain_jaxpower_p02.npz",
+      "fNL": {
+        "maximum_likelihood": -12.022015540329146,
+        "q16": -47.273000798652674,
+        "q50": -13.393830774195699,
+        "q84": 19.37876793021818,
+        "sigma68": 33.325884364435424
+      },
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      }
+    },
+    "jaxpower_xi02": {
+      "b1": {
+        "maximum_likelihood": 2.419621719767127,
+        "q16": 2.3056292261569826,
+        "q50": 2.4085830259068044,
+        "q84": 2.510518078334751,
+        "sigma68": 0.10244442608888416
+      },
+      "chain_npz": "outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/chain_jaxpower_xi02.npz",
+      "fNL": {
+        "maximum_likelihood": -3.9245292228534163,
+        "q16": -33.01041862401978,
+        "q50": -4.130093552188244,
+        "q84": 23.040565225688503,
+        "sigma68": 28.025491924854137
+      },
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      }
+    }
+  },
+  "contour_parameters": [
+    "fNL",
+    "b1"
+  ],
+  "data_contract": "P0 13 bins + P2 (kmin 0.015) 9 bins + BAO-masked xi0/xi2 26 bins each; Abacus lightcone x25 mean",
+  "ezmock_realizations": 604,
+  "mcmc_root": "outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604",
+  "output_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.18meeting/task43_ezmock_covariance_mcmc_vs_jaxpower/task43_ezmock604_vs_jaxpower_rsd_P02xi02_joint_kmax0p08_smin50_baomask80_120_v1.pdf",
+  "output_pdf_sha256": "e9a5dda4a13b997729329b5e29958a077ab5c0ce805b549c58bb2d06697935c3",
+  "pages": [
+    "EZmock-604 empirical covariance",
+    "jaxpower analytic covariance"
+  ],
+  "shared_axis_ranges": {
+    "b1": [
+      2.061203965628018,
+      2.746578965524653
+    ],
+    "fNL": [
+      -123.19886294765489,
+      95.35019750538237
+    ]
+  },
+  "status": "pass",
+  "style_reference": "9.11meeting/task43_standard_kmax0p08_smin50/task43_lightcone_real_Pxi_rsd_P02xi02_joint_kmax0p08_smin50_baomask80_120_v1.pdf",
+  "task": "task43_plot_ezmock506_covariance_mcmc_vs_jaxpower"
+}

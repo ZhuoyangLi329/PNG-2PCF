@@ -1,0 +1,32 @@
+{
+  "status": "complete_for_executed_diagnostics",
+  "covariance": "ezmock1000",
+  "created_utc": "2026-09-21T13:26:02.217273+00:00",
+  "remote_meeting_directory": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_gic_joint_b1_diagnostics_ezmock1000",
+  "outstanding_operator_work": [
+    "Measure the missing 24 P windows before comparing against the 25-phase mean window.",
+    "Full RR(s,mu), wide-angle and nonlinear finite-box operator checks are beyond the measured diagnostics reported here."
+  ],
+  "files": {
+    "README.md": "8c212815e86c2697546b00ad91012e13aa113dd1853196e695bf5ed56184466d",
+    "code/build_report.py": "d9cc502316a6d6c9d24cb5a0a40906d5e6e83dc044d3a466b328cccd0ddc859f",
+    "code/finalize_diagnostics.py": "93765f902814910077451760c74c50250320e9134d7062c3b3d7159f36784be6",
+    "code/task432_joint_b1_contract_audit.py": "3474c2a2da91653d563e71bec954d6f33077cd8a9b77f8aa52fdc62334e9b9d8",
+    "code/task432_joint_b1_diagnostics.py": "108c58bb2d98f144f6285587c5e3270e9c7ff677995eb74e5b524cc961ce059e",
+    "code/task432_joint_b1_operators.py": "5d5f3bcc2b73ec28b64f2876cecac30aed8c9e552f440911a2f436b6dae854b7",
+    "code/task432_joint_b1_refine.py": "adba6862125e2d2ad69cb37030bf34dfc9e672d889ed4f95e09d4eb95b26daee",
+    "diagnostic_fit_table.csv": "436da6dbdb871cde7c91625e2eda3d246e8e2eb45c7799a2afe26cd77cd68953",
+    "ezmock1000_full_diagnostics.json.gz": "7655c08013aa12bfe1f4dd71753d8e6fdfddc6f2b8802d488174b685636a5a89",
+    "operators.json": "f963a22bc965fce2698d082d312c558dde663761eeed9f8de6ca22316655610f",
+    "postflight_audit.json": "068066ca635a7ea6e0d484928d5165162bf08ba51b3c2154fe973d5630d53ebd",
+    "provenance/README.md": "914c026617aec7dc2234b8ac16a3dda5b8d7e23beff593577f4a6156f85f3daf",
+    "provenance/initial_run_manifest.json": "be922ee58d855c1c538f5595d8383f1afab5b98667e08c71a19e9e45818938ba",
+    "provenance/task432_joint_b1_diagnostics.py": "f90c4db05c74e466303c0ffb6688985ec8fbdffcd0b638d4a644dd340a74aac0",
+    "provenance/task432_joint_b1_operators.py": "56124db448b2de20fdbedb42ab4a77dbaa12327f8b0ffb766e48262ab986f1e9",
+    "provenance/task432_joint_b1_refine.py": "adba6862125e2d2ad69cb37030bf34dfc9e672d889ed4f95e09d4eb95b26daee",
+    "run_manifest.json": "ed0e4f081fa89d103b43b92076c8fcb9e1802df79eb734b8ad28516c100b4cf9",
+    "summary.json": "70129a9ec63acf2d27721550633ab2ea4a444bb73bfbc765a697077df8894929",
+    "task432_hybrid_gic_ezmock1000_joint_b1_diagnostics.pdf": "77869cbc34dcda8400daee9a28a5103bf4aebe26ebc243b6bb46b256aa30e7d9",
+    "visual_qa.json": "ad27989a54ac7d24417c7daf561067b5c5f0b402481510eefe806c1ca3929ef4"
+  }
+}

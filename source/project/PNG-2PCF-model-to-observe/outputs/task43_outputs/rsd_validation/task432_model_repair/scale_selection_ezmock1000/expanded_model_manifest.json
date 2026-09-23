@@ -1,0 +1,16 @@
+{
+  "free_parameters_changed": false,
+  "geometry_sha256": "f3057241f8cd8d28c1f4e025dcbcf550cc049c74bda20b8e4bc7344f00f5470b",
+  "input_sha256": "29ed89e061af37314ce878935d1f73ef078a19438956157d7211fa9cd8a139a3",
+  "new_centers": [
+    85,
+    95,
+    105,
+    115
+  ],
+  "original_compiled_sha256": "dde0ba534d5eac07ec0580c67eafebcaea3596673fbd50b045e84b8f96e8fc7a",
+  "physical_grid_sha256": "e8c2c580ac87bdfd84a6e8c1c00d2bfff69a5dea92aea51b217d21e8360f69a0",
+  "raw_grid_nint": 600,
+  "source_sha256": "8c29c612f0084df3c3de09d759e429e0a199d5076c19ad06b2bc9f245d0e09b3",
+  "status": "compiled_pending_validation"
+}

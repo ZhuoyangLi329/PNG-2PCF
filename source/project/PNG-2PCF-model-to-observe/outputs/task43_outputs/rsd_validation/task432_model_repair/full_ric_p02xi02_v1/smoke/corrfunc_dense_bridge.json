@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "reports": [
+    {
+      "autocorr": true,
+      "mu_sign_error": [
+        1.2505552149377763e-12,
+        1.2505552149377763e-12
+      ],
+      "relative_error": 1.718863138433617e-15
+    },
+    {
+      "autocorr": false,
+      "mu_sign_error": [
+        166.68065001235965,
+        7.958078640513122e-13
+      ],
+      "relative_error": 1.4340637422947648e-15
+    }
+  ]
+}

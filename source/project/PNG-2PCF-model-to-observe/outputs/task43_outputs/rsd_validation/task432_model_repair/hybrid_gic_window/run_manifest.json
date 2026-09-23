@@ -1,0 +1,84 @@
+{
+  "current_results_index": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_current_results.json",
+  "file_count": 15,
+  "files": [
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/README.md",
+      "sha256": "aa505f1966770c1572c4d57becabce05573be86ec0c15fdb84cff8e4d74e5e02",
+      "size_bytes": 5616
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/api_audit.json",
+      "sha256": "479d17dc44e7f1bcb02c180a534c2021b3c5f052a5018aa22c12117385ffb459",
+      "size_bytes": 353
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/debug/smoke_gic.json",
+      "sha256": "2af60ce3cf69b8dc2ed87debc42e6080447440aba9a9744ab526717fc80da4c9",
+      "size_bytes": 13260
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/frozen_pair_window.npz",
+      "sha256": "2f054526395269d194aba3efcee3ad6e6022c3a643019e8d89fb0b437db04039",
+      "size_bytes": 155617
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/grid_manifest.json",
+      "sha256": "7699cb7a24dd730b4c3baaf3a72388f7dc99ae275039d831b6048d3e0831f1ac",
+      "size_bytes": 946
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/hybrid_gic_grid.npz",
+      "sha256": "d93fd463efe428e6cd9d5530482ed17da22abeed325eed2495f0763e48278d06",
+      "size_bytes": 1491849
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/logs/grid.log",
+      "sha256": "f922a1ae3268a85440abb0a2f346b95e437d11af4e45d6228790bc1ac5c167c5",
+      "size_bytes": 5172
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/logs/grid_checkpoint.npz",
+      "sha256": "b219d11ee9555596294eddb7766045f619c81f2ca1f4d1583b46170fd59d0d26",
+      "size_bytes": 15120
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/logs/window.log",
+      "sha256": "4c6acfd0c5202442c78dca3fcbac94a064262cfab7e4112f505135c0818ff100",
+      "size_bytes": 6318
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/provenance/current_api_task432_hybrid_gic.py",
+      "sha256": "88fd6bd75490af9ef43458c149132f989a0b0374dd8b8f75122711b929e70739",
+      "size_bytes": 8098
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/provenance/finalize_gic.py",
+      "sha256": "3f7b66a332147465f57c620871112976df176d1557c7f64cc8aa59e5c2ccca03",
+      "size_bytes": 11836
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/provenance/gaussian_streaming_model_fftw.py",
+      "sha256": "c947fe6c572f4772639b6e35a97e42088a8b2b75cd7da5bd5740ae3045054218",
+      "size_bytes": 9309
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/provenance/window_runner.py",
+      "sha256": "751e5728bf2824e9ffa810c28520a16a59dd710157312cfd6e9475bfea80dc18",
+      "size_bytes": 14512
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/visual_qa.json",
+      "sha256": "6eb1c50b8a41bd1e3b05e983a1c1d9122da22094c5aa5e4e5a4be12e27103431",
+      "size_bytes": 1010
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/window_audit.json",
+      "sha256": "a92fb730adc30c7016fd29821990c9e4485ef2e2c580acfaa0ae616a57733474",
+      "size_bytes": 19657
+    }
+  ],
+  "size_bytes": 1758673,
+  "status": "pass",
+  "updated_utc": "2026-09-21T12:39:19Z"
+}

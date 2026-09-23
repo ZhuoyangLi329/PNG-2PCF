@@ -1,0 +1,172 @@
+{
+  "name": "halo_ph000",
+  "data_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8.npz",
+  "random_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/randoms/task43_rsd_random_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8_x25.npz",
+  "source_pk": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph000_mesh256_kmax0p300_dk0p002.npz",
+  "source_pk_sha256": "0579e6fee5653e6d6aeb9efcbc944a5674589c7adb583cabaca029576438bf7c",
+  "reference_definition": "Independent pooled observed-z CDF from the other 24 halo phases; finite-selection uncertainty retained, not asserted to be noiseless truth.",
+  "independent_reference_sources": [
+    {
+      "phase": "ph001",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph001_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "b9d259d9a3ee769e882ce3cad137b5f885d106d14d0a32564476df7996d5a4ac"
+    },
+    {
+      "phase": "ph002",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph002_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "16b598a8c9ef84b86d0929759ac38aa8250bd83cf2ce30eaa0ab6f0a4a86c40c"
+    },
+    {
+      "phase": "ph003",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph003_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "f70e2802603b66be1f7850a6b677f14e4fc7d2c8e2b1b4fecb1a301688331824"
+    },
+    {
+      "phase": "ph004",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph004_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "e9bdf1814fbc065b283916351ff3c9f0eb6a86600db37b7acc1fdde8b68a894f"
+    },
+    {
+      "phase": "ph005",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph005_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "94fb9584a4ac9cc2baaca28d860a24a277dc805922eb46286ff7b2f713f5ff04"
+    },
+    {
+      "phase": "ph006",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph006_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "5f5fb0e90149bcc9e186219a28419869044ba300fb2d1388697c47b9cb3f9ae1"
+    },
+    {
+      "phase": "ph007",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph007_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "9c30816ccd0580524fc89f718ca3d4b744fe304ca0eccc94bee8e5aceb781e04"
+    },
+    {
+      "phase": "ph008",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph008_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "bbfce2684644cfca77ed56cb71b954e1e5590b9eb09e6218b08d5624fcb3ae7c"
+    },
+    {
+      "phase": "ph009",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph009_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "a2ecd170f80a306db04d7b5ed3c12214d2e57fb87577f5b6a17d847ae8efd693"
+    },
+    {
+      "phase": "ph010",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph010_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "0f6f1860aff5d175d104474302b4d37f056cb7760724311306899fe9cd83c93f"
+    },
+    {
+      "phase": "ph011",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph011_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "dca93d2ed1e1cd093b88a2ca4e9a953ac8130372e19f58dd03483e8c03ab4c79"
+    },
+    {
+      "phase": "ph012",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph012_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "0e8403c452b4a3c51c75164d2ceaab0656abf1e96e0eff6a6d3276e75c1c6bfb"
+    },
+    {
+      "phase": "ph013",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph013_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "43340ed90f594f12daab0049403776227a28104c55a431c1187dc1dc3d420884"
+    },
+    {
+      "phase": "ph014",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph014_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "26fd196800ecc4c590e6a5a8eea4940f32379a1b18fa79467a349f3366b25ec4"
+    },
+    {
+      "phase": "ph015",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph015_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "46c3d3fc0683ea6f59b23d17dc41b81c19b748166045545a95f67237c8dc0387"
+    },
+    {
+      "phase": "ph016",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph016_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "43d539eb61620b281e4364509af3d010b491bf30792ebdf9f781510265f825a5"
+    },
+    {
+      "phase": "ph017",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph017_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "0468da1551e1b12370fa703ec826eaefd9316b0151fd0e34ef341f7e3a611f50"
+    },
+    {
+      "phase": "ph018",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph018_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "f760283efa89f9aa457bc297917356f90104e680a6fae30e2be82471631b0974"
+    },
+    {
+      "phase": "ph019",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph019_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "8cfd1cd2c8e49207346b2222c52dabe18e63727fc5d18ccf9b538a92694734d3"
+    },
+    {
+      "phase": "ph020",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph020_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "e3ad6702fcd259b846ee00a6ade710c83679e9139c7f5d510b07bbdd8e58077c"
+    },
+    {
+      "phase": "ph021",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph021_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "bf3cd6da83c4b85aa374774dab1b0e1e962daa0b54c2c332286a036405f14f00"
+    },
+    {
+      "phase": "ph022",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph022_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "dcc274e2e57f5c90fb0ca890158b9c7319c677aaeec96525f02b0caed64e4acb"
+    },
+    {
+      "phase": "ph023",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph023_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "029aba2bb14ccb9c6692a8d5f33b7d64b90b26eb52806c335e9cbb73a7f9de27"
+    },
+    {
+      "phase": "ph024",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph024_mmin1p4e13_zobs0p4_0p8.npz",
+      "z_sha256": "d9aa3b03ba2650f4c16c1120f7ff38e540a4f0e91800302c6f69bfb0053b48de"
+    }
+  ],
+  "ndata": 591308,
+  "nrandom_P": 2365232,
+  "nrandom_per_xi_block": 591308,
+  "xi_blocks": 2,
+  "P_mesh": {
+    "boxcenter": [
+      967.8762998500788,
+      967.9153715445409,
+      967.9134539470542
+    ],
+    "boxsize": [
+      2735.830633864043,
+      2735.830633864043,
+      2735.830633864043
+    ],
+    "catalog_max": [
+      1935.7525634765625,
+      1935.8306884765625,
+      1935.8262939453125
+    ],
+    "catalog_min": [
+      3.6223595088813454e-05,
+      5.46125193068292e-05,
+      0.0006139487959444523
+    ],
+    "catalog_span": [
+      1935.7525272529674,
+      1935.8306338640432,
+      1935.8256799965166
+    ],
+    "meshsize": [
+      256,
+      256,
+      256
+    ],
+    "pad": 400.0
+  },
+  "shared_P_I2": 13.19423993868954,
+  "source_sha256": "769f8901ee15db62d16fd6a2ef698b2e7438203961b26bc69b34e14a90d43cdd",
+  "covariance_modified": false,
+  "seed": 4322251,
+  "fixed_weight_policy": "Production phase FKP for halo; production mean FKP for EZ; no FKP re-estimation after shuffle."
+}

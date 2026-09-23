@@ -1,0 +1,45 @@
+{
+  "covariances": {
+    "ezmock1000": {
+      "input_audit": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/input_audit.json",
+      "joint_b1_between_marginals": {
+        "maximum_likelihood": false,
+        "q50": false
+      },
+      "manifest": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/run_manifest.json",
+      "meeting": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_ezmock1000_gic_9.18contract",
+      "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract",
+      "pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_ezmock1000_gic_9.18contract/task432_hybrid_gic_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120.pdf",
+      "postflight_audit": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/postflight_audit.json",
+      "summary": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_ezmock1000_gic_9.18contract/task432_hybrid_gic_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120.json"
+    },
+    "jaxpower": {
+      "input_audit": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/input_audit.json",
+      "joint_b1_between_marginals": {
+        "maximum_likelihood": false,
+        "q50": false
+      },
+      "manifest": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/run_manifest.json",
+      "meeting": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_gic_9.18contract",
+      "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract",
+      "pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_gic_9.18contract/task432_hybrid_gic_jaxpower_P02xi02_joint_kmax0p08_smin50_baomask80_120.pdf",
+      "postflight_audit": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/postflight_audit.json",
+      "summary": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_gic_9.18contract/task432_hybrid_gic_jaxpower_P02xi02_joint_kmax0p08_smin50_baomask80_120.json"
+    }
+  },
+  "environment": {
+    "packages": {
+      "emcee": "3.1.6",
+      "gsm_source_sha256": "c947fe6c572f4772639b6e35a97e42088a8b2b75cd7da5bd5740ae3045054218",
+      "matplotlib": "3.10.7",
+      "numpy": "1.26.4",
+      "scipy": "1.16.3",
+      "velocileptors": "3.1"
+    },
+    "python": "3.11.14"
+  },
+  "model": "Task432 hybrid + mandatory fixed-window GIC",
+  "status": "pass",
+  "updated_utc": "2026-09-21T12:39:19Z",
+  "visual_qa": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/visual_qa.json"
+}

@@ -1,0 +1,17 @@
+{
+  "affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "case": "kmax0p06",
+  "elapsed_s": 475.13917348202085,
+  "host": "login07",
+  "steps": 30000,
+  "variant": "joint"
+}

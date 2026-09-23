@@ -1,0 +1,2921 @@
+[
+  {
+    "path": "review_data/posterior_excerpt/9.18_chain_ezmock604_joint.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/9.18_chain_ezmock604_p02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data",
+        "shape": [
+          22
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/9.18_chain_ezmock604_xi02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          3
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data",
+        "shape": [
+          52
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/9.18_chain_jaxpower_joint.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/9.18_chain_jaxpower_p02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data",
+        "shape": [
+          22
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/9.18_chain_jaxpower_xi02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          3
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data",
+        "shape": [
+          52
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/ezmock1000_0918_contract_v1_joint.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/ezmock1000_0918_contract_v1_p02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/ezmock1000_0918_contract_v1_xi02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          2
+        ],
+        "dtype": "<U3"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          2
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/ezmock1000_gic_0918_contract_joint.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/ezmock1000_gic_0918_contract_p02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/ezmock1000_gic_0918_contract_xi02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          2
+        ],
+        "dtype": "<U3"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          2
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/jaxpower_0918_contract_v1_joint.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/jaxpower_0918_contract_v1_p02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/jaxpower_0918_contract_v1_xi02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          2
+        ],
+        "dtype": "<U3"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          2
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/jaxpower_gic_0918_contract_joint.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/jaxpower_gic_0918_contract_p02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/jaxpower_gic_0918_contract_xi02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          2
+        ],
+        "dtype": "<U3"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          2
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/scale_bao_unmasked_joint.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/scale_bao_unmasked_xi02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          3
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          3
+        ],
+        "dtype": "<U3"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          3
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/scale_kmax0p06_joint.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "review_data/posterior_excerpt/scale_kmax0p06_p02.npz",
+    "arrays": [
+      {
+        "key": "samples",
+        "shape": [
+          60000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "source_flat_indices",
+        "shape": [
+          60000
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "source_chain_shape",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/9.22meeting/task432_fkp_conditional_ezmock1000/conditional_modes.npz",
+    "arrays": [
+      {
+        "key": "modes",
+        "shape": [
+          5,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "contrast_response",
+        "shape": [
+          2,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "joint_response",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_response",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xi_response",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance",
+        "shape": [
+          74,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "data",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "model_anchor",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "jacobian",
+        "shape": [
+          74,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "theta_anchor",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "halo_stack",
+        "shape": [
+          25,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ez_stack",
+        "shape": [
+          1000,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "halo_modes",
+        "shape": [
+          25,
+          5
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ez_modes",
+        "shape": [
+          1000,
+          5
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "mode_labels",
+        "shape": [
+          5
+        ],
+        "dtype": "<U33"
+      },
+      {
+        "key": "canonical_correlations",
+        "shape": [
+          22
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/9.22meeting/task432_fkp_conditional_ezmock1000/paired_fkp_results.npz",
+    "arrays": [
+      {
+        "key": "phases",
+        "shape": [
+          3
+        ],
+        "dtype": "<U5"
+      },
+      {
+        "key": "delta_data",
+        "shape": [
+          3,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "delta_model",
+        "shape": [
+          3,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "delta_residual",
+        "shape": [
+          3,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "mean_delta_data",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "mean_delta_model",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ph000_xi_block_net_response",
+        "shape": [
+          2,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ph012_xi_block_net_response",
+        "shape": [
+          2,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ph024_xi_block_net_response",
+        "shape": [
+          2,
+          2
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_gic_joint_b1_cause_tests_ezmock1000/common_kaiser_grid.npz",
+    "arrays": [
+      {
+        "key": "sigma_grid",
+        "shape": [
+          301
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "continuous_basis",
+        "shape": [
+          301,
+          52,
+          6
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "boxcut_basis",
+        "shape": [
+          301,
+          52,
+          6
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_gic_joint_b1_cause_tests_ezmock1000/shot_contact_injection.npz",
+    "arrays": [
+      {
+        "key": "k",
+        "shape": [
+          40
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "expected_P0",
+        "shape": [
+          40
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "delta_P0",
+        "shape": [
+          40
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "delta_P2",
+        "shape": [
+          40
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_gic_joint_b1_cause_tests_ezmock1000/window_pilot_matrices.npz",
+    "arrays": [
+      {
+        "key": "phases",
+        "shape": [
+          3
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "selected_matrices",
+        "shape": [
+          3,
+          22,
+          981
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "pilot_mean",
+        "shape": [
+          22,
+          981
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "original_ph000",
+        "shape": [
+          22,
+          981
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "theory_k",
+        "shape": [
+          981
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "theory_ell",
+        "shape": [
+          981
+        ],
+        "dtype": "int64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/9.22meeting/task432_scale_selection_ezmock1000/paired_stability.npz",
+    "arrays": [
+      {
+        "key": "case_names",
+        "shape": [
+          6
+        ],
+        "dtype": "<U12"
+      },
+      {
+        "key": "contrast_response",
+        "shape": [
+          6,
+          2,
+          82
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "joint_response",
+        "shape": [
+          6,
+          82
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "jacobian",
+        "shape": [
+          82,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "phase_bootstrap_contrasts",
+        "shape": [
+          2000,
+          6,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "EZ_noise_contrasts",
+        "shape": [
+          2000,
+          6,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "theta_anchor",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/mcmc_preliminary_604/ezmock604_covariance_and_stack.npz",
+    "arrays": [
+      {
+        "key": "stack",
+        "shape": [
+          604,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance",
+        "shape": [
+          74,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "production_indices",
+        "shape": [
+          604
+        ],
+        "dtype": "int64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/kmax0p08_smin50_v1/task43_lightcone_standard_joint_baomask80_120_covariance_v1.npz",
+    "arrays": [
+      {
+        "key": "real_k",
+        "shape": [
+          13
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "real_s",
+        "shape": [
+          30
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "real_xi_mask",
+        "shape": [
+          30
+        ],
+        "dtype": "bool"
+      },
+      {
+        "key": "real_pp",
+        "shape": [
+          13,
+          13
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "real_xx",
+        "shape": [
+          26,
+          26
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "real_px",
+        "shape": [
+          13,
+          26
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "real_joint",
+        "shape": [
+          39,
+          39
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "rsd_k",
+        "shape": [
+          13
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "rsd_p2_keep_indices",
+        "shape": [
+          9
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "rsd_s",
+        "shape": [
+          32
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "rsd_xi_mask",
+        "shape": [
+          32
+        ],
+        "dtype": "bool"
+      },
+      {
+        "key": "rsd_pp",
+        "shape": [
+          22,
+          22
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "rsd_xx",
+        "shape": [
+          52,
+          52
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "rsd_xp",
+        "shape": [
+          52,
+          22
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "rsd_joint",
+        "shape": [
+          74,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "rsd_pp0",
+        "shape": [
+          13,
+          13
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "rsd_xx0",
+        "shape": [
+          26,
+          26
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "rsd_xp0",
+        "shape": [
+          26,
+          13
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "rsd_joint0",
+        "shape": [
+          39,
+          39
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/conditional_modes.npz",
+    "arrays": [
+      {
+        "key": "modes",
+        "shape": [
+          5,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "contrast_response",
+        "shape": [
+          2,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "joint_response",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_response",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xi_response",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance",
+        "shape": [
+          74,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "data",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "model_anchor",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "jacobian",
+        "shape": [
+          74,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "theta_anchor",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "halo_stack",
+        "shape": [
+          25,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ez_stack",
+        "shape": [
+          1000,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "halo_modes",
+        "shape": [
+          25,
+          5
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ez_modes",
+        "shape": [
+          1000,
+          5
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "mode_labels",
+        "shape": [
+          5
+        ],
+        "dtype": "<U33"
+      },
+      {
+        "key": "canonical_correlations",
+        "shape": [
+          22
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/paired_fkp_results.npz",
+    "arrays": [
+      {
+        "key": "phases",
+        "shape": [
+          3
+        ],
+        "dtype": "<U5"
+      },
+      {
+        "key": "delta_data",
+        "shape": [
+          3,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "delta_model",
+        "shape": [
+          3,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "delta_residual",
+        "shape": [
+          3,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "mean_delta_data",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "mean_delta_model",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ph000_xi_block_net_response",
+        "shape": [
+          2,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ph012_xi_block_net_response",
+        "shape": [
+          2,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ph024_xi_block_net_response",
+        "shape": [
+          2,
+          2
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/joint/samples.npz",
+    "arrays": [
+      {
+        "key": "chain",
+        "shape": [
+          25000,
+          64,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/p02/samples.npz",
+    "arrays": [
+      {
+        "key": "chain",
+        "shape": [
+          25000,
+          64,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          4
+        ],
+        "dtype": "<U9"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/xi02/samples.npz",
+    "arrays": [
+      {
+        "key": "chain",
+        "shape": [
+          25000,
+          64,
+          3
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "parameter_names",
+        "shape": [
+          3
+        ],
+        "dtype": "<U3"
+      },
+      {
+        "key": "map_theta",
+        "shape": [
+          3
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/hybrid_inner_refine1_q2_n600.npz",
+    "arrays": [
+      {
+        "key": "f_grid",
+        "shape": [
+          41
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "b_grid",
+        "shape": [
+          46
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "separation_edges",
+        "shape": [
+          234
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "poles",
+        "shape": [
+          41,
+          46,
+          3,
+          233
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "meta_json",
+        "shape": [],
+        "dtype": "<U429"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/production_rr_mu.npz",
+    "arrays": [
+      {
+        "key": "rr_by_phase",
+        "shape": [
+          25,
+          26,
+          40
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "rr_mean",
+        "shape": [
+          26,
+          40
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xi_centers",
+        "shape": [
+          26
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "meta_json",
+        "shape": [],
+        "dtype": "<U7825"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/stochastic_sn0_response.npz",
+    "arrays": [
+      {
+        "key": "response",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "I2_ratio",
+        "shape": [],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/validated_mean2_endpoint.npz",
+    "arrays": [
+      {
+        "key": "separation_edges",
+        "shape": [
+          234
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "radial_labels",
+        "shape": [
+          429
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "normalization",
+        "shape": [],
+        "dtype": "float64"
+      },
+      {
+        "key": "meta_json",
+        "shape": [],
+        "dtype": "<U3121"
+      },
+      {
+        "key": "rr",
+        "shape": [
+          2,
+          233
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "cross",
+        "shape": [
+          2,
+          3,
+          233,
+          233
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "auto",
+        "shape": [
+          2,
+          3,
+          233,
+          233
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/validated_mean4_midpoint.npz",
+    "arrays": [
+      {
+        "key": "separation_edges",
+        "shape": [
+          234
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "radial_labels",
+        "shape": [
+          429
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "normalization",
+        "shape": [],
+        "dtype": "float64"
+      },
+      {
+        "key": "meta_json",
+        "shape": [],
+        "dtype": "<U3066"
+      },
+      {
+        "key": "rr",
+        "shape": [
+          5,
+          233
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "cross",
+        "shape": [
+          5,
+          3,
+          233,
+          233
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "auto",
+        "shape": [
+          5,
+          3,
+          233,
+          233
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/paired/paired_74vectors.npz",
+    "arrays": [
+      {
+        "key": "names",
+        "shape": [
+          3
+        ],
+        "dtype": "<U10"
+      },
+      {
+        "key": "differences",
+        "shape": [
+          3,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "model_reference",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/pilot/mean4xi_mean2P_prodrr_stochastic/engine.npz",
+    "arrays": [
+      {
+        "key": "p_ric_spline_c",
+        "shape": [
+          4,
+          600,
+          22,
+          6
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_ric_spline_x",
+        "shape": [
+          601
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xi_ric_grid",
+        "shape": [
+          41,
+          46,
+          52
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "f_grid",
+        "shape": [
+          41
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "b_grid",
+        "shape": [
+          46
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "fixed_shot_vector",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "sn0_ric_response",
+        "shape": [
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xi_response",
+        "shape": [
+          52,
+          3,
+          233
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_response",
+        "shape": [
+          22,
+          981
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "meta_json",
+        "shape": [],
+        "dtype": "<U1560"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/ezmock1000_covariance_and_stack.npz",
+    "arrays": [
+      {
+        "key": "stack",
+        "shape": [
+          1000,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance",
+        "shape": [
+          74,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "production_indices",
+        "shape": [
+          1000
+        ],
+        "dtype": "int64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/frozen_inputs.npz",
+    "arrays": [
+      {
+        "key": "data_p",
+        "shape": [
+          22
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "data_x",
+        "shape": [
+          52
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance",
+        "shape": [
+          74,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_spline_c",
+        "shape": [
+          4,
+          600,
+          22,
+          6
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_spline_x",
+        "shape": [
+          601
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "shot",
+        "shape": [
+          22
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "f_growth",
+        "shape": [],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_edges",
+        "shape": [
+          13,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xi_centers",
+        "shape": [
+          26
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/validation_predictions.npz",
+    "arrays": [
+      {
+        "key": "theta",
+        "shape": [
+          10,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "direct_nint1200",
+        "shape": [
+          10,
+          52
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/xi_emulator.npz",
+    "arrays": [
+      {
+        "key": "f_grid",
+        "shape": [
+          41
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "b_grid",
+        "shape": [
+          46
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "values",
+        "shape": [
+          41,
+          46,
+          52
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/frozen_inputs.npz",
+    "arrays": [
+      {
+        "key": "data_p",
+        "shape": [
+          22
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "data_x",
+        "shape": [
+          52
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance",
+        "shape": [
+          74,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_spline_c",
+        "shape": [
+          4,
+          600,
+          22,
+          6
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_spline_x",
+        "shape": [
+          601
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "shot",
+        "shape": [
+          22
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "f_growth",
+        "shape": [],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_edges",
+        "shape": [
+          13,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xi_centers",
+        "shape": [
+          26
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/validation_predictions.npz",
+    "arrays": [
+      {
+        "key": "theta",
+        "shape": [
+          10,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "direct",
+        "shape": [
+          10,
+          52
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "gic",
+        "shape": [
+          10
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/xi_emulator.npz",
+    "arrays": [
+      {
+        "key": "f_grid",
+        "shape": [
+          41
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "b_grid",
+        "shape": [
+          46
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "gic_grid",
+        "shape": [
+          41,
+          46
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "values_no_gic",
+        "shape": [
+          41,
+          46,
+          52
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "values",
+        "shape": [
+          41,
+          46,
+          52
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_joint_b1_diagnostics/operator_delta_grid.npz",
+    "arrays": [
+      {
+        "key": "f_grid",
+        "shape": [
+          5
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "b_grid",
+        "shape": [
+          5
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "shell_minus_center",
+        "shape": [
+          5,
+          5,
+          52
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_window_ph000",
+        "shape": [
+          22,
+          981
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "missing_window_phases",
+        "shape": [
+          24
+        ],
+        "dtype": "int64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_joint_b1_diagnostics/paired_phase_data.npz",
+    "arrays": [
+      {
+        "key": "data",
+        "shape": [
+          25,
+          74
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/frozen_pair_window.npz",
+    "arrays": [
+      {
+        "key": "s_edges",
+        "shape": [
+          164
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "pair_probability",
+        "shape": [
+          163
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "pair_probability_by_phase",
+        "shape": [
+          25,
+          163
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "k",
+        "shape": [
+          15882
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "w2",
+        "shape": [
+          15882
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_window/hybrid_gic_grid.npz",
+    "arrays": [
+      {
+        "key": "f_grid",
+        "shape": [
+          41
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "b_grid",
+        "shape": [
+          46
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "gic_grid",
+        "shape": [
+          41,
+          46
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "values_no_gic",
+        "shape": [
+          41,
+          46,
+          52
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "values",
+        "shape": [
+          41,
+          46,
+          52
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/frozen_inputs.npz",
+    "arrays": [
+      {
+        "key": "data_p",
+        "shape": [
+          22
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "data_x",
+        "shape": [
+          52
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance",
+        "shape": [
+          74,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_spline_c",
+        "shape": [
+          4,
+          600,
+          22,
+          6
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_spline_x",
+        "shape": [
+          601
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "shot",
+        "shape": [
+          22
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "f_growth",
+        "shape": [],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_edges",
+        "shape": [
+          13,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xi_centers",
+        "shape": [
+          26
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/validation_predictions.npz",
+    "arrays": [
+      {
+        "key": "theta",
+        "shape": [
+          10,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "direct_nint1200",
+        "shape": [
+          10,
+          52
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/xi_emulator.npz",
+    "arrays": [
+      {
+        "key": "f_grid",
+        "shape": [
+          41
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "b_grid",
+        "shape": [
+          46
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "values",
+        "shape": [
+          41,
+          46,
+          52
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/frozen_inputs.npz",
+    "arrays": [
+      {
+        "key": "data_p",
+        "shape": [
+          22
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "data_x",
+        "shape": [
+          52
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance",
+        "shape": [
+          74,
+          74
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_spline_c",
+        "shape": [
+          4,
+          600,
+          22,
+          6
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_spline_x",
+        "shape": [
+          601
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "shot",
+        "shape": [
+          22
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "f_growth",
+        "shape": [],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_edges",
+        "shape": [
+          13,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xi_centers",
+        "shape": [
+          26
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/validation_predictions.npz",
+    "arrays": [
+      {
+        "key": "theta",
+        "shape": [
+          10,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "direct",
+        "shape": [
+          10,
+          52
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "gic",
+        "shape": [
+          10
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/xi_emulator.npz",
+    "arrays": [
+      {
+        "key": "f_grid",
+        "shape": [
+          41
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "b_grid",
+        "shape": [
+          46
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "gic_grid",
+        "shape": [
+          41,
+          46
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "values_no_gic",
+        "shape": [
+          41,
+          46,
+          52
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "values",
+        "shape": [
+          41,
+          46,
+          52
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/expanded_inputs.npz",
+    "arrays": [
+      {
+        "key": "data",
+        "shape": [
+          82
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance",
+        "shape": [
+          82,
+          82
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "halo_stack",
+        "shape": [
+          25,
+          82
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ez_stack",
+        "shape": [
+          1000,
+          82
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "p_edges",
+        "shape": [
+          13,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xi_centers",
+        "shape": [
+          30
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "old_joint_indices",
+        "shape": [
+          74
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "old_xi_indices",
+        "shape": [
+          52
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "rr_mean",
+        "shape": [
+          30,
+          40
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/expanded_model.npz",
+    "arrays": [
+      {
+        "key": "f_grid",
+        "shape": [
+          41
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "b_grid",
+        "shape": [
+          46
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "values",
+        "shape": [
+          41,
+          46,
+          60
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "raw_values",
+        "shape": [
+          41,
+          46,
+          60
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ric_values",
+        "shape": [
+          41,
+          46,
+          60
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "fixed",
+        "shape": [
+          60
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "stochastic",
+        "shape": [
+          60
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "matrix",
+        "shape": [
+          60,
+          3,
+          233
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "separation_edges",
+        "shape": [
+          234
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/scale_selection_ezmock1000/paired_stability.npz",
+    "arrays": [
+      {
+        "key": "case_names",
+        "shape": [
+          6
+        ],
+        "dtype": "<U12"
+      },
+      {
+        "key": "contrast_response",
+        "shape": [
+          6,
+          2,
+          82
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "joint_response",
+        "shape": [
+          6,
+          82
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "jacobian",
+        "shape": [
+          82,
+          4
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "phase_bootstrap_contrasts",
+        "shape": [
+          2000,
+          6,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "EZ_noise_contrasts",
+        "shape": [
+          2000,
+          6,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "theta_anchor",
+        "shape": [
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  }
+]

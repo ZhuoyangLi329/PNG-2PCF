@@ -1,0 +1,76 @@
+{
+  "status": "pass",
+  "science_files_deleted": 0,
+  "science_files_moved": 0,
+  "transfer_archives_moved": [
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/new_sources.tar.gz",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_full_ric_transfer_20260922/new_sources.tar.gz",
+      "bytes": 8366,
+      "sha256": "530f0708b0ff0940238c73dcd243bf2ec5eb69edaadec2ce44c29edf401a490e",
+      "reason": "Small task-owned transfer archive; extracted source and all science inputs/results retained."
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/shot_updates.tar.gz",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_full_ric_transfer_20260922/shot_updates.tar.gz",
+      "bytes": 5494,
+      "sha256": "63a3286d23ceec0b4ca4d04874afa6041ede0cb0ecc84efcf9d88ad29d6bcd54",
+      "reason": "Small task-owned transfer archive; extracted source and all science inputs/results retained."
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/audit_updates.tar.gz",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_full_ric_transfer_20260922/audit_updates.tar.gz",
+      "bytes": 8918,
+      "sha256": "a95b66c7c31da83ac8589b898ba1f0f6b8a2346032c6f47cc8cdfb6f89786b25",
+      "reason": "Small task-owned transfer archive; extracted source and all science inputs/results retained."
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/status_notes.tar.gz",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_full_ric_transfer_20260922/status_notes.tar.gz",
+      "bytes": 5991,
+      "sha256": "c64380829fcf2dffaa34cf314d7f7fe020972a5ebd5c9a4d103031ea62353130",
+      "reason": "Small task-owned transfer archive; extracted source and all science inputs/results retained."
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/stochastic_updates.tar.gz",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_full_ric_transfer_20260922/stochastic_updates.tar.gz",
+      "bytes": 4730,
+      "sha256": "21cb46ab92fca1b6019c250dc045ee2d41bb9e65cb71439c1b1f39db1998f36c",
+      "reason": "Small task-owned transfer archive; extracted source and all science inputs/results retained."
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/new_scripts.tgz",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_full_ric_transfer_20260922/new_scripts.tgz",
+      "bytes": 4907,
+      "sha256": "630675156e670aee10d21d8ae131fb4fc32fc2070f3270379527622187342af1",
+      "reason": "Small task-owned transfer archive; extracted source and all science inputs/results retained."
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/delivery_scripts.tgz",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_full_ric_transfer_20260922/delivery_scripts.tgz",
+      "bytes": 6802,
+      "sha256": "b13fa6d1a34f0485fc6043c25a76ed72bfc6114d48b5b381b654426e5b88dd54",
+      "reason": "Small task-owned transfer archive; extracted source and all science inputs/results retained."
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/refinement_scripts.tgz",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/old_doc_codes/task432_full_ric_transfer_20260922/refinement_scripts.tgz",
+      "bytes": 11262,
+      "sha256": "8acbd6c9e73eb832e861f096e69a51472393de9ab275ff6361e7f7242803847d",
+      "reason": "Small task-owned transfer archive; extracted source and all science inputs/results retained."
+    }
+  ],
+  "task_output_file_count": 339,
+  "task_output_bytes": 1790812460,
+  "png_files": [],
+  "recommended_entry": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_fullRIC_ezmock1000_9.18contract/RESULTS.md",
+  "recommended_run": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4",
+  "retained_nonfinal": [
+    "formal/ (mean2 kernel, failed posterior-tail geometry gate)",
+    "pilot/ (candidate optimizations and immutable compiled models)",
+    "geometry/ (convergence evidence and formal dependency)",
+    "paired/ (actual catalogue checks)"
+  ],
+  "task_document_sha256": "ce99387cfa24480a1ad4c84ddfb1b54b3a7e107c7d4b5c11fdc7e5bfb934fd7d",
+  "pdf_visual_audit_sha256": "98d11372490f73fd3bf13ad3ceee1baeb88b0eb073a2c03ff0a7d7c6a875ab7b"
+}

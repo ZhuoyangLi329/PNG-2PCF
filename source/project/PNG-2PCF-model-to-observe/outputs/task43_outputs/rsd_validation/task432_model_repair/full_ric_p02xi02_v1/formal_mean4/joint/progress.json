@@ -1,0 +1,16 @@
+{
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "elapsed_this_invocation_s": 302.6661927169771,
+  "host": "login11",
+  "steps": 30000,
+  "variant": "joint"
+}

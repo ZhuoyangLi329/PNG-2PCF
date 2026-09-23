@@ -1,0 +1,18 @@
+{
+  "branch": "independent",
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "elapsed_s": 152.42766384303104,
+  "normalization": 13.190483035321394,
+  "phase": "ph024",
+  "shot_relative_error": 5.67878336983779e-15,
+  "source_sha256": "eb463a1b88319bfdb663134d0fc55de63c136d4c16386b2103c852a61612d3d6"
+}

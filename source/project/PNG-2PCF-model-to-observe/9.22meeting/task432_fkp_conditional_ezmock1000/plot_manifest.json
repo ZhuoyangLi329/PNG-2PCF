@@ -1,0 +1,11 @@
+{
+  "pdf": "/Users/lizhuoyang/Documents/Codex/2026-09-21/ni/outputs/task432_fkp_conditional_ezmock1000/task432_fullRIC_FKP_conditional_diagnostics.pdf",
+  "pages": 4,
+  "format": "PDF only",
+  "inputs": [
+    "conditional_modes.json",
+    "conditional_modes.npz",
+    "paired_fkp_results.json",
+    "paired_fkp_results.npz"
+  ]
+}

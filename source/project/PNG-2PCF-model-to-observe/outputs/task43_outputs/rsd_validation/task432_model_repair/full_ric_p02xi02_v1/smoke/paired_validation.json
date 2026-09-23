@@ -1,0 +1,466 @@
+{
+  "status": "pass",
+  "theory_theta": [
+    0.0,
+    2.4,
+    7.5
+  ],
+  "records": [
+    {
+      "name": "halo_ph000",
+      "components": {
+        "P0": {
+          "model_norm_Csingle": 0.2528560966372752,
+          "measured_norm_Csingle": 0.19546259972153524,
+          "difference_norm_Csingle": 0.28039860619205054,
+          "whitened_direction_cosine": 0.237925885873004,
+          "component_sign_agreement": 0.6153846153846154
+        },
+        "P2": {
+          "model_norm_Csingle": 0.2521863823414128,
+          "measured_norm_Csingle": 0.42366509222747606,
+          "difference_norm_Csingle": 0.36934560936641264,
+          "whitened_direction_cosine": 0.4992106878105273,
+          "component_sign_agreement": 0.7777777777777778
+        },
+        "xi0": {
+          "model_norm_Csingle": 0.22444785205893286,
+          "measured_norm_Csingle": 0.741143438487989,
+          "difference_norm_Csingle": 0.7283948481461153,
+          "whitened_direction_cosine": 0.20773125601271122,
+          "component_sign_agreement": 0.6923076923076923
+        },
+        "xi2": {
+          "model_norm_Csingle": 0.39558280860920103,
+          "measured_norm_Csingle": 0.8537144087108713,
+          "difference_norm_Csingle": 0.909452250222051,
+          "whitened_direction_cosine": 0.08618317053941776,
+          "component_sign_agreement": 0.6153846153846154
+        }
+      },
+      "measurement_metadata": {
+        "name": "halo_ph000",
+        "data_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8.npz",
+        "random_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/randoms/task43_rsd_random_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8_x25.npz",
+        "source_pk": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph000_mesh256_kmax0p300_dk0p002.npz",
+        "source_pk_sha256": "0579e6fee5653e6d6aeb9efcbc944a5674589c7adb583cabaca029576438bf7c",
+        "reference_definition": "Independent pooled observed-z CDF from the other 24 halo phases; finite-selection uncertainty retained, not asserted to be noiseless truth.",
+        "independent_reference_sources": [
+          {
+            "phase": "ph001",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph001_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "b9d259d9a3ee769e882ce3cad137b5f885d106d14d0a32564476df7996d5a4ac"
+          },
+          {
+            "phase": "ph002",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph002_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "16b598a8c9ef84b86d0929759ac38aa8250bd83cf2ce30eaa0ab6f0a4a86c40c"
+          },
+          {
+            "phase": "ph003",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph003_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "f70e2802603b66be1f7850a6b677f14e4fc7d2c8e2b1b4fecb1a301688331824"
+          },
+          {
+            "phase": "ph004",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph004_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "e9bdf1814fbc065b283916351ff3c9f0eb6a86600db37b7acc1fdde8b68a894f"
+          },
+          {
+            "phase": "ph005",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph005_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "94fb9584a4ac9cc2baaca28d860a24a277dc805922eb46286ff7b2f713f5ff04"
+          },
+          {
+            "phase": "ph006",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph006_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "5f5fb0e90149bcc9e186219a28419869044ba300fb2d1388697c47b9cb3f9ae1"
+          },
+          {
+            "phase": "ph007",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph007_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "9c30816ccd0580524fc89f718ca3d4b744fe304ca0eccc94bee8e5aceb781e04"
+          },
+          {
+            "phase": "ph008",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph008_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "bbfce2684644cfca77ed56cb71b954e1e5590b9eb09e6218b08d5624fcb3ae7c"
+          },
+          {
+            "phase": "ph009",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph009_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "a2ecd170f80a306db04d7b5ed3c12214d2e57fb87577f5b6a17d847ae8efd693"
+          },
+          {
+            "phase": "ph010",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph010_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "0f6f1860aff5d175d104474302b4d37f056cb7760724311306899fe9cd83c93f"
+          },
+          {
+            "phase": "ph011",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph011_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "dca93d2ed1e1cd093b88a2ca4e9a953ac8130372e19f58dd03483e8c03ab4c79"
+          },
+          {
+            "phase": "ph012",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph012_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "0e8403c452b4a3c51c75164d2ceaab0656abf1e96e0eff6a6d3276e75c1c6bfb"
+          },
+          {
+            "phase": "ph013",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph013_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "43340ed90f594f12daab0049403776227a28104c55a431c1187dc1dc3d420884"
+          },
+          {
+            "phase": "ph014",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph014_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "26fd196800ecc4c590e6a5a8eea4940f32379a1b18fa79467a349f3366b25ec4"
+          },
+          {
+            "phase": "ph015",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph015_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "46c3d3fc0683ea6f59b23d17dc41b81c19b748166045545a95f67237c8dc0387"
+          },
+          {
+            "phase": "ph016",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph016_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "43d539eb61620b281e4364509af3d010b491bf30792ebdf9f781510265f825a5"
+          },
+          {
+            "phase": "ph017",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph017_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "0468da1551e1b12370fa703ec826eaefd9316b0151fd0e34ef341f7e3a611f50"
+          },
+          {
+            "phase": "ph018",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph018_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "f760283efa89f9aa457bc297917356f90104e680a6fae30e2be82471631b0974"
+          },
+          {
+            "phase": "ph019",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph019_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "8cfd1cd2c8e49207346b2222c52dabe18e63727fc5d18ccf9b538a92694734d3"
+          },
+          {
+            "phase": "ph020",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph020_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "e3ad6702fcd259b846ee00a6ade710c83679e9139c7f5d510b07bbdd8e58077c"
+          },
+          {
+            "phase": "ph021",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph021_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "bf3cd6da83c4b85aa374774dab1b0e1e962daa0b54c2c332286a036405f14f00"
+          },
+          {
+            "phase": "ph022",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph022_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "dcc274e2e57f5c90fb0ca890158b9c7319c677aaeec96525f02b0caed64e4acb"
+          },
+          {
+            "phase": "ph023",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph023_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "029aba2bb14ccb9c6692a8d5f33b7d64b90b26eb52806c335e9cbb73a7f9de27"
+          },
+          {
+            "phase": "ph024",
+            "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph024_mmin1p4e13_zobs0p4_0p8.npz",
+            "z_sha256": "d9aa3b03ba2650f4c16c1120f7ff38e540a4f0e91800302c6f69bfb0053b48de"
+          }
+        ],
+        "ndata": 591308,
+        "nrandom_P": 2365232,
+        "nrandom_per_xi_block": 591308,
+        "xi_blocks": 2,
+        "P_mesh": {
+          "boxcenter": [
+            967.8762998500788,
+            967.9153715445409,
+            967.9134539470542
+          ],
+          "boxsize": [
+            2735.830633864043,
+            2735.830633864043,
+            2735.830633864043
+          ],
+          "catalog_max": [
+            1935.7525634765625,
+            1935.8306884765625,
+            1935.8262939453125
+          ],
+          "catalog_min": [
+            3.6223595088813454e-05,
+            5.46125193068292e-05,
+            0.0006139487959444523
+          ],
+          "catalog_span": [
+            1935.7525272529674,
+            1935.8306338640432,
+            1935.8256799965166
+          ],
+          "meshsize": [
+            256,
+            256,
+            256
+          ],
+          "pad": 400.0
+        },
+        "shared_P_I2": 13.19423993868954,
+        "source_sha256": "769f8901ee15db62d16fd6a2ef698b2e7438203961b26bc69b34e14a90d43cdd",
+        "covariance_modified": false,
+        "seed": 4322251,
+        "fixed_weight_policy": "Production phase FKP for halo; production mean FKP for EZ; no FKP re-estimation after shuffle."
+      }
+    },
+    {
+      "name": "ezmock_0",
+      "components": {
+        "P0": {
+          "model_norm_Csingle": 0.2528560966372752,
+          "measured_norm_Csingle": 0.17365082548822328,
+          "difference_norm_Csingle": 0.20185429432441498,
+          "whitened_direction_cosine": 0.6074615647724331,
+          "component_sign_agreement": 0.6923076923076923
+        },
+        "P2": {
+          "model_norm_Csingle": 0.2521863823414128,
+          "measured_norm_Csingle": 0.1272779220925385,
+          "difference_norm_Csingle": 0.20445379515741685,
+          "whitened_direction_cosine": 0.5918837957279252,
+          "component_sign_agreement": 0.8888888888888888
+        },
+        "xi0": {
+          "model_norm_Csingle": 0.22444785205893286,
+          "measured_norm_Csingle": 0.9483909927122943,
+          "difference_norm_Csingle": 0.9511497736244146,
+          "whitened_direction_cosine": 0.1060215756822778,
+          "component_sign_agreement": 0.5769230769230769
+        },
+        "xi2": {
+          "model_norm_Csingle": 0.39558280860920103,
+          "measured_norm_Csingle": 1.2078183375324312,
+          "difference_norm_Csingle": 1.2071264201197982,
+          "whitened_direction_cosine": 0.16550784069201027,
+          "component_sign_agreement": 0.8461538461538461
+        }
+      },
+      "measurement_metadata": {
+        "name": "ezmock_0",
+        "data_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/lightcone_catalogs/ezmock_m0000_seed600001_zobs0p4_0p8.npz",
+        "random_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50/common_random/common_random_zobs0p4_0p8_x50.npz",
+        "source_pk": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/pk_jaxpower/ezmock_m0000_seed600001_p02_mesh256.npz",
+        "source_pk_sha256": "d9c0fc230166d59a6de7f56e91a12f52dfe3b11ae00a638eb0fa9ecc415068ed",
+        "reference_definition": "Immutable common-random reference used by the actual frozen covariance mocks; paired shuffled branch draws the current mock observed-z distribution.",
+        "independent_reference_sources": [],
+        "ndata": 594580,
+        "nrandom_P": 2378320,
+        "nrandom_per_xi_block": 594580,
+        "xi_blocks": 2,
+        "P_mesh": {
+          "boxcenter": [
+            968.1484087836216,
+            968.114567152244,
+            968.1631207769424
+          ],
+          "boxsize": [
+            2736.3261021961152,
+            2736.3261021961152,
+            2736.3261021961152
+          ],
+          "catalog_max": [
+            1936.2967529296875,
+            1936.2291259765625,
+            1936.326171875
+          ],
+          "catalog_min": [
+            6.463755562435836e-05,
+            8.327925570483785e-06,
+            6.96788847562857e-05
+          ],
+          "catalog_span": [
+            1936.2966882921319,
+            1936.229117648637,
+            1936.3261021961152
+          ],
+          "meshsize": [
+            256,
+            256,
+            256
+          ],
+          "pad": 400.0
+        },
+        "shared_P_I2": 13.333312522992,
+        "source_sha256": "769f8901ee15db62d16fd6a2ef698b2e7438203961b26bc69b34e14a90d43cdd",
+        "covariance_modified": false,
+        "seed": 4322252,
+        "fixed_weight_policy": "Production phase FKP for halo; production mean FKP for EZ; no FKP re-estimation after shuffle."
+      }
+    },
+    {
+      "name": "ezmock_1",
+      "components": {
+        "P0": {
+          "model_norm_Csingle": 0.2528560966372752,
+          "measured_norm_Csingle": 0.5040682208824669,
+          "difference_norm_Csingle": 0.44823269429736967,
+          "whitened_direction_cosine": 0.4594046752769773,
+          "component_sign_agreement": 0.6153846153846154
+        },
+        "P2": {
+          "model_norm_Csingle": 0.2521863823414128,
+          "measured_norm_Csingle": 0.7789578082029207,
+          "difference_norm_Csingle": 0.6624289788123712,
+          "whitened_direction_cosine": 0.5893862721863602,
+          "component_sign_agreement": 1.0
+        },
+        "xi0": {
+          "model_norm_Csingle": 0.22444785205893286,
+          "measured_norm_Csingle": 1.7436925863782768,
+          "difference_norm_Csingle": 1.72621575408279,
+          "whitened_direction_cosine": 0.1418355980185294,
+          "component_sign_agreement": 0.5384615384615384
+        },
+        "xi2": {
+          "model_norm_Csingle": 0.39558280860920103,
+          "measured_norm_Csingle": 1.8872706067254592,
+          "difference_norm_Csingle": 1.8421157692816696,
+          "whitened_direction_cosine": 0.21758496028211435,
+          "component_sign_agreement": 0.5769230769230769
+        }
+      },
+      "measurement_metadata": {
+        "name": "ezmock_1",
+        "data_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/lightcone_catalogs/ezmock_m0001_seed600002_zobs0p4_0p8.npz",
+        "random_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50/common_random/common_random_zobs0p4_0p8_x50.npz",
+        "source_pk": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/pk_jaxpower/ezmock_m0001_seed600002_p02_mesh256.npz",
+        "source_pk_sha256": "fc1cce710f3ca8b485886d631373806283a3aa78f4e27578eb30f049c2e136e8",
+        "reference_definition": "Immutable common-random reference used by the actual frozen covariance mocks; paired shuffled branch draws the current mock observed-z distribution.",
+        "independent_reference_sources": [],
+        "ndata": 593577,
+        "nrandom_P": 2374308,
+        "nrandom_per_xi_block": 593577,
+        "xi_blocks": 2,
+        "P_mesh": {
+          "boxcenter": [
+            968.1484087836216,
+            968.114567152244,
+            968.1631207769424
+          ],
+          "boxsize": [
+            2736.3261021961152,
+            2736.3261021961152,
+            2736.3261021961152
+          ],
+          "catalog_max": [
+            1936.2967529296875,
+            1936.2291259765625,
+            1936.326171875
+          ],
+          "catalog_min": [
+            6.463755562435836e-05,
+            8.327925570483785e-06,
+            6.96788847562857e-05
+          ],
+          "catalog_span": [
+            1936.2966882921319,
+            1936.229117648637,
+            1936.3261021961152
+          ],
+          "meshsize": [
+            256,
+            256,
+            256
+          ],
+          "pad": 400.0
+        },
+        "shared_P_I2": 13.278216178644648,
+        "source_sha256": "769f8901ee15db62d16fd6a2ef698b2e7438203961b26bc69b34e14a90d43cdd",
+        "covariance_modified": false,
+        "seed": 4322253,
+        "fixed_weight_policy": "Production phase FKP for halo; production mean FKP for EZ; no FKP re-estimation after shuffle."
+      }
+    }
+  ],
+  "model_reference": [
+    -3487.364707342705,
+    -2496.7616880020696,
+    -1748.0696311153729,
+    -1027.5298244778871,
+    -611.9738783168337,
+    -381.5270553385517,
+    -153.05771942590394,
+    -59.770495125318966,
+    -14.822841673148048,
+    3.677526309111604,
+    9.075463877293123,
+    9.862943638424396,
+    10.767385345433214,
+    -3070.5167665579156,
+    -2042.8082468376178,
+    -931.9095089286507,
+    -460.6561601790762,
+    -256.0824987330192,
+    -160.22500317101972,
+    -99.2596046735859,
+    -61.528358330320664,
+    -38.8197165818066,
+    -0.0002509429282193943,
+    -0.0002167400716430131,
+    -0.0001807580509113363,
+    -7.915872274201422e-05,
+    -6.839803672977434e-05,
+    -5.768813190310618e-05,
+    -4.89614471098585e-05,
+    -4.131188859759427e-05,
+    -3.911768605407904e-05,
+    -3.428536981294292e-05,
+    -2.740978034915542e-05,
+    -2.3280412205465793e-05,
+    -1.9769388795371396e-05,
+    -1.7284580453494168e-05,
+    -1.5064016751174158e-05,
+    -1.248983964481603e-05,
+    -1.0206793141253528e-05,
+    -6.156025226815096e-06,
+    -5.7253525689827125e-06,
+    -2.957376017406439e-06,
+    -2.8369165288026875e-06,
+    -1.9452478500036035e-06,
+    1.7332416623820598e-07,
+    6.804003551394859e-07,
+    2.405200483281025e-06,
+    2.8105776075959012e-06,
+    0.0004423403899019632,
+    0.00045813502466776184,
+    0.00042130614542360397,
+    0.000333337498011309,
+    0.0003136658295959702,
+    0.00030240955062720557,
+    0.00028955769476194136,
+    0.0002697409354249487,
+    0.0002587360774734595,
+    0.0002437705749837322,
+    0.00022599993314072154,
+    0.00021977087617692918,
+    0.0002103829363708077,
+    0.00019229992952158004,
+    0.0001816546199063554,
+    0.00017201151099841596,
+    0.0001622504327016906,
+    0.00015220255159948906,
+    0.00014747670747842378,
+    0.0001401783901592365,
+    0.00013483112838472665,
+    0.00012848978999868498,
+    0.00011959637255670718,
+    0.00011647038825181247,
+    0.00011072665086434973,
+    0.00010810255763629428
+  ],
+  "scope": "One halo and two actual covariance EZ mocks, P with 4N randoms and xi with two N-sized blocks. Finite-realization direction/scale check, not an ensemble mean calibration.",
+  "limitations": "C_single is only a noise ruler, not paired covariance. The common halo fiducial model is approximate for EZ mocks. Halo reference selection pools 24 independent phases. No covariance update or empirical RIC amplitude fitted.",
+  "review": {
+    "assessment": "Qualitative direction and scale check passed, not a precision ensemble closure.",
+    "evidence": "All four components have positive covariance-weighted directional overlap for all three realizations. P differences have comparable model and measured scales; xi differences are noisy with only two random blocks. No sign reversal or order-of-magnitude normalization failure is apparent.",
+    "remaining_limit": "Only one halo and two EZ mocks; no calibrated covariance for paired differences. These data do not validate the frozen EZ covariance for shuffled halo or establish percent-level accuracy of the complete FFT estimator."
+  }
+}

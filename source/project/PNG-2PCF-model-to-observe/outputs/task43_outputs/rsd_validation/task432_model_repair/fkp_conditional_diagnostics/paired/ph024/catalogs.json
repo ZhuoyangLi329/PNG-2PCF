@@ -1,0 +1,180 @@
+{
+  "data_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/catalogs/task43_rsd_lightcone_AbacusSummit_base_c000_ph024_mmin1p4e13_zobs0p4_0p8.npz",
+  "independent_definition": "Unsmoothed binwise mean nbar from the other24 independent phases; same dz=.01; finite-selection error retained",
+  "mesh": {
+    "boxcenter": [
+      968.1627492327461,
+      968.1333308324538,
+      968.1012124748049
+    ],
+    "boxsize": [
+      2736.3251363001327,
+      2736.3251363001327,
+      2736.3251363001327
+    ],
+    "catalog_max": [
+      1936.3253173828125,
+      1936.266357421875,
+      1936.202392578125
+    ],
+    "catalog_min": [
+      0.00018108267977368087,
+      0.00030424303258769214,
+      3.237148484913632e-05
+    ],
+    "catalog_span": [
+      1936.3251363001327,
+      1936.2660531788424,
+      1936.2023602066402
+    ],
+    "meshsize": [
+      256,
+      256,
+      256
+    ],
+    "pad": 400.0
+  },
+  "ndata": 591089,
+  "normalization": "Re-estimated per weighting with identical data/random positions; no forced common I2",
+  "nrandom_P": 2364356,
+  "phase": "ph024",
+  "position_hash_data": "a273d020ef2d33d12b392bf7428ef2813e206f6ce7fe575e7a5c12dc1b081c71",
+  "position_hash_random": "85c30406fef4a0c9ead6ff149fca3383603d51387723deee4af2bb0c9f78b528",
+  "random_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/randoms/task43_rsd_random_AbacusSummit_base_c000_ph024_mmin1p4e13_zobs0p4_0p8_x25.npz",
+  "random_positions": "first4productionblocks; identical between weights",
+  "source_P": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph024_mesh256_kmax0p300_dk0p002.npz",
+  "source_sha256": "eb463a1b88319bfdb663134d0fc55de63c136d4c16386b2103c852a61612d3d6",
+  "tables": [
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph000",
+      "sha256": "746ff04897a0ea3428ef8af1307675e40ca7ebda72a1047225814a4c587e7d27"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph001_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph001",
+      "sha256": "b2a76ac0561a077d2e3395ad3fb2c32ba33b8b9a7b28ab88a6e67eec3a11faa2"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph002_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph002",
+      "sha256": "fa80d9d55f00d7b4966ebec7577fd41842d2a6343d785b3d588297eadc98a733"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph003_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph003",
+      "sha256": "b4224f20b8cc5bd376659ff6d7447282b2dd72e46711c07b7e8ed959e03e607b"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph004_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph004",
+      "sha256": "af249231e4b863954be55596ea699e1463f25cce3b4a9cf35db607049de0b98c"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph005_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph005",
+      "sha256": "4038b7a97841bd9aca7cdf1074984c9ec7d2bf2a78dc69945a0419f0fd28f949"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph006_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph006",
+      "sha256": "7d617aa968ad9f195ed34651adbbdf1e144fe69a904181a3845abf3ada8aa4eb"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph007_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph007",
+      "sha256": "6bc5b4511d05fcdc4dcc4a52fefcd53bf064a9f0caf899577cf13a19021c2df7"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph008_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph008",
+      "sha256": "e9935b9b806af2476a188be203a83e259e50132d5f8d4aa5d57cdfc4dc843f72"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph009_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph009",
+      "sha256": "d947a4ddca02c72e9c972cd95cca47181452c7ea90a333bdc95a678d3b6f4822"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph010_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph010",
+      "sha256": "ca307fec140c27328182db6551f1fcc0f0ff34731cc12b2f0e166a570fa9aa71"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph011_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph011",
+      "sha256": "d949862a383c4f8204338fb35c048b48d82ee1e3c84474a6d4bf927e1bd4de5f"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph012_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph012",
+      "sha256": "360dd8f434bdf63f582f8aa6973afad9b1ab5b77a3460eed79e3104750967ef6"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph013_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph013",
+      "sha256": "558897772c6df8e1a7ca138bcf09f8c217e5db3d2a86e607dfdd18d266dcdc36"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph014_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph014",
+      "sha256": "c9d64edff8e0cf6440911c64e3a09ff5f2dd118a0124a368df936eff18b70086"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph015_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph015",
+      "sha256": "16cf3b524d6e2189c1f8ffb675c8836569de753d1db47d67e60cd7cced2013f0"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph016_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph016",
+      "sha256": "5b4a1cad7a67f3261aeddfd8c1fa2724490cb23afdb7c5c091426427dc60b98d"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph017_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph017",
+      "sha256": "d19a96afeb37b91695f3cf72a615a379a465baa3ca0bc2af11dfffa9ece233b7"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph018_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph018",
+      "sha256": "1842ba5fe05cae433f446a5817ca2c1308d951f9718350468db8edb8a453c924"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph019_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph019",
+      "sha256": "65c69272c12912fbab944a7979403392071a6c6cb3cb71df16ae37ad81cb8a84"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph020_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph020",
+      "sha256": "bf4d28d031d4fcbc0de0651366b257ae9600f4bdb637f2e17a04313e867e6275"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph021_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph021",
+      "sha256": "288594141003e50c39a436b3441e7d295304b2ed72a891ba945ef16e817d4250"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph022_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph022",
+      "sha256": "99c7969ebaebe37ef297e9d56f7048e71ccf9f519ba5efc64537660513c1728d"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph023_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph023",
+      "sha256": "df817c7b2b8c6585ef3522e2a1ee2e5da271a26cfcd92a07c1d71392e4e8bacd"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/fkp/task43_rsd_fkp_AbacusSummit_base_c000_ph024_mmin1p4e13_zobs0p4_0p8_dz0p01.npz",
+      "phase": "ph024",
+      "sha256": "1f512a7b9139f35b67e50b4973d3a458dafadef3a9c975c714b01c3210be919f"
+    }
+  ],
+  "weight_ratio_minmax": [
+    0.9496272345711544,
+    1.0453079400475367
+  ],
+  "weights_changed_only": true,
+  "xi_production_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/xi/task43_rsd_xi0_AbacusSummit_base_c000_ph024_mmin1p4e13_zobs0p4_0p8_x25_s30_350_ds10.npz"
+}

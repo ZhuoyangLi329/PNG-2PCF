@@ -1,0 +1,104 @@
+{
+  "data_contract": {
+    "cache": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p725000_box2000_kmax3_ell02.npz",
+    "k_switch": null,
+    "nbar": 0.000162131295,
+    "p_bins": 16,
+    "quadrant_scales": {
+      "P0_xi0": 1.116174090868313,
+      "P0_xi2": 2.5767512627364275,
+      "P2_xi0": 2.312298630091175,
+      "P2_xi2": 1.7274063919587246
+    },
+    "xi0_bins": 26,
+    "xi2_bins": 26,
+    "xi_angle_mode": "continuous",
+    "xi_mask_contract": "50 <= s < 350; 80 <= s < 120 excluded"
+  },
+  "elapsed_sec": 10.984372536011506,
+  "literature_contract": {
+    "eBOSS_configuration_space_precedent": "CLPT-GS/CLPT-GSRSD; Alam et al. 2020 mock challenge fit 32--160 h^-1 Mpc",
+    "eft": false,
+    "streaming_model": "Scoccimarro 2004 pair conservation; Reid & White 2011 GSM"
+  },
+  "model_contract": {
+    "kmax_scan_h_mpc": [
+      0.5
+    ],
+    "p_fixed": 1.0,
+    "p_side_parameters": [
+      "sigma_s_P",
+      "sn0"
+    ],
+    "shared_parameters": [
+      "fNL",
+      "b1"
+    ],
+    "sigma_fog_units": "Mpc/h displacement; added as sigma_FOG^2 to LOS pair variance",
+    "xi_side_parameters": []
+  },
+  "scan_rows": [
+    {
+      "fits": {
+        "joint": {
+          "label": "joint",
+          "map_chi2": 62.84352350380378,
+          "map_theta": [
+            -0.6135445608736738,
+            2.5273736689176,
+            5.098056065664487e-07,
+            0.24263301527700884
+          ],
+          "n_function_evaluations": 22,
+          "optimizer_message": "`xtol` termination condition is satisfied.",
+          "optimizer_status": 3
+        },
+        "p_marginal": {
+          "label": "p_marginal",
+          "map_chi2": 2.9551422156846447,
+          "map_theta": [
+            2.3050038958494463,
+            2.5732113936950003,
+            3.0864754587163067e-07,
+            0.143779438107075
+          ],
+          "n_function_evaluations": 9,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        },
+        "xi_marginal": {
+          "label": "xi_marginal",
+          "map_chi2": 104.49479182654429,
+          "map_theta": [
+            57.222771996329655,
+            1.5269829641696828
+          ],
+          "n_function_evaluations": 8,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimizer_status": 2
+        }
+      },
+      "kmax_gsm_h_mpc": 0.5,
+      "moment_cache": {
+        "k_max_used_h_mpc": 0.49996649252086006,
+        "k_min_h_mpc": 0.0031415926535897933,
+        "kmax_gsm_h_mpc": 0.5,
+        "moment_definition": "leading linear moments; no EFT or nonlinear bias operators",
+        "n_modes": 1558,
+        "n_radial": 800,
+        "radial_max_mpc_h": 1400.0,
+        "radial_min_mpc_h": 0.5,
+        "sigma_u2_one_component": 10.195133760361824
+      },
+      "quadrature": {
+        "angular_order": 6,
+        "radial_n": 800,
+        "shell_order": 2,
+        "stream_order": 4,
+        "zmax": 6.0
+      }
+    }
+  ],
+  "status": "smoke_complete",
+  "task": "Task 4.3.2 rawbox linear-input GSM kmax scan"
+}

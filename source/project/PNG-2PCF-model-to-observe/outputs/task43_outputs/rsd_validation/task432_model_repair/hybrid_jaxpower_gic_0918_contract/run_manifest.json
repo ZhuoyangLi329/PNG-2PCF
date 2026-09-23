@@ -1,0 +1,195 @@
+{
+  "file_count": 31,
+  "files": [
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/README.md",
+      "sha256": "aa505f1966770c1572c4d57becabce05573be86ec0c15fdb84cff8e4d74e5e02",
+      "size_bytes": 5616,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/joint/chain.h5",
+      "sha256": "49fae3f7a745462b373e52b20100a8682fac258d076ca9a32cc84888ce50beb2",
+      "size_bytes": 200161616,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/joint/convergence_latest.json",
+      "sha256": "5150bcd0cf94d195ca81498f3767961f2954864dcf631876e71b3aefa9ac03b7",
+      "size_bytes": 1665,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/joint/progress.json",
+      "sha256": "560db926c81cf701a1d14005316bfad3e8900095e593a8516449f1bde35f248f",
+      "size_bytes": 103,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/joint/samples.npz",
+      "sha256": "c7c0c12c15adbe06bcf3e6d43e0cf9c2929b1b90ad1d7f88d771ce76057c359b",
+      "size_bytes": 29146194,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/joint/summary.json",
+      "sha256": "af75ec3b342a2b03616312887d3b17a8e85da8d0720b9dbb283008dda08ec1c6",
+      "size_bytes": 2927,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/p02/chain.h5",
+      "sha256": "1fbff3561a466314c980f14e00d827a836e9494651cd3167d93a918fe6e3cdc7",
+      "size_bytes": 200161616,
+      "symlink_target": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/p02/chain.h5"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/p02/samples.npz",
+      "sha256": "df5fd6353c3f3e82e11e89403b66ad2596e8d9a3661878831356313ffa3b06a3",
+      "size_bytes": 29071976,
+      "symlink_target": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/p02/samples.npz"
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/p02/summary.json",
+      "sha256": "6e352211808ae1573966c711717bd24cc392c0b4529ead9c745fac0b4fb584f3",
+      "size_bytes": 2836,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/xi02/chain.h5",
+      "sha256": "90cbbba34d73975ea5f951d4dcb2f64b74c7151bf185bbc89825038d4bcd2234",
+      "size_bytes": 169249936,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/xi02/convergence_latest.json",
+      "sha256": "51be4773c24c4e58474a23195a944c9dc6016e3f32aca8714efa5f4b52ec8095",
+      "size_bytes": 1000,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/xi02/progress.json",
+      "sha256": "e0a50d388e71ac46bb7178dd8dec7ab86d4d7b59a27591fafeea206422e4c668",
+      "size_bytes": 103,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/xi02/samples.npz",
+      "sha256": "5572659324a386065db04366f418a0ec0167143009adf8f76dbc690c6d4ea8b5",
+      "size_bytes": 17827613,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/fits/xi02/summary.json",
+      "sha256": "cc6d1d0d9c2042c1d01ce42f168b32f82739b54d473b384f154ead222f5c9b63",
+      "size_bytes": 2121,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/frozen_inputs.npz",
+      "sha256": "e4e061aded9453ba75c8108d95c79b3e716e8f61dad91899f0b0d23b5e4f9574",
+      "size_bytes": 2417780,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/input_audit.json",
+      "sha256": "0a2ce8f6e1007b31505432faba43218243552bfe04856108dd8e68900b29c078",
+      "size_bytes": 3063,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/logs/joint.log",
+      "sha256": "e8cb0fbc1d8587d1bf78fad18fcdc09c1f91f411b2bc14a7e45aa36c61011c7c",
+      "size_bytes": 4824,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/logs/plot.log",
+      "sha256": "4094f406cd4b95910d497b4375a1b13ee085de596455c2f7be9dd8cca415ada3",
+      "size_bytes": 723,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/logs/postflight.log",
+      "sha256": "a5d5776bce27aaac43c78952caa4aae1d3797edfa156e5bf62b88f211d09d008",
+      "size_bytes": 662,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/logs/prepare.log",
+      "sha256": "cac8e930b8500a62c860073f91a526215bc4782f9fcd275cb31bdf5c85cc1079",
+      "size_bytes": 141,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/logs/xi02.log",
+      "sha256": "f94870a8208950a2770b41b2f012404e82bc9df342189e5b2caf76ae9cf4a648",
+      "size_bytes": 4501,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/postflight_audit.json",
+      "sha256": "5c62ddd346a18f79287a6bb09ef91478cdb22363464dad210b413725a6c17ff6",
+      "size_bytes": 19372,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/provenance/task432_hybrid_gic.py",
+      "sha256": "cb05a1f07a8fb8201e7569d520a7c696d1e3e1b2e5559279286d5336b943d615",
+      "size_bytes": 7801,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/provenance/task432_hybrid_gic_0918_contract.py",
+      "sha256": "9a56ea2408a2e7e01ea494c4708252a1dfe347136c60de83dbeb770daa6e5f79",
+      "size_bytes": 23244,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/provenance/task432_hybrid_jaxpower_0918_contract.py",
+      "sha256": "68dc336d129c97d8c01f45daadde1260acb466ef5738f8aa0637f53aa9f2ff5f",
+      "size_bytes": 19950,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/provenance/task432_lightcone_png_velocileptors.py",
+      "sha256": "3f76f8ab40cb7e939462eefa55dd39f5b673b7f899f03259c5a1dc797baf51ca",
+      "size_bytes": 9028,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/validation_predictions.npz",
+      "sha256": "b6f53edc6e94d62975a688eb037c5e617e13e9508cd204a8336a016e7e7fe9d8",
+      "size_bytes": 4779,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/xi_emulator.npz",
+      "sha256": "d93fd463efe428e6cd9d5530482ed17da22abeed325eed2495f0763e48278d06",
+      "size_bytes": 1491849,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_gic_9.18contract/README.md",
+      "sha256": "aa505f1966770c1572c4d57becabce05573be86ec0c15fdb84cff8e4d74e5e02",
+      "size_bytes": 5616,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_gic_9.18contract/task432_hybrid_gic_jaxpower_P02xi02_joint_kmax0p08_smin50_baomask80_120.json",
+      "sha256": "6b80e1874786dc09e68230ef9958c4e7015e0fdac73ff1146912ab32af7d1889",
+      "size_bytes": 11553,
+      "symlink_target": null
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_gic_9.18contract/task432_hybrid_gic_jaxpower_P02xi02_joint_kmax0p08_smin50_baomask80_120.pdf",
+      "sha256": "c6e9178baadf941108c76001b82142efc4568b6d6c314fd83f301cff7bd1f233",
+      "size_bytes": 47092,
+      "symlink_target": null
+    }
+  ],
+  "new_regular_file_bytes": 420473708,
+  "reused_symlinks": 2,
+  "status": "pass",
+  "updated_utc": "2026-09-21T12:39:19Z"
+}

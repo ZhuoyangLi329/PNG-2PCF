@@ -1,0 +1,358 @@
+{
+  "axis_ranges": {
+    "b1": [
+      2.061203965628018,
+      2.746578965524653
+    ],
+    "fNL": [
+      -123.19886294765489,
+      95.35019750538237
+    ]
+  },
+  "b1_comparison": {
+    "joint": {
+      "maximum_likelihood": 2.3903907982019623,
+      "q16": 2.3300566941093543,
+      "q50": 2.3922818944868762,
+      "q84": 2.454363497318321
+    },
+    "p02": {
+      "maximum_likelihood": 2.4177466278718733,
+      "q16": 2.316992217936153,
+      "q50": 2.4129720441644777,
+      "q84": 2.5098406102670956
+    },
+    "xi02": {
+      "maximum_likelihood": 2.4368084944926847,
+      "q16": 2.3299880957484325,
+      "q50": 2.433824290948567,
+      "q84": 2.536656810178995
+    }
+  },
+  "input_audit": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/input_audit.json",
+  "joint_b1_between_marginals": {
+    "maximum_likelihood": false,
+    "q50": false
+  },
+  "model_note": "Existing 9.22 hybrid: center-valued xi, no formal GIC; P nuisance only. Jaxpower C_single, same 9.18 data points.",
+  "output_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_9.18contract/task432_hybrid_jaxpower_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.pdf",
+  "output_pdf_sha256": "e761151e8668003c13aa77cda56ebd65f9752c3432e454a3b86702be6e4bd506",
+  "reference": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.18meeting/task43_ezmock_covariance_mcmc_vs_jaxpower/task43_ezmock604_vs_jaxpower_rsd_P02xi02_joint_kmax0p08_smin50_baomask80_120_v1.pdf",
+  "reference_page": 2,
+  "results": {
+    "joint": {
+      "acceptance_fraction_mean": 0.5735953125000001,
+      "best_chain_chi2": 6.590235727198433,
+      "best_chain_theta": [
+        -8.270756056466588,
+        2.390879836332243,
+        2.185748752753466,
+        0.06729921824461345
+      ],
+      "burnin": 5000,
+      "data_dimension": 74,
+      "elapsed_seconds": 262.6991094009718,
+      "emulated_map_chi2": 6.58838939658255,
+      "emulated_map_theta": [
+        -7.755044521406775,
+        2.3904346415428384,
+        2.171941679561422,
+        0.06871455826470756
+      ],
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      },
+      "half_chain_shift_sigma": {
+        "b1": 0.002553547723756258,
+        "fNL": 0.008730601220566727,
+        "sigma_s_P": 0.01399104482339371,
+        "sn0": 0.005290139377872909
+      },
+      "input_audit_sha256": "ba34495fd0a7b629c16432686918753d1aef6ea3b0bb67994d6f279d939af703",
+      "map_chi2": 6.564466130535785,
+      "map_evaluation": "direct hybrid GSM, Nint=1200; posterior sampled validated emulator",
+      "map_success": true,
+      "map_theta": [
+        -7.728505098298034,
+        2.3903907982019623,
+        2.167762496229402,
+        0.06886501208800626
+      ],
+      "multistart_chi2": [
+        6.5883893965831,
+        6.588389396584414,
+        6.58838939658255,
+        6.588389396582618,
+        6.588389396582879
+      ],
+      "nsteps": 30000,
+      "nwalkers": 64,
+      "parameter_names": [
+        "fNL",
+        "b1",
+        "sigma_s_P",
+        "sn0"
+      ],
+      "postburn_length_over_tau": {
+        "b1": 518.1503750425206,
+        "fNL": 504.1498579276599,
+        "sigma_s_P": 446.0991831700774,
+        "sn0": 514.154240125531
+      },
+      "posterior": {
+        "b1": {
+          "q16": 2.3300566941093543,
+          "q50": 2.3922818944868762,
+          "q84": 2.454363497318321,
+          "sigma68": 0.06215340160448335
+        },
+        "fNL": {
+          "q16": -36.061608062835205,
+          "q50": -11.124128910923723,
+          "q84": 10.649305655580466,
+          "sigma68": 23.355456859207834
+        },
+        "sigma_s_P": {
+          "q16": 0.7296316516971244,
+          "q50": 1.8697614954674406,
+          "q84": 2.825715771524962,
+          "sigma68": 1.0480420599139189
+        },
+        "sn0": {
+          "q16": -0.08466171784750433,
+          "q50": 0.06571657704160412,
+          "q84": 0.2154833763061393,
+          "sigma68": 0.15007254707682183
+        }
+      },
+      "priors": {
+        "lower": [
+          -500.0,
+          0.5,
+          0.0,
+          -1.0
+        ],
+        "upper": [
+          500.0,
+          5.0,
+          30.0,
+          1.0
+        ]
+      },
+      "seed": 932920,
+      "split_rhat": {
+        "b1": 1.0021890295746843,
+        "fNL": 1.0019427605233782,
+        "sigma_s_P": 1.0027419947569105,
+        "sn0": 1.0020343296958714
+      },
+      "status": "pass",
+      "tau": {
+        "b1": 48.24854174417695,
+        "fNL": 49.588430120290205,
+        "sigma_s_P": 56.041348971644794,
+        "sn0": 48.623541437480384
+      }
+    },
+    "p02": {
+      "acceptance_fraction_mean": 0.5714989583333333,
+      "best_chain_chi2": 1.098197086370847,
+      "best_chain_theta": [
+        -11.134649320387908,
+        2.417125072815148,
+        2.534957258245362,
+        0.013274524943878097
+      ],
+      "burnin": 5000,
+      "data_dimension": 22,
+      "elapsed_seconds": 251.2158324579941,
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "p_baseline_reproduced": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      },
+      "half_chain_shift_sigma": {
+        "b1": 0.013825754367150495,
+        "fNL": 0.009977710057085865,
+        "sigma_s_P": 0.001905338169659282,
+        "sn0": 0.0166973598845868
+      },
+      "input_audit_sha256": "ba34495fd0a7b629c16432686918753d1aef6ea3b0bb67994d6f279d939af703",
+      "map_chi2": 1.0968505912948887,
+      "map_success": true,
+      "map_theta": [
+        -12.022011919806742,
+        2.4177466278718733,
+        2.517126463047721,
+        0.012796626041755483
+      ],
+      "multistart_chi2": [
+        1.0968505912948887,
+        1.0968505912950424,
+        1.096850591295215,
+        1.09685059129495,
+        1.0968505912949629
+      ],
+      "nsteps": 30000,
+      "nwalkers": 64,
+      "parameter_names": [
+        "fNL",
+        "b1",
+        "sigma_s_P",
+        "sn0"
+      ],
+      "postburn_length_over_tau": {
+        "b1": 497.00225693447965,
+        "fNL": 501.2952333864413,
+        "sigma_s_P": 457.8381374426591,
+        "sn0": 502.21325729648345
+      },
+      "posterior": {
+        "b1": {
+          "q16": 2.316992217936153,
+          "q50": 2.4129720441644777,
+          "q84": 2.5098406102670956,
+          "sigma68": 0.09642419616547127
+        },
+        "fNL": {
+          "q16": -47.04509756675293,
+          "q50": -13.339300602848596,
+          "q84": 19.63392646331793,
+          "sigma68": 33.33951201503543
+        },
+        "sigma_s_P": {
+          "q16": 0.8204960775425912,
+          "q50": 2.206902956694197,
+          "q84": 3.4451735377451604,
+          "sigma68": 1.3123387301012845
+        },
+        "sn0": {
+          "q16": -0.20461344846322285,
+          "q50": 0.026934743366255787,
+          "q84": 0.253340889021807,
+          "sigma68": 0.22897716874251495
+        }
+      },
+      "priors": {
+        "lower": [
+          -500.0,
+          0.5,
+          0.0,
+          -1.0
+        ],
+        "upper": [
+          500.0,
+          5.0,
+          30.0,
+          1.0
+        ]
+      },
+      "reference_posterior_shift_sigma": {
+        "b1": 0.0035166261751082063,
+        "fNL": 0.0016362707963212114
+      },
+      "seed": 932918,
+      "split_rhat": {
+        "b1": 1.001992392739344,
+        "fNL": 1.0017441605615323,
+        "sigma_s_P": 1.0022839001395072,
+        "sn0": 1.0019450250749609
+      },
+      "status": "pass",
+      "tau": {
+        "b1": 50.301582439887746,
+        "fNL": 49.87081132033797,
+        "sigma_s_P": 54.60445069002376,
+        "sn0": 49.77964965437214
+      }
+    },
+    "xi02": {
+      "acceptance_fraction_mean": 0.7146234375,
+      "best_chain_chi2": 5.121176692186528,
+      "best_chain_theta": [
+        -5.870270967795783,
+        2.4369888121992815
+      ],
+      "burnin": 5000,
+      "data_dimension": 52,
+      "elapsed_seconds": 241.60167224501492,
+      "emulated_map_chi2": 5.1211761360276835,
+      "emulated_map_theta": [
+        -5.888003856091332,
+        2.4370544750766143
+      ],
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      },
+      "half_chain_shift_sigma": {
+        "b1": 0.006516739677154645,
+        "fNL": 0.006251663910441554
+      },
+      "input_audit_sha256": "ba34495fd0a7b629c16432686918753d1aef6ea3b0bb67994d6f279d939af703",
+      "map_chi2": 5.1222840966134875,
+      "map_evaluation": "direct hybrid GSM, Nint=1200; posterior sampled validated emulator",
+      "map_success": true,
+      "map_theta": [
+        -5.6024362068307845,
+        2.4368084944926847
+      ],
+      "multistart_chi2": [
+        5.121176136027819,
+        5.121176136027684,
+        5.121176136027742,
+        5.1211761360276835,
+        5.121176136027913
+      ],
+      "nsteps": 30000,
+      "nwalkers": 64,
+      "parameter_names": [
+        "fNL",
+        "b1"
+      ],
+      "postburn_length_over_tau": {
+        "b1": 798.3629360643114,
+        "fNL": 799.9830334478
+      },
+      "posterior": {
+        "b1": {
+          "q16": 2.3299880957484325,
+          "q50": 2.433824290948567,
+          "q84": 2.536656810178995,
+          "sigma68": 0.10333435721528117
+        },
+        "fNL": {
+          "q16": -35.32152279946617,
+          "q50": -8.043230604881325,
+          "q84": 17.776162018319727,
+          "sigma68": 26.548842408892952
+        }
+      },
+      "priors": {
+        "lower": [
+          -500.0,
+          0.5
+        ],
+        "upper": [
+          500.0,
+          5.0
+        ]
+      },
+      "seed": 932919,
+      "split_rhat": {
+        "b1": 1.0009942522673674,
+        "fNL": 1.0010979950719028
+      },
+      "status": "pass",
+      "tau": {
+        "b1": 31.314078936633088,
+        "fNL": 31.250662770001462
+      }
+    }
+  },
+  "status": "pass"
+}

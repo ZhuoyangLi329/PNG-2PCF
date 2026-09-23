@@ -1,0 +1,419 @@
+{
+  "status": "pass",
+  "remote_root": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1",
+  "recommended_run": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4",
+  "baseline_frozen_inputs": {
+    "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/frozen_inputs.npz",
+    "sha256": "0e3601dde3607d4137b5537ca96e0d76bd0acafc66849e8403f44cf10f419f37"
+  },
+  "large_reproducibility_inputs_retained_remotely": [
+    "geometry/",
+    "paired/",
+    "formal_mean4/*/chain.h5",
+    "formal_mean4/*/samples.npz"
+  ],
+  "entries": [
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_fullRIC_ezmock1000_9.18contract/RESULTS.md",
+      "bundle_path": "RESULTS.md",
+      "bytes": 4061,
+      "sha256": "8f398e9b5642534fb91ec04a6f92b84913577b95b9d4817ebb38dd379c78cc17"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_fullRIC_ezmock1000_9.18contract/task432_hybrid_fullRIC_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.pdf",
+      "bundle_path": "task432_hybrid_fullRIC_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.pdf",
+      "bytes": 47223,
+      "sha256": "ab53cbabae6e7c3c2f6e67b96cc6b98a108428e290776a347353e3067aee2c41"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_fullRIC_ezmock1000_9.18contract/task432_hybrid_fullRIC_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_diagnostics_v1.pdf",
+      "bundle_path": "task432_hybrid_fullRIC_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_diagnostics_v1.pdf",
+      "bytes": 54367,
+      "sha256": "689fe1a2d7c9cecb59436e309dd768433dc5fef7f417c36505c43f2302863d18"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_fullRIC_ezmock1000_9.18contract/task432_hybrid_fullRIC_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_results.json",
+      "bundle_path": "task432_hybrid_fullRIC_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_results.json",
+      "bytes": 44339,
+      "sha256": "b71aea730d57234bfb1c8d55aa869cc4d7fddc26b838b984eff409bab068580d"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_backend.py",
+      "bundle_path": "source/task432_full_ric_backend.py",
+      "bytes": 11895,
+      "sha256": "8fc9fd64342108bfbebc606f4fa971a0b313092564b6e4b8f27869c7025d6352"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_bootstrap_shot.py",
+      "bundle_path": "source/task432_full_ric_bootstrap_shot.py",
+      "bytes": 5508,
+      "sha256": "8d06cc693f905e9608e9c008ea9169f99336f380077a9c526ae0b4682690c63a"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_compile.py",
+      "bundle_path": "source/task432_full_ric_compile.py",
+      "bytes": 11106,
+      "sha256": "0cd22c202f72974e8a9cdb965b857c73dd944f7ed3f5d4b2c4dc735414df0e99"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_deliver.py",
+      "bundle_path": "source/task432_full_ric_deliver.py",
+      "bytes": 15577,
+      "sha256": "2262521ad48058ac4af24566a91e7f07d012dd9995eec5e2ecb2e8a202fa1138"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_finish.py",
+      "bundle_path": "source/task432_full_ric_finish.py",
+      "bytes": 3795,
+      "sha256": "eaeafb23800b37d3ec8f43fad3756b9f31d8b14b7f2bf03aebe46687eabfc196"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_fit.py",
+      "bundle_path": "source/task432_full_ric_fit.py",
+      "bytes": 7088,
+      "sha256": "c1fb16a25b8a879ed4af4454a75c584773e7b72d5e84286d1c4989a48228ffa8"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_geometry.py",
+      "bundle_path": "source/task432_full_ric_geometry.py",
+      "bytes": 9985,
+      "sha256": "8f0d540b2f6e5918c74787ebebd92962af42987559515c3c8038273bc395673e"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_hybrid_grid.py",
+      "bundle_path": "source/task432_full_ric_hybrid_grid.py",
+      "bytes": 5071,
+      "sha256": "17cdcca25339719912961f856527ec78c9ca66654780fe2a7e3918691a8877c7"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_los_audit.py",
+      "bundle_path": "source/task432_full_ric_los_audit.py",
+      "bytes": 8813,
+      "sha256": "16ff63d16577153965a2ccf6b3b9664f45ca5e9ae59a1849837e4d17bded3fd1"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_numeric_audit.py",
+      "bundle_path": "source/task432_full_ric_numeric_audit.py",
+      "bytes": 2797,
+      "sha256": "d5b4e9cdf81e47f01bd935f60d59a8ec1735f8e140cc302011a6a6e216a44f46"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_package.py",
+      "bundle_path": "source/task432_full_ric_package.py",
+      "bytes": 9011,
+      "sha256": "4d9d3036391843c68343b3616fbfec69c35afe0f69cf6e941b12d2803cacc919"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_pair_checks.py",
+      "bundle_path": "source/task432_full_ric_pair_checks.py",
+      "bytes": 7096,
+      "sha256": "e14d2192085410d7cc854cadba6699f3e52a3431ab9cf7da11ee83cc9f1922cc"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_paired.py",
+      "bundle_path": "source/task432_full_ric_paired.py",
+      "bytes": 12220,
+      "sha256": "769f8901ee15db62d16fd6a2ef698b2e7438203961b26bc69b34e14a90d43cdd"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_paired_analysis.py",
+      "bundle_path": "source/task432_full_ric_paired_analysis.py",
+      "bytes": 4772,
+      "sha256": "78f9368a1a907b10178dc257e1e3d322eb7b6b5945fbd2730b246d946f8b4178"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_pilot.py",
+      "bundle_path": "source/task432_full_ric_pilot.py",
+      "bytes": 7550,
+      "sha256": "cd421d752e076b107ccbd9fabc6d60b3c90f7f3fe4a82b0fbd60f5e71a415692"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_postflight.py",
+      "bundle_path": "source/task432_full_ric_postflight.py",
+      "bytes": 7845,
+      "sha256": "b97290f8ed4f0308c90fb5734b35b852ec5a17ca1d9d45bf49104d7a624d949f"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_qmc.py",
+      "bundle_path": "source/task432_full_ric_qmc.py",
+      "bytes": 5698,
+      "sha256": "9963821dc0fb63d82284541d1beb7af1b2dcbccf20773971ffcbc394bb1a423f"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_reference.py",
+      "bundle_path": "source/task432_full_ric_reference.py",
+      "bytes": 9007,
+      "sha256": "cb3dcd5666fd1a92ff33110a6f23007a2db3fc329c664c483e75a608b24ef0bd"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_refinement.py",
+      "bundle_path": "source/task432_full_ric_refinement.py",
+      "bytes": 3234,
+      "sha256": "c015bc29fa2d0e7b6e587e8a60ed2a1f69b5108928e5dcb6754befeaf5f906a4"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_response.py",
+      "bundle_path": "source/task432_full_ric_response.py",
+      "bytes": 10430,
+      "sha256": "aaefdb639c0229e2525800ad370d991920a88784a39ef1888bc2048983a1c794"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_rr_audit.py",
+      "bundle_path": "source/task432_full_ric_rr_audit.py",
+      "bytes": 4274,
+      "sha256": "14809003a64db5641d07e8b51c4a4641f2d7c0b827829c17bdc5b18d077fa6c5"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_shot.py",
+      "bundle_path": "source/task432_full_ric_shot.py",
+      "bytes": 7832,
+      "sha256": "ccfd1d4373032233f1d89d72627cd61c82ee3d4152d4cef9a40a8e04d5622979"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_stochastic_audit.py",
+      "bundle_path": "source/task432_full_ric_stochastic_audit.py",
+      "bytes": 3286,
+      "sha256": "f2efa30062e9bd74e4e02e4658ec33d314a1fc1192a3a75011e14eae881072db"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_validation.py",
+      "bundle_path": "source/task432_full_ric_validation.py",
+      "bytes": 9071,
+      "sha256": "97291e99744674f7dd725075a59984240ef181e6e3ca9f16b8fbb6af963acb13"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_hybrid_jaxpower_0918_contract.py",
+      "bundle_path": "source/inherited/task432_hybrid_jaxpower_0918_contract.py",
+      "bytes": 19950,
+      "sha256": "68dc336d129c97d8c01f45daadde1260acb466ef5738f8aa0637f53aa9f2ff5f"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_hybrid_gic_0918_contract.py",
+      "bundle_path": "source/inherited/task432_hybrid_gic_0918_contract.py",
+      "bytes": 23244,
+      "sha256": "9a56ea2408a2e7e01ea494c4708252a1dfe347136c60de83dbeb770daa6e5f79"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_hybrid_gic.py",
+      "bundle_path": "source/inherited/task432_hybrid_gic.py",
+      "bytes": 8098,
+      "sha256": "88fd6bd75490af9ef43458c149132f989a0b0374dd8b8f75122711b929e70739"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_lightcone_png_velocileptors.py",
+      "bundle_path": "source/inherited/task432_lightcone_png_velocileptors.py",
+      "bytes": 9028,
+      "sha256": "3f76f8ab40cb7e939462eefa55dd39f5b673b7f899f03259c5a1dc797baf51ca"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/p02/summary.json",
+      "bundle_path": "audits/fits/p02/summary.json",
+      "bytes": 3941,
+      "sha256": "bc6481adc6e1eaa693ba3d3bb3b06b2aa00a1e0f906f5733e4f5ac713cbb709a"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/p02/input_manifest.json",
+      "bundle_path": "audits/fits/p02/input_manifest.json",
+      "bytes": 1459,
+      "sha256": "2990bebc2ba61a092cb4447ec43488fa793cde9bdd74c6a5be57023ac4171d85"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/p02/convergence_latest.json",
+      "bundle_path": "audits/fits/p02/convergence_latest.json",
+      "bytes": 1673,
+      "sha256": "8d76e1947fc53ae929d90af1dabb96d22fc61e6c3e151cf45778c8d9cad9707e"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/xi02/summary.json",
+      "bundle_path": "audits/fits/xi02/summary.json",
+      "bytes": 4307,
+      "sha256": "965b89b1a298eaf0fdcc67d4c45669843041538d60be72f7c512327b68589963"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/xi02/input_manifest.json",
+      "bundle_path": "audits/fits/xi02/input_manifest.json",
+      "bytes": 1443,
+      "sha256": "bc306cd32521fce7ec7abbbfae8f9c7d22291faeabff8974cdfafae3167d6670"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/xi02/convergence_latest.json",
+      "bundle_path": "audits/fits/xi02/convergence_latest.json",
+      "bytes": 1314,
+      "sha256": "770bfdf1e752ae93c93da7ad1e78a665ac8e9dc8ec7246c4ac19e0682c9def83"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/joint/summary.json",
+      "bundle_path": "audits/fits/joint/summary.json",
+      "bytes": 5374,
+      "sha256": "3a11697a9ce142d4d84fc4be266a7217b623304309e26eb4d93238a382fddb71"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/joint/input_manifest.json",
+      "bundle_path": "audits/fits/joint/input_manifest.json",
+      "bytes": 1461,
+      "sha256": "4e67b180bd8cd5a421bde0886bac428373a230f1b3d8a716b8a43d1c44aea5bb"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/joint/convergence_latest.json",
+      "bundle_path": "audits/fits/joint/convergence_latest.json",
+      "bytes": 1664,
+      "sha256": "2ddcd43eab30233ecddab9bff68f92bb6f29d2cbca29d5ef3475e3662cb579ee"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/formal_mean4/postflight.json",
+      "bundle_path": "audits/postflight.json",
+      "bytes": 35509,
+      "sha256": "ef83f064eda4d1417f21dbb8261ba34e660babf5d4cea3702f8295fc932ec85f"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/corrfunc_dense_bridge.json",
+      "bundle_path": "audits/smoke/corrfunc_dense_bridge.json",
+      "bytes": 399,
+      "sha256": "79404880d060f5b6a68e0f728e27ef5b0b82553c45b2e224c841678b430e97e1"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/corrfunc_production_bridge.json",
+      "bundle_path": "audits/smoke/corrfunc_production_bridge.json",
+      "bytes": 641,
+      "sha256": "bc348f3b9f9d2e405e81ea2c3ec0df9147bee08423b1c735dc41b9c4a2a234ab"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/eboss_backend_bridge.json",
+      "bundle_path": "audits/smoke/eboss_backend_bridge.json",
+      "bytes": 5002,
+      "sha256": "e8b477bdbd985766be40a13e2437b361a0afa32e9ebc323b9a66c6ff3a70dd55"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/full_response_pilot.json",
+      "bundle_path": "audits/smoke/full_response_pilot.json",
+      "bytes": 17625,
+      "sha256": "bcc1974b1c6036f8bbc8e490e0cc96446c0c3c9d9317eaee82950aa596cdfcf6"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/geometry_validation.json",
+      "bundle_path": "audits/smoke/geometry_validation.json",
+      "bytes": 12839,
+      "sha256": "63bb1c5a69d23fc4240c510dcd42cb5183b1274fa5bdc0ef198f85f52373ce0a"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/geometry_validation_mean4.json",
+      "bundle_path": "audits/smoke/geometry_validation_mean4.json",
+      "bytes": 17441,
+      "sha256": "0afe608b9f91d08fbc379e50b1ba43c6d607c4858e8a1c2f636478ae465cf702"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/hankel_primitive.json",
+      "bundle_path": "audits/smoke/hankel_primitive.json",
+      "bytes": 7547,
+      "sha256": "3d59e7f4d4534d9c61f563b187ce7942748be7b563491653376d4ed1b4a44e76"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/hybrid_geometry_convergence.json",
+      "bundle_path": "audits/smoke/hybrid_geometry_convergence.json",
+      "bytes": 44818,
+      "sha256": "4dac730a8a62bf9f5a3fcb41a4ad7275e913315633401beef04e312186a27e1a"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/hybrid_response_pilot.json",
+      "bundle_path": "audits/smoke/hybrid_response_pilot.json",
+      "bytes": 14681,
+      "sha256": "9e953ea9d1437f56065594111f9e308d2bc4d727ab3a815416ce471557324bd1"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/los_local_vs_midpoint_n2048_seed4322233.json",
+      "bundle_path": "audits/smoke/los_local_vs_midpoint_n2048_seed4322233.json",
+      "bytes": 2770,
+      "sha256": "ef4fc835e82e0fc4523a4b1a9f3c11c6807ebc7852650ee9e167d8bb90a9f847"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/los_local_vs_midpoint_n4096_seed4322249.json",
+      "bundle_path": "audits/smoke/los_local_vs_midpoint_n4096_seed4322249.json",
+      "bytes": 1182,
+      "sha256": "c96887b427cf1eed1081404da152a287661c33b3385cc9c46efa9df5c27bd6f1"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/paired_validation.json",
+      "bundle_path": "audits/smoke/paired_validation.json",
+      "bytes": 22843,
+      "sha256": "ac7c0e02e55fa14cde5e13b399e1f488d64c7ef14669d4b1d19b2d7c4d943365"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/production_rr_audit.json",
+      "bundle_path": "audits/smoke/production_rr_audit.json",
+      "bytes": 27195,
+      "sha256": "b703b5fdfbdd4940f9248e70041da989faa3d53c7d35424cbe281a8d059bdff2"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/reference_algebra_poisson.json",
+      "bundle_path": "audits/smoke/reference_algebra_poisson.json",
+      "bytes": 2698,
+      "sha256": "776c94f01b4c235357d7c8c9b0039b2bca5cc85bb416a378dd342f5c8cd8637e"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/shot_backend_bridge.json",
+      "bundle_path": "audits/smoke/shot_backend_bridge.json",
+      "bytes": 344,
+      "sha256": "6ed52e314405997c40e19138d45fc3223d3398f8e26a039f53772a6245caa7e2"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/shuffled_finite_random_shot.json",
+      "bundle_path": "audits/smoke/shuffled_finite_random_shot.json",
+      "bytes": 2757,
+      "sha256": "6c7a55989ef80c7c59dec5776bec87e10656d47c48c2c4ae5d7097e24f1c837d"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/smoke/stochastic_sn0_audit.json",
+      "bundle_path": "audits/smoke/stochastic_sn0_audit.json",
+      "bytes": 2962,
+      "sha256": "f11ceb3c37652641e8985d3be81f6988c74c74ded9e5c3867ba7f9b324e8fc0d"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/README.md",
+      "bundle_path": "README.md",
+      "bytes": 5048,
+      "sha256": "12ef649ac9a829ed6cd4f3b098b52af27c69de6dc14517e532d9f7192abc3ede"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/SHOT_AND_NUMERICS.md",
+      "bundle_path": "SHOT_AND_NUMERICS.md",
+      "bytes": 5511,
+      "sha256": "99826f0a1c480e9a28e942cfca04d20dd8f696b56eb7dcf010d61c39e0dc4e8b"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/pdf_visual_audit.json",
+      "bundle_path": "pdf_visual_audit.json",
+      "bytes": 1824,
+      "sha256": "98d11372490f73fd3bf13ad3ceee1baeb88b0eb073a2c03ff0a7d7c6a875ab7b"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/repository_audit.json",
+      "bundle_path": "repository_audit.json",
+      "bytes": 5218,
+      "sha256": "b177d5d8f47505d887bab7cfae09fef18a8e8bc64c24c65eda36f3fc0eb360c3"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/pilot/mean4xi_mean2P_prodrr_stochastic/engine.npz",
+      "bundle_path": "model/engine.npz",
+      "bytes": 3570882,
+      "sha256": "dde0ba534d5eac07ec0580c67eafebcaea3596673fbd50b045e84b8f96e8fc7a"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/pilot/mean4xi_mean2P_prodrr_stochastic/provenance.json",
+      "bundle_path": "model/provenance.json",
+      "bytes": 1693,
+      "sha256": "31da0bfb4eb1a1eb73a03880cdc6490004b2681f22f12623a9a29c6ba9144150"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/pilot/mean4xi_mean2P_prodrr_stochastic/model_validation.json",
+      "bundle_path": "model/model_validation.json",
+      "bytes": 1385,
+      "sha256": "acca427e2b2aeb553c07da2ccd633470bf609435a6f7ad3a9d3748a47d08430c"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/paired/paired_74vectors.npz",
+      "bundle_path": "audits/paired_74vectors.npz",
+      "bytes": 3024,
+      "sha256": "e3b04d69503a603f09fda2cd729870b29143424194917ec581fe39d4e2fcf4b0"
+    }
+  ]
+}

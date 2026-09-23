@@ -1,0 +1,11 @@
+{
+  "PDF_only": true,
+  "RIC_fit_quality_interpretation": "Essentially unchanged: delta raw chi-square +0.0927 is not evidence of meaningful deterioration.",
+  "all_candidate_ML_success": true,
+  "contact_injection_pass": true,
+  "formal_inputs_unchanged": true,
+  "numerical_audit_pass": true,
+  "pages": 6,
+  "pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_joint_b1_cause_tests_v1/hybrid_gic_joint_b1_cause_tests_ezmock1000.pdf",
+  "pdf_sha256": "79305eef4a8e418a35a9d260a9a4923f6fd1255684381bac8d3e4bdd0d878899"
+}

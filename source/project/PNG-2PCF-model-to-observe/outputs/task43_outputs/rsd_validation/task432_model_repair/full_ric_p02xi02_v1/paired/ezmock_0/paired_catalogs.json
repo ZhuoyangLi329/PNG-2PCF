@@ -1,0 +1,51 @@
+{
+  "name": "ezmock_0",
+  "data_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/lightcone_catalogs/ezmock_m0000_seed600001_zobs0p4_0p8.npz",
+  "random_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50/common_random/common_random_zobs0p4_0p8_x50.npz",
+  "source_pk": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/ezmock_rsd_lightcone_covariance_z0p4_0p8_x1000_common50_nzmatch_b0.30_z0.60/pk_jaxpower/ezmock_m0000_seed600001_p02_mesh256.npz",
+  "source_pk_sha256": "d9c0fc230166d59a6de7f56e91a12f52dfe3b11ae00a638eb0fa9ecc415068ed",
+  "reference_definition": "Immutable common-random reference used by the actual frozen covariance mocks; paired shuffled branch draws the current mock observed-z distribution.",
+  "independent_reference_sources": [],
+  "ndata": 594580,
+  "nrandom_P": 2378320,
+  "nrandom_per_xi_block": 594580,
+  "xi_blocks": 2,
+  "P_mesh": {
+    "boxcenter": [
+      968.1484087836216,
+      968.114567152244,
+      968.1631207769424
+    ],
+    "boxsize": [
+      2736.3261021961152,
+      2736.3261021961152,
+      2736.3261021961152
+    ],
+    "catalog_max": [
+      1936.2967529296875,
+      1936.2291259765625,
+      1936.326171875
+    ],
+    "catalog_min": [
+      6.463755562435836e-05,
+      8.327925570483785e-06,
+      6.96788847562857e-05
+    ],
+    "catalog_span": [
+      1936.2966882921319,
+      1936.229117648637,
+      1936.3261021961152
+    ],
+    "meshsize": [
+      256,
+      256,
+      256
+    ],
+    "pad": 400.0
+  },
+  "shared_P_I2": 13.333312522992,
+  "source_sha256": "769f8901ee15db62d16fd6a2ef698b2e7438203961b26bc69b34e14a90d43cdd",
+  "covariance_modified": false,
+  "seed": 4322252,
+  "fixed_weight_policy": "Production phase FKP for halo; production mean FKP for EZ; no FKP re-estimation after shuffle."
+}

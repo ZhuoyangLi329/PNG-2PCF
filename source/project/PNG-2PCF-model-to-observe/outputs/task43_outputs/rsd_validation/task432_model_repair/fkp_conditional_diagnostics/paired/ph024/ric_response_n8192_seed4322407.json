@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "I2": 13.191939281489796,
+      "I2_cont_ratio": 1.0103039126623181,
+      "branch": "own",
+      "elapsed_s": 36.074331354000606,
+      "los": "endpoint",
+      "pair_volume": 3166682311.480046
+    },
+    {
+      "I2": 13.191939281489796,
+      "I2_cont_ratio": 1.0103039126623181,
+      "branch": "own",
+      "elapsed_s": 56.899624562996905,
+      "los": "midpoint",
+      "pair_volume": 3166682311.480046
+    },
+    {
+      "I2": 13.190483035321394,
+      "I2_cont_ratio": 1.01040886366832,
+      "branch": "independent",
+      "elapsed_s": 31.636748047953006,
+      "los": "endpoint",
+      "pair_volume": 3163582332.5917664
+    },
+    {
+      "I2": 13.190483035321394,
+      "I2_cont_ratio": 1.01040886366832,
+      "branch": "independent",
+      "elapsed_s": 54.11618988501141,
+      "los": "midpoint",
+      "pair_volume": 3163582332.5917664
+    }
+  ],
+  "nsub": 8192,
+  "phase": "ph024",
+  "scope": "Full clustering cross+auto, deterministic Poisson and existing sn0 IC at fixed fiducial. Compare paired differences across independent scrambles before interpretation.",
+  "seed": 4322407,
+  "source_sha256": "a703db9accc8af4e4c08d4e3fa472ae88b5eebfe4d353fb1a6cf950cdf1d9a3f",
+  "status": "diagnostic_response"
+}

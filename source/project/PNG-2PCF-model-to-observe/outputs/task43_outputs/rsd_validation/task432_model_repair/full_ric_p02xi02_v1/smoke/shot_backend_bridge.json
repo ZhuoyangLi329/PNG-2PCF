@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "reports": [
+    {
+      "los": "midpoint",
+      "absolute_errors": {
+        "cross": 5.551115123125783e-17,
+        "auto": 5.551115123125783e-17
+      }
+    },
+    {
+      "los": "endpoint",
+      "absolute_errors": {
+        "cross": 5.551115123125783e-17,
+        "auto": 5.551115123125783e-17
+      }
+    }
+  ]
+}

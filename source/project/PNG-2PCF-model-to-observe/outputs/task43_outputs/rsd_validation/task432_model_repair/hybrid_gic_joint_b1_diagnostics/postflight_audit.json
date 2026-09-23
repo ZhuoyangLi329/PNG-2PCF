@@ -1,0 +1,107 @@
+{
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "default_covariance": "ezmock1000",
+  "direct_model_checks": [
+    {
+      "GIC": 1.2833812652730493e-05,
+      "direct_emulator_error_chi2_Cmean25": 4.873366328834277e-07,
+      "theta": [
+        -1.3537444707051236,
+        2.383163939495344,
+        2.150919560481962,
+        0.08238537108336746
+      ],
+      "variant": "joint"
+    },
+    {
+      "GIC": 1.0674529224077149e-05,
+      "direct_emulator_error_chi2_Cmean25": 4.94231534979015e-07,
+      "theta": [
+        -11.965641144871416,
+        2.419496306946333,
+        2.5273830495294485,
+        0.008913637535699084
+      ],
+      "variant": "p02"
+    },
+    {
+      "GIC": 1.3034518968777397e-05,
+      "direct_emulator_error_chi2_Cmean25": 5.003521605771935e-07,
+      "theta": [
+        -2.0648831942161827,
+        2.42316463887466,
+        2.2,
+        0.08
+      ],
+      "variant": "xi02"
+    }
+  ],
+  "formal_inputs_unchanged": {
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/frozen_inputs.npz": true,
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/input_audit.json": true,
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/xi_emulator.npz": true
+  },
+  "gates": {
+    "all_optimizers_converged": true,
+    "direct_model_accuracy": true,
+    "frozen_inputs_unchanged": true,
+    "missing_mean_window_explicit": true,
+    "noisefree_recovery": true,
+    "positive_definite_cross_scan": true
+  },
+  "limitations": [
+    "Only ph000 P window exists; no 25-window average is asserted.",
+    "P LOS=local and xi LOS=midpoint; this documents conventions, not proof of a bias.",
+    "Low-k estimate removes linear Kaiser contributions with matched scalar GIC only; nonlinear GSM cumulants and the exact finite-box operator are not recomputed.",
+    "No independent halo-matter b1 measurement was created in this diagnostic."
+  ],
+  "optimizer_checks": {
+    "calibration.json": {
+      "failures": [],
+      "success_items": 1006
+    },
+    "contract_audit.json": {
+      "failures": [],
+      "success_items": 0
+    },
+    "covariance_bootstrap.json": {
+      "failures": [],
+      "success_items": 300
+    },
+    "operators.json": {
+      "failures": [],
+      "success_items": 3
+    },
+    "phases.json": {
+      "failures": [],
+      "success_items": 150
+    },
+    "primary.json": {
+      "failures": [],
+      "success_items": 35
+    },
+    "refinement.json": {
+      "failures": [],
+      "success_items": 1311
+    }
+  },
+  "scope_changes": "Initial shared-covariance numerical results remain archived. All final interpretation/figures and subsequent runner defaults use EZmock1000 only.",
+  "source_hashes": {
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_joint_b1_contract_audit.py": "3474c2a2da91653d563e71bec954d6f33077cd8a9b77f8aa52fdc62334e9b9d8",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_joint_b1_diagnostics.py": "108c58bb2d98f144f6285587c5e3270e9c7ff677995eb74e5b524cc961ce059e",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_joint_b1_operators.py": "5d5f3bcc2b73ec28b64f2876cecac30aed8c9e552f440911a2f436b6dae854b7",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_joint_b1_refine.py": "adba6862125e2d2ad69cb37030bf34dfc9e672d889ed4f95e09d4eb95b26daee",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_plot_joint_b1_diagnostics.py": "d9cc502316a6d6c9d24cb5a0a40906d5e6e83dc044d3a466b328cccd0ddc859f"
+  },
+  "status": "pass",
+  "report_layout_revision": "Correct page-1 text spacing, use count-based finite-simulation tail labels, and remove unlabelled point-color variation. Numerical results unchanged."
+}

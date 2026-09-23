@@ -1,0 +1,21 @@
+{
+  "contract": "Frozen 74-vector, x25 mean, C_single, full cross, hybrid+GIC. Diagnostic alternatives are not formal replacements.",
+  "covariance": "ezmock1000",
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "host": "login11",
+  "inputs": {
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/frozen_inputs.npz": "0e3601dde3607d4137b5537ca96e0d76bd0acafc66849e8403f44cf10f419f37",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/xi_emulator.npz": "d93fd463efe428e6cd9d5530482ed17da22abeed325eed2495f0763e48278d06",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_joint_b1_diagnostics/primary.json": "ab7a3773ef496e83d3213a7347e6d32443b5908d28dcd4efa0d91e3687c1f9d0"
+  },
+  "runner_sha256": "3ac75b75ff01f7a1cbbd0de6f6f18d4219e60020f70a27325ee77ed36fa81a93"
+}

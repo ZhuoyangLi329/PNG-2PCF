@@ -1,0 +1,83 @@
+{
+  "files": [
+    {
+      "bytes": 5691,
+      "delivery_path": "conditional_modes.json",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/conditional_modes.json",
+      "sha256": "d381fda36b6bf13cb9f851c88df9192b19a7fca5c5fa0d49aad0128e66065a62"
+    },
+    {
+      "bytes": 666246,
+      "delivery_path": "conditional_modes.npz",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/conditional_modes.npz",
+      "sha256": "747cf32e45426f7390d3d31d16ecdfaffe07cbabb5ce6d640d4114df81b1cf1c"
+    },
+    {
+      "bytes": 6511,
+      "delivery_path": "paired_fkp_results.json",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/paired_fkp_results.json",
+      "sha256": "531eb56c28cda3771ab459b09d515966c49c8926692d748eb8f9694fe56fd439"
+    },
+    {
+      "bytes": 8474,
+      "delivery_path": "paired_fkp_results.npz",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/paired_fkp_results.npz",
+      "sha256": "8658107cc50831b07487ef4d92867cbc03ccc859cf75b666037407b52a6f5c65"
+    },
+    {
+      "bytes": 10651,
+      "delivery_path": "external_bias_inventory.json",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/external_bias_inventory.json",
+      "sha256": "9d7b265105474041c57be7a2e20d0834ca5d9e3b30ec5ad76ceea4b103852a00"
+    },
+    {
+      "bytes": 8722,
+      "delivery_path": "postflight.json",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/fkp_conditional_diagnostics/postflight.json",
+      "sha256": "ab72af5b0463ab942d7505b67933bd194a5f0152b7e460fcad39725697b46f73"
+    },
+    {
+      "bytes": 7197,
+      "delivery_path": "source/task432_fkp_conditional_modes.py",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_fkp_conditional_modes.py",
+      "sha256": "27b005ff9311a7a57c88aa7700c04e01b62d515f7f6c64f628cf1f08beb64d66"
+    },
+    {
+      "bytes": 9792,
+      "delivery_path": "source/task432_fkp_paired.py",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_fkp_paired.py",
+      "sha256": "eb463a1b88319bfdb663134d0fc55de63c136d4c16386b2103c852a61612d3d6"
+    },
+    {
+      "bytes": 8193,
+      "delivery_path": "source/task432_fkp_ric_response.py",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_fkp_ric_response.py",
+      "sha256": "a703db9accc8af4e4c08d4e3fa472ae88b5eebfe4d353fb1a6cf950cdf1d9a3f"
+    },
+    {
+      "bytes": 7826,
+      "delivery_path": "source/task432_fkp_analyze.py",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_fkp_analyze.py",
+      "sha256": "3fce3900383e0d7339e725b578363ec19232dcf6a7218867056d28616e5e9936"
+    },
+    {
+      "bytes": 7063,
+      "delivery_path": "source/task432_fkp_postflight.py",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_fkp_postflight.py",
+      "sha256": "32c19b4a51017779bc98b73f85812e2d0dde6520a3450a985bd962759f7fca7a"
+    },
+    {
+      "bytes": 3138,
+      "delivery_path": "source/task432_fkp_inventory.py",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_fkp_inventory.py",
+      "sha256": "14149f7df2b950f6dc6761a2b21fb93e8a70f469453b4bdb104fa3774344aa09"
+    },
+    {
+      "bytes": 1499,
+      "delivery_path": "source/run_task432_fkp_ric.sh",
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/run_task432_fkp_ric.sh",
+      "sha256": "4158b0abf870ca5a163de84aa045e95a511725601518989962bc7597fdea2ce7"
+    }
+  ],
+  "status": "pass"
+}

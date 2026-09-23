@@ -1,0 +1,1582 @@
+{
+  "baseline_sn0": {
+    "joint": 0.08238537108336746,
+    "p02": 0.008913637535699084
+  },
+  "fits": {
+    "current_window_cut": {
+      "changes_at_same_theta": {
+        "joint": {
+          "delta_chi2_Csingle": 0.0,
+          "delta_model": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "linear_parameter_shift_at_joint_J": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "p02": {
+          "delta_chi2_Csingle": 0.0,
+          "delta_model": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "linear_parameter_shift_at_joint_J": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "xi02": {
+          "delta_chi2_Csingle": 0.0,
+          "delta_model": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "linear_parameter_shift_at_joint_J": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "fits": {
+        "joint": {
+          "active_bounds": {},
+          "chi2_Csingle": 4.519122568010365,
+          "fixed_fNL0": false,
+          "multistart_chi2": [
+            4.519122568010365,
+            4.519122568017858,
+            4.51912256802014
+          ],
+          "ndata": 74,
+          "nfree": 4,
+          "parameters": {
+            "b1": 2.383163939529294,
+            "fNL": -1.3537445914213553,
+            "sigma_s_P": 2.1509195609818756,
+            "sn0": 0.08238537108906505
+          },
+          "success": true,
+          "theta": [
+            -1.3537445914213553,
+            2.383163939529294,
+            2.1509195609818756,
+            0.08238537108906505
+          ]
+        },
+        "p02": {
+          "active_bounds": {},
+          "chi2_Csingle": 1.1367707543360577,
+          "fixed_fNL0": false,
+          "multistart_chi2": [
+            1.13677075433606,
+            1.1367707543360577,
+            1.1367707543360592
+          ],
+          "ndata": 22,
+          "nfree": 4,
+          "parameters": {
+            "b1": 2.419496301847228,
+            "fNL": -11.965638707494083,
+            "sigma_s_P": 2.5273830920290274,
+            "sn0": 0.008913648905092752
+          },
+          "success": true,
+          "theta": [
+            -11.965638707494083,
+            2.419496301847228,
+            2.5273830920290274,
+            0.008913648905092752
+          ]
+        },
+        "xi02": {
+          "active_bounds": {},
+          "chi2_Csingle": 3.245346526535492,
+          "fixed_fNL0": false,
+          "multistart_chi2": [
+            3.245346526535492,
+            3.245346526538504,
+            3.245346526538908
+          ],
+          "ndata": 52,
+          "nfree": 2,
+          "parameters": {
+            "b1": 2.423164657037256,
+            "fNL": -2.064896036633513
+          },
+          "success": true,
+          "theta": [
+            -2.064896036633513,
+            2.423164657037256,
+            2.2,
+            0.08
+          ]
+        }
+      },
+      "joint_minus_marginals": [
+        -0.03633236231793413,
+        -0.04000071750796197
+      ],
+      "label": "current_window_cut"
+    },
+    "observed_contact": {
+      "changes_at_same_theta": {
+        "joint": {
+          "delta_chi2_Csingle": 9.921129075799767e-05,
+          "delta_model": [
+            15.509087830825592,
+            0.11439005997090135,
+            -2.5882997260196134,
+            -3.5681646826851647,
+            -3.677839487194433,
+            -3.985782231509802,
+            -3.9346182837616652,
+            -3.8585716658781166,
+            -3.789939368274645,
+            -3.83183167855168,
+            -3.92197689612658,
+            -3.907995697147271,
+            -3.9300974034922547,
+            0.224531775835203,
+            0.11812942436517915,
+            0.05974239154966199,
+            0.013059163557045395,
+            -0.023815893142455025,
+            -0.01520414272454218,
+            0.024687163222552044,
+            0.04067519135787734,
+            0.06575901990618149,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "linear_parameter_shift_at_joint_J": [
+            0.013329483149394444,
+            -6.099829577450719e-05,
+            -0.00018316294717877802,
+            0.0005279418505987713
+          ]
+        },
+        "p02": {
+          "delta_chi2_Csingle": 1.1613706205924976e-06,
+          "delta_model": [
+            1.677996780439571,
+            0.012376366328680888,
+            -0.28003959062334616,
+            -0.38605551241198555,
+            -0.3979217144078575,
+            -0.4312394013686571,
+            -0.42570374766364694,
+            -0.4174759278612328,
+            -0.41005029615189414,
+            -0.41458281040831935,
+            -0.4243360200416646,
+            -0.4228233323156019,
+            -0.42521461363867274,
+            0.024293085516546853,
+            0.012780944689438911,
+            0.0064637934701750055,
+            0.0014129286428214982,
+            -0.0025767467741388828,
+            -0.0016450034199806396,
+            0.0026710133352025878,
+            0.0044008287841279525,
+            0.007114759093383327,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "linear_parameter_shift_at_joint_J": [
+            0.001442175713599501,
+            -6.599675302547208e-06,
+            -1.981720904690494e-05,
+            5.712036292703522e-05
+          ]
+        },
+        "xi02": {
+          "delta_chi2_Csingle": 9.354937050896054e-05,
+          "delta_model": [
+            15.060040516298614,
+            0.1110780309245456,
+            -2.513358565469389,
+            -3.4648526899982244,
+            -3.5713519901182735,
+            -3.8703786161058815,
+            -3.8206960600073216,
+            -3.7468512820996693,
+            -3.6802061515845708,
+            -3.7208855195131036,
+            -3.8084206888233894,
+            -3.7948442989436444,
+            -3.816306076492765,
+            0.21803072354668984,
+            0.11470912645017961,
+            0.05801262118620798,
+            0.012681050902756397,
+            -0.023126332092942903,
+            -0.014763924737053458,
+            0.023972375578523497,
+            0.03949748924969754,
+            0.06385504517675145,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "linear_parameter_shift_at_joint_J": [
+            0.012943543713298112,
+            -5.9232162188642844e-05,
+            -0.00017785968044784178,
+            0.0005126559180660963
+          ]
+        }
+      },
+      "fits": {
+        "joint": {
+          "active_bounds": {},
+          "chi2_Csingle": 4.518191498129142,
+          "fixed_fNL0": false,
+          "multistart_chi2": [
+            4.518191498129142,
+            4.518191498136109,
+            4.518191498265813
+          ],
+          "ndata": 74,
+          "nfree": 4,
+          "parameters": {
+            "b1": 2.3830523750022143,
+            "fNL": -1.3347893864041553,
+            "sigma_s_P": 2.150894872537942,
+            "sn0": 0.08305062040585846
+          },
+          "success": true,
+          "theta": [
+            -1.3347893864041553,
+            2.3830523750022143,
+            2.150894872537942,
+            0.08305062040585846
+          ]
+        },
+        "p02": {
+          "active_bounds": {},
+          "chi2_Csingle": 1.1367632024096272,
+          "fixed_fNL0": false,
+          "multistart_chi2": [
+            1.136763202409666,
+            1.1367632024096272,
+            1.136763202409889
+          ],
+          "ndata": 22,
+          "nfree": 4,
+          "parameters": {
+            "b1": 2.4194914755459966,
+            "fNL": -11.966407466934008,
+            "sigma_s_P": 2.527398750512464,
+            "sn0": 0.008971400060711688
+          },
+          "success": true,
+          "theta": [
+            -11.966407466934008,
+            2.4194914755459966,
+            2.527398750512464,
+            0.008971400060711688
+          ]
+        },
+        "xi02": {
+          "active_bounds": {},
+          "chi2_Csingle": 3.245346526535492,
+          "fixed_fNL0": false,
+          "multistart_chi2": [
+            3.245346526535492,
+            3.245346526538504,
+            3.245346526538908
+          ],
+          "ndata": 52,
+          "nfree": 2,
+          "parameters": {
+            "b1": 2.423164657037256,
+            "fNL": -2.064896036633513
+          },
+          "success": true,
+          "theta": [
+            -2.064896036633513,
+            2.423164657037256,
+            2.2,
+            0.08
+          ]
+        }
+      },
+      "joint_minus_marginals": [
+        -0.0364391005437823,
+        -0.04011228203504169
+      ],
+      "label": "observed_contact"
+    },
+    "window_no_kcut": {
+      "changes_at_same_theta": {
+        "joint": {
+          "delta_chi2_Csingle": 6.41524523552621e-06,
+          "delta_model": [
+            19.05051531107165,
+            3.6497642775066197,
+            1.4146121463127201,
+            0.35368665035639424,
+            0.14279446043656208,
+            0.04885722555627581,
+            0.013644887643749826,
+            0.00559573205828201,
+            0.003110540761554148,
+            0.0017204964970005676,
+            0.001130320888478309,
+            0.0006216044348548166,
+            0.0003221163533453364,
+            0.25476896382315317,
+            0.04724862317016232,
+            0.012684373927186243,
+            0.006698753433738602,
+            0.004842048507271102,
+            0.0022892822198627982,
+            0.002049269865892711,
+            0.0012836979130952386,
+            0.0010183837803197093,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "linear_parameter_shift_at_joint_J": [
+            0.012585558510884547,
+            -5.670023575012672e-05,
+            -0.00022243252939642055,
+            0.00012795533042215732
+          ]
+        },
+        "p02": {
+          "delta_chi2_Csingle": 7.509707094326409e-08,
+          "delta_model": [
+            2.061159476717876,
+            0.39488413334765937,
+            0.1530531423195498,
+            0.03826692240545526,
+            0.015449563987203874,
+            0.005286079234792851,
+            0.001476300720241852,
+            0.0006054269906599075,
+            0.00033654315484454855,
+            0.0001861481214291416,
+            0.00012229441199451685,
+            6.7254135501571e-05,
+            3.4851193049689755e-05,
+            0.027564580566831864,
+            0.005112037433718797,
+            0.0013723784941248596,
+            0.0007247677494888194,
+            0.0005238826342974789,
+            0.00024768756338744424,
+            0.0002217195669800276,
+            0.0001388889522786485,
+            0.00011018344412150327,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "linear_parameter_shift_at_joint_J": [
+            0.0013616872179296796,
+            -6.134649185968543e-06,
+            -2.4065958762675345e-05,
+            1.3844052907825524e-05
+          ]
+        },
+        "xi02": {
+          "delta_chi2_Csingle": 6.04913159437563e-06,
+          "delta_model": [
+            18.49893014796544,
+            3.5440896649524802,
+            1.3736537229415262,
+            0.3434460712596774,
+            0.13866001553833485,
+            0.04744262230815366,
+            0.013249816038296558,
+            0.005433714250102639,
+            0.003020478725375142,
+            0.0016706815513316542,
+            0.0010975937839248218,
+            0.0006036066115484573,
+            0.00031278985625249334,
+            0.2473924294790777,
+            0.045880595109338174,
+            0.012317112865275703,
+            0.006504798941023182,
+            0.0047018527147884015,
+            0.002222998758952599,
+            0.0019899356775567867,
+            0.001246529956915765,
+            0.0009888976801448734,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "linear_parameter_shift_at_joint_J": [
+            0.012221158533722557,
+            -5.505854741375953e-05,
+            -0.0002159922583058195,
+            0.000124250535005479
+          ]
+        }
+      },
+      "fits": {
+        "joint": {
+          "active_bounds": {},
+          "chi2_Csingle": 4.518215650621148,
+          "fixed_fNL0": false,
+          "multistart_chi2": [
+            4.518215650621148,
+            4.518215650623098,
+            4.518215650626319
+          ],
+          "ndata": 74,
+          "nfree": 4,
+          "parameters": {
+            "b1": 2.3830582638341515,
+            "fNL": -1.335710097669129,
+            "sigma_s_P": 2.150852220507,
+            "sn0": 0.08264333468860549
+          },
+          "success": true,
+          "theta": [
+            -1.335710097669129,
+            2.3830582638341515,
+            2.150852220507,
+            0.08264333468860549
+          ]
+        },
+        "p02": {
+          "active_bounds": {},
+          "chi2_Csingle": 1.1367642124302741,
+          "fixed_fNL0": false,
+          "multistart_chi2": [
+            1.1367642124302741,
+            1.1367642124303667,
+            1.136764212430335
+          ],
+          "ndata": 22,
+          "nfree": 4,
+          "parameters": {
+            "b1": 2.4194931091702414,
+            "fNL": -11.966670383750957,
+            "sigma_s_P": 2.527396005325057,
+            "sn0": 0.008924863693218111
+          },
+          "success": true,
+          "theta": [
+            -11.966670383750957,
+            2.4194931091702414,
+            2.527396005325057,
+            0.008924863693218111
+          ]
+        },
+        "xi02": {
+          "active_bounds": {},
+          "chi2_Csingle": 3.245346526535492,
+          "fixed_fNL0": false,
+          "multistart_chi2": [
+            3.245346526535492,
+            3.245346526538504,
+            3.245346526538908
+          ],
+          "ndata": 52,
+          "nfree": 2,
+          "parameters": {
+            "b1": 2.423164657037256,
+            "fNL": -2.064896036633513
+          },
+          "success": true,
+          "theta": [
+            -2.064896036633513,
+            2.423164657037256,
+            2.2,
+            0.08
+          ]
+        }
+      },
+      "joint_minus_marginals": [
+        -0.03643484533608987,
+        -0.040106393203104496
+      ],
+      "label": "window_no_kcut"
+    }
+  },
+  "gates": {
+    "normalized_shot_matches": true,
+    "weight_numerator_matches": true
+  },
+  "metadata_audit": [
+    {
+      "alpha": 0.040000630620490515,
+      "analytic_shot_numerator": 73948.4053861224,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph000_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "42b808b6b205955e940a9c1021cece946e1c066b32a0b4960be94671e720d076",
+      "norm": 13.19423993868954,
+      "numerator_relative_error": 3.3099187583977867e-13,
+      "phase": 0,
+      "shot_relative_error": 3.310441403194647e-13,
+      "shotnoise_minmax": [
+        5604.597591806604,
+        5604.597591806604
+      ],
+      "stored_numerator_minmax": [
+        73948.40538609792,
+        73948.40538609792
+      ]
+    },
+    {
+      "alpha": 0.03999956777739974,
+      "analytic_shot_numerator": 73957.55584794523,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph001_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "93863a93fb228880f56147aad962f41d81cd310fdbc33d33ae5d1382857098e6",
+      "norm": 13.216704622708118,
+      "numerator_relative_error": 6.316007519109407e-14,
+      "phase": 1,
+      "shot_relative_error": 6.306269595142239e-14,
+      "shotnoise_minmax": [
+        5595.763691417549,
+        5595.763691417549
+      ],
+      "stored_numerator_minmax": [
+        73957.55584794056,
+        73957.55584794056
+      ]
+    },
+    {
+      "alpha": 0.03999921980086686,
+      "analytic_shot_numerator": 73892.84774930835,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph002_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "48b45b8483a5a615e5ed009c2f2ae9b7ba0ee52ea8a0244d61a846c74f633a89",
+      "norm": 13.228075778596573,
+      "numerator_relative_error": 4.3325185694588057e-14,
+      "phase": 2,
+      "shot_relative_error": 4.3308792984170796e-14,
+      "shotnoise_minmax": [
+        5586.061720999967,
+        5586.061720999967
+      ],
+      "stored_numerator_minmax": [
+        73892.84774930515,
+        73892.84774930515
+      ]
+    },
+    {
+      "alpha": 0.03999892304452915,
+      "analytic_shot_numerator": 73877.16248405587,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph003_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "380f66a3a4c31436e0aab277873a679467edc8e79edd03d594ee8d77310bc5ff",
+      "norm": 13.228082090133237,
+      "numerator_relative_error": 4.3925307724510386e-14,
+      "phase": 3,
+      "shot_relative_error": 4.3969407408024237e-14,
+      "shotnoise_minmax": [
+        5584.8733006551065,
+        5584.8733006551065
+      ],
+      "stored_numerator_minmax": [
+        73877.16248405911,
+        73877.16248405911
+      ]
+    },
+    {
+      "alpha": 0.04000027624278365,
+      "analytic_shot_numerator": 73818.26736846044,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph004_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "12a3d96e16e3d268f96eeb75032cb580fb5da6edbcb605fbe749325e51ce544b",
+      "norm": 13.25708505456059,
+      "numerator_relative_error": 3.942632561593906e-14,
+      "phase": 4,
+      "shot_relative_error": 3.9364198328472666e-14,
+      "shotnoise_minmax": [
+        5568.212549339344,
+        5568.212549339344
+      ],
+      "stored_numerator_minmax": [
+        73818.26736846335,
+        73818.26736846335
+      ]
+    },
+    {
+      "alpha": 0.039998682713642514,
+      "analytic_shot_numerator": 73873.31120283064,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph005_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "132101f1a7f2bedb7f36d89645014180bad1bbabc52da7884a46f10f96f1b438",
+      "norm": 13.243053096676121,
+      "numerator_relative_error": 1.0735668498308827e-13,
+      "phase": 5,
+      "shot_relative_error": 1.0744498327979794e-13,
+      "shotnoise_minmax": [
+        5578.2688979311015,
+        5578.2688979311015
+      ],
+      "stored_numerator_minmax": [
+        73873.31120283857,
+        73873.31120283857
+      ]
+    },
+    {
+      "alpha": 0.04000112325721418,
+      "analytic_shot_numerator": 74032.00477316263,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph006_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "639ec9ef4e5ca66558e1aad73b45cf0f07fbf732f12b42dc92e3be2d95c91ab6",
+      "norm": 13.182511981249377,
+      "numerator_relative_error": 1.845721784963725e-13,
+      "phase": 6,
+      "shot_relative_error": 1.846221011750833e-13,
+      "shotnoise_minmax": [
+        5615.925468414396,
+        5615.925468414396
+      ],
+      "stored_numerator_minmax": [
+        74032.00477317629,
+        74032.00477317629
+      ]
+    },
+    {
+      "alpha": 0.040000163512515424,
+      "analytic_shot_numerator": 73952.44604603395,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph007_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "9688a2525a233395d485f2da54cc490d9c983cf0b03a8195b4f2806322ba808d",
+      "norm": 13.195264306860214,
+      "numerator_relative_error": 3.435673239653596e-13,
+      "phase": 7,
+      "shot_relative_error": 3.435473334241566e-13,
+      "shotnoise_minmax": [
+        5604.468718948775,
+        5604.468718948775
+      ],
+      "stored_numerator_minmax": [
+        73952.44604605935,
+        73952.44604605935
+      ]
+    },
+    {
+      "alpha": 0.03999918386281672,
+      "analytic_shot_numerator": 73864.9982508591,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph008_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "473de33bd09e5ba47c1fa5060b0d01c43a917bfcf770c31ab40b80937c6de3e2",
+      "norm": 13.249444774526832,
+      "numerator_relative_error": 7.427160591627708e-14,
+      "phase": 8,
+      "shot_relative_error": 7.43916178136321e-14,
+      "shotnoise_minmax": [
+        5574.950460781969,
+        5574.950460781969
+      ],
+      "stored_numerator_minmax": [
+        73864.99825085362,
+        73864.99825085362
+      ]
+    },
+    {
+      "alpha": 0.040000967747615156,
+      "analytic_shot_numerator": 73838.64683873334,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph009_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "982402cc37229677ac7afeec63bd85062dfc7895c8c8513d37803b510ac29863",
+      "norm": 13.259010255936818,
+      "numerator_relative_error": 3.484325245009316e-13,
+      "phase": 9,
+      "shot_relative_error": 3.48515394069741e-13,
+      "shotnoise_minmax": [
+        5568.941075801437,
+        5568.941075801437
+      ],
+      "stored_numerator_minmax": [
+        73838.64683875907,
+        73838.64683875907
+      ]
+    },
+    {
+      "alpha": 0.040000354709320764,
+      "analytic_shot_numerator": 73965.18614377447,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph010_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "f0cc95966f9af6375deaae5e70c3d7d39debc71d09db533672661de93bfd6c8b",
+      "norm": 13.221680368043094,
+      "numerator_relative_error": 8.695910692951748e-14,
+      "phase": 10,
+      "shot_relative_error": 8.681619146370302e-14,
+      "shotnoise_minmax": [
+        5594.234929665622,
+        5594.234929665622
+      ],
+      "stored_numerator_minmax": [
+        73965.1861437809,
+        73965.1861437809
+      ]
+    },
+    {
+      "alpha": 0.04000185455555401,
+      "analytic_shot_numerator": 73952.60939882649,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph011_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "736637c4239106865cc58526897acec2613fecbbe7743a23cc60c45fa5b6f850",
+      "norm": 13.185577964095785,
+      "numerator_relative_error": 5.509658546284338e-14,
+      "phase": 11,
+      "shot_relative_error": 5.497250659745359e-14,
+      "shotnoise_minmax": [
+        5608.598242731167,
+        5608.598242731167
+      ],
+      "stored_numerator_minmax": [
+        73952.60939882242,
+        73952.60939882242
+      ]
+    },
+    {
+      "alpha": 0.040000425507302394,
+      "analytic_shot_numerator": 73998.15664659067,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph012_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "a7dd31c8955290e000de835b4aa6ab7a31f991366fc401c6d2b245d9de1b11e0",
+      "norm": 13.177473561688407,
+      "numerator_relative_error": 3.189701956109269e-13,
+      "phase": 12,
+      "shot_relative_error": 3.190638871636194e-13,
+      "shotnoise_minmax": [
+        5615.50408735049,
+        5615.50408735049
+      ],
+      "stored_numerator_minmax": [
+        73998.15664661427,
+        73998.15664661427
+      ]
+    },
+    {
+      "alpha": 0.039999712401915355,
+      "analytic_shot_numerator": 73818.72877348583,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph013_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "aecebd2b6e2c2af32115792df1905af8c59fd83c047e20d6970d8cbfcee43367",
+      "norm": 13.26313623869644,
+      "numerator_relative_error": 1.0783032656037421e-13,
+      "phase": 13,
+      "shot_relative_error": 1.0785090102948176e-13,
+      "shotnoise_minmax": [
+        5565.706892018552,
+        5565.706892018552
+      ],
+      "stored_numerator_minmax": [
+        73818.72877349379,
+        73818.72877349379
+      ]
+    },
+    {
+      "alpha": 0.04000022776445528,
+      "analytic_shot_numerator": 73974.19261869049,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph014_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "41abd0b7db548a31eef2810dbe8a5df62f625cc59778c9eb30e8ffe18408fa2c",
+      "norm": 13.191298676747945,
+      "numerator_relative_error": 1.0976758799226276e-13,
+      "phase": 14,
+      "shot_relative_error": 1.0963625423890378e-13,
+      "shotnoise_minmax": [
+        5607.802114972314,
+        5607.802114972314
+      ],
+      "stored_numerator_minmax": [
+        73974.19261869861,
+        73974.19261869861
+      ]
+    },
+    {
+      "alpha": 0.03999971852817335,
+      "analytic_shot_numerator": 73955.54411238177,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph015_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "503d8d8af2a91d50e9513adb50f1383c99babc76b36351b7e471bff561740bd3",
+      "norm": 13.196353721461925,
+      "numerator_relative_error": 2.2864175631873003e-13,
+      "phase": 15,
+      "shot_relative_error": 2.2866220019666917e-13,
+      "shotnoise_minmax": [
+        5604.240813285193,
+        5604.240813285193
+      ],
+      "stored_numerator_minmax": [
+        73955.54411236486,
+        73955.54411236486
+      ]
+    },
+    {
+      "alpha": 0.040000402508798404,
+      "analytic_shot_numerator": 73958.69089221187,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph016_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "70dba45119762dd77ec1777e63862e9f1ce24ff3f45c814fb04185010b698970",
+      "norm": 13.198801043037351,
+      "numerator_relative_error": 1.0034624297613958e-13,
+      "phase": 16,
+      "shot_relative_error": 1.003076175994192e-13,
+      "shotnoise_minmax": [
+        5603.440089069245,
+        5603.440089069245
+      ],
+      "stored_numerator_minmax": [
+        73958.69089220445,
+        73958.69089220445
+      ]
+    },
+    {
+      "alpha": 0.04000132712126894,
+      "analytic_shot_numerator": 73978.95457778197,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph017_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "01bac978955c1971c7efb531a66b13940cde5169db01a51c64bc30c23d9635dd",
+      "norm": 13.193112007205066,
+      "numerator_relative_error": 1.81163872912459e-13,
+      "phase": 17,
+      "shot_relative_error": 1.811725538294878e-13,
+      "shotnoise_minmax": [
+        5607.392292083456,
+        5607.392292083456
+      ],
+      "stored_numerator_minmax": [
+        73978.95457779538,
+        73978.95457779538
+      ]
+    },
+    {
+      "alpha": 0.039999908849012965,
+      "analytic_shot_numerator": 73919.20387947744,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph018_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "227b7cc9156280e588586cad972f58246a548cab7b14a9471e8b09790a7a0c23",
+      "norm": 13.206958671052185,
+      "numerator_relative_error": 2.236357378304276e-13,
+      "phase": 18,
+      "shot_relative_error": 2.2359605936013892e-13,
+      "shotnoise_minmax": [
+        5596.989111619966,
+        5596.989111619966
+      ],
+      "stored_numerator_minmax": [
+        73919.20387949397,
+        73919.20387949397
+      ]
+    },
+    {
+      "alpha": 0.03999889396406205,
+      "analytic_shot_numerator": 73967.49261557202,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph019_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "a664eb69371c2fcb971a52fee4e5ccd6685a6eb897404bfbfff30a61cd0c022d",
+      "norm": 13.1851149699611,
+      "numerator_relative_error": 7.436542407772046e-14,
+      "phase": 19,
+      "shot_relative_error": 7.441421127825529e-14,
+      "shotnoise_minmax": [
+        5609.923977461968,
+        5609.923977461968
+      ],
+      "stored_numerator_minmax": [
+        73967.49261557752,
+        73967.49261557752
+      ]
+    },
+    {
+      "alpha": 0.040000489785830935,
+      "analytic_shot_numerator": 73924.76501943821,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph020_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "b86cc9b77354f82004b9aa12d1ea9d5aef04c9b7dedef41efa23aed5adcb7614",
+      "norm": 13.238198001351394,
+      "numerator_relative_error": 1.2991943969245922e-14,
+      "phase": 20,
+      "shot_relative_error": 1.302953990055611e-14,
+      "shotnoise_minmax": [
+        5584.201491161471,
+        5584.201491161471
+      ],
+      "stored_numerator_minmax": [
+        73924.76501943725,
+        73924.76501943725
+      ]
+    },
+    {
+      "alpha": 0.04000061745145823,
+      "analytic_shot_numerator": 73962.46082353021,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph021_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "128b32f55716b15c6b95d3fddb252df5fd498807422214f11d2cce52c933fee7",
+      "norm": 13.2165079224796,
+      "numerator_relative_error": 1.9399284793137956e-13,
+      "phase": 21,
+      "shot_relative_error": 1.9404831172907032e-13,
+      "shotnoise_minmax": [
+        5596.218097652241,
+        5596.218097652241
+      ],
+      "stored_numerator_minmax": [
+        73962.46082354456,
+        73962.46082354456
+      ]
+    },
+    {
+      "alpha": 0.04000007686717129,
+      "analytic_shot_numerator": 74038.12090773614,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph022_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "2038a311681efdb079d0236039af2711ad47ef1df8eebe672187274e33ce025a",
+      "norm": 13.167035050654393,
+      "numerator_relative_error": 1.6667122236979543e-13,
+      "phase": 22,
+      "shot_relative_error": 1.6675982956307065e-13,
+      "shotnoise_minmax": [
+        5622.991100342226,
+        5622.991100342226
+      ],
+      "stored_numerator_minmax": [
+        74038.1209077238,
+        74038.1209077238
+      ]
+    },
+    {
+      "alpha": 0.040000859009723264,
+      "analytic_shot_numerator": 73917.79295658054,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph023_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "cddab9add07eaaddb339ccafb4c76578d58a75cdbbe98222c6db1b67d8c3c5e4",
+      "norm": 13.206610481721034,
+      "numerator_relative_error": 5.1972677573659085e-14,
+      "phase": 23,
+      "shot_relative_error": 5.1998705182378317e-14,
+      "shotnoise_minmax": [
+        5597.029840388819,
+        5597.029840388819
+      ],
+      "stored_numerator_minmax": [
+        73917.79295658438,
+        73917.79295658438
+      ]
+    },
+    {
+      "alpha": 0.04000005166053079,
+      "analytic_shot_numerator": 73955.3396324066,
+      "ell2_shot_maxabs": 0.0,
+      "metadata_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone/pk/boxsafe_zobs0p4_0p8_p02_x25_fkpP010000/task43_rsd_lightcone_p02_ph024_mesh256_kmax0p300_dk0p002.json",
+      "metadata_sha256": "cb503a652b52cd8a7951e584696d8955ac782e99c5156e1c70a4501a1942febe",
+      "norm": 13.20067351567929,
+      "numerator_relative_error": 6.099753909881311e-14,
+      "phase": 24,
+      "shot_relative_error": 6.104000669105769e-14,
+      "shotnoise_minmax": [
+        5602.391388936373,
+        5602.391388936373
+      ],
+      "stored_numerator_minmax": [
+        73955.33963240209,
+        73955.33963240209
+      ]
+    }
+  ],
+  "model_sn0_convention": "sn0*1e4 in P units; fitted residual after the estimator Poisson subtraction",
+  "scope": "Template probes do not establish the shape of non-Poisson halo stochasticity. No constant is inserted into finite-separation xi.",
+  "templates": {
+    "current_window_cut": [
+      9811.749493546256,
+      9998.611524613352,
+      10031.416982068298,
+      10043.310658624956,
+      10044.641899876495,
+      10048.379732701305,
+      10047.758700750102,
+      10046.835641026264,
+      10046.002576894838,
+      10046.51106899395,
+      10047.605258610274,
+      10047.435553736752,
+      10047.703825956141,
+      -2.7253840443264465,
+      -1.4338640806113574,
+      -0.7251577648145044,
+      -0.15851313630648178,
+      0.28907915117903826,
+      0.18454905920530962,
+      -0.2996546947346168,
+      -0.4937186156220162,
+      -0.7981880647177901
+    ],
+    "observed_contact": [
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "window_no_kcut": [
+      10042.98612039591,
+      10042.912645425287,
+      10048.587653605093,
+      10047.603734515731,
+      10046.375150070757,
+      10048.972765480148,
+      10047.92432345065,
+      10046.903562454345,
+      10046.040332878922,
+      10046.531952513342,
+      10047.618978532571,
+      10047.443098819433,
+      10047.707735829334,
+      0.36702132417910605,
+      -0.8603566417398838,
+      -0.5711938539838073,
+      -0.07720314954732999,
+      0.3478523100950497,
+      0.21233654370034571,
+      -0.274780498768596,
+      -0.47813699116125125,
+      -0.7858268437121707
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "baseline_sha256": "0e3601dde3607d4137b5537ca96e0d76bd0acafc66849e8403f44cf10f419f37",
+  "burnin": 5000,
+  "case": "kmax0p06",
+  "compiled_sha256": "dde0ba534d5eac07ec0580c67eafebcaea3596673fbd50b045e84b8f96e8fc7a",
+  "expanded_model_sha256": null,
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "nwalkers": 64,
+  "seed": 4322520,
+  "source_sha256": "f2487fb95c4dc02efce46b6c67b3259d16b2968ead1b10b06fb0f966b8d7ebf0",
+  "variant": "p02"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "error_chi2_Csingle": 0.00021920471655995847,
+  "max_absolute_multipole_error": 2.5300710919270953e-06,
+  "production_path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/lightcone_boxsafe_zobs0p4_0p8/xi/task43_rsd_xi0_AbacusSummit_base_c000_ph000_mmin1p4e13_zobs0p4_0p8_x25_s30_350_ds10.npz",
+  "production_sha256": "d3b6ebef26e7e90ae563bec2ff13d63a74fb464aa5a412062421709b798d15bb",
+  "estimator": "Corrfunc midpoint signed40mu, explicit W\u00b2 norms, first production Nrandom=Ndata block",
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ]
+}

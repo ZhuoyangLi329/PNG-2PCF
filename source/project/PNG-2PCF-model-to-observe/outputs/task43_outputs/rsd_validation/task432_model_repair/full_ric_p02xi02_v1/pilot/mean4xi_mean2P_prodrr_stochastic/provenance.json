@@ -1,0 +1,35 @@
+{
+  "status": "pilot_unvalidated",
+  "xi_kernel": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/validated_mean4_midpoint.npz",
+  "p_kernel": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/validated_mean2_endpoint.npz",
+  "xi_kernel_sha256": "f3057241f8cd8d28c1f4e025dcbcf550cc049c74bda20b8e4bc7344f00f5470b",
+  "p_kernel_sha256": "eec108335e3f20312863f431f4be7642ae61de143db809bdfe4ab5ca91f29e85",
+  "physical_grid": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/full_ric_p02xi02_v1/geometry/hybrid_inner_refine1_q2_n600.npz",
+  "physical_grid_sha256": "e8c2c580ac87bdfd84a6e8c1c00d2bfff69a5dea92aea51b217d21e8360f69a0",
+  "baseline_data_covariance_sha256": "0e3601dde3607d4137b5537ca96e0d76bd0acafc66849e8403f44cf10f419f37",
+  "source_sha256": "0cd22c202f72974e8a9cdb965b857c73dd944f7ed3f5d4b2c4dc735414df0e99",
+  "joint_free_parameters_changed": false,
+  "parameter_names": {
+    "p02": [
+      "fNL",
+      "b1",
+      "sigma_s_P",
+      "sn0"
+    ],
+    "xi02": [
+      "fNL",
+      "b1",
+      "sn0"
+    ],
+    "joint": [
+      "fNL",
+      "b1",
+      "sigma_s_P",
+      "sn0"
+    ]
+  },
+  "stochastic_note": "Existing sn0 has its deterministic RIC response in all four observables; xi-only now marginalizes the same sn0 prior [-1,1]. No new RIC amplitude.",
+  "stochastic_I2_ratio": 1.010613930606156,
+  "xi_RR": "production_25phase_mean",
+  "warning": "Diagnostic optimization only; formal MCMC requires remaining geometry/LOS/interpolation gates."
+}

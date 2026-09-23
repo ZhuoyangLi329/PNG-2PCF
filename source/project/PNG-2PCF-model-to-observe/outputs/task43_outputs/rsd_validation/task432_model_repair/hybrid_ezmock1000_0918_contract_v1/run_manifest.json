@@ -1,0 +1,187 @@
+{
+  "status": "complete",
+  "utc": "2026-09-21T11:57:49Z",
+  "sources": [
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_hybrid_0918_postflight.py",
+      "executed_sha256": "86617ff046edb6537fce9190d0bf6ca24425e4c349533b105befa44b026b848a",
+      "snapshot": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/provenance/task432_hybrid_0918_postflight.py"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_hybrid_ezmock_0918_contract.py",
+      "executed_sha256": "f748db0d04f6d72758961985f43ea1e8d99db942931cdc41ddf0b9dac6fffbfc",
+      "snapshot": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/provenance/task432_hybrid_ezmock_0918_contract.py"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_hybrid_jaxpower_0918_contract.py",
+      "executed_sha256": "68dc336d129c97d8c01f45daadde1260acb466ef5738f8aa0637f53aa9f2ff5f",
+      "snapshot": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/provenance/task432_hybrid_jaxpower_0918_contract.py"
+    }
+  ],
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.16.3",
+    "emcee": "3.1.6",
+    "h5py": "3.15.1",
+    "velocileptors": "3.1",
+    "matplotlib": "3.10.7"
+  },
+  "files": [
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/ezmock1000_covariance_and_stack.npz",
+      "bytes": 602635
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/joint/chain.h5",
+      "bytes": 200161616
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/joint/convergence_latest.json",
+      "bytes": 1667
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/joint/progress.json",
+      "bytes": 105
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/joint/samples.npz",
+      "bytes": 29127402
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/joint/summary.json",
+      "bytes": 3765
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/p02/chain.h5",
+      "bytes": 200161616
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/p02/convergence_latest.json",
+      "bytes": 1665
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/p02/progress.json",
+      "bytes": 102
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/p02/samples.npz",
+      "bytes": 29072112
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/p02/summary.json",
+      "bytes": 3512
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/xi02/chain.h5",
+      "bytes": 169249936
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/xi02/convergence_latest.json",
+      "bytes": 998
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/xi02/progress.json",
+      "bytes": 104
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/xi02/samples.npz",
+      "bytes": 17820850
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/fits/xi02/summary.json",
+      "bytes": 2636
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/frozen_inputs.npz",
+      "bytes": 2417555
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/input_audit.json",
+      "bytes": 15396
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/logs/joint.log",
+      "bytes": 5646
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/logs/p02.log",
+      "bytes": 5577
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/logs/plot.log",
+      "bytes": 704
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/logs/postflight.log",
+      "bytes": 438
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/logs/prepare.log",
+      "bytes": 789
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/logs/xi02.log",
+      "bytes": 5062
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/mock_selection_crosscheck.json",
+      "bytes": 220
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/mock_selection_manifest.json",
+      "bytes": 3872094
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/postflight_audit.json",
+      "bytes": 11589
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/provenance/task432_hybrid_0918_postflight.py",
+      "bytes": 4193
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/provenance/task432_hybrid_ezmock_0918_contract.py",
+      "bytes": 11344
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/provenance/task432_hybrid_jaxpower_0918_contract.py",
+      "bytes": 19950
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/validation_predictions.npz",
+      "bytes": 4531
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/xi_emulator.npz",
+      "bytes": 737595
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_ezmock1000_9.18contract/README.md",
+      "bytes": 3623
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_ezmock1000_9.18contract/task432_hybrid_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.json",
+      "bytes": 13499
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_ezmock1000_9.18contract/task432_hybrid_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.pdf",
+      "bytes": 46883
+    }
+  ],
+  "file_count": 35,
+  "total_bytes": 653387409,
+  "core_entries": [
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_ezmock1000_9.18contract/task432_hybrid_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.pdf",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_ezmock1000_9.18contract/task432_hybrid_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.json",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_ezmock1000_9.18contract/README.md",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/input_audit.json",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/postflight_audit.json"
+  ],
+  "deleted_files": [],
+  "existing_scientific_results_modified": [],
+  "joint_b1_between_marginals": {
+    "maximum_likelihood": false,
+    "q50": false
+  },
+  "display_interval_convention": "1000 mocks. Hartlap in likelihood; Percival computed for actual free parameter count and applied consistently to JSON intervals and plotted samples. Raw chains preserved."
+}

@@ -1,0 +1,41 @@
+{
+  "contract": {
+    "cache": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/theory/task43_rsd_fulldiscrete_z0p725000_box2000_kmax3_ell02.npz",
+    "k_switch": null,
+    "nbar": 0.000162131295,
+    "p_bins": 16,
+    "quadrant_scales": {
+      "P0_xi0": 1.116174090868313,
+      "P0_xi2": 2.5767512627364275,
+      "P2_xi0": 2.312298630091175,
+      "P2_xi2": 1.7274063919587246
+    },
+    "xi0_bins": 26,
+    "xi2_bins": 26,
+    "xi_angle_mode": "continuous",
+    "xi_mask_contract": "50 <= s < 350; 80 <= s < 120 excluded"
+  },
+  "elapsed_sec": null,
+  "fixed_b1": {
+    "b1": 2.55,
+    "chi2": 6.884461033720434
+  },
+  "map": {
+    "b1": 2.6392994155948384,
+    "chi2": 3.9349422620956536,
+    "optimizer_message": "Solution found.",
+    "optimizer_success": true
+  },
+  "model": {
+    "b1_lagrangian": "b1_eulerian - 1",
+    "b2_bs_b3": "fixed zero",
+    "eft_parameters": "all zero",
+    "kmax_h_mpc": 0.5,
+    "numpy_compatibility": "np.trapezoid alias to np.trapz",
+    "package": "velocileptors 3.1",
+    "s2fog": 0.0
+  },
+  "output_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task43/rsd_validation/task432_model_repair/task432_velocileptors_gsm_crosscheck.pdf",
+  "status": "complete",
+  "task": "Task432 velocileptors GSM xi-only cross-check"
+}

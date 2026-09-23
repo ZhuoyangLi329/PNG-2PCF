@@ -1,0 +1,62 @@
+{
+  "status": "pass",
+  "utc": "2026-09-21T17:08:09.156130+00:00",
+  "files": [
+    {
+      "file": "task432_hybrid_fullRIC_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.pdf",
+      "sha256": "ab53cbabae6e7c3c2f6e67b96cc6b98a108428e290776a347353e3067aee2c41",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 821.36375,
+          "height_pt": 421.011875,
+          "text_outside_page": 0,
+          "visual_review": "pass"
+        }
+      ]
+    },
+    {
+      "file": "task432_hybrid_fullRIC_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_diagnostics_v1.pdf",
+      "sha256": "689fe1a2d7c9cecb59436e309dd768433dc5fef7f417c36505c43f2302863d18",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 720.0,
+          "height_pt": 504.0,
+          "text_outside_page": 0,
+          "visual_review": "pass"
+        },
+        {
+          "page": 2,
+          "width_pt": 720.0,
+          "height_pt": 504.0,
+          "text_outside_page": 0,
+          "visual_review": "pass"
+        },
+        {
+          "page": 3,
+          "width_pt": 720.0,
+          "height_pt": 504.0,
+          "text_outside_page": 0,
+          "visual_review": "pass"
+        },
+        {
+          "page": 4,
+          "width_pt": 576.0,
+          "height_pt": 360.0,
+          "text_outside_page": 0,
+          "visual_review": "pass"
+        }
+      ]
+    }
+  ],
+  "page_count": 5,
+  "rendering": "Each page rendered to JPEG in memory and visually inspected; no raster files were written. Original reference page 2 also inspected.",
+  "checks": [
+    "No clipping or overlaps",
+    "Labels, legends and units readable",
+    "Main plot reuses original 9.18 function and axis ranges",
+    "All five pages individually reviewed",
+    "Only PDF scientific figure files retained"
+  ]
+}

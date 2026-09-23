@@ -1,6 +1,10 @@
-.DS_Store
-__pycache__/
+# GitHub root should only contain the curated Task 4.3 review package.
 *.pyc
-.pytest_cache/
-.venv/
-tmp/
+__pycache__/
+*.h5
+*.log
+source/project/**/chain.h5
+source/project/**/catalogs/
+source/project/**/randoms/
+source/project/**/lightcone_catalogs/
+source/project/**/raw_catalogs/

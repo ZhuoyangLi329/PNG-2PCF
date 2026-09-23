@@ -1,0 +1,1095 @@
+{
+  "status": "failed",
+  "gates": {
+    "emulator_below_0p01": true,
+    "geometry_below_0p01": false,
+    "integration_below_0p001": true,
+    "P_spline_below_0p001": true
+  },
+  "maxima": {
+    "emulator_chi2_Csingle": 3.373235654754245e-08,
+    "independent_kernel_chi2_Csingle": 0.010945886770080208,
+    "integration_chi2_Csingle": 4.157616386929532e-10,
+    "P_spline_chi2_Csingle": 1.287121051874754e-22
+  },
+  "records": [
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        -8.203901801702173,
+        2.455597370709678,
+        2.78471961027897,
+        -0.12342507333926273
+      ],
+      "emulator_chi2_Csingle": 2.6869211057499748e-08,
+      "independent_kernel_chi2_Csingle": 0.0076931098718646404,
+      "P_spline_chi2_Csingle": 1.380625953057969e-23
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        -7.3270833174299455,
+        2.4010368318702833,
+        3.381433270908972,
+        0.089472593296264
+      ],
+      "emulator_chi2_Csingle": 2.534136019857419e-08,
+      "independent_kernel_chi2_Csingle": 0.007001904611928224,
+      "P_spline_chi2_Csingle": 1.1953062600052253e-23
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        -30.548096224850116,
+        2.472850332633097,
+        0.20169437816197977,
+        -0.1288604650525752
+      ],
+      "emulator_chi2_Csingle": 2.6863997543201985e-08,
+      "independent_kernel_chi2_Csingle": 0.007889891069640253,
+      "P_spline_chi2_Csingle": 2.6274111016857744e-27
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        25.04290820948009,
+        2.3210742295658364,
+        1.935673829887715,
+        0.19825037132211554
+      ],
+      "emulator_chi2_Csingle": 2.3891738205839173e-08,
+      "independent_kernel_chi2_Csingle": 0.006135663355550163,
+      "P_spline_chi2_Csingle": 5.57563211251603e-24
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        -8.932770748964188,
+        2.3269500128862073,
+        2.108766949624737,
+        0.2436230284681531
+      ],
+      "emulator_chi2_Csingle": 2.338813757159301e-08,
+      "independent_kernel_chi2_Csingle": 0.006139819668271018,
+      "P_spline_chi2_Csingle": 2.1457759719307167e-24
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        -51.98591081651512,
+        2.5266189388975695,
+        0.20896859708926419,
+        -0.31172008767958614
+      ],
+      "emulator_chi2_Csingle": 2.7981045646597316e-08,
+      "independent_kernel_chi2_Csingle": 0.008599835628069824,
+      "P_spline_chi2_Csingle": 1.3102118370833407e-23
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        10.499898634885177,
+        2.419014620559487,
+        1.9023384889149517,
+        0.03372754637714722
+      ],
+      "emulator_chi2_Csingle": 2.6230286344715747e-08,
+      "independent_kernel_chi2_Csingle": 0.007256855422876614,
+      "P_spline_chi2_Csingle": 2.011723768807705e-26
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        -45.257475572886094,
+        2.547866544632119,
+        3.1238799591096194,
+        -0.21915144328949537
+      ],
+      "emulator_chi2_Csingle": 2.8817275241343633e-08,
+      "independent_kernel_chi2_Csingle": 0.008922480644529374,
+      "P_spline_chi2_Csingle": 2.337210706232368e-23
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        8.538261907661571,
+        2.3364231288201736,
+        1.2668779617911596,
+        0.1911310402833719
+      ],
+      "emulator_chi2_Csingle": 2.3960572108786e-08,
+      "independent_kernel_chi2_Csingle": 0.006270591142289942,
+      "P_spline_chi2_Csingle": 1.3415824550186958e-24
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        23.236076937575262,
+        2.468442205132569,
+        3.629532189592266,
+        -0.1342926277729581
+      ],
+      "emulator_chi2_Csingle": 2.7999861187879684e-08,
+      "independent_kernel_chi2_Csingle": 0.00793827194351241,
+      "P_spline_chi2_Csingle": 1.1320609671161706e-23
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        11.422244831808953,
+        2.341247974013189,
+        1.197392272871717,
+        0.15313647838321306
+      ],
+      "emulator_chi2_Csingle": 2.414053377858384e-08,
+      "independent_kernel_chi2_Csingle": 0.0063302499573422355,
+      "P_spline_chi2_Csingle": 2.0279013467819113e-26
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        18.195529266344373,
+        2.433423732943734,
+        0.05205469240405858,
+        -0.0646638910412849
+      ],
+      "emulator_chi2_Csingle": 2.682162900185619e-08,
+      "independent_kernel_chi2_Csingle": 0.007459692984269946,
+      "P_spline_chi2_Csingle": 7.749998933526667e-23
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        6.550993789274629,
+        2.375909941028467,
+        2.4369371382492027,
+        0.06989030650642272
+      ],
+      "emulator_chi2_Csingle": 2.4952018193091162e-08,
+      "independent_kernel_chi2_Csingle": 0.006722150105915097,
+      "P_spline_chi2_Csingle": 8.744435786498022e-24
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        11.202826577689777,
+        2.4118246273932615,
+        1.6485165718965273,
+        0.01198907699100871
+      ],
+      "emulator_chi2_Csingle": 2.604124467499948e-08,
+      "independent_kernel_chi2_Csingle": 0.0071682898319306515,
+      "P_spline_chi2_Csingle": 1.271287856448987e-28
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        -2.4882384490437026,
+        2.3824885860697065,
+        1.2765439327639558,
+        0.11605806424160822
+      ],
+      "emulator_chi2_Csingle": 2.4941124429162082e-08,
+      "independent_kernel_chi2_Csingle": 0.006785168171345682,
+      "P_spline_chi2_Csingle": 2.4374727751214823e-24
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        -26.421359869245723,
+        2.5498777914261375,
+        1.8510969318148767,
+        -0.32054234725813474
+      ],
+      "emulator_chi2_Csingle": 2.9362099285891064e-08,
+      "independent_kernel_chi2_Csingle": 0.008985383385894396,
+      "P_spline_chi2_Csingle": 1.6847018197267337e-27
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        -40.56916759530172,
+        2.41438148652208,
+        2.246176425065211,
+        -0.00010184416265812679
+      ],
+      "emulator_chi2_Csingle": 2.50039126591789e-08,
+      "independent_kernel_chi2_Csingle": 0.007122474400967906,
+      "P_spline_chi2_Csingle": 1.3692889927321813e-25
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        34.458740652124874,
+        2.430693479018436,
+        1.9604973662212795,
+        -0.09168674742328359
+      ],
+      "emulator_chi2_Csingle": 2.7115445400871585e-08,
+      "independent_kernel_chi2_Csingle": 0.007481137492789077,
+      "P_spline_chi2_Csingle": 3.3677213756464965e-24
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        7.482211983598978,
+        2.4500432425036296,
+        1.8168114025986588,
+        -0.0657684354494733
+      ],
+      "emulator_chi2_Csingle": 2.706664710365497e-08,
+      "independent_kernel_chi2_Csingle": 0.007649268365335197,
+      "P_spline_chi2_Csingle": 7.375069577481462e-24
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        -29.76502714447648,
+        2.5363271880733302,
+        2.0892148733979057,
+        -0.2865655265648443
+      ],
+      "emulator_chi2_Csingle": 2.8835869372876925e-08,
+      "independent_kernel_chi2_Csingle": 0.008780136326387163,
+      "P_spline_chi2_Csingle": 4.561883647475649e-24
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        -36.20776675160758,
+        2.527240182040954,
+        2.122764884511807,
+        -0.24791611634381977
+      ],
+      "emulator_chi2_Csingle": 2.8385865621189013e-08,
+      "independent_kernel_chi2_Csingle": 0.00863770556838582,
+      "P_spline_chi2_Csingle": 2.3027892511551304e-23
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        -32.876819909592626,
+        2.4573595562932775,
+        4.259029319306965,
+        -0.10903513053756636
+      ],
+      "emulator_chi2_Csingle": 2.636121203868413e-08,
+      "independent_kernel_chi2_Csingle": 0.007680924868497108,
+      "P_spline_chi2_Csingle": 5.9629403539861275e-25
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        7.851275285590967,
+        2.304938153783057,
+        0.8573115595040868,
+        0.20580384343466965
+      ],
+      "emulator_chi2_Csingle": 2.3164143527119403e-08,
+      "independent_kernel_chi2_Csingle": 0.0059243146848623396,
+      "P_spline_chi2_Csingle": 1.6512733738770169e-24
+    },
+    {
+      "variant": "p02",
+      "point": "random",
+      "theta": [
+        92.00069669448942,
+        2.1550016841181,
+        2.9806966631435605,
+        0.5157786084902907
+      ],
+      "emulator_chi2_Csingle": 2.1142431604107852e-08,
+      "independent_kernel_chi2_Csingle": 0.004782929522944916,
+      "P_spline_chi2_Csingle": 1.3235797330224873e-23
+    },
+    {
+      "variant": "p02",
+      "point": "tail_0_1",
+      "theta": [
+        -86.50112141900868,
+        2.5105252165222582,
+        1.7027138840749045,
+        -0.1719776279494625
+      ],
+      "emulator_chi2_Csingle": 2.6689076030759157e-08,
+      "independent_kernel_chi2_Csingle": 0.008281381954888726,
+      "P_spline_chi2_Csingle": 2.309717420464079e-26
+    },
+    {
+      "variant": "p02",
+      "point": "tail_0_99",
+      "theta": [
+        72.8606713941248,
+        2.1622964357846803,
+        1.802366385313333,
+        0.5663037777245099
+      ],
+      "emulator_chi2_Csingle": 2.1000113017167838e-08,
+      "independent_kernel_chi2_Csingle": 0.004729174501398102,
+      "P_spline_chi2_Csingle": 1.2530712993783302e-26
+    },
+    {
+      "variant": "p02",
+      "point": "tail_1_1",
+      "theta": [
+        37.090788154170745,
+        2.18124479833789,
+        1.365418051227535,
+        0.5030177502548254
+      ],
+      "emulator_chi2_Csingle": 2.0846076828185446e-08,
+      "independent_kernel_chi2_Csingle": 0.004765316631906147,
+      "P_spline_chi2_Csingle": 2.76007529597792e-25
+    },
+    {
+      "variant": "p02",
+      "point": "tail_1_99",
+      "theta": [
+        -76.51145857428516,
+        2.6442359667238735,
+        0.42833995777006617,
+        -0.5157211461074082
+      ],
+      "emulator_chi2_Csingle": 3.1255467076397916e-08,
+      "independent_kernel_chi2_Csingle": 0.010344919429441,
+      "P_spline_chi2_Csingle": 1.287121051874754e-22
+    },
+    {
+      "variant": "p02",
+      "point": "MAP",
+      "theta": [
+        -5.284309987687385,
+        2.413458927143941,
+        2.375189141319515,
+        0.009684279597250439
+      ],
+      "emulator_chi2_Csingle": 2.572763599730162e-08,
+      "independent_kernel_chi2_Csingle": 0.007158151617997635,
+      "P_spline_chi2_Csingle": 2.5402814932915012e-23,
+      "integration_chi2_Csingle": 4.038641238194822e-10
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        47.388055147286664,
+        2.414662598693861,
+        -0.3750603993507242
+      ],
+      "emulator_chi2_Csingle": 2.6936710392493553e-08,
+      "independent_kernel_chi2_Csingle": 0.007338702485601023
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        21.057301794708163,
+        2.462765961224123,
+        -0.7820746623582951
+      ],
+      "emulator_chi2_Csingle": 2.7771718139798055e-08,
+      "independent_kernel_chi2_Csingle": 0.00785443057673328
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -22.82645850388382,
+        2.420248284529822,
+        0.5551438806794757
+      ],
+      "emulator_chi2_Csingle": 2.553797985346135e-08,
+      "independent_kernel_chi2_Csingle": 0.007218629269430565
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        15.693142775818599,
+        2.575254633177213,
+        -0.7713391784808662
+      ],
+      "emulator_chi2_Csingle": 3.136740598991827e-08,
+      "independent_kernel_chi2_Csingle": 0.009465091822042946
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -27.69749349626436,
+        2.484809842337283,
+        -0.4700256707433711
+      ],
+      "emulator_chi2_Csingle": 2.7285375062285178e-08,
+      "independent_kernel_chi2_Csingle": 0.008055850377399221
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        2.013096988074901,
+        2.4222714244688794,
+        0.564009800863843
+      ],
+      "emulator_chi2_Csingle": 2.613513322468928e-08,
+      "independent_kernel_chi2_Csingle": 0.007280805200429222
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -25.135146013524235,
+        2.4125765905771153,
+        0.9747870733455621
+      ],
+      "emulator_chi2_Csingle": 2.527895402343788e-08,
+      "independent_kernel_chi2_Csingle": 0.007120243530586875
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -17.259675838907306,
+        2.3802358347498225,
+        0.9677768886260324
+      ],
+      "emulator_chi2_Csingle": 2.4578540197553825e-08,
+      "independent_kernel_chi2_Csingle": 0.006738401237982117
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -29.38183909822181,
+        2.588590804750833,
+        0.8579287653293879
+      ],
+      "emulator_chi2_Csingle": 3.059198198428373e-08,
+      "independent_kernel_chi2_Csingle": 0.009570863693206496
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        22.8351741674284,
+        2.2635759452683897,
+        -0.17301455182358216
+      ],
+      "emulator_chi2_Csingle": 2.2447987721376525e-08,
+      "independent_kernel_chi2_Csingle": 0.005521319494555976
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -8.56239673977367,
+        2.5020071277495357,
+        0.6583513101824413
+      ],
+      "emulator_chi2_Csingle": 2.8272540058686966e-08,
+      "independent_kernel_chi2_Csingle": 0.00832335096895883
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -40.30944902374203,
+        2.5263168367760374,
+        -0.2468340330585001
+      ],
+      "emulator_chi2_Csingle": 2.8255973314960827e-08,
+      "independent_kernel_chi2_Csingle": 0.008617431901261189
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -2.665445937845462,
+        2.4612051942399114,
+        -0.1530263383326007
+      ],
+      "emulator_chi2_Csingle": 2.7163596234752876e-08,
+      "independent_kernel_chi2_Csingle": 0.007776642821674382
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        1.3412582562554203,
+        2.4870845165749995,
+        0.27236047936462726
+      ],
+      "emulator_chi2_Csingle": 2.8048081117482044e-08,
+      "independent_kernel_chi2_Csingle": 0.00813453593825955
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        36.62676625936097,
+        2.341113203132957,
+        -0.6369896541568868
+      ],
+      "emulator_chi2_Csingle": 2.4641071427138643e-08,
+      "independent_kernel_chi2_Csingle": 0.006397247649875638
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -14.47778226777784,
+        2.526761491492143,
+        0.7045312346955463
+      ],
+      "emulator_chi2_Csingle": 2.891334161421034e-08,
+      "independent_kernel_chi2_Csingle": 0.008665877312899957
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        8.655238203065416,
+        2.4874659054332495,
+        -0.414247106249736
+      ],
+      "emulator_chi2_Csingle": 2.8238655608395762e-08,
+      "independent_kernel_chi2_Csingle": 0.008156137078018044
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        14.977830563338483,
+        2.1333969995987827,
+        0.8977187239505411
+      ],
+      "emulator_chi2_Csingle": 1.9541638475951182e-08,
+      "independent_kernel_chi2_Csingle": 0.004309512857586285
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -2.5457030423820326,
+        2.2816359723705277,
+        0.9493740290621654
+      ],
+      "emulator_chi2_Csingle": 2.2420623255839927e-08,
+      "independent_kernel_chi2_Csingle": 0.005664425370133063
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -46.52123171106914,
+        2.4727535737914903,
+        -0.9076773560088818
+      ],
+      "emulator_chi2_Csingle": 2.649796067005678e-08,
+      "independent_kernel_chi2_Csingle": 0.007863993646840052
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        15.234286174871356,
+        2.4509754753486352,
+        0.5020198792540733
+      ],
+      "emulator_chi2_Csingle": 2.727511507805439e-08,
+      "independent_kernel_chi2_Csingle": 0.00768038811047562
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -7.840291384051575,
+        2.3921414551234563,
+        0.18072451575935988
+      ],
+      "emulator_chi2_Csingle": 2.508917985202907e-08,
+      "independent_kernel_chi2_Csingle": 0.006893117311988579
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -22.553775254267855,
+        2.4817004548260524,
+        -0.2771396236037691
+      ],
+      "emulator_chi2_Csingle": 2.7312625843973293e-08,
+      "independent_kernel_chi2_Csingle": 0.008020982449962777
+    },
+    {
+      "variant": "xi02",
+      "point": "random",
+      "theta": [
+        -29.667678774130472,
+        2.519539376714331,
+        0.486838460294993
+      ],
+      "emulator_chi2_Csingle": 2.8304504877617707e-08,
+      "independent_kernel_chi2_Csingle": 0.008537792002609275
+    },
+    {
+      "variant": "xi02",
+      "point": "tail_0_1",
+      "theta": [
+        -64.68034485090506,
+        2.590686856923012,
+        0.2820270157662225
+      ],
+      "emulator_chi2_Csingle": 2.9724415389227553e-08,
+      "independent_kernel_chi2_Csingle": 0.009525530877022882
+    },
+    {
+      "variant": "xi02",
+      "point": "tail_0_99",
+      "theta": [
+        67.72768359522202,
+        2.295239365841018,
+        0.52671983066581
+      ],
+      "emulator_chi2_Csingle": 2.4060196483171464e-08,
+      "independent_kernel_chi2_Csingle": 0.006041083465702634
+    },
+    {
+      "variant": "xi02",
+      "point": "tail_1_1",
+      "theta": [
+        58.25882038421967,
+        2.1546392448083656,
+        -0.8683489383924711
+      ],
+      "emulator_chi2_Csingle": 2.0609713190687116e-08,
+      "independent_kernel_chi2_Csingle": 0.004593994600596951
+    },
+    {
+      "variant": "xi02",
+      "point": "tail_1_99",
+      "theta": [
+        -26.45914061881726,
+        2.6715748297652233,
+        0.6885140874322789
+      ],
+      "emulator_chi2_Csingle": 3.373235654754245e-08,
+      "independent_kernel_chi2_Csingle": 0.010945886770080208
+    },
+    {
+      "variant": "xi02",
+      "point": "MAP",
+      "theta": [
+        3.8481724070539935,
+        2.4224909120475755,
+        0.9999999999999999
+      ],
+      "emulator_chi2_Csingle": 2.618198414424013e-08,
+      "independent_kernel_chi2_Csingle": 0.007286999861916914,
+      "integration_chi2_Csingle": 4.157616386929532e-10
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -33.94721972420924,
+        2.4214376047264836,
+        2.871180780265576,
+        0.04992299465353306
+      ],
+      "emulator_chi2_Csingle": 2.533355905017552e-08,
+      "independent_kernel_chi2_Csingle": 0.007219119805298821,
+      "P_spline_chi2_Csingle": 2.1830185462857275e-23
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        10.659987793516223,
+        2.364430105780429,
+        1.5008143277211103,
+        0.0690387380622715
+      ],
+      "emulator_chi2_Csingle": 2.473040262017408e-08,
+      "independent_kernel_chi2_Csingle": 0.0065950270804597515,
+      "P_spline_chi2_Csingle": 3.3614309041206506e-28
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -25.5467490041049,
+        2.389820814568279,
+        0.42748312085262974,
+        0.03188156597741343
+      ],
+      "emulator_chi2_Csingle": 2.4661702058001978e-08,
+      "independent_kernel_chi2_Csingle": 0.00684260407033917,
+      "P_spline_chi2_Csingle": 9.815005573322999e-23
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        3.378244947264564,
+        2.3348538514626656,
+        2.42021494564683,
+        0.2529306416284426
+      ],
+      "emulator_chi2_Csingle": 2.3820462811489614e-08,
+      "independent_kernel_chi2_Csingle": 0.006244395169592956,
+      "P_spline_chi2_Csingle": 2.0181529076034806e-23
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -1.83190668990715,
+        2.390192902290307,
+        1.4328922656046172,
+        0.02519986948463096
+      ],
+      "emulator_chi2_Csingle": 2.5162259709355336e-08,
+      "independent_kernel_chi2_Csingle": 0.00687856887193983,
+      "P_spline_chi2_Csingle": 4.0319426108101657e-25
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        27.535172866338918,
+        2.415377308708724,
+        0.48728897400359616,
+        -0.05003191067302759
+      ],
+      "emulator_chi2_Csingle": 2.650627992827146e-08,
+      "independent_kernel_chi2_Csingle": 0.007258505261795537,
+      "P_spline_chi2_Csingle": 3.340544548661164e-23
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -39.95607610064593,
+        2.3441367856506843,
+        1.4939707844149765,
+        0.21901229249764004
+      ],
+      "emulator_chi2_Csingle": 2.3224207158771902e-08,
+      "independent_kernel_chi2_Csingle": 0.0062960270789907315,
+      "P_spline_chi2_Csingle": 1.955919928269932e-26
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -35.953461300005,
+        2.484819692129445,
+        3.446145613945731,
+        -0.0945230378863201
+      ],
+      "emulator_chi2_Csingle": 2.7093143126699383e-08,
+      "independent_kernel_chi2_Csingle": 0.008043692049099122,
+      "P_spline_chi2_Csingle": 1.1611095494998052e-25
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        41.19891660326314,
+        2.323596505251599,
+        0.6526436632029674,
+        0.2303797366431291
+      ],
+      "emulator_chi2_Csingle": 2.4273313889873507e-08,
+      "independent_kernel_chi2_Csingle": 0.006216308439121356,
+      "P_spline_chi2_Csingle": 6.906063381603133e-26
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        2.6404735559358423,
+        2.3473289930117947,
+        0.24492555996564302,
+        0.14275240933566458
+      ],
+      "emulator_chi2_Csingle": 2.412335024499227e-08,
+      "independent_kernel_chi2_Csingle": 0.006383776144405324,
+      "P_spline_chi2_Csingle": 1.8600206924788766e-24
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -17.150684236007564,
+        2.3665737173296484,
+        1.4670880388837644,
+        0.10430523719971069
+      ],
+      "emulator_chi2_Csingle": 2.422571713837305e-08,
+      "independent_kernel_chi2_Csingle": 0.006578212454971631,
+      "P_spline_chi2_Csingle": 6.475990337575645e-25
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        18.356445774999838,
+        2.274484943398945,
+        3.520953251423781,
+        0.3724954476277901
+      ],
+      "emulator_chi2_Csingle": 2.262508479726612e-08,
+      "independent_kernel_chi2_Csingle": 0.005623503157532624,
+      "P_spline_chi2_Csingle": 1.0095517704072062e-23
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -36.434311213177075,
+        2.479511952453531,
+        2.7063701379097744,
+        -0.09990614639831485
+      ],
+      "emulator_chi2_Csingle": 2.692488631474053e-08,
+      "independent_kernel_chi2_Csingle": 0.007970930109228808,
+      "P_spline_chi2_Csingle": 1.0661011935369664e-24
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -21.332712899767227,
+        2.463509168114956,
+        2.272260507357442,
+        -0.11470946173004767
+      ],
+      "emulator_chi2_Csingle": 2.6800823800685312e-08,
+      "independent_kernel_chi2_Csingle": 0.007778273118193314,
+      "P_spline_chi2_Csingle": 2.4336258219027414e-23
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        13.553384935103324,
+        2.293533433450276,
+        2.653235941558232,
+        0.37178663346062074
+      ],
+      "emulator_chi2_Csingle": 2.2993081359156613e-08,
+      "independent_kernel_chi2_Csingle": 0.0058129021162778875,
+      "P_spline_chi2_Csingle": 7.524765073061317e-26
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -10.947658807368574,
+        2.371096802041349,
+        2.9737155433934372,
+        0.12906700934942988
+      ],
+      "emulator_chi2_Csingle": 2.4467161964750465e-08,
+      "independent_kernel_chi2_Csingle": 0.006638671495467243,
+      "P_spline_chi2_Csingle": 2.1088270066502132e-23
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -14.481153259346797,
+        2.414763113784541,
+        1.3726941365262084,
+        -0.014057101731100946
+      ],
+      "emulator_chi2_Csingle": 2.5565678855248464e-08,
+      "independent_kernel_chi2_Csingle": 0.007161157943968189,
+      "P_spline_chi2_Csingle": 7.215816127918791e-25
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -25.696765397694918,
+        2.376652910808154,
+        1.5615283756620846,
+        0.1297482582426792
+      ],
+      "emulator_chi2_Csingle": 2.4315186562045366e-08,
+      "independent_kernel_chi2_Csingle": 0.006686034904021242,
+      "P_spline_chi2_Csingle": 7.557200762271085e-25
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        14.703880608713241,
+        2.364742657441578,
+        2.3729387631411325,
+        0.06254659912950504
+      ],
+      "emulator_chi2_Csingle": 2.4821545847259412e-08,
+      "independent_kernel_chi2_Csingle": 0.0066071690242390764,
+      "P_spline_chi2_Csingle": 2.334629594814042e-23
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        1.7904318185435262,
+        2.269168741422646,
+        1.6424729101306876,
+        0.35470331508242336
+      ],
+      "emulator_chi2_Csingle": 2.2208235093693555e-08,
+      "independent_kernel_chi2_Csingle": 0.005542316640027836,
+      "P_spline_chi2_Csingle": 1.7891925748164568e-25
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        14.427363740749449,
+        2.3293574708164186,
+        2.08650667288413,
+        0.2106138654475187
+      ],
+      "emulator_chi2_Csingle": 2.3895826291877126e-08,
+      "independent_kernel_chi2_Csingle": 0.006202901904331069,
+      "P_spline_chi2_Csingle": 6.577760798182709e-24
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -3.7995462745627453,
+        2.3195378745741033,
+        1.215990048062213,
+        0.18420639366833166
+      ],
+      "emulator_chi2_Csingle": 2.33029196029861e-08,
+      "independent_kernel_chi2_Csingle": 0.0060650878740081465,
+      "P_spline_chi2_Csingle": 1.9883168604231545e-24
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        -21.275154119149285,
+        2.4416489421158953,
+        3.1728165682391456,
+        -0.0047069286131881105
+      ],
+      "emulator_chi2_Csingle": 2.6170744183145108e-08,
+      "independent_kernel_chi2_Csingle": 0.007492412194643934,
+      "P_spline_chi2_Csingle": 1.928344073335894e-23
+    },
+    {
+      "variant": "joint",
+      "point": "random",
+      "theta": [
+        26.700528760496834,
+        2.4127867349949943,
+        1.9626478975998307,
+        -0.0015579034445229317
+      ],
+      "emulator_chi2_Csingle": 2.641255759610484e-08,
+      "independent_kernel_chi2_Csingle": 0.007223003087664891,
+      "P_spline_chi2_Csingle": 5.469507982762421e-24
+    },
+    {
+      "variant": "joint",
+      "point": "tail_0_1",
+      "theta": [
+        -61.03579360125369,
+        2.4788331741353957,
+        1.0282912946019738,
+        -0.1310759212918598
+      ],
+      "emulator_chi2_Csingle": 2.6347165380032122e-08,
+      "independent_kernel_chi2_Csingle": 0.007917938676694256,
+      "P_spline_chi2_Csingle": 1.8067615098214605e-23
+    },
+    {
+      "variant": "joint",
+      "point": "tail_0_99",
+      "theta": [
+        58.61762582092289,
+        2.367992140532625,
+        2.7685338739510197,
+        0.02994647373868412
+      ],
+      "emulator_chi2_Csingle": 2.583645289374973e-08,
+      "independent_kernel_chi2_Csingle": 0.006825296314665076,
+      "P_spline_chi2_Csingle": 1.81929421723851e-23
+    },
+    {
+      "variant": "joint",
+      "point": "tail_1_1",
+      "theta": [
+        21.060444267799387,
+        2.2198189554334538,
+        1.6888179301552948,
+        0.4430297345657781
+      ],
+      "emulator_chi2_Csingle": 2.1424109642668192e-08,
+      "independent_kernel_chi2_Csingle": 0.005087892142632972,
+      "P_spline_chi2_Csingle": 8.954369372199655e-25
+    },
+    {
+      "variant": "joint",
+      "point": "tail_1_99",
+      "theta": [
+        -65.79605768204212,
+        2.5321363805862362,
+        1.8896585060942719,
+        -0.09298482537677956
+      ],
+      "emulator_chi2_Csingle": 2.7818645024014584e-08,
+      "independent_kernel_chi2_Csingle": 0.00864738757387294,
+      "P_spline_chi2_Csingle": 2.51119169300014e-24
+    },
+    {
+      "variant": "joint",
+      "point": "MAP",
+      "theta": [
+        4.7433476651914885,
+        2.3781002956068384,
+        2.1708878659726025,
+        0.08555150456384694
+      ],
+      "emulator_chi2_Csingle": 2.497332711037728e-08,
+      "independent_kernel_chi2_Csingle": 0.0067448579090171445,
+      "P_spline_chi2_Csingle": 1.89341998846271e-23,
+      "integration_chi2_Csingle": 3.648532056572128e-10
+    }
+  ],
+  "compiled_sha256": "e863abdfe54ceef49a5729c8ce8245b152a8a98ad2c02fbcba5b83c394bfb2b5",
+  "scope": "24 random actual posterior samples + fNL/b1 1/99 percentile nearest samples + MAP for each fit; refinement at each MAP. Independent kernels tested with a common physical input."
+}

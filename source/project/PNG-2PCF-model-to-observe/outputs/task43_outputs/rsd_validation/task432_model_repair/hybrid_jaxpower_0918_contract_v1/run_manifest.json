@@ -1,0 +1,209 @@
+{
+  "status": "complete",
+  "utc": "2026-09-21T11:41:38Z",
+  "source_records": [
+    {
+      "executed_snapshot": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/provenance/task432_hybrid_jaxpower_0918_contract.py",
+      "executed_sha256": "28bc22e0eff00a1a10eda59c107bdda7ca55f65a32a14ed3c0988301e824b232",
+      "documented_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_hybrid_jaxpower_0918_contract.py",
+      "documented_sha256": "1459b07671dc4ec69c10afb6d8799d48673d5ab6544f0f44bcb5bec8ed6dbd50",
+      "executable_ast_unchanged": true
+    },
+    {
+      "executed_snapshot": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/provenance/task432_hybrid_0918_postflight.py",
+      "executed_sha256": "980db607a4c7f20def9784a582192a7fff666a1c93c21fd31ff44d73e028e86f",
+      "documented_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_hybrid_0918_postflight.py",
+      "documented_sha256": "86617ff046edb6537fce9190d0bf6ca24425e4c349533b105befa44b026b848a",
+      "executable_ast_unchanged": true
+    }
+  ],
+  "environment_versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.16.3",
+    "emcee": "3.1.6",
+    "h5py": "3.15.1",
+    "velocileptors": "3.1",
+    "matplotlib": "3.10.7"
+  },
+  "files": [
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/joint/chain.h5",
+      "bytes": 200161616
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/joint/convergence_latest.json",
+      "bytes": 1667
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/joint/progress.json",
+      "bytes": 104
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/joint/samples.npz",
+      "bytes": 29133348
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/joint/summary.json",
+      "bytes": 2690
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/p02/chain.h5",
+      "bytes": 200161616
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/p02/convergence_latest.json",
+      "bytes": 1665
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/p02/progress.json",
+      "bytes": 103
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/p02/samples.npz",
+      "bytes": 29071976
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/p02/summary.json",
+      "bytes": 2584
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/xi02/chain.h5",
+      "bytes": 169249936
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/xi02/convergence_latest.json",
+      "bytes": 996
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/xi02/progress.json",
+      "bytes": 104
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/xi02/samples.npz",
+      "bytes": 17829601
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/fits/xi02/summary.json",
+      "bytes": 1880
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/frozen_inputs.npz",
+      "bytes": 2417780
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/input_audit.json",
+      "bytes": 5631
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/logs/joint.log",
+      "bytes": 4823
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/logs/p02.log",
+      "bytes": 4756
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/logs/plot.log",
+      "bytes": 703
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/logs/postflight.log",
+      "bytes": 439
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/logs/prepare.log",
+      "bytes": 3235
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/logs/xi02.log",
+      "bytes": 4499
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/postflight_audit.json",
+      "bytes": 11613
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/provenance/task432_hybrid_0918_postflight.py",
+      "bytes": 3483
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/provenance/task432_hybrid_jaxpower_0918_contract.py",
+      "bytes": 17420
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/validation_predictions.npz",
+      "bytes": 4531
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/xi_emulator.npz",
+      "bytes": 737595
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_9.18contract/README.md",
+      "bytes": 3845
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_9.18contract/task432_hybrid_jaxpower_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.json",
+      "bytes": 10068
+    },
+    {
+      "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_9.18contract/task432_hybrid_jaxpower_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.pdf",
+      "bytes": 46167
+    }
+  ],
+  "file_count": 31,
+  "total_bytes": 648896474,
+  "log_moves": [
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/joint.log",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/logs/joint.log",
+      "bytes": 4823,
+      "reason": "Consolidate this completed run logs; retained for provenance"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/p02.log",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/logs/p02.log",
+      "bytes": 4756,
+      "reason": "Consolidate this completed run logs; retained for provenance"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/plot.log",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/logs/plot.log",
+      "bytes": 703,
+      "reason": "Consolidate this completed run logs; retained for provenance"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/postflight.log",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/logs/postflight.log",
+      "bytes": 439,
+      "reason": "Consolidate this completed run logs; retained for provenance"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/prepare.log",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/logs/prepare.log",
+      "bytes": 3235,
+      "reason": "Consolidate this completed run logs; retained for provenance"
+    },
+    {
+      "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/xi02.log",
+      "destination": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/logs/xi02.log",
+      "bytes": 4499,
+      "reason": "Consolidate this completed run logs; retained for provenance"
+    }
+  ],
+  "existing_files_deleted": [],
+  "legacy_scientific_files_modified": [],
+  "core_entries": [
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_9.18contract/task432_hybrid_jaxpower_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.pdf",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_9.18contract/task432_hybrid_jaxpower_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.json",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_9.18contract/README.md",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/input_audit.json",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_0918_contract_v1/postflight_audit.json"
+  ],
+  "retained_secondary": "Full HDF5 chains support recovery; post-burn NPZ supports plotting. Logs and executed-source snapshots are provenance, not default scientific entry points.",
+  "joint_b1_between_marginals": {
+    "maximum_likelihood": false,
+    "q50": false
+  },
+  "pdf_visual_qa": "One page rendered and visually inspected locally; no clipping/overlap; original plot function and axis ranges reused."
+}

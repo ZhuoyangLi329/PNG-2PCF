@@ -1,9 +1,0 @@
-{
-  "audit": {
-    "path": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/rawbox/realspace_check/audits/task43_rsd_rawbox_realspace_pk_check.json"
-  },
-  "output_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/plots/task43/rsd_validation/task43_rsd_rawbox_realspace_pk0_check.pdf",
-  "output_pdf_sha256": "6a2b26882976e15af348c2fef6a48a172c5bc7fe8380af147c143516b1b0e787",
-  "status": "pass",
-  "task": "task43_plot_realspace_pk_check"
-}

@@ -1,0 +1,39 @@
+{
+  "chain": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/png_velocileptors_gsm/task432_png_velocileptors_gsm_xi_chain.npz",
+  "pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_2pcf_rsd_comparison/task432_2pcf_original_vs_png_velocileptors_gsm_9.22style.pdf",
+  "posterior": {
+    "acceptance_fraction_mean": 0.7071527777777777,
+    "mcmc": {
+      "burnin": 200,
+      "nsteps": 900,
+      "nwalkers": 16,
+      "seed": 20260925
+    },
+    "model": "velocileptors GSM plus linear PNG response; EFT/b2/bs/b3/s2fog fixed zero",
+    "parameter_names": [
+      "fNL",
+      "b1"
+    ],
+    "postburn_length_over_tau": [
+      33.22911844840382,
+      43.80251066345916
+    ],
+    "posterior": {
+      "b1": {
+        "q16": 2.5820159371511084,
+        "q50": 2.6404678543902764,
+        "q84": 2.6987936700263226,
+        "sigma68": 0.0583888664376071
+      },
+      "fNL": {
+        "q16": -14.395297920011892,
+        "q50": -1.4238841614440763,
+        "q84": 10.53342166351324,
+        "sigma68": 12.464359791762565
+      }
+    }
+  },
+  "scope": "xi0+xi2 only; no P02 and no joint P+xi posterior",
+  "status": "complete",
+  "task": "Task432 xi-only PNG velocileptors GSM posterior"
+}

@@ -1,0 +1,457 @@
+{
+  "axis_ranges": {
+    "b1": [
+      2.061203965628018,
+      2.746578965524653
+    ],
+    "fNL": [
+      -123.19886294765489,
+      95.35019750538237
+    ]
+  },
+  "b1_comparison": {
+    "joint": {
+      "maximum_likelihood": 2.3903791112483748,
+      "q16": 2.3235914871394954,
+      "q50": 2.390787902589758,
+      "q84": 2.4577235213931794
+    },
+    "p02": {
+      "maximum_likelihood": 2.419496292298516,
+      "q16": 2.316626871782377,
+      "q50": 2.4148436747102373,
+      "q84": 2.513658148722536
+    },
+    "xi02": {
+      "maximum_likelihood": 2.4269623166743934,
+      "q16": 2.309746724488738,
+      "q50": 2.421905016672726,
+      "q84": 2.532756814362436
+    }
+  },
+  "display_summary_quantile_max_error": {
+    "joint": 4.440892098500626e-16,
+    "p02": 4.440892098500626e-16,
+    "xi02": 4.440892098500626e-16
+  },
+  "finite_mock_note": "1000 mocks. Hartlap in likelihood; Percival computed for actual free parameter count and applied consistently to JSON intervals and plotted samples. Raw chains preserved.",
+  "input_audit": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_0918_contract_v1/input_audit.json",
+  "joint_b1_between_marginals": {
+    "maximum_likelihood": false,
+    "q50": false
+  },
+  "model_note": "Same hybrid as jaxpower rerun: bin-center xi, no formal GIC, no xi FoG parameter.",
+  "output_pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_ezmock1000_9.18contract/task432_hybrid_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120_9.18style_v1.pdf",
+  "output_pdf_sha256": "f7b2e24f5a6b84646e862d38b9d28bb0633b6dd9e7735ee95e96d2656db945bd",
+  "reference": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.18meeting/task43_ezmock_covariance_mcmc_vs_jaxpower/task43_ezmock604_vs_jaxpower_rsd_P02xi02_joint_kmax0p08_smin50_baomask80_120_v1.json",
+  "results": {
+    "joint": {
+      "acceptance_fraction_mean": 0.5735348958333333,
+      "best_chain_chi2": 4.373015798309159,
+      "best_chain_theta": [
+        -3.8991646471847545,
+        2.3911901278865146,
+        2.176739592601459,
+        0.06654650748588463
+      ],
+      "burnin": 5000,
+      "chain_convention": "Stored chain sampled Hartlap-corrected likelihood; Percival applied only to reported intervals and displayed contour samples.",
+      "data_dimension": 74,
+      "elapsed_seconds": 259.5653398389695,
+      "emulated_map_chi2": 4.3708507557937,
+      "emulated_map_theta": [
+        -3.934187767586792,
+        2.3889492541448965,
+        2.1704125297202803,
+        0.07108968606773095
+      ],
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      },
+      "half_chain_shift_sigma": {
+        "b1": 0.0036227994449931017,
+        "fNL": 0.00197000463472123,
+        "sigma_s_P": 0.005104476858548822,
+        "sn0": 0.00459211139817648
+      },
+      "hartlap_percival": {
+        "A": 2.3450782669871605e-06,
+        "B": 0.0010834261593480683,
+        "hartlap": 0.924924924924925,
+        "ndata": 74,
+        "nmock": 1000,
+        "nparams": 4,
+        "percival_m1": 1.0700407710105988,
+        "percival_sigma_factor": 1.0344277505029527
+      },
+      "input_audit_sha256": "5f1f8b88248d323f70c6268ec3033a6a3ab51c8db28cb6ed0b0888f7a9cb521d",
+      "map_chi2": 4.351871101278664,
+      "map_evaluation": "direct hybrid GSM, Nint=1200; posterior sampled validated emulator",
+      "map_success": true,
+      "map_theta": [
+        -4.896568635238364,
+        2.3903791112483748,
+        2.1681409642888725,
+        0.06875350360335583
+      ],
+      "multistart_chi2": [
+        4.37085075579404,
+        4.370850755793808,
+        4.3708507557937,
+        4.370850755797123,
+        4.370850755796093
+      ],
+      "nsteps": 30000,
+      "nwalkers": 64,
+      "parameter_names": [
+        "fNL",
+        "b1",
+        "sigma_s_P",
+        "sn0"
+      ],
+      "postburn_length_over_tau": {
+        "b1": 499.65661470061184,
+        "fNL": 499.0310108795693,
+        "sigma_s_P": 453.70031894245983,
+        "sn0": 499.5058728140351
+      },
+      "posterior": {
+        "b1": {
+          "q16": 2.3235914871394954,
+          "q50": 2.390787902589758,
+          "q84": 2.4577235213931794,
+          "sigma68": 0.06706601712684203
+        },
+        "fNL": {
+          "q16": -32.48193692855561,
+          "q50": -7.564735956892349,
+          "q84": 15.368459672398409,
+          "sigma68": 23.925198300477007
+        },
+        "sigma_s_P": {
+          "q16": 0.6920763041233673,
+          "q50": 1.8759676501060105,
+          "q84": 2.8555720776081355,
+          "sigma68": 1.081747886742384
+        },
+        "sn0": {
+          "q16": -0.09695541029328326,
+          "q50": 0.06830664581156835,
+          "q84": 0.2330730508658994,
+          "sigma68": 0.16501423057959136
+        }
+      },
+      "posterior_raw": {
+        "b1": {
+          "q16": 2.3258279134386637,
+          "q50": 2.390787902589758,
+          "q84": 2.4554957749093824,
+          "sigma68": 0.06483393073535937
+        },
+        "fNL": {
+          "q16": -31.652644425655083,
+          "q50": -7.564735956892349,
+          "q84": 14.605198693585008,
+          "sigma68": 23.128921559620046
+        },
+        "sigma_s_P": {
+          "q16": 0.7314784913348743,
+          "q50": 1.8759676501060105,
+          "q84": 2.8229689530252604,
+          "sigma68": 1.045745230845193
+        },
+        "sn0": {
+          "q16": -0.09145517034668822,
+          "q50": 0.06830664581156835,
+          "q84": 0.2275893071421634,
+          "sigma68": 0.1595222387444258
+        }
+      },
+      "priors": {
+        "lower": [
+          -500.0,
+          0.5,
+          0.0,
+          -1.0
+        ],
+        "upper": [
+          500.0,
+          5.0,
+          30.0,
+          1.0
+        ]
+      },
+      "seed": 1000920,
+      "split_rhat": {
+        "b1": 1.001737123670892,
+        "fNL": 1.0022453008990826,
+        "sigma_s_P": 1.0021663250769683,
+        "sn0": 1.0016154166796558
+      },
+      "status": "pass",
+      "tau": {
+        "b1": 50.034362128838616,
+        "fNL": 50.09708706466186,
+        "sigma_s_P": 55.10245189660227,
+        "sn0": 50.04946159923818
+      }
+    },
+    "p02": {
+      "acceptance_fraction_mean": 0.5715333333333332,
+      "best_chain_chi2": 1.1121691485263938,
+      "best_chain_theta": [
+        -12.133381333916603,
+        2.420163387158376,
+        2.474058641329654,
+        0.0063580087633728355
+      ],
+      "burnin": 5000,
+      "chain_convention": "Stored chain sampled Hartlap-corrected likelihood; Percival applied only to reported intervals and displayed contour samples.",
+      "data_dimension": 22,
+      "elapsed_seconds": 248.81524846696993,
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      },
+      "half_chain_shift_sigma": {
+        "b1": 0.01360191012259874,
+        "fNL": 0.014180093501780332,
+        "sigma_s_P": 0.02309941383813895,
+        "sn0": 0.0111185835825181
+      },
+      "hartlap_percival": {
+        "A": 2.1017278304494125e-06,
+        "B": 0.0010256431812593132,
+        "hartlap": 0.9769769769769769,
+        "ndata": 22,
+        "nmock": 1000,
+        "nparams": 4,
+        "percival_m1": 1.0132632151221144,
+        "percival_sigma_factor": 1.0066097630770896
+      },
+      "input_audit_sha256": "5f1f8b88248d323f70c6268ec3033a6a3ab51c8db28cb6ed0b0888f7a9cb521d",
+      "map_chi2": 1.1105988550870602,
+      "map_success": true,
+      "map_theta": [
+        -11.96563477850883,
+        2.419496292298516,
+        2.5273829876428513,
+        0.00891366602973533
+      ],
+      "multistart_chi2": [
+        1.1105988550870654,
+        1.1105988550870602,
+        1.110598855087136,
+        1.1105988550870833,
+        1.1105988550870813
+      ],
+      "nsteps": 30000,
+      "nwalkers": 64,
+      "parameter_names": [
+        "fNL",
+        "b1",
+        "sigma_s_P",
+        "sn0"
+      ],
+      "postburn_length_over_tau": {
+        "b1": 499.6979021699235,
+        "fNL": 492.5012720867684,
+        "sigma_s_P": 435.1819006058762,
+        "sn0": 499.77941894818645
+      },
+      "posterior": {
+        "b1": {
+          "q16": 2.316626871782377,
+          "q50": 2.4148436747102373,
+          "q84": 2.513658148722536,
+          "sigma68": 0.09851563847007964
+        },
+        "fNL": {
+          "q16": -45.87184163994316,
+          "q50": -13.097759492386992,
+          "q84": 19.464446295307958,
+          "sigma68": 32.66814396762556
+        },
+        "sigma_s_P": {
+          "q16": 0.7967147919529769,
+          "q50": 2.2094552645788155,
+          "q84": 3.506362018044765,
+          "sigma68": 1.3548236130458942
+        },
+        "sn0": {
+          "q16": -0.2140800952654955,
+          "q50": 0.02243713773330408,
+          "q84": 0.2544758521331557,
+          "sigma68": 0.2342779736993256
+        }
+      },
+      "posterior_raw": {
+        "b1": {
+          "q16": 2.3172717987653595,
+          "q50": 2.4148436747102373,
+          "q84": 2.5130092972154614,
+          "sigma68": 0.09786874922505095
+        },
+        "fNL": {
+          "q16": -45.65663518555491,
+          "q50": -13.097759492386992,
+          "q84": 19.250631097583103,
+          "sigma68": 32.45363314156901
+        },
+        "sigma_s_P": {
+          "q16": 0.8059913558767438,
+          "q50": 2.2094552645788155,
+          "q84": 3.497846060135433,
+          "sigma68": 1.3459273521293447
+        },
+        "sn0": {
+          "q16": -0.21252703773405257,
+          "q50": 0.02243713773330408,
+          "q84": 0.25295220217151904,
+          "sigma68": 0.2327396199527858
+        }
+      },
+      "priors": {
+        "lower": [
+          -500.0,
+          0.5,
+          0.0,
+          -1.0
+        ],
+        "upper": [
+          500.0,
+          5.0,
+          30.0,
+          1.0
+        ]
+      },
+      "seed": 1000918,
+      "split_rhat": {
+        "b1": 1.0022734789454573,
+        "fNL": 1.0023735269343175,
+        "sigma_s_P": 1.0021445523259653,
+        "sn0": 1.0022567866302292
+      },
+      "status": "pass",
+      "tau": {
+        "b1": 50.03022804666226,
+        "fNL": 50.7612902075825,
+        "sigma_s_P": 57.44724209622248,
+        "sn0": 50.02206784067637
+      }
+    },
+    "xi02": {
+      "acceptance_fraction_mean": 0.7142265624999999,
+      "best_chain_chi2": 3.0834837190493065,
+      "best_chain_theta": [
+        -3.9506886932464127,
+        2.427241863428089
+      ],
+      "burnin": 5000,
+      "chain_convention": "Stored chain sampled Hartlap-corrected likelihood; Percival applied only to reported intervals and displayed contour samples.",
+      "data_dimension": 52,
+      "elapsed_seconds": 240.7546079760068,
+      "emulated_map_chi2": 3.083482002436228,
+      "emulated_map_theta": [
+        -3.9155144796974177,
+        2.4271659764284097
+      ],
+      "gates": {
+        "half_chain_shift_max_below_0p1sigma": true,
+        "postburn_length_min_above_50tau": true,
+        "split_rhat_max_below_1p01": true
+      },
+      "half_chain_shift_sigma": {
+        "b1": 0.006121111918708202,
+        "fNL": 0.0010414488001380935
+      },
+      "hartlap_percival": {
+        "A": 2.237216544663791e-06,
+        "B": 0.0010582034256259732,
+        "hartlap": 0.9469469469469469,
+        "ndata": 52,
+        "nmock": 1000,
+        "nparams": 2,
+        "percival_m1": 1.0495758289399737,
+        "percival_sigma_factor": 1.024488081404549
+      },
+      "input_audit_sha256": "5f1f8b88248d323f70c6268ec3033a6a3ab51c8db28cb6ed0b0888f7a9cb521d",
+      "map_chi2": 3.084360388353182,
+      "map_evaluation": "direct hybrid GSM, Nint=1200; posterior sampled validated emulator",
+      "map_success": true,
+      "map_theta": [
+        -3.737835024253773,
+        2.4269623166743934
+      ],
+      "multistart_chi2": [
+        3.083482002436312,
+        3.0834820024362544,
+        3.083482002436228,
+        3.083482002436322,
+        3.083482002436713
+      ],
+      "nsteps": 30000,
+      "nwalkers": 64,
+      "parameter_names": [
+        "fNL",
+        "b1"
+      ],
+      "postburn_length_over_tau": {
+        "b1": 771.1022454810071,
+        "fNL": 777.5133881650536
+      },
+      "posterior": {
+        "b1": {
+          "q16": 2.309746724488738,
+          "q50": 2.421905016672726,
+          "q84": 2.532756814362436,
+          "sigma68": 0.11150504493684915
+        },
+        "fNL": {
+          "q16": -32.73827085693071,
+          "q50": -5.827473715566935,
+          "q84": 20.661973378228712,
+          "sigma68": 26.70012211757971
+        }
+      },
+      "posterior_raw": {
+        "b1": {
+          "q16": 2.312427615988648,
+          "q50": 2.421905016672726,
+          "q84": 2.530107151672418,
+          "sigma68": 0.10883976784188487
+        },
+        "fNL": {
+          "q16": -32.09502882901414,
+          "q50": -5.827473715566935,
+          "q84": 20.028802774716134,
+          "sigma68": 26.061915801865137
+        }
+      },
+      "priors": {
+        "lower": [
+          -500.0,
+          0.5
+        ],
+        "upper": [
+          500.0,
+          5.0
+        ]
+      },
+      "seed": 1000919,
+      "split_rhat": {
+        "b1": 1.001275200914245,
+        "fNL": 1.0011873170640462
+      },
+      "status": "pass",
+      "tau": {
+        "b1": 32.42112203214401,
+        "fNL": 32.153787163717496
+      }
+    }
+  },
+  "status": "pass"
+}

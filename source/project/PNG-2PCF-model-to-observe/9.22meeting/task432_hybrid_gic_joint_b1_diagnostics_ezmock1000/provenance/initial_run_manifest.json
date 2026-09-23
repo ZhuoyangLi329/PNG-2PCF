@@ -1,0 +1,35 @@
+{
+  "cpu_affinity": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "formal_contract": "9.18 P0 13 + P2 9 + xi0 26 + xi2 26; mandatory scalar GIC; C_single; diagnostics retain originals",
+  "host": "login11",
+  "inputs": {
+    "ezmock1000": {
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/frozen_inputs.npz": "0e3601dde3607d4137b5537ca96e0d76bd0acafc66849e8403f44cf10f419f37",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/input_audit.json": "4cc8220b309aee36d60faf5d22b8f1c4a5ec2595ea744c39066f4625f8368cdd",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_ezmock1000_gic_0918_contract/xi_emulator.npz": "d93fd463efe428e6cd9d5530482ed17da22abeed325eed2495f0763e48278d06"
+    },
+    "jaxpower": {
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/frozen_inputs.npz": "e4e061aded9453ba75c8108d95c79b3e716e8f61dad91899f0b0d23b5e4f9574",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/input_audit.json": "0a2ce8f6e1007b31505432faba43218243552bfe04856108dd8e68900b29c078",
+      "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/xi_emulator.npz": "d93fd463efe428e6cd9d5530482ed17da22abeed325eed2495f0763e48278d06"
+    }
+  },
+  "outputs": [
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_joint_b1_diagnostics/calibration.json",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_joint_b1_diagnostics/run_manifest.json",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_joint_b1_diagnostics/primary.json",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_joint_b1_diagnostics/phases.json",
+    "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_gic_joint_b1_diagnostics/covariance_bootstrap.json"
+  ],
+  "source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_joint_b1_diagnostics.py",
+  "source_sha256": "f90c4db05c74e466303c0ffb6688985ec8fbdffcd0b638d4a644dd340a74aac0"
+}

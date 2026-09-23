@@ -1,0 +1,130 @@
+{
+  "checks": [
+    {
+      "error_chi2_Cmean25": 8.760147610537283e-10,
+      "kind": "continuous_basis",
+      "theta": [
+        0,
+        2.42,
+        2.15,
+        0.08
+      ]
+    },
+    {
+      "error_chi2_Cmean25": 8.760139362531834e-10,
+      "kind": "boxcut_basis",
+      "theta": [
+        0,
+        2.42,
+        2.15,
+        0.08
+      ]
+    },
+    {
+      "error_chi2_Cmean25": 2.0962423334331674e-10,
+      "kind": "continuous_basis",
+      "theta": [
+        0,
+        2.35,
+        5,
+        0.02
+      ]
+    },
+    {
+      "error_chi2_Cmean25": 2.0962388339586956e-10,
+      "kind": "boxcut_basis",
+      "theta": [
+        0,
+        2.35,
+        5,
+        0.02
+      ]
+    },
+    {
+      "error_chi2_Cmean25": 7.842084469936612e-10,
+      "kind": "continuous_basis",
+      "theta": [
+        -30,
+        2.49,
+        2.517,
+        0.08
+      ]
+    },
+    {
+      "error_chi2_Cmean25": 7.84161581054143e-10,
+      "kind": "boxcut_basis",
+      "theta": [
+        -30,
+        2.49,
+        2.517,
+        0.08
+      ]
+    },
+    {
+      "error_chi2_Cmean25": 9.278718490903453e-11,
+      "kind": "continuous_basis",
+      "theta": [
+        30,
+        2.42,
+        8.337,
+        0.08
+      ]
+    },
+    {
+      "error_chi2_Cmean25": 9.276599010550272e-11,
+      "kind": "boxcut_basis",
+      "theta": [
+        30,
+        2.42,
+        8.337,
+        0.08
+      ]
+    },
+    {
+      "error_chi2_Cmean25": 4.91478881788099e-09,
+      "kind": "continuous_basis",
+      "theta": [
+        0,
+        2.42,
+        0.05,
+        0.08
+      ]
+    },
+    {
+      "error_chi2_Cmean25": 4.914787134812838e-09,
+      "kind": "boxcut_basis",
+      "theta": [
+        0,
+        2.42,
+        0.05,
+        0.08
+      ]
+    },
+    {
+      "error_chi2_Cmean25": 8.877133389029831e-12,
+      "kind": "continuous_basis",
+      "theta": [
+        0,
+        2.42,
+        29.95,
+        0.08
+      ]
+    },
+    {
+      "error_chi2_Cmean25": 8.876689727565899e-12,
+      "kind": "boxcut_basis",
+      "theta": [
+        0,
+        2.42,
+        29.95,
+        0.08
+      ]
+    }
+  ],
+  "gate": true,
+  "nk": 8192,
+  "nmu": 96,
+  "reference_nk": 16384,
+  "reference_nmu": 192,
+  "sigma_step": 0.1
+}

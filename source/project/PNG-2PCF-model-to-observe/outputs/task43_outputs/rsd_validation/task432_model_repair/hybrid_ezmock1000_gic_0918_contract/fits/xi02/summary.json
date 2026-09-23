@@ -1,0 +1,114 @@
+{
+  "acceptance_fraction_mean": 0.7154802083333334,
+  "best_chain_chi2": 3.07317361221125,
+  "best_chain_theta": [
+    -2.02310911341538,
+    2.4230390394890984
+  ],
+  "burnin": 5000,
+  "covariance": "ezmock1000",
+  "data_dimension": 52,
+  "elapsed_seconds": 274.97936092398595,
+  "emulated_map_chi2": 3.073170985087629,
+  "emulated_map_theta": [
+    -2.064898236622593,
+    2.423164669099409
+  ],
+  "finite_mock_corrections": {
+    "hartlap": 0.9469469469469469,
+    "ndata": 52,
+    "nmock": 1000,
+    "nparams": 2,
+    "percival_m1": 1.0495758289399737,
+    "percival_sigma_factor": 1.024488081404549
+  },
+  "gates": {
+    "half_chain_shift_max_below_0p1sigma": true,
+    "postburn_length_min_above_50tau": true,
+    "split_rhat_max_below_1p01": true
+  },
+  "gic_at_direct_map": 1.3034476968358118e-05,
+  "gic_posterior_q16_q50_q84": [
+    7.563893245979825e-06,
+    1.271666770509842e-05,
+    1.9623171870249097e-05
+  ],
+  "half_chain_shift_sigma": {
+    "b1": 0.006857604719145226,
+    "fNL": 0.00644136933937842
+  },
+  "input_audit_sha256": "4cc8220b309aee36d60faf5d22b8f1c4a5ec2595ea744c39066f4625f8368cdd",
+  "map_chi2": 3.0731654072877337,
+  "map_evaluation": "direct hybrid+GIC, Nint1200 shell quadrature8; posterior uses validated emulator",
+  "map_success": true,
+  "map_theta": [
+    -2.065047198364116,
+    2.4231646163957543
+  ],
+  "model": "hybrid+GIC",
+  "multistart_chi2": [
+    3.07317098508763,
+    3.073170985087734,
+    3.073170985087928,
+    3.0731709850881246,
+    3.0731709850882374
+  ],
+  "nsteps": 30000,
+  "nwalkers": 64,
+  "parameter_names": [
+    "fNL",
+    "b1"
+  ],
+  "postburn_length_over_tau": {
+    "b1": 789.4298133870005,
+    "fNL": 803.1362464938744
+  },
+  "posterior": {
+    "b1": {
+      "q16": 2.305109186571571,
+      "q50": 2.417980741752195,
+      "q84": 2.5282652306317024,
+      "sigma68": 0.1115780220300658
+    },
+    "fNL": {
+      "q16": -30.874653680404585,
+      "q50": -3.3046699043884615,
+      "q84": 23.8353527072125,
+      "sigma68": 27.35500319380854
+    }
+  },
+  "posterior_raw": {
+    "b1": {
+      "q16": 2.3078071270178198,
+      "q50": 2.417980741752195,
+      "q84": 2.5256291281817473,
+      "sigma68": 0.10891100058196379
+    },
+    "fNL": {
+      "q16": -30.215655279853568,
+      "q50": -3.3046699043884615,
+      "q84": 23.18663156042959,
+      "sigma68": 26.701143420141577
+    }
+  },
+  "priors": {
+    "lower": [
+      -500.0,
+      0.5
+    ],
+    "upper": [
+      500.0,
+      5.0
+    ]
+  },
+  "seed": 4322901,
+  "split_rhat": {
+    "b1": 1.0012307534939298,
+    "fNL": 1.0012320364875995
+  },
+  "status": "pass",
+  "tau": {
+    "b1": 31.66842647193551,
+    "fNL": 31.12796877134928
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-09-21T12:39:16.571281+00:00",
+  "format": "PDF only for delivered figures",
+  "pdfs": [
+    {
+      "covariance": "jaxpower",
+      "page_size": "842.442 x 430.717 pts",
+      "pages": 1,
+      "pdf_name": "task432_hybrid_gic_jaxpower_P02xi02_joint_kmax0p08_smin50_baomask80_120.pdf",
+      "sha256": "c6e9178baadf941108c76001b82142efc4568b6d6c314fd83f301cff7bd1f233",
+      "visual_review": "All pages rendered as temporary JPEG and inspected; title, labels, contours, legend and footer legible with no clipping."
+    },
+    {
+      "covariance": "ezmock1000",
+      "page_size": "822.442 x 430.717 pts",
+      "pages": 1,
+      "pdf_name": "task432_hybrid_gic_ezmock1000_P02xi02_joint_kmax0p08_smin50_baomask80_120.pdf",
+      "sha256": "760ba73a9bc6750f669f0611c1458a07457ef3804cec873d79ac32d7b47f334a",
+      "visual_review": "All pages rendered as temporary JPEG and inspected; title, labels, contours, legend and footer legible with no clipping."
+    }
+  ],
+  "status": "pass"
+}

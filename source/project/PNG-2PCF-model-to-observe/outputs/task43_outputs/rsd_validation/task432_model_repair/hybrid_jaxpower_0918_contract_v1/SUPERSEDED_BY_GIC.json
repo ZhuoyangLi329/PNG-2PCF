@@ -1,0 +1,22 @@
+{
+  "affected_probes": [
+    "xi02",
+    "joint"
+  ],
+  "p02": "unchanged and reused in corrected result",
+  "reason": "Earlier hybrid xi prediction omitted mandatory GIC; corrected results are now the current products.",
+  "replacement": {
+    "input_audit": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/input_audit.json",
+    "joint_b1_between_marginals": {
+      "maximum_likelihood": false,
+      "q50": false
+    },
+    "meeting": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_gic_9.18contract",
+    "output": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract",
+    "pdf": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_gic_9.18contract/task432_hybrid_gic_jaxpower_P02xi02_joint_kmax0p08_smin50_baomask80_120.pdf",
+    "postflight_audit": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/hybrid_jaxpower_gic_0918_contract/postflight_audit.json",
+    "summary": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.22meeting/task432_hybrid_jaxpower_gic_9.18contract/task432_hybrid_gic_jaxpower_P02xi02_joint_kmax0p08_smin50_baomask80_120.json"
+  },
+  "status": "superseded_for_scientific_use",
+  "updated_utc": "2026-09-21T12:39:19Z"
+}

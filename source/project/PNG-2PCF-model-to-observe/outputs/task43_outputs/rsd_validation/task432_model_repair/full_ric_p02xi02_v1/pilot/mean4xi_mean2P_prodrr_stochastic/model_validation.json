@@ -1,0 +1,71 @@
+{
+  "status": "pass",
+  "records": [
+    {
+      "theta": [
+        0.0,
+        2.4
+      ],
+      "error_chi2_Csingle": 2.1298424789685378e-08
+    },
+    {
+      "theta": [
+        4.5,
+        2.38
+      ],
+      "error_chi2_Csingle": 2.1036142762966025e-08
+    },
+    {
+      "theta": [
+        -7.73,
+        2.3904
+      ],
+      "error_chi2_Csingle": 2.0986282475694485e-08
+    },
+    {
+      "theta": [
+        -63.7,
+        2.273
+      ],
+      "error_chi2_Csingle": 1.8227680055528764e-08
+    },
+    {
+      "theta": [
+        -31.3,
+        2.517
+      ],
+      "error_chi2_Csingle": 2.278037852214384e-08
+    },
+    {
+      "theta": [
+        18.7,
+        2.347
+      ],
+      "error_chi2_Csingle": 2.073135908055359e-08
+    },
+    {
+      "theta": [
+        57.3,
+        2.643
+      ],
+      "error_chi2_Csingle": 2.7670570563320964e-08
+    },
+    {
+      "theta": [
+        96.1,
+        2.177
+      ],
+      "error_chi2_Csingle": 1.919621021318813e-08
+    },
+    {
+      "theta": [
+        -102.3,
+        2.713
+      ],
+      "error_chi2_Csingle": 2.4991779233044008e-08
+    }
+  ],
+  "max_error_chi2_Csingle": 2.7670570563320964e-08,
+  "compiled_sha256": "dde0ba534d5eac07ec0580c67eafebcaea3596673fbd50b045e84b8f96e8fc7a",
+  "scope": "Independent Nint1200/inner-quadrature4 truth vs original raw emulator + new RIC grid; posterior-tail postflight still required."
+}

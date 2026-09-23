@@ -1,0 +1,84 @@
+{
+  "acceptance_fraction_mean": 0.7146234375,
+  "best_chain_chi2": 5.121176692186528,
+  "best_chain_theta": [
+    -5.870270967795783,
+    2.4369888121992815
+  ],
+  "burnin": 5000,
+  "data_dimension": 52,
+  "elapsed_seconds": 241.60167224501492,
+  "emulated_map_chi2": 5.1211761360276835,
+  "emulated_map_theta": [
+    -5.888003856091332,
+    2.4370544750766143
+  ],
+  "gates": {
+    "half_chain_shift_max_below_0p1sigma": true,
+    "postburn_length_min_above_50tau": true,
+    "split_rhat_max_below_1p01": true
+  },
+  "half_chain_shift_sigma": {
+    "b1": 0.006516739677154645,
+    "fNL": 0.006251663910441554
+  },
+  "input_audit_sha256": "ba34495fd0a7b629c16432686918753d1aef6ea3b0bb67994d6f279d939af703",
+  "map_chi2": 5.1222840966134875,
+  "map_evaluation": "direct hybrid GSM, Nint=1200; posterior sampled validated emulator",
+  "map_success": true,
+  "map_theta": [
+    -5.6024362068307845,
+    2.4368084944926847
+  ],
+  "multistart_chi2": [
+    5.121176136027819,
+    5.121176136027684,
+    5.121176136027742,
+    5.1211761360276835,
+    5.121176136027913
+  ],
+  "nsteps": 30000,
+  "nwalkers": 64,
+  "parameter_names": [
+    "fNL",
+    "b1"
+  ],
+  "postburn_length_over_tau": {
+    "b1": 798.3629360643114,
+    "fNL": 799.9830334478
+  },
+  "posterior": {
+    "b1": {
+      "q16": 2.3299880957484325,
+      "q50": 2.433824290948567,
+      "q84": 2.536656810178995,
+      "sigma68": 0.10333435721528117
+    },
+    "fNL": {
+      "q16": -35.32152279946617,
+      "q50": -8.043230604881325,
+      "q84": 17.776162018319727,
+      "sigma68": 26.548842408892952
+    }
+  },
+  "priors": {
+    "lower": [
+      -500.0,
+      0.5
+    ],
+    "upper": [
+      500.0,
+      5.0
+    ]
+  },
+  "seed": 932919,
+  "split_rhat": {
+    "b1": 1.0009942522673674,
+    "fNL": 1.0010979950719028
+  },
+  "status": "pass",
+  "tau": {
+    "b1": 31.314078936633088,
+    "fNL": 31.250662770001462
+  }
+}
