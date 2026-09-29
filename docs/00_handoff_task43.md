@@ -14,7 +14,7 @@
 
 - AbacusSummit `base_c000`, `ph000--ph024`，当前 box-safe lightcone 为 `0.4 < z_obs < 0.8`。
 - 25 phase 的观测曲线取算术平均。
-- P 侧：`P0` 全部 15 个基准 bins，`P2` 使用 `k >= 0.015 h/Mpc` 的 11 个 bins。
+- P 侧：`P0` 使用 13 个 bins（kmin=0.005），`P2` 使用 `k >= 0.015 h/Mpc` 的 9 个 bins；共同 kmax=0.08 h/Mpc。15/11 是旧 kmax=0.10 的历史配置。
 - xi 侧：`50 <= s < 350 Mpc/h`，删除 `80 <= s < 120 Mpc/h`，即删除中心 `85,95,105,115`，保留 xi0/xi2 各 26 个 bins。
 - 合同总维度为 `22 + 52 = 74`，P/xi joint 使用完整 cross block。
 - posterior、error bars 和 likelihood 使用 `C_single`，不除以 25；均值 shape 检验另用 `C_single/25` 或 phase-level 统计。
@@ -60,7 +60,7 @@ P 侧和 xi 侧共享 `sigma_s`；P 侧另外有 `sn0`。formal GIC 是由 RR/wi
 - PNG density response 为 `Delta P = (2*b1*q*alpha + q^2*alpha^2)*P_L`；
 - 额外加入 leading density--velocity response `Delta v ~ -2*q*alpha*P_L/k`；
 - velocity--velocity response 暂时仍采用 Gaussian CLPT/GSM baseline；
-- xi-only 参数变为 `(fNL,b1)`，joint 中 `sigma_s_P,sn0` 只作用在 P 侧。
+- 初期 hybrid xi-only 参数为 `(fNL,b1)`；补齐 full RIC 后改为 `(fNL,b1,sn0)`，同一个 sn0 的投影响应同时进入 P 与 xi，sigma_s_P 仍仅属于 P 侧。
 
 ## 5. GIC/RIC 递进
 
@@ -94,3 +94,7 @@ P 侧和 xi 侧共享 `sigma_s`；P 侧另外有 `sn0`。formal GIC 是由 RR/wi
 4. P/xi covariance cross block 是否对应同一 mean model、FKP、random/shuffling 和 finite-mock contract。
 5. joint b1 位于边缘结果之外是否可由 cross covariance、非线性后验几何或 model mismatch 解释。
 6. 下一步应优先做哪一个可证伪实验：相同 GSM 同时生成 P/xi、独立 sigma、完整 xi window convolution、或经验多 realization covariance。
+
+## 8. 9.30 后续诊断
+
+最新代码与证据见[9.30说明](06_9.30_velocileptors_fullRIC.md)。早期不完整RIC试算的joint b1曾居中，但独立完整RIC直接MAP中，cross恢复为1后joint b1=2.378203，仍低于P/xi单独中心。局部先验短链不能与9.22正式长链直接比较区间增益；正式基准继续使用formal_mean4。

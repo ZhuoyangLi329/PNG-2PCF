@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "scientific_status": "diagnostic_only",
+  "files": [
+    {
+      "path": "source/project/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/diagnostic_chains.npz",
+      "sha256": "89ba1eaa2d3f6c771e2ddef4ad5a53c099ba5680ffd27e80b6ae93c9bb9928ac",
+      "arrays": {
+        "xi_chain": {
+          "shape": [
+            16000,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "joint_chain": {
+          "shape": [
+            16000,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "p_chain": {
+          "shape": [
+            200000,
+            4
+          ],
+          "dtype": "float64"
+        }
+      },
+      "role": "short diagnostic chains and inherited P excerpt"
+    },
+    {
+      "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator/local/velo_fullric_grid.npz",
+      "sha256": "8079e3526dd91d41ce5974503a5007299230e30e100802330510f85c2981eb75",
+      "arrays": {
+        "f_grid": {
+          "shape": [
+            11
+          ],
+          "dtype": "float64"
+        },
+        "b_grid": {
+          "shape": [
+            11
+          ],
+          "dtype": "float64"
+        },
+        "raw_xi": {
+          "shape": [
+            11,
+            11,
+            52
+          ],
+          "dtype": "float64"
+        },
+        "ric_clustering": {
+          "shape": [
+            11,
+            11,
+            52
+          ],
+          "dtype": "float64"
+        },
+        "poles": {
+          "shape": [
+            11,
+            11,
+            3,
+            233
+          ],
+          "dtype": "float64"
+        },
+        "fixed_shot": {
+          "shape": [
+            52
+          ],
+          "dtype": "float64"
+        },
+        "sn0_ric_response": {
+          "shape": [
+            52
+          ],
+          "dtype": "float64"
+        },
+        "xi_response": {
+          "shape": [
+            52,
+            3,
+            233
+          ],
+          "dtype": "float64"
+        },
+        "xi_centers": {
+          "shape": [
+            233
+          ],
+          "dtype": "float64"
+        },
+        "separation_edges": {
+          "shape": [
+            234
+          ],
+          "dtype": "float64"
+        },
+        "nint": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      },
+      "role": "compiled deterministic RIC grid; numerical compilation pass only"
+    },
+    {
+      "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator/velo_fullric_grid.npz",
+      "sha256": "beeaccf0329054e6599f2baa539c69c2cc80142b377311c31e64cff2e7216093",
+      "arrays": {
+        "f_grid": {
+          "shape": [
+            11
+          ],
+          "dtype": "float64"
+        },
+        "b_grid": {
+          "shape": [
+            12
+          ],
+          "dtype": "float64"
+        },
+        "raw_xi": {
+          "shape": [
+            11,
+            12,
+            52
+          ],
+          "dtype": "float64"
+        },
+        "ric_clustering": {
+          "shape": [
+            11,
+            12,
+            52
+          ],
+          "dtype": "float64"
+        },
+        "poles": {
+          "shape": [
+            11,
+            12,
+            3,
+            233
+          ],
+          "dtype": "float64"
+        },
+        "fixed_shot": {
+          "shape": [
+            52
+          ],
+          "dtype": "float64"
+        },
+        "sn0_ric_response": {
+          "shape": [
+            52
+          ],
+          "dtype": "float64"
+        },
+        "xi_response": {
+          "shape": [
+            52,
+            3,
+            233
+          ],
+          "dtype": "float64"
+        },
+        "xi_centers": {
+          "shape": [
+            233
+          ],
+          "dtype": "float64"
+        },
+        "separation_edges": {
+          "shape": [
+            234
+          ],
+          "dtype": "float64"
+        },
+        "nint": {
+          "shape": [],
+          "dtype": "int64"
+        }
+      },
+      "role": "compiled deterministic RIC grid; numerical compilation pass only"
+    }
+  ]
+}

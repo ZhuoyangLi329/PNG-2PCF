@@ -27,3 +27,15 @@
 ## Interpretation rule
 
 `status=pass` means numerical/postflight gates passed. It does not mean that joint P--xi closure or a publication-quality fNL constraint has been established.
+
+## 9.30 diagnostic pipeline (added 2026-09-29)
+
+All following paths are relative to `source/project/PNG-2PCF-model-to-observe/`:
+
+- `9.30meeting/task432_velocileptors_fullric/RESULTS.md` and `PLAN.md`: scope and pending gates.
+- `9.30meeting/task432_velocileptors_fullric/diagnostics/direct_map.json`: direct full-RIC MAP; prefer this for the cross-strength comparison.
+- `9.30meeting/task432_velocileptors_fullric/diagnostics/smoke.json`: earlier broad/coarse-grid smoke.
+- `9.30meeting/task432_velocileptors_fullric/diagnostic_chain_summary.json` and `diagnostic_chains.npz`: short-chain samples and raw quantiles.
+- `outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator/`: broad grid and manifest; `local/` contains the local grid actually used by the diagnostic chain.
+
+`operator_manifest.json: status=pass` records successful compilation, not completion of the PLAN's physical or numerical validation gates. This update preserves 9.22 `formal_mean4` as the formal reference.

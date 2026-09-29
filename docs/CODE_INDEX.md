@@ -24,3 +24,17 @@
 - `task432_interim_findings.md`: model diagnostics and limitations.
 
 All active Task432 source snapshots are mirrored under the same relative directory. Large binary caches and chains are intentionally excluded.
+
+## 9.30 independent velocileptors/full-RIC pilot
+
+These seven source snapshots live under `source/project/PNG-2PCF-model-to-observe/codes/task432/` and preserve their NERSC paths:
+
+- `task432_joint_b1_velocileptors_diagnostic.py`: early xi substitution with inherited sn0 response; no independent deterministic full-RIC recomputation.
+- `task432_velocileptors_fullric_model.py`: direct ell0/2/4 GSM evaluator with cumulants reset.
+- `task432_velocileptors_fullric_compile.py`: broad, coarse fNL/b1 grid used by the smoke diagnostic.
+- `task432_velocileptors_fullric_compile_local.py`: local 11x11 grid used by the short diagnostic chain.
+- `task432_velocileptors_fullric_smoke.py`: composition/finite-value probes and cross-strength fits on the coarse grid.
+- `task432_velocileptors_fullric_direct_map.py`: direct model MAP at cross strengths 0, 0.5 and 1.
+- `task432_velocileptors_fullric_fit.py`: 16x1200 local-prior diagnostic chains and PDF.
+
+`tools/verify_task432_snapshot.py` is a separate offline archive verifier. It does not import, fix, or run the archived scientific scripts. See [the pipeline contract](06_9.30_velocileptors_fullRIC.md) before attempting scientific reproduction.
