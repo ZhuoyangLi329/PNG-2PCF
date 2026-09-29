@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-09-29",
+  "source_host": "perlmutter-p1.nersc.gov",
+  "base_commit": "d229acab63fe186c88285ac7437bf81ca870f4b2",
+  "scope": "Task432 9.30 diagnostic pipeline snapshot; no science rerun; 9.22 formal_mean4 remains reference",
+  "scientific_status": "diagnostic_only",
+  "remote_files_modified": false,
+  "files": [
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.30meeting/b1_velocileptors_trial.md",
+      "size_bytes": 972,
+      "mtime_ns": 1790666500000000000,
+      "sha256": "8f9513f59d1d581a18cfe7e22d6f776f74ee5eb1fe21b4fdddf2a9015175cd66",
+      "path": "source/project/PNG-2PCF-model-to-observe/9.30meeting/b1_velocileptors_trial.md"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/PLAN.md",
+      "size_bytes": 2066,
+      "mtime_ns": 1790666726000000000,
+      "sha256": "709409b1af7c671cc98af2c3ee06ccccacb7d6c25878b9c9b83699b452dea567",
+      "path": "source/project/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/PLAN.md"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/RESULTS.md",
+      "size_bytes": 2635,
+      "mtime_ns": 1790674140000000000,
+      "sha256": "5f8226b4a74cd3780c2e01727b9eb3d185fcf36e7dbb1e324cf459a8ab0649cb",
+      "path": "source/project/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/RESULTS.md"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/diagnostic_chain_summary.json",
+      "size_bytes": 1838,
+      "mtime_ns": 1790674072000000000,
+      "sha256": "03299a6b67c535b9c508147b8979f737ac118bf26aed8db9c70fa0ee591225c6",
+      "path": "source/project/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/diagnostic_chain_summary.json"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/diagnostic_chains.npz",
+      "size_bytes": 4125502,
+      "mtime_ns": 1790674072000000000,
+      "sha256": "89ba1eaa2d3f6c771e2ddef4ad5a53c099ba5680ffd27e80b6ae93c9bb9928ac",
+      "path": "source/project/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/diagnostic_chains.npz"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/diagnostics/direct_map.json",
+      "size_bytes": 1099,
+      "mtime_ns": 1790669195000000000,
+      "sha256": "b49d5729e05c8042701d639b4f59e5c1668cd08c5768763d2edb72ec2d50d24d",
+      "path": "source/project/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/diagnostics/direct_map.json"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/diagnostics/smoke.json",
+      "size_bytes": 1718,
+      "mtime_ns": 1790668834000000000,
+      "sha256": "e7b8ba6550c25aebfbaccca5ea761c9a66cb8fae9b1f99c7700cbf5def7d4022",
+      "path": "source/project/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/diagnostics/smoke.json"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/figures/task432_velocileptors_fullric_9.18style_triangle.pdf",
+      "size_bytes": 71364,
+      "mtime_ns": 1790674072000000000,
+      "sha256": "25312a0cd2e8c47095e87c239ac9e57a6c4e4bfc3d0aca31c48f0992f99432c1",
+      "path": "source/project/PNG-2PCF-model-to-observe/9.30meeting/task432_velocileptors_fullric/figures/task432_velocileptors_fullric_9.18style_triangle.pdf"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_joint_b1_velocileptors_diagnostic.py",
+      "size_bytes": 6458,
+      "mtime_ns": 1790660844000000000,
+      "sha256": "3fc54577d6bf5a8cde6b7ba21109847be3696283e9d2808872e06314435cd256",
+      "path": "source/project/PNG-2PCF-model-to-observe/codes/task432/task432_joint_b1_velocileptors_diagnostic.py"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_velocileptors_fullric_compile.py",
+      "size_bytes": 5727,
+      "mtime_ns": 1790668598000000000,
+      "sha256": "d5dc7b0c82fbc62718b10889969e8edb1f7aab1a70c55a86b597a13fcb60cbfd",
+      "path": "source/project/PNG-2PCF-model-to-observe/codes/task432/task432_velocileptors_fullric_compile.py"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_velocileptors_fullric_compile_local.py",
+      "size_bytes": 5656,
+      "mtime_ns": 1790673809000000000,
+      "sha256": "f1200935257f34a5176712c96b685ccfa30764fa733549b9342f97980338aa51",
+      "path": "source/project/PNG-2PCF-model-to-observe/codes/task432/task432_velocileptors_fullric_compile_local.py"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_velocileptors_fullric_direct_map.py",
+      "size_bytes": 3675,
+      "mtime_ns": 1790668933000000000,
+      "sha256": "f534a6530c220a93e30aa6845a8c51f5ae2a6322ecd0a21947d392a7e2c358b7",
+      "path": "source/project/PNG-2PCF-model-to-observe/codes/task432/task432_velocileptors_fullric_direct_map.py"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_velocileptors_fullric_fit.py",
+      "size_bytes": 4778,
+      "mtime_ns": 1790674047000000000,
+      "sha256": "b3179e670bd6b719e505a990704ca0d38870506b30c507be75e32c3c04c43a62",
+      "path": "source/project/PNG-2PCF-model-to-observe/codes/task432/task432_velocileptors_fullric_fit.py"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_velocileptors_fullric_model.py",
+      "size_bytes": 3053,
+      "mtime_ns": 1790667120000000000,
+      "sha256": "03cbfe296fe9e4b123ce8a10c7d261df3e6fff17ed2288a81f4c98d9d30be112",
+      "path": "source/project/PNG-2PCF-model-to-observe/codes/task432/task432_velocileptors_fullric_model.py"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/codes/task432/task432_velocileptors_fullric_smoke.py",
+      "size_bytes": 3603,
+      "mtime_ns": 1790667864000000000,
+      "sha256": "41d090ec3df5fa984566403231668687d412ce5eddbb65a7b35300fe43f83bfc",
+      "path": "source/project/PNG-2PCF-model-to-observe/codes/task432/task432_velocileptors_fullric_smoke.py"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator/local/operator_manifest.json",
+      "size_bytes": 3847,
+      "mtime_ns": 1790674000000000000,
+      "sha256": "930ae21c1ea84eb05308f1b9d5a9eea788490117c4541ed5523d6f00985188ec",
+      "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator/local/operator_manifest.json"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator/local/velo_fullric_grid.npz",
+      "size_bytes": 1007243,
+      "mtime_ns": 1790674000000000000,
+      "sha256": "8079e3526dd91d41ce5974503a5007299230e30e100802330510f85c2981eb75",
+      "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator/local/velo_fullric_grid.npz"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator/operator_manifest.json",
+      "size_bytes": 3757,
+      "mtime_ns": 1790668816000000000,
+      "sha256": "a7891a3eb22866e3bbda069a77b3c677886de08ba279589b802441686ddbfff1",
+      "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator/operator_manifest.json"
+    },
+    {
+      "remote_source": "/pscratch/sd/l/lzy/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator/velo_fullric_grid.npz",
+      "size_bytes": 1073330,
+      "mtime_ns": 1790668816000000000,
+      "sha256": "beeaccf0329054e6599f2baa539c69c2cc80142b377311c31e64cff2e7216093",
+      "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator/velo_fullric_grid.npz"
+    }
+  ],
+  "excluded": [
+    "9.30meeting/task432_velocileptors_fullric/local_compile.log",
+    "operator/rows per-fNL intermediates; consolidated grids are included",
+    "raw catalogs/randoms and new production chains; none generated in this update"
+  ],
+  "existing_direct_dependencies": [
+    {
+      "path": "source/project/PNG-2PCF-model-to-observe/codes/task432/task432_full_ric_compile.py",
+      "sha256": "0cd22c202f72974e8a9cdb965b857c73dd944f7ed3f5d4b2c4dc735414df0e99",
+      "git_blob_sha": "58e44f77b6a2765dd38e18835af1ba2006bd2bba",
+      "role": "existing direct project dependency; unchanged from base commit"
+    },
+    {
+      "path": "source/project/PNG-2PCF-model-to-observe/codes/task432/task432_hybrid_jaxpower_0918_contract.py",
+      "sha256": "68dc336d129c97d8c01f45daadde1260acb466ef5738f8aa0637f53aa9f2ff5f",
+      "git_blob_sha": "4c3da533be11bd91b1d8461905780c615cf4e7f6",
+      "role": "existing direct project dependency; unchanged from base commit"
+    },
+    {
+      "path": "source/project/PNG-2PCF-model-to-observe/codes/task432/task432_lightcone_png_velocileptors.py",
+      "sha256": "3f76f8ab40cb7e939462eefa55dd39f5b673b7f899f03259c5a1dc797baf51ca",
+      "git_blob_sha": "b0d57f228c170fc66aa6b56383f49f527b105cd4",
+      "role": "existing direct project dependency; unchanged from base commit"
+    },
+    {
+      "path": "source/project/PNG-2PCF-model-to-observe/codes/task43/task43_plot_ezmock506_covariance_mcmc_vs_jaxpower.py",
+      "sha256": "01321cf65dba49cb30e4563d7944640ce19f32cc3e8d4122598b032ae6031401",
+      "git_blob_sha": "fd7d6adac802ecbd09f4de902cd596410aca303d",
+      "role": "existing direct project dependency; unchanged from base commit"
+    }
+  ]
+}

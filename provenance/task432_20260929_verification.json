@@ -1,0 +1,60 @@
+{
+  "status": "pass",
+  "check_scope": "archive_consistency_only",
+  "source_files": 19,
+  "python_sources": 7,
+  "json_sources": 5,
+  "existing_direct_dependencies": 4,
+  "scientific_status": "diagnostic_only",
+  "array_files": 3,
+  "operator_grids": [
+    {
+      "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator",
+      "shape": [
+        11,
+        12,
+        52
+      ],
+      "ric_recomposition_max_abs": 6.938893903907228e-18
+    },
+    {
+      "path": "source/project/PNG-2PCF-model-to-observe/outputs/task43_outputs/rsd_validation/task432_model_repair/velocileptors_fullric_v1/operator/local",
+      "shape": [
+        11,
+        11,
+        52
+      ],
+      "ric_recomposition_max_abs": 1.0842021724855044e-19
+    }
+  ],
+  "diagnostic_chains": {
+    "diag_xi02": {
+      "samples": 16000,
+      "quantile_max_abs": 0.0
+    },
+    "diag_joint": {
+      "samples": 16000,
+      "quantile_max_abs": 0.0
+    }
+  },
+  "negative_checks": {
+    "status": "pass",
+    "byte_corruption_rejected": true,
+    "inconsistent_RIC_rejected_with_updated_hashes": true,
+    "scope": "validator behavior only; no source data changed"
+  },
+  "standard_library_only_check": "pass (Python -S; scientific modules are not imported)",
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5",
+  "not_performed": [
+    "No scientific model rerun",
+    "No MCMC rerun",
+    "No closure promotion",
+    "No NERSC file edits"
+  ],
+  "documentation_checks": {
+    "relative_links": "pass",
+    "credential_pattern_scan": "pass",
+    "added_png_log_hdf5_files": 0
+  }
+}

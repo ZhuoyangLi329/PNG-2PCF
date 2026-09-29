@@ -1,0 +1,84 @@
+{
+  "status": "smoke_pass",
+  "operator": "velocileptors xi raw + full-RIC clustering response + fixed shot + sn0 response",
+  "grid_shape": [
+    11,
+    12,
+    52
+  ],
+  "probes": [
+    {
+      "theta": [
+        0.0,
+        2.4,
+        0.0
+      ],
+      "recomposition_max_abs": 0.0,
+      "finite": true
+    },
+    {
+      "theta": [
+        50.0,
+        2.5,
+        0.2
+      ],
+      "recomposition_max_abs": 0.0,
+      "finite": true
+    },
+    {
+      "theta": [
+        -50.0,
+        2.3,
+        -0.2
+      ],
+      "recomposition_max_abs": 0.0,
+      "finite": true
+    }
+  ],
+  "results": {
+    "xi_only": {
+      "theta": [
+        2.8855068270710023,
+        2.4196280124078595,
+        0.9999999999999999
+      ],
+      "chi2": 2.711551246286948,
+      "success": true
+    },
+    "joint_lambda0": {
+      "theta": [
+        0.07351906430329698,
+        2.410422563356857,
+        2.3342619102212625,
+        0.009436579051891781
+      ],
+      "chi2": 3.7159199748323153,
+      "success": true
+    },
+    "joint_lambda0p5": {
+      "theta": [
+        1.352913367555364,
+        2.403336162713543,
+        2.217911491999883,
+        0.02508422509979614
+      ],
+      "chi2": 3.4329866967953375,
+      "success": true
+    },
+    "joint_lambda1": {
+      "theta": [
+        1.8055000547764435,
+        2.383042141521928,
+        2.202070298546928,
+        0.07755114864744134
+      ],
+      "chi2": 3.9003762871186503,
+      "success": true
+    }
+  },
+  "formal_status": "diagnostic_only",
+  "notes": [
+    "Coarse pilot grid f step 100, b step 0.4, nint=300; not a formal posterior.",
+    "Full-RIC direct velocileptors PNG operator is still minimal hybrid response, not complete CLPT-PNG."
+  ]
+}

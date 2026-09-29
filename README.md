@@ -1,27 +1,39 @@
 # Task 4.3 lightcone RSD review package
 
-这是给 GPT/独立审阅者使用的 Task 4.3 研究快照，重点处理 AbacusSummit/ EZmock 的 RSD lightcone、P(k)-2PCF 一致性、joint b1 偏离以及 GIC/RIC 建模。
+这是 Task 4.3 的研究代码与证据快照，涵盖 AbacusSummit/EZmock 的 RSD halo lightcone、P(k)-2PCF 一致性、joint b1 位移和 GIC/RIC 建模。
 
-## 先读什么
+## 最新状态（2026-09-29）
 
-1. `docs/00_handoff_task43.md`：科学问题、数据合同、当前结论和审阅任务。
-2. `docs/02_9.18_baseline.md`：9.18 的 Kaiser × Lorentzian-FoG 基准。
-3. `docs/03_9.22_hybrid_and_fullRIC.md`：9.22 的 velocileptors GSM、PNG 响应和 full RIC。
-4. `docs/04_results_and_audit_map.md`：权威 JSON/PDF/审计入口。
-5. `docs/CODE_INDEX.md`、`docs/FIGURES.md`：代码和图的对应关系。
+- **正式参考：9.22 `formal_mean4`**，hybrid + full GIC/RIC、EZmock1000、74维数据和完整 P-xi cross covariance。
+- **最新探索：9.30 velocileptors xi full-RIC pilot**。代码、两套算子网格、直接MAP、短链和PDF已补齐；全部标为 `diagnostic_only`，不替换正式参考。
+- 当前PNG区间覆盖零不等于模型已完成严格closure；joint中心也没有必须位于两个marginal中心之间的数学约束。
 
-## 当前主问题
+## 阅读入口
 
-在相同的 25-phase lightcone 均值、single-realization covariance 和完整 P-xi cross covariance 下，P-only、xi-only 与 joint 的 `b1` 中心不一致，joint 的 `b1` 可能落在两个边缘结果之外。需要区分：
+1. [交接说明与固定数据合同](docs/00_handoff_task43.md)
+2. [9.18基准](docs/02_9.18_baseline.md)
+3. [9.22 hybrid与full RIC](docs/03_9.22_hybrid_fullRIC.md)
+4. [9.30 pipeline、结果与复现范围](docs/06_9.30_velocileptors_fullRIC.md)
+5. [结果与审计索引](docs/04_results_audit.md)、[代码索引](docs/CODE_INDEX.md)、[主图索引](docs/FIGURES.md)
 
-- RSD mean model 的形状错误；
-- P 与 xi 使用了不同的动力学模型；
-- GIC/RIC/window 算子不一致；
-- covariance/cross block 的估计误差；
-- finite mock correction、FKP 或 random/shuffling 合同问题。
+## 离线核验本次更新
+
+在仓库根目录运行，仅需要Python 3.10+标准库；不会导入或执行科学pipeline：
+
+```bash
+python3 tools/verify_task432_snapshot.py
+```
+
+若环境已有NumPy，可额外验证NPZ数组、RIC投影重组和短链分位数：
+
+```bash
+python3 tools/verify_task432_snapshot.py --arrays
+```
+
+此校验检查归档一致性，不重跑模型、重新拟合或授予科学closure。科学脚本仍保留原NERSC绝对路径和环境约定；完整复跑所需数据、依赖与缺失验证见[复现说明](docs/06_9.30_velocileptors_fullRIC.md#复现范围)。
 
 ## 范围
 
-本包保留 9.18 基准、9.22 hybrid/full-RIC 代码、关键审计、结果摘要和 PDF 图，省略原始 catalog、巨大 HDF5 chain、完整 covariance cache 和临时日志。原始文件路径、排除项和来源说明见 `provenance/`。
+保留原有9.18/9.22快照，并增量补充9.30。原始catalog、大型计数缓存和部分完整链保留在NERSC；仓库含明确选择的紧凑数组及证据，不是完整可移植的生产环境。
 
-本仓库不把任何结果标记为已发表的 science constraint；`pass` 只表示对应的数值、采样或 postflight gate 通过。
+本次源文件逐字节复制，来源、大小、SHA256和排除项见[新增来源清单](provenance/task432_20260929_sources.json)。本仓库不将这些结果标记为已发表的science constraint；任何 `pass` 仅表示其明确列出的校验已通过。
